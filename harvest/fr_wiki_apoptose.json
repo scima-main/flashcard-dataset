@@ -1,0 +1,11 @@
+{
+ "docid": "fr_wiki_apoptose",
+ "url": "https://fr.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Apoptose&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "fr.wikipedia.org",
+ "title": "Apoptose",
+ "fetched": "2026-11-12",
+ "chars": 35456,
+ "lang": "fr",
+ "mode": "html"
+}

@@ -1,0 +1,73 @@
+{
+ "docid": "oww_pcr",
+ "N": 12,
+ "lang": "en",
+ "discipline": "biology",
+ "provenance": "lab_protocol",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What does PCR stand for?",
+   "a": "Polymerase chain reaction.",
+   "type": "def"
+  },
+  {
+   "q": "What is PCR a method for?",
+   "a": "Amplifying DNA in vitro.",
+   "type": "def"
+  },
+  {
+   "q": "What happens if the PCR annealing temperature is lowered too much?",
+   "a": "Unspecific annealing increases.",
+   "type": "mech"
+  },
+  {
+   "q": "What is the consequence of running too few PCR cycles?",
+   "a": "Less product.",
+   "type": "mech"
+  },
+  {
+   "q": "What is the consequence of running too many PCR cycles?",
+   "a": "An increased fraction of incomplete and erroneous products.",
+   "type": "mech"
+  },
+  {
+   "q": "Which PCR step might be the most crucial, especially when using genomic DNA as template?",
+   "a": "Designing suitable primers.",
+   "type": "mech"
+  },
+  {
+   "q": "To what temperature is the template/primer/dNTP/enzyme mix heated to separate DNA duplexes?",
+   "a": "95°C.",
+   "type": "quant"
+  },
+  {
+   "q": "What example temperature is given for primers to anneal specifically to the template DNA?",
+   "a": "55°C.",
+   "type": "quant"
+  },
+  {
+   "q": "What is the optimal elongation temperature of Taq or similar DNA polymerase?",
+   "a": "72–74°C.",
+   "type": "quant"
+  },
+  {
+   "q": "How many times is the general PCR cycle repeated?",
+   "a": "20–35 times.",
+   "type": "quant"
+  },
+  {
+   "q": "Which primer problems do modern primer-design algorithms aim to prevent?",
+   "a": "Mispriming, self-complementarity, primer-primer complementarity, and binding in repeat regions.",
+   "type": "quant"
+  },
+  {
+   "q": "What is the final step of the PCR overview workflow?",
+   "a": "Analyse by gel electrophoresis.",
+   "type": "quant"
+  }
+ ]
+}

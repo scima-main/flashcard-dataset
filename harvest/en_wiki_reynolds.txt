@@ -1,0 +1,19 @@
+The transition from laminar (left) to turbulent (right) flow of water from a tap occurs as the Reynolds number increases.
+
+The plume from this candle flame transitions from laminar to turbulent.
+
+A vortex street around a cylinder. This can occur around cylinders and spheres, for any fluid, cylinder size, and fluid speed provided that it has a Reynolds number between roughly 40 and 1000.[1]
+
+George Stokes introduced Reynolds numbers.
+
+Osborne Reynolds popularised the concept.
+
+In fluid dynamics, the Reynolds number (symbol Re) is a characteristic number that helps predict fluid flow patterns in different situations by measuring the ratio between inertial and viscous forces.[2] At low Reynolds numbers, flows tend to be dominated by laminar (sheet-like) flow, while at high Reynolds numbers, flows tend to be turbulent.[3] The turbulence results from differences in the fluid's speed and direction, which may sometimes intersect or even move counter to the overall direction of the flow (eddy currents). These eddy currents begin to churn the flow, using up energy in the process, which for liquids increases the chances of cavitation.
+
+The Reynolds number has wide applications, ranging from liquid flow in a pipe to the passage of air over an aircraft wing. It is used to predict the transition from laminar to turbulent flow and is used in the scaling of similar but different-sized flow situations, such as between an aircraft model in a wind tunnel and the full-size version. The predictions of the onset of turbulence and the ability to calculate scaling effects can be used to help predict fluid behavior on a larger scale, such as in local or global air or water movement, and thereby the associated meteorological and climatological effects.[4]
+
+The concept was introduced by George Stokes in 1851,[5] but the Reynolds number was named by Arnold Sommerfeld in 1908[6] after Osborne Reynolds who popularized its use in 1883[7][8] (an example of Stigler's law of eponymy).
+
+Definition
+
+The Reynolds number is the ratio of inertial forces to viscous forces

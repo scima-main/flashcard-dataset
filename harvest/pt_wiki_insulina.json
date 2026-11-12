@@ -1,0 +1,11 @@
+{
+ "docid": "pt_wiki_insulina",
+ "url": "https://pt.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Insulina&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "pt.wikipedia.org",
+ "title": "Insulina",
+ "fetched": "2026-11-12",
+ "chars": 18568,
+ "lang": "pt",
+ "mode": "html"
+}

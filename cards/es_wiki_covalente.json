@@ -1,0 +1,68 @@
+{
+ "docid": "es_wiki_covalente",
+ "N": 11,
+ "lang": "es",
+ "discipline": "chemistry",
+ "provenance": "encyclopedic",
+ "difficulty": "secondary",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "¿Qué es un enlace covalente en química?",
+   "a": "Un enlace que se produce entre dos átomos no metálicos cuando se unen y comparten uno o más electrones del último nivel (electrones de valencia).",
+   "type": "def"
+  },
+  {
+   "q": "¿Qué regla alcanzan los átomos al compartir electrones en un enlace covalente?",
+   "a": "La regla del octeto.",
+   "type": "def"
+  },
+  {
+   "q": "¿Cómo se denomina el nuevo tipo de orbital en el que los dos átomos comparten pares electrónicos?",
+   "a": "Orbital molecular.",
+   "type": "def"
+  },
+  {
+   "q": "¿En qué estructura está implícito el enlace covalente, indicando electrones compartidos entre los átomos?",
+   "a": "La estructura de Lewis.",
+   "type": "def"
+  },
+  {
+   "q": "¿Qué genera el átomo más electronegativo al atraer la nube electrónica del enlace hacia su núcleo?",
+   "a": "Un dipolo eléctrico.",
+   "type": "mech"
+  },
+  {
+   "q": "¿Qué permite la polarización del enlace entre las moléculas del mismo compuesto?",
+   "a": "Que se atraigan entre sí por fuerzas electrostáticas de distinta intensidad.",
+   "type": "mech"
+  },
+  {
+   "q": "Para que se genere un enlace covalente, ¿cómo debe ser la diferencia de electronegatividad entre los átomos?",
+   "a": "Menor a 1,7.",
+   "type": "quant"
+  },
+  {
+   "q": "¿Entre qué tipos de átomos se producen los enlaces covalentes?",
+   "a": "Entre átomos de un mismo elemento no metal, entre distintos no metales y entre un no metal y el hidrógeno.",
+   "type": "quant"
+  },
+  {
+   "q": "Cuando átomos de un mismo elemento no metálico se unen covalentemente, ¿cuánto vale su diferencia de electronegatividad?",
+   "a": "Cero, y no se crean dipolos.",
+   "type": "quant"
+  },
+  {
+   "q": "¿Cuál es la excepción a la regla del octeto en el enlace covalente?",
+   "a": "El hidrógeno, que alcanza la estabilidad cuando tiene 2 electrones.",
+   "type": "contrast"
+  },
+  {
+   "q": "¿En qué se diferencia el enlace iónico del covalente respecto a los electrones?",
+   "a": "En el iónico se produce transferencia de electrones de un átomo a otro; en el covalente los electrones de enlace son compartidos por ambos átomos.",
+   "type": "contrast"
+  }
+ ]
+}

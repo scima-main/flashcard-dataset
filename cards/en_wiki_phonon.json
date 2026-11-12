@@ -1,0 +1,133 @@
+{
+ "docid": "en_wiki_phonon",
+ "N": 24,
+ "lang": "en",
+ "discipline": "physics",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "long",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is a phonon?",
+   "a": "A quasiparticle of vibrational energy that uniformly oscillates at a single frequency in a medium.",
+   "type": "def"
+  },
+  {
+   "q": "Phonons can be thought of as what kind of quantized waves?",
+   "a": "Quantized sound waves.",
+   "type": "def"
+  },
+  {
+   "q": "Unlike photons, phonons are vibrations in what?",
+   "a": "A lattice of atoms.",
+   "type": "contrast"
+  },
+  {
+   "q": "In an elastic structure, a phonon corresponds to what kind of state?",
+   "a": "An excited state in the modes of vibration.",
+   "type": "def"
+  },
+  {
+   "q": "The study of phonons is an important part of which field of physics?",
+   "a": "Condensed matter physics.",
+   "type": "def"
+  },
+  {
+   "q": "Which two conductivities of condensed matter systems do phonons play a major role in?",
+   "a": "Thermal conductivity and electrical conductivity.",
+   "type": "quant"
+  },
+  {
+   "q": "In solids with more than one atom in the smallest unit cell, which two qualities do phonons exhibit?",
+   "a": "Acoustic and optical qualities.",
+   "type": "mech"
+  },
+  {
+   "q": "For optically trapped objects, when can a quantized vibration mode be defined as a phonon?",
+   "a": "As long as the modal wavelength of the oscillation is smaller than the size of the object.",
+   "type": "mech"
+  },
+  {
+   "q": "Who introduced the concept of phonons?",
+   "a": "Soviet physicist Igor Tamm.",
+   "type": "quant"
+  },
+  {
+   "q": "In what year was the concept of phonons introduced?",
+   "a": "1930.",
+   "type": "quant"
+  },
+  {
+   "q": "Who suggested the name \"phonon\"?",
+   "a": "Yakov Frenkel.",
+   "type": "quant"
+  },
+  {
+   "q": "What does the Greek word φωνή (phonē), from which \"phonon\" comes, translate to?",
+   "a": "Sound or voice.",
+   "type": "def"
+  },
+  {
+   "q": "What do long-wavelength phonons give rise to?",
+   "a": "Sound.",
+   "type": "mech"
+  },
+  {
+   "q": "The name phonon emphasises an analogy to which other particle?",
+   "a": "The photon: phonons represent wave–particle duality for sound waves as photons do for light waves.",
+   "type": "contrast"
+  },
+  {
+   "q": "In the lattice-dynamics treatment, what kind of lattice is assumed?",
+   "a": "A rigid, regular crystalline (not amorphous) lattice composed of N particles, which may be atoms or molecules.",
+   "type": "def"
+  },
+  {
+   "q": "For a typical sample of a solid, the number of lattice particles N is of the order of what?",
+   "a": "The Avogadro number.",
+   "type": "quant"
+  },
+  {
+   "q": "Why must atoms in a rigid lattice exert forces on one another?",
+   "a": "To keep each atom near its equilibrium position.",
+   "type": "mech"
+  },
+  {
+   "q": "Van der Waals forces, covalent bonds and electrostatic attractions in a lattice are ultimately due to which force?",
+   "a": "The electric force.",
+   "type": "mech"
+  },
+  {
+   "q": "Which forces between lattice atoms are generally negligible?",
+   "a": "Magnetic and gravitational forces.",
+   "type": "quant"
+  },
+  {
+   "q": "What does the pairwise potential energy function V of two lattice atoms depend on?",
+   "a": "The distance of separation of the atoms.",
+   "type": "def"
+  },
+  {
+   "q": "Why is the sum of all pairwise potential energies multiplied by a factor of 1/2 for the entire lattice?",
+   "a": "To compensate for double counting.",
+   "type": "quant"
+  },
+  {
+   "q": "Why is summing the lattice potential only over neighboring atoms valid, even though electric forces extend to infinity?",
+   "a": "Because the fields produced by distant atoms are effectively screened.",
+   "type": "mech"
+  },
+  {
+   "q": "Under what condition may the lattice potentials V be treated as harmonic?",
+   "a": "As long as the atoms remain close to their equilibrium positions.",
+   "type": "mech"
+  },
+  {
+   "q": "How may the lattice resulting from the harmonic approximation be visualized?",
+   "a": "As a system of balls connected by springs.",
+   "type": "def"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "docid": "de_wiki_schuld",
+ "url": "https://de.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Schuld+%28Strafrecht%29&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "de.wikipedia.org",
+ "title": "Schuld (Strafrecht)",
+ "fetched": "2026-11-12",
+ "chars": 9345,
+ "lang": "de",
+ "mode": "html"
+}

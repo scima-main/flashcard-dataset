@@ -1,0 +1,123 @@
+{
+ "docid": "mdn_reduce",
+ "N": 22,
+ "lang": "en",
+ "discipline": "computer_science",
+ "provenance": "technical_documentation",
+ "difficulty": "undergraduate",
+ "tier": "long",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is the final result of running the reducer across all elements of an array with reduce()?",
+   "a": "A single value.",
+   "type": "def"
+  },
+  {
+   "q": "In Array.prototype.reduce(), what is the \"reducer\"?",
+   "a": "A user-supplied callback function executed on each element of the array, in order.",
+   "type": "def"
+  },
+  {
+   "q": "What does the accumulator parameter of a reduce() callback hold?",
+   "a": "The value resulting from the previous call to callbackFn.",
+   "type": "def"
+  },
+  {
+   "q": "In a reduce() callback, what does the currentValue parameter hold?",
+   "a": "The value of the current element.",
+   "type": "def"
+  },
+  {
+   "q": "What does the array argument passed to a reduce() callback refer to?",
+   "a": "The array reduce() was called upon.",
+   "type": "def"
+  },
+  {
+   "q": "What are the two syntax forms of Array.prototype.reduce()?",
+   "a": "reduce(callbackFn) and reduce(callbackFn, initialValue).",
+   "type": "def"
+  },
+  {
+   "q": "Is the initialValue parameter of reduce() required or optional?",
+   "a": "Optional.",
+   "type": "def"
+  },
+  {
+   "q": "How is reduce() classified among Array methods?",
+   "a": "As an iterative method.",
+   "type": "def"
+  },
+  {
+   "q": "What is passed into each reduce() callback invocation from the preceding element?",
+   "a": "The return value from the calculation on the preceding element.",
+   "type": "mech"
+  },
+  {
+   "q": "On the first reduce() callback call, what is accumulator when initialValue is specified?",
+   "a": "initialValue.",
+   "type": "mech"
+  },
+  {
+   "q": "On the first reduce() callback call, what is accumulator when initialValue is omitted?",
+   "a": "array[0].",
+   "type": "mech"
+  },
+  {
+   "q": "When initialValue is omitted, from which index does reduce() iteration start?",
+   "a": "Index 1 instead of index 0.",
+   "type": "mech"
+  },
+  {
+   "q": "On the first reduce() callback call, what is currentValue if initialValue is specified?",
+   "a": "array[0].",
+   "type": "mech"
+  },
+  {
+   "q": "On the first reduce() callback call, what is currentValue if initialValue is not specified?",
+   "a": "array[1].",
+   "type": "mech"
+  },
+  {
+   "q": "In what order does reduce() run the callback over array elements?",
+   "a": "Ascending-index order.",
+   "type": "mech"
+  },
+  {
+   "q": "For which array slots is the reduce() callback not invoked?",
+   "a": "Empty slots in sparse arrays; it is invoked only for indexes with assigned values.",
+   "type": "mech"
+  },
+  {
+   "q": "What becomes the return value of reduce() after the final callback invocation?",
+   "a": "The final value of accumulator, returned by callbackFn on the last iteration.",
+   "type": "mech"
+  },
+  {
+   "q": "On the first reduce() callback call, what is currentIndex when initialValue is specified?",
+   "a": "0.",
+   "type": "quant"
+  },
+  {
+   "q": "On the first reduce() callback call, what is currentIndex when initialValue is not specified?",
+   "a": "1.",
+   "type": "quant"
+  },
+  {
+   "q": "Which exception does reduce() throw if the array contains no elements and initialValue is not provided?",
+   "a": "TypeError.",
+   "type": "quant"
+  },
+  {
+   "q": "According to MDN's Baseline, since when has reduce() been available across browsers?",
+   "a": "July 2015.",
+   "type": "quant"
+  },
+  {
+   "q": "Which argument accepted by other iterative array methods does reduce() not accept?",
+   "a": "thisArg; callbackFn is always called with undefined as this.",
+   "type": "contrast"
+  }
+ ]
+}

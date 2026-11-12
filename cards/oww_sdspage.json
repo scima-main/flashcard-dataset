@@ -1,0 +1,73 @@
+{
+ "docid": "oww_sdspage",
+ "N": 12,
+ "lang": "en",
+ "discipline": "biology",
+ "provenance": "lab_protocol",
+ "difficulty": "undergraduate",
+ "tier": "short",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "In the OpenWetWare SDS-PAGE recipe, what total volume of running (lower) gel is prepared for 2 MINIgels?",
+   "a": "10 ml.",
+   "type": "quant"
+  },
+  {
+   "q": "What total volume of stacking (upper) gel is prepared for 2 MINIgels?",
+   "a": "4 ml.",
+   "type": "quant"
+  },
+  {
+   "q": "How much water is used for an 8% running gel?",
+   "a": "4.74 ml.",
+   "type": "quant"
+  },
+  {
+   "q": "How much 30% AA is used for a 12% running gel?",
+   "a": "4.0 ml.",
+   "type": "quant"
+  },
+  {
+   "q": "How much TEMED is added to the running gel?",
+   "a": "8.2 ul.",
+   "type": "quant"
+  },
+  {
+   "q": "How much 10% APS is added to the 4% stacking gel?",
+   "a": "125 ul.",
+   "type": "quant"
+  },
+  {
+   "q": "How much 20% SDS is added to the stacking gel?",
+   "a": "20 ul.",
+   "type": "quant"
+  },
+  {
+   "q": "What is the composition of the LOWER buffer in this SDS-PAGE protocol?",
+   "a": "1M Tris base, pH 8.8.",
+   "type": "quant"
+  },
+  {
+   "q": "What is the composition of the UPPER buffer in this SDS-PAGE protocol?",
+   "a": "1M Tris base, pH 6.8.",
+   "type": "quant"
+  },
+  {
+   "q": "In the SDS-PAGE abbreviation list, what does AA stand for?",
+   "a": "Acrylamide.",
+   "type": "def"
+  },
+  {
+   "q": "In the SDS-PAGE abbreviation list, what does APS stand for?",
+   "a": "Ammonium persulfate.",
+   "type": "def"
+  },
+  {
+   "q": "In the SDS-PAGE abbreviation list, what does SDS stand for?",
+   "a": "Sodium dodecylsulfate.",
+   "type": "def"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "docid": "mdn_ja_map",
+ "N": 12,
+ "lang": "ja",
+ "discipline": "computer_science",
+ "provenance": "technical_documentation",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "Array.prototype.map() は何を生成するメソッドか。",
+   "a": "与えられた関数を配列のすべての要素に対して呼び出し、その結果からなる新しい配列。",
+   "type": "def"
+  },
+  {
+   "q": "map() の callbackFn の返値はどう扱われるか。",
+   "a": "新しい配列の単一の要素として追加される。",
+   "type": "def"
+  },
+  {
+   "q": "map() の callbackFn に渡される element 引数とは何か。",
+   "a": "配列内で現在処理中の要素。",
+   "type": "def"
+  },
+  {
+   "q": "map() の callbackFn に渡される index 引数とは何か。",
+   "a": "現在処理中の要素の配列内における添字。",
+   "type": "def"
+  },
+  {
+   "q": "map() の thisArg 引数とは何か。",
+   "a": "callbackFn を実行するときに this として使う値（省略可）。",
+   "type": "def"
+  },
+  {
+   "q": "map() はどの種類のメソッドに分類されるか。",
+   "a": "反復処理メソッド。",
+   "type": "def"
+  },
+  {
+   "q": "map() の callbackFn は疎配列の空のスロットに対して呼び出されるか。",
+   "a": "呼び出されない。値が割り当てられている配列インデックスに対してのみ呼び出される。",
+   "type": "mech"
+  },
+  {
+   "q": "map() が this 値に期待するものは何か。",
+   "a": "length プロパティと整数キーのプロパティがあることだけ。",
+   "type": "mech"
+  },
+  {
+   "q": "map() の構文2通りは何か。",
+   "a": "map(callbackFn) と map(callbackFn, thisArg)。",
+   "type": "quant"
+  },
+  {
+   "q": "Baseline によれば map() はいつからすべてのブラウザーで利用可能か。",
+   "a": "2015年7月以降。",
+   "type": "quant"
+  },
+  {
+   "q": "[1, 4, 9, 16].map((x) => x * 2) の結果は何か。",
+   "a": "Array [2, 8, 18, 32]。",
+   "type": "quant"
+  },
+  {
+   "q": "返された配列を使わない場合、map の代わりに何を使うべきか。",
+   "a": "forEach または for...of。",
+   "type": "contrast"
+  }
+ ]
+}

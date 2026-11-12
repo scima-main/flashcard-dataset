@@ -1,0 +1,11 @@
+Los primeros conceptos de la unión covalente surgieron de este tipo de imagen de la molécula de carbono e hidrógeno. El enlace covalente está implícito en la estructura de Lewis indicando electrones partiendo entre los átomos.
+
+En química, un enlace covalente es un enlace que se produce entre dos átomos no metálicos cuando se unen y comparten uno o más electrones del último nivel (electrones de valencia)[1] (excepto el hidrógeno, que alcanza la estabilidad cuando tiene 2 electrones) para alcanzar así la regla del octeto. La diferencia de electronegatividad entre los átomos no es lo suficientemente grande como para que se produzca una unión de tipo iónica. Para que un enlace covalente se genere es necesario que la diferencia de electronegatividad entre átomos sea menor a 1,7.[2]
+
+De esta forma, los dos átomos comparten uno o más pares electrónicos en un nuevo tipo de orbital, denominado orbital molecular. Los enlaces covalentes se producen entre átomos de un mismo elemento no metal, entre distintos no metales y entre un no metal y el hidrógeno.[3][4]
+
+Cuando átomos distintos de no metales se unen en una forma iónica, uno de ellos resultará más electronegativo que el otro, por lo que tenderá a atraer la nube electrónica del enlace hacia su núcleo, generando un dipolo eléctrico.[5] Esta polarización permite que las moléculas del mismo compuesto se atraigan entre sí por fuerzas electrostáticas de distinta intensidad.
+
+Por el contrario, cuando átomos de un mismo elemento no metálico se unen covalentemente, su diferencia de electronegatividad es cero y no se crean dipolos. Las moléculas entre sí poseen prácticamente una atracción nula.
+
+En síntesis, en un enlace iónico, se produce la transferencia de electrones de un átomo a otro y en el enlace covalente, los electrones de enlace son compartidos por ambos átomos. En el enlace covalente, los dos átomos no metálicos comparten uno o más electrones, es decir, se unen a través de sus electrones en el último orbital, el cual depende del número atómico en cuestión. Entre los dos átomos pueden compartirse uno, dos o

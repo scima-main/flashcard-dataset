@@ -1,0 +1,153 @@
+{
+ "docid": "who_en_amr",
+ "N": 28,
+ "lang": "en",
+ "discipline": "medicine",
+ "provenance": "government_ngo_report",
+ "difficulty": "undergraduate",
+ "tier": "long",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is antimicrobial resistance (AMR)?",
+   "a": "When bacteria, viruses, fungi and parasites do not respond to antimicrobial medicines.",
+   "type": "def"
+  },
+  {
+   "q": "Which four classes of medicine are included under antimicrobials?",
+   "a": "Antibiotics, antivirals, antifungals and antiparasitics.",
+   "type": "def"
+  },
+  {
+   "q": "What are antimicrobials used for?",
+   "a": "Preventing and treating infectious diseases in people, animals and plants.",
+   "type": "def"
+  },
+  {
+   "q": "What are \"access\" antibiotics?",
+   "a": "Those recommended as first-choice treatments for most common infections.",
+   "type": "def"
+  },
+  {
+   "q": "What characterises \"watch\" antibiotics?",
+   "a": "They carry a higher risk of resistance.",
+   "type": "def"
+  },
+  {
+   "q": "What does WASH stand for among the key factors for AMR emergence?",
+   "a": "Clean water, sanitation and hygiene.",
+   "type": "def"
+  },
+  {
+   "q": "What is the consequence of drug resistance for treating infections?",
+   "a": "Infections become difficult or impossible to treat, increasing the risk of disease spread, severe illness, disability and death.",
+   "type": "mech"
+  },
+  {
+   "q": "What is driving the development and spread of drug-resistant pathogens?",
+   "a": "The misuse and overuse of antimicrobials.",
+   "type": "mech"
+  },
+  {
+   "q": "Besides misuse, which access-related factor contributes to the AMR crisis?",
+   "a": "Lack of adequate access to appropriate new and existing vaccines, diagnostics and medicines.",
+   "type": "mech"
+  },
+  {
+   "q": "How does AMR affect medical procedures such as surgeries?",
+   "a": "It raises the risk of complications.",
+   "type": "mech"
+  },
+  {
+   "q": "Through what does AMR mainly drive health-care costs?",
+   "a": "Increased hospital stay and higher need for intensive care.",
+   "type": "mech"
+  },
+  {
+   "q": "What does AMR increase reliance on within health systems?",
+   "a": "Second-line antibiotics and additional diagnostic testing.",
+   "type": "mech"
+  },
+  {
+   "q": "How does AMR threaten food security?",
+   "a": "Drug-resistant infections affect the health of animals and plants and reduce productivity in farms.",
+   "type": "mech"
+  },
+  {
+   "q": "What effect does AMR have on public attitudes to medicine?",
+   "a": "It erodes public trust in medicine.",
+   "type": "mech"
+  },
+  {
+   "q": "How many deaths globally was bacterial AMR estimated to be associated with in 2021?",
+   "a": "More than 4.7 million deaths.",
+   "type": "quant"
+  },
+  {
+   "q": "What fraction of laboratory-confirmed bacterial infections worldwide were resistant to antibiotics in 2023?",
+   "a": "Approximately 1 in 6.",
+   "type": "quant"
+  },
+  {
+   "q": "What annual cost of treating resistant bacterial infections is predicted up to 2035?",
+   "a": "US$ 412 billion annually.",
+   "type": "quant"
+  },
+  {
+   "q": "What additional annual productivity losses are predicted alongside treatment costs?",
+   "a": "US$ 443 billion per year.",
+   "type": "quant"
+  },
+  {
+   "q": "In 2022, what share of global human antibiotic use came from access antibiotics?",
+   "a": "Only about half (53%).",
+   "type": "quant"
+  },
+  {
+   "q": "In 2022, what share of global human antibiotic use came from watch antibiotics?",
+   "a": "Roughly 45%.",
+   "type": "quant"
+  },
+  {
+   "q": "In nearly one-third of countries, watch antibiotics exceeded what share of total antibiotic use?",
+   "a": "70%.",
+   "type": "quant"
+  },
+  {
+   "q": "What is the global target for the access group's share of antibiotic use by 2030?",
+   "a": "At least 70%.",
+   "type": "quant"
+  },
+  {
+   "q": "Between 2018 and 2023, in what proportion of monitored pathogen–antibiotic combinations did resistance rise?",
+   "a": "Over 40%.",
+   "type": "quant"
+  },
+  {
+   "q": "What was the average annual increase in resistance across those rising combinations?",
+   "a": "5–15%.",
+   "type": "quant"
+  },
+  {
+   "q": "In which WHO regions is antibiotic resistance estimated to be highest?",
+   "a": "The South-East Asia and Eastern Mediterranean Regions.",
+   "type": "quant"
+  },
+  {
+   "q": "In the highest-resistance WHO regions, what fraction of reported infections were resistant?",
+   "a": "1 in 3.",
+   "type": "quant"
+  },
+  {
+   "q": "Which group of drug-resistant bacteria is described as becoming more dangerous worldwide?",
+   "a": "Gram-negative bacteria.",
+   "type": "quant"
+  },
+  {
+   "q": "Which populations are especially impacted by AMR?",
+   "a": "People living in low-resource settings and vulnerable populations such as the very young and very old.",
+   "type": "quant"
+  }
+ ]
+}

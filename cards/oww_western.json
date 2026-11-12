@@ -1,0 +1,25 @@
+{
+ "docid": "oww_western",
+ "N": 10,
+ "lang": "en",
+ "discipline": "biology",
+ "provenance": "lab_protocol",
+ "difficulty": "undergraduate",
+ "tier": "short",
+ "flags": [
+  "under_budget"
+ ],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What are the alternative names for the protein blot?",
+   "a": "Western blot or immunoblot.",
+   "type": "def"
+  },
+  {
+   "q": "What does the protein blot (Western) determine in a sample?",
+   "a": "Protein expression or presence, in an antibody-dependent manner.",
+   "type": "def"
+  }
+ ]
+}

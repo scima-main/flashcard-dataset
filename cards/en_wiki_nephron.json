@@ -1,0 +1,83 @@
+{
+ "docid": "en_wiki_nephron",
+ "N": 14,
+ "lang": "en",
+ "discipline": "medicine",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is the nephron?",
+   "a": "The minute or microscopic structural and functional unit of the kidney.",
+   "type": "def"
+  },
+  {
+   "q": "Which two components compose a nephron?",
+   "a": "A renal corpuscle and a renal tubule.",
+   "type": "def"
+  },
+  {
+   "q": "What does the renal corpuscle consist of?",
+   "a": "A tuft of capillaries called a glomerulus and a cup-shaped structure called Bowman's capsule.",
+   "type": "def"
+  },
+  {
+   "q": "What is Bowman's space?",
+   "a": "The interior of Bowman's capsule, which collects the filtrate from the filtering capillaries of the glomerular tuft.",
+   "type": "def"
+  },
+  {
+   "q": "What are Bowman's capsule and the renal tubule composed of?",
+   "a": "Epithelial cells with a lumen.",
+   "type": "def"
+  },
+  {
+   "q": "Which two sections make up the proximal tubule?",
+   "a": "A convoluted section (proximal convoluted tubule) followed by a straight section (proximal straight tubule).",
+   "type": "def"
+  },
+  {
+   "q": "What are the two parts of the loop of Henle?",
+   "a": "The descending loop of Henle and the ascending loop of Henle.",
+   "type": "def"
+  },
+  {
+   "q": "Through which three layers is blood filtered in the nephron?",
+   "a": "The endothelial cells of the capillary wall, its basement membrane, and between the podocyte foot processes of the capsule lining.",
+   "type": "mech"
+  },
+  {
+   "q": "Which cells support the capillaries of the glomerular tuft?",
+   "a": "Mesangial cells.",
+   "type": "mech"
+  },
+  {
+   "q": "What happens to water as fluid from Bowman's capsule flows down the tubule?",
+   "a": "It is reabsorbed, while substances are exchanged by the epithelial cells lining the tubule.",
+   "type": "mech"
+  },
+  {
+   "q": "What does the processing of tubular fluid regulate?",
+   "a": "The volume of body fluid as well as levels of many body substances.",
+   "type": "mech"
+  },
+  {
+   "q": "How many nephrons does a healthy adult have in each kidney?",
+   "a": "1 to 1.5 million.",
+   "type": "quant"
+  },
+  {
+   "q": "What is the embryonic precursor of the nephron?",
+   "a": "Metanephric blastema (intermediate mesoderm).",
+   "type": "quant"
+  },
+  {
+   "q": "How many anatomically and functionally different parts does the renal tubule have?",
+   "a": "Five.",
+   "type": "quant"
+  }
+ ]
+}

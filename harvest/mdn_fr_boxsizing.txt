@@ -1,0 +1,3451 @@
+-
+ Passer au contenu principal
+
+-
+ Passer à la recherche
+
+ HTML: Markup language
+
+HTML reference
+
+-
+ Elements
+
+-
+ Global attributes
+
+-
+ Attributes
+
+-
+ See all…
+
+HTML guides
+
+-
+ Responsive images
+
+-
+ HTML cheatsheet
+
+-
+ Date & time formats
+
+-
+ See all…
+
+Markup languages
+
+-
+ SVG
+
+-
+ MathML
+
+-
+ XML
+
+ CSS: Styling language
+
+CSS reference
+
+-
+ Properties
+
+-
+ Selectors
+
+-
+ At-rules
+
+-
+ Values
+
+-
+ See all…
+
+CSS guides
+
+-
+ Box model
+
+-
+ Animations
+
+-
+ Flexbox
+
+-
+ Colors
+
+-
+ See all…
+
+Layout cookbook
+
+-
+ Column layouts
+
+-
+ Centering an element
+
+-
+ Card component
+
+-
+ See all…
+
+ JavaScript: Scripting language
+
+JS reference
+
+-
+ Standard built-in objects
+
+-
+ Expressions & operators
+
+-
+ Statements & declarations
+
+-
+ Functions
+
+-
+ See all…
+
+JS guides
+
+-
+ Control flow & error handling
+
+-
+ Loops and iteration
+
+-
+ Working with objects
+
+-
+ Using classes
+
+-
+ See all…
+
+ Web APIs: Programming interfaces
+
+Web API reference
+
+-
+ File system API
+
+-
+ Fetch API
+
+-
+ Geolocation API
+
+-
+ HTML DOM API
+
+-
+ Push API
+
+-
+ Service worker API
+
+-
+ See all…
+
+Web API guides
+
+-
+ Using the Web animation API
+
+-
+ Using the Fetch API
+
+-
+ Working with the History API
+
+-
+ Using the Web speech API
+
+-
+ Using web workers
+
+ All web technology
+
+Technologies
+
+-
+ Accessibility
+
+-
+ HTTP
+
+-
+ URI
+
+-
+ Web extensions
+
+-
+ WebAssembly
+
+-
+ WebDriver
+
+-
+ See all…
+
+Topics
+
+-
+ Media
+
+-
+ Performance
+
+-
+ Privacy
+
+-
+ Security
+
+-
+ Progressive web apps
+
+ Learn web development
+
+Frontend developer course
+
+-
+ Getting started modules
+
+-
+ Core modules
+
+-
+ MDN Curriculum
+
+-
+ Check out the video course from Scrimba, our partner
+
+Learn HTML
+
+-
+ Structuring content with HTML module
+
+Learn CSS
+
+-
+ CSS styling basics module
+
+-
+ CSS layout module
+
+Learn JavaScript
+
+-
+ Dynamic scripting with JavaScript module
+
+ Discover our tools
+
+-
+ Playground
+
+-
+ HTTP Observatory
+
+-
+ Border-image generator
+
+-
+ Border-radius generator
+
+-
+ Box-shadow generator
+
+-
+ Color format converter
+
+-
+ Color mixer
+
+-
+ Shape generator
+
+ Get to know MDN better
+
+-
+ About MDN
+
+-
+ Advertise with us
+
+-
+ Community
+
+-
+ MDN on GitHub
+
+ Blog
+
+ Basculer la barre latérale
+
+-
+ Web
+
+-
+ CSS
+
+-
+ Référence
+
+-
+ Propriétés
+
+-
+ box-sizing
+
+-
+
+-
+
+-
+
+ Se souvenir de la langue
+
+ En savoir plus
+
+-
+ Deutsch
+
+-
+ English (US)
+
+-
+ Español
+
+-
+ Français
+
+-
+ 日本語
+
+-
+ 한국어
+
+-
+ Português (do Brasil)
+
+-
+ Русский
+
+-
+ 中文 (简体)
+
+-
+ 正體中文 (繁體)
+
+Cette page a été traduite à partir de l'anglais par la
+ communauté.
+ Vous pouvez contribuer en rejoignant la communauté francophone sur
+ MDN Web Docs.
+
+ View in English
+
+ Always switch to English
+
+Propriété CSS box-sizing
+
+ Baseline
+
+Large disponibilité
+
+Cette fonctionnalité est bien établie et fonctionne sur de nombreux appareils et versions de navigateurs. Elle est disponible sur tous les navigateurs depuis juillet 2015.
+
+-
+
+ Voir la compatibilité complète
+
+-
+
+ En savoir plus
+
+La propriété CSS box-sizing définit la façon dont la largeur totale et la hauteur totale d'un élément sont calculées.
+
+Dans cet article
+
+-
+ Exemple interactif
+
+-
+ Syntaxe
+
+-
+ Description
+
+-
+ Définition formelle
+
+-
+ Syntaxe formelle
+
+-
+ Exemples
+
+-
+ Spécifications
+
+-
+ Compatibilité des navigateurs
+
+-
+ Voir aussi
+
+Exemple interactif
+
+box-sizing: content-box;
+width: 100%;
+
+box-sizing: content-box;
+width: 100%;
+border: solid #5b6dcd 10px;
+padding: 5px;
+
+box-sizing: border-box;
+width: 100%;
+border: solid #5b6dcd 10px;
+padding: 5px;
+
+<section id="default-example">
+ <div id="example-element-parent">
+    <p>Conteneur parent</p>
+    <div class="transition-all" id="example-element">
+      <p>Conteneur enfant</p>
+    </div>
+ </div>
+</section>
+
+#example-element-parent {
+ width: 220px;
+ height: 200px;
+ border: solid 10px #ffc129;
+ margin: 0.8em;
+}
+
+#example-element {
+ height: 60px;
+ margin: 2em auto;
+ background-color: rgb(81 81 81 / 0.6);
+}
+
+#example-element > p {
+ margin: 0;
+}
+
+Syntaxe
+
+css
+
+box-sizing: border-box;
+box-sizing: content-box;
+
+/* Global values */
+box-sizing: inherit;
+box-sizing: initial;
+box-sizing: revert;
+box-sizing: revert-layer;
+box-sizing: unset;
+
+Valeurs
+
+Cette propriété est définie par l'un des mots-clés suivants :
+
+content-box
+
+Il s'agit de la valeur initiale et par défaut, telle que définie dans la norme CSS. Les propriétés width et height incluent le contenu, mais n'incluent pas le remplissage, la bordure ou la marge. Par exemple, .box {width: 350px; border: 10px solid black;} affiche une boîte d'une largeur de 370px.
+
+Ici, les dimensions de l'élément sont calculées ainsi : largeur = largeur du contenu, et hauteur = hauteur du contenu. (La bordure et le remplissage ne sont pas inclus dans le calcul.)
+
+border-box
+
+Les propriétés width et height incluent le contenu, le remplissage et la bordure, mais n'incluent pas la marge. Notez que le remplissage et la bordure sont à l'intérieur de la boîte. Par exemple, .box {width: 350px; border: 10px solid black;} affiche une boîte d'une largeur de 350px, avec une zone de contenu de 330px de large. La boîte de contenu ne peut pas être négative et est ramenée à 0, il est donc impossible d'utiliser border-box pour faire disparaître l'élément.
+
+Ici, les dimensions de l'élément sont calculées ainsi : largeur = bordure + marge interne + largeur du contenu, et hauteur = bordure + marge interne + hauteur du contenu.
+
+Description
+
+Par défaut, dans le modèle de boîte CSS, la propriété width et la propriété height que vous attribuez à un élément ne s'appliquent qu'à la boîte de contenu de l'élément. Si l'élément possède une bordure ou un remplissage, ceux-ci sont alors ajoutés à la largeur et à la hauteur pour obtenir la taille de la boîte affichée à l'écran. Cela signifie que lorsque vous définissez width et height, vous devez ajuster la valeur que vous donnez pour tenir compte de toute bordure ou marge interne qui peut être ajoutée. Par exemple, si vous avez quatre boîtes avec width: 25%;, si l'une d'elles possède un remplissage à gauche ou à droite ou une bordure à gauche ou à droite, elles ne tiennent pas par défaut sur une seule ligne dans les contraintes du conteneur parent.
+
+La propriété box-sizing peut être utilisée pour ajuster ce comportement :
+
+-
+
+content-box applique le comportement par défaut du modèle de boîte CSS. Si vous définissez la largeur d'un élément à 100 pixels, alors la boîte de contenu de l'élément fait 100 pixels de large, et la largeur de toute bordure ou marge interne est ajoutée à la largeur finale affichée, rendant l'élément plus large que 100px.
+
+-
+
+border-box indique au navigateur de prendre en compte toute bordure et marge interne dans les valeurs que vous indiquez pour la largeur et la hauteur d'un élément. Si vous définissez la largeur d'un élément à 100 pixels, ces 100 pixels incluent toute bordure ou marge interne ajoutée, et la boîte de contenu se réduit pour absorber cette largeur supplémentaire. Cela rend généralement le dimensionnement des éléments beaucoup plus simple.
+
+box-sizing: border-box est le style par défaut que les navigateurs appliquent aux éléments HTML <table>, <select> et <button>, ainsi qu'aux éléments HTML <input> dont le type est radio, checkbox, reset, button, submit, color ou search.
+
+Note :
+Il est souvent utile de définir box-sizing sur border-box pour mettre en page des éléments. Cela rend la gestion des tailles des éléments beaucoup plus simple, et élimine généralement un certain nombre de pièges que vous pouvez rencontrer lors de la mise en page de votre contenu. En revanche, lorsque vous utilisez position: relative ou position: absolute, l'utilisation de box-sizing: content-box permet aux valeurs de positionnement d'être relatives au contenu, et indépendantes des modifications de la bordure et du remplissage, ce qui peut parfois être souhaitable.
+
+Définition formelle
+
+Valeur initiale | content-box |
+
+Applicabilité | tous les éléments acceptant une largeur ou une hauteur |
+
+Héritée | non |
+
+Valeur calculée | comme défini |
+
+Type d'animation | discrète |
+
+Syntaxe formelle
+
+box-sizing =
+ content-box |
+ border-box
+
+Cette syntaxe reflète le dernier standard selon CSS Box Sizing Module Level 3. Tous les navigateurs n'ont peut-être pas implémenté toutes les parties. Voir la Compatibilité des navigateurs pour plus d'informations sur la prise en charge.
+
+Exemples
+
+Tailles de boîte avec content-box et border-box
+
+Cet exemple montre comment différentes valeurs de box-sizing modifient la taille affichée de deux éléments par ailleurs identiques.
+
+HTML
+
+html
+
+<div class="content-box">Content box</div>
+<br />
+<div class="border-box">Border box</div>
+
+CSS
+
+css
+
+div {
+ width: 160px;
+ height: 80px;
+ padding: 20px;
+ border: 8px solid red;
+ background: yellow;
+}
+
+.content-box {
+ box-sizing: content-box;
+ /* Largeur totale : 160px + (2 * 20px) + (2 * 8px) = 216px
+     Hauteur totale : 80px + (2 * 20px) + (2 * 8px) = 136px
+     Largeur de la boîte de contenu : 160px
+     Hauteur de la boîte de contenu : 80px */
+}
+
+.border-box {
+ box-sizing: border-box;
+ /* Largeur totale : 160px
+     Hauteur totale : 80px
+     Largeur de la boîte de contenu : 160px - (2 * 20px) - (2 * 8px) = 104px
+     Hauteur de la boîte de contenu : 80px - (2 * 20px) - (2 * 8px) = 24px */
+}
+
+Résultat
+
+Spécifications
+
+Spécification |
+
+CSS Box Sizing Module Level 3# box-sizing |
+
+Compatibilité des navigateurs
+
+Voir aussi
+
+- Le modèle de boîte CSS
+
+ Aider à améliorer MDN
+
+ Cette page vous a-t-elle été utile ?
+
+ Oui
+
+ Non
+
+ Apprendre à contribuer
+
+ Cette page a été modifiée le 3 sept. 2026 par les contributeur·ice·s du MDN.
+
+ Voir cette page sur GitHub • Signaler un problème avec ce contenu
+
+ Filtrer la barre latérale
+
+ Effacer le filtre
+
+- CSS
+
+- Guides
+
+- Modules
+
+- Position par des ancres
+
+- Animation triggers
+
+- Animations
+
+- Arrière-plans et bordures
+
+- Interface utilisateur simple
+
+- Bordures et décorations de boîte
+
+- Alignement de boîte
+
+- Modèle de boîte
+
+- Dimensionnement de boîte
+
+- Cascade et héritage
+
+- Ajustement des couleurs
+
+- Couleurs
+
+- Composition et fusion
+
+- Règles conditionnelles
+
+- Compartimentation
+
+- Styles de compteur
+
+- Vue CSSOM
+
+- Fonctions et mixins personnalisées
+
+- API de mise en évidence personnalisée
+
+- Propriétés personnalisées pour les variables en cascade
+
+- Affichage
+
+- Fonctions d'accélération
+
+- Variables d'environnement
+
+- Effets de filtre
+
+- Disposition des boîtes flexibles
+
+- Chargement des polices
+
+- Les polices
+
+- Fragmentation
+
+- Espacements
+
+- Contenu généré
+
+- Disposition de grille
+
+- Images
+
+- Disposition en incise
+
+- Listes et compteurs
+
+- CSS Logical Properties
+
+- CSS Masks
+
+- Requêtes média CSS (media queries)
+
+- Motion Path
+
+- Colonnes CSS
+
+- CSS Namespaces
+
+- Nesting
+
+- CSS Overflow
+
+- Overscroll behavior
+
+- CSS Pages
+
+- CSS Positioned Layout
+
+- Properties and values API
+
+- Pseudo-elements
+
+- Round display
+
+- CSS Ruby
+
+- Scoping
+
+- Scroll anchoring
+
+- CSS Scroll Snap
+
+- Scroll-driven animations
+
+- CSS Scrollbars
+
+- Sélecteurs CSS
+
+- Shadow parts
+
+- CSS Shapes
+
+- Syntaxe
+
+- CSS Table
+
+- CSS Text
+
+- CSS Text Decoration
+
+- CSS Transforms
+
+- Transitions CSS
+
+- Valeurs et unités
+
+- View transitions
+
+- Viewport
+
+- WebXR DOM overlays
+
+- Will change
+
+- CSS Writing Modes
+
+- Positionnement par ancre
+
+- Utiliser la position par des ancres
+
+- Traiter le débordement
+
+- Requêtes de conteneurs ancrés
+
+- Animations
+
+- Animation des propriétés
+
+- Utiliser les animations
+
+- Arrière-plans et bordures
+
+- Utiliser plusieurs arrière-plans
+
+- Redimensionner les images d'arrière-plan
+
+- Redimensionner des arrière-plans SVG
+
+- Borders and box decorations
+
+- Menu de navigation avec border-shape
+
+- Box alignment
+
+- Aperçu
+
+- En disposition de bloc
+
+- En disposition flexible
+
+- En disposition de grille
+
+- En disposition de multi-colonnes
+
+- Modèle de boîte
+
+- Introduction
+
+- Fusion des marges
+
+- Box sizing
+
+- Ratios d'aspect
+
+- Cascade
+
+- Introduction
+
+- Héritage
+
+- Spécificité
+
+- Traitement des valeurs des propriétés CSS
+
+- Propriétés raccourcies
+
+- Cascading variables
+
+- Utiliser des propriétés personnalisées
+
+- Couleurs
+
+- Appliquer des couleurs
+
+- Valeurs de couleur
+
+- Utiliser les couleurs relatives
+
+- Utiliser les couleurs judicieusement
+
+- Accessibilité : Couleurs et luminance
+
+- Accessibilité : Contraste de la couleur
+
+- Colonnes
+
+- Concepts de base pour la disposition multi-colonnes
+
+- Mettre en forme les colonnes
+
+- Utiliser une disposition multi-colonnes
+
+- Répartir et équilibrer le contenu entre les colonnes
+
+- Gestion du dépassement en multi-colonnes
+
+- Gérer la rupture du contenu entre les colonnes
+
+- Règles conditionnelles
+
+- Utiliser les requêtes de fonctionnalité
+
+- Utiliser les requêtes d'état de défilement des conteneurs
+
+- Compartimentation
+
+- Requêtes de conteneur
+
+- Utiliser la compartimentation
+
+- Utiliser les requêtes de taille et de style des conteneurs
+
+- Compteurs
+
+- Utiliser les compteurs
+
+- Vue CSSOM
+
+- Systèmes de coordonnées (API)
+
+- Concepts de zone d'affichage
+
+- Fonctions et mixins personnalisées
+
+- Utiliser les fonctions CSS personnalisées
+
+- Mise en page
+
+- Disposition en bloc et en incise
+
+- Disposition du flux
+
+- Disposition du flux et débordement
+
+- Disposition du flux et modes d'écriture
+
+- Être ou ne pas être dans le flux
+
+- Disposition et bloc englobant
+
+- Introduction aux contextes de formatage
+
+- Contexte de formatage de blocs
+
+- Contexte de formatage en incise
+
+- Utiliser la syntaxe avec plusieurs mots-clés
+
+- Modèle de mise en forme visuelle
+
+- Variables d'environnement
+
+- Utiliser les variables d'environnement
+
+- Effets de filtre
+
+- Utiliser les effets de filtre
+
+- Boîtes flexibles
+
+- Concepts de base
+
+- Boîtes flexibles et autres méthodes de disposition
+
+- Aligner des éléments flexibles
+
+- Ordonner les éléments flexibles
+
+- Contrôler les proportions des éléments flexibles
+
+- Passer à la ligne des éléments flexibles
+
+- Cas d'utilisation classiques
+
+- Polices
+
+- Caractéristiques OpenType
+
+- Polices variables
+
+- WOFF
+
+- Grille
+
+- Concepts de base
+
+- La grille et les autres dispositions
+
+- Utiliser le placement basé sur les lignes
+
+- Les zones d'une grille
+
+- Utiliser les lignes de grille nommées
+
+- Utiliser le placement automatique
+
+- Aligner les éléments
+
+- Valeurs logiques et modes d'écriture
+
+- Les grilles CSS et l'accessibilité
+
+- Dispositions courantes des grilles
+
+- Sous-grille
+
+- Disposition des lignes de grille
+
+- Images
+
+- Utiliser les dégradés
+
+- Utiliser object-view-box
+
+- Mettre en forme les éléments remplacés
+
+- Implémenter des images sprites
+
+- Listes
+
+- Indenter les listes
+
+- Propriétés logiques
+
+- Concepts de base des propriétés et valeurs logiques
+
+- Propriétés logiques pour les flottements et le positionnement
+
+- Propriétés logiques pour les marges, les bordures et les remplissages
+
+- Propriétés logiques pour le dimensionnement
+
+- Masquage
+
+- Introduction
+
+- Clipping
+
+- Multiple masks
+
+- Mask properties
+
+- Requêtes média
+
+- Media queries
+
+- Utilisation des requêtes média pour l'accessibilité
+
+- Tester les requêtes média en JavaScript
+
+- Printing
+
+- Imbrication
+
+- Nesting at-rules
+
+- Nesting and specificity
+
+- Using nesting
+
+- Débordement
+
+- Creating carousels
+
+- Positionnement
+
+- Le contexte d'empilement
+
+- Empilement et éléments flottants
+
+- Comprendre z-index en CSS
+
+- Ajouter z-index
+
+- Empilement sans z-index
+
+- API des propriétés et des valeurs
+
+- CSS Houdini
+
+- Registering custom properties in CSS
+
+- Ancrage de défilement
+
+- Guide : ancrage du défilement (scroll anchoring)
+
+- Animations pilotées par le défilement
+
+- Scroll-driven animation timelines
+
+- Understanding timeline insets
+
+- Understanding timeline range names
+
+- Accrochage du défilement
+
+- Concepts de bases pour CSS Scroll Snap
+
+- Using scroll snap events
+
+- Sélecteurs
+
+- Selectors and combinators
+
+- Selector structure
+
+- Le sélecteur :visited et la vie privée
+
+- Utiliser la pseudo-classe :target dans un sélecteur
+
+- Formes
+
+- Aperçu des formes CSS
+
+- Créer des formes à partir des boîtes
+
+- Générer des formes avec des images
+
+- Formes simples
+
+- Générateur de formes
+
+- Syntaxe
+
+- Syntaxe
+
+- Commentaires
+
+- Règles @
+
+- Error handling
+
+- Texte
+
+- Wrapping and breaking text
+
+- Gestion des espaces dans le DOM
+
+- Décoration de texte
+
+- Text shadows
+
+- Transformations
+
+- Utilisation des transformations CSS
+
+- Transitions
+
+- Utiliser les transitions
+
+- Valeurs et unités
+
+- Syntaxe de définition des valeurs
+
+- Types de données numériques
+
+- Types de données textuelles
+
+- Utiliser les fonctions mathématiques
+
+- Using typed arithmetic
+
+- Modes d'écriture
+
+- Introduction
+
+- Vertical form controls
+
+- Comment faire
+
+- Recettes de mise en page
+
+- Objets avec média
+
+- Disposition en colonnes
+
+- Centrer un élément
+
+- Bas de page adhérant
+
+- Navigation segmentée
+
+- Fil d'Ariane (breadcrumb)
+
+- Liste de groupes avec indicateurs
+
+- Pagination
+
+- Carte
+
+- Envelopper une grille
+
+- Contribuer à une recette
+
+- Modèle pour les pages du Livre de recettes
+
+- Outils
+
+-
+
+- Générateur de border-image
+
+- Générateur de border-radius
+
+- Générateur de box-shadow
+
+- Outil de sélection des couleurs
+
+- Mélangeur de couleurs
+
+- Générateur de formes
+
+- Référence
+
+- Propriétés
+
+- -moz-*
+
+- -moz-float-edge
+
+- -moz-force-broken-image-icon
+
+- -moz-orient
+
+- -moz-user-focus
+
+- -moz-user-input
+
+- -webkit-*
+
+- -webkit-border-before
+
+- -webkit-box-reflect
+
+- -webkit-mask-box-image
+
+- -webkit-mask-composite
+
+- -webkit-mask-position-x
+
+- -webkit-mask-position-y
+
+- -webkit-mask-repeat-x
+
+- -webkit-mask-repeat-y
+
+- -webkit-tap-highlight-color
+
+- -webkit-text-fill-color
+
+- -webkit-text-security
+
+- -webkit-text-stroke
+
+- -webkit-text-stroke-color
+
+- -webkit-text-stroke-width
+
+- -webkit-touch-callout
+
+- Propriétés personnalisées (--*) : variables CSS
+
+- accent-color
+
+- align-*
+
+- align-content
+
+- align-items
+
+- align-self
+
+- alignment-baseline
+
+- all
+
+- anchor-name
+
+- anchor-scope
+
+- animation-*
+
+- animation-composition
+
+- animation-delay
+
+- animation-direction
+
+- animation-duration
+
+- animation-fill-mode
+
+- animation-iteration-count
+
+- animation-name
+
+- animation-play-state
+
+- animation-range
+
+- animation-range-end
+
+- animation-range-start
+
+- animation-timeline
+
+- animation-timing-function
+
+- animation-trigger
+
+- animation
+
+- appearance
+
+- aspect-ratio
+
+- backdrop-filter
+
+- backface-visibility
+
+- background-*
+
+- background-attachment
+
+- background-blend-mode
+
+- background-clip
+
+- background-color
+
+- background-image
+
+- background-origin
+
+- background-position
+
+- background-position-x
+
+- background-position-y
+
+- background-repeat
+
+- background-repeat-x
+
+- background-repeat-y
+
+- background-size
+
+- background
+
+- baseline-shift
+
+- baseline-source
+
+- block-size
+
+- border-*
+
+- border-block
+
+- border-block-color
+
+- border-block-end
+
+- border-block-end-color
+
+- border-block-end-style
+
+- border-block-end-width
+
+- border-block-start
+
+- border-block-start-color
+
+- border-block-start-style
+
+- border-block-start-width
+
+- border-block-style
+
+- border-block-width
+
+- border-bottom
+
+- border-bottom-color
+
+- border-bottom-left-radius
+
+- border-bottom-right-radius
+
+- border-bottom-style
+
+- border-bottom-width
+
+- border-collapse
+
+- border-color
+
+- border-end-end-radius
+
+- border-end-start-radius
+
+- border-image
+
+- border-image-outset
+
+- border-image-repeat
+
+- border-image-slice
+
+- border-image-source
+
+- border-image-width
+
+- border-inline
+
+- border-inline-color
+
+- border-inline-end
+
+- border-inline-end-color
+
+- border-inline-end-style
+
+- border-inline-end-width
+
+- border-inline-start
+
+- border-inline-start-color
+
+- border-inline-start-style
+
+- border-inline-start-width
+
+- border-inline-style
+
+- border-inline-width
+
+- border-left
+
+- border-left-color
+
+- border-left-style
+
+- border-left-width
+
+- border-radius
+
+- border-right
+
+- border-right-color
+
+- border-right-style
+
+- border-right-width
+
+- border-shape
+
+- border-spacing
+
+- border-start-end-radius
+
+- border-start-start-radius
+
+- border-style
+
+- border-top
+
+- border-top-color
+
+- border-top-left-radius
+
+- border-top-right-radius
+
+- border-top-style
+
+- border-top-width
+
+- border-width
+
+- border
+
+- bottom
+
+- box-*
+
+- box-align
+
+- box-decoration-break
+
+- box-direction
+
+- box-flex
+
+- box-flex-group
+
+- box-lines
+
+- box-ordinal-group
+
+- box-orient
+
+- box-pack
+
+- box-shadow
+
+- box-sizing
+
+- break-*
+
+- break-after
+
+- break-before
+
+- break-inside
+
+- caption-side
+
+- caret-*
+
+- caret-animation
+
+- caret-color
+
+- caret-shape
+
+- caret
+
+- clear
+
+- clip-path
+
+- clip-rule
+
+- clip
+
+- color-*
+
+- color-interpolation
+
+- color-interpolation-filters
+
+- color-scheme
+
+- color
+
+- column-*
+
+- column-count
+
+- column-fill
+
+- column-gap
+
+- column-height
+
+- column-rule
+
+- column-rule-break
+
+- column-rule-color
+
+- column-rule-inset-cap
+
+- column-rule-inset-cap-end
+
+- column-rule-inset-cap-start
+
+- column-rule-inset-junction
+
+- column-rule-inset-junction-end
+
+- column-rule-inset-junction-start
+
+- column-rule-style
+
+- column-rule-visibility-items
+
+- column-rule-width
+
+- column-span
+
+- column-width
+
+- column-wrap
+
+- columns
+
+- contain-*
+
+- contain-intrinsic-block-size
+
+- contain-intrinsic-height
+
+- contain-intrinsic-inline-size
+
+- contain-intrinsic-size
+
+- contain-intrinsic-width
+
+- contain
+
+- container-name
+
+- container-type
+
+- container
+
+- content-visibility
+
+- content
+
+- corner-*
+
+- corner-block-end-shape
+
+- corner-block-start-shape
+
+- corner-bottom-left-shape
+
+- corner-bottom-right-shape
+
+- corner-bottom-shape
+
+- corner-end-end-shape
+
+- corner-end-start-shape
+
+- corner-inline-end-shape
+
+- corner-inline-start-shape
+
+- corner-left-shape
+
+- corner-right-shape
+
+- corner-shape
+
+- corner-start-end-shape
+
+- corner-start-start-shape
+
+- corner-top-left-shape
+
+- corner-top-right-shape
+
+- corner-top-shape
+
+- counter-*
+
+- counter-increment
+
+- counter-reset
+
+- counter-set
+
+- cursor
+
+- cx
+
+- cy
+
+- d
+
+- direction
+
+- display
+
+- dominant-baseline
+
+- dynamic-range-limit
+
+- empty-cells
+
+- field-sizing
+
+- fill-opacity
+
+- fill-rule
+
+- fill
+
+- filter
+
+- flex-*
+
+- flex-basis
+
+- flex-direction
+
+- flex-flow
+
+- flex-grow
+
+- flex-line-count
+
+- flex-shrink
+
+- flex-wrap
+
+- flex
+
+- float
+
+- flood-color
+
+- flood-opacity
+
+- font-*
+
+- font-family
+
+- font-feature-settings
+
+- font-kerning
+
+- font-language-override
+
+- font-optical-sizing
+
+- font-palette
+
+- font-size
+
+- font-size-adjust
+
+- font-smooth
+
+- font-stretch
+
+- font-style
+
+- font-synthesis
+
+- font-synthesis-position
+
+- font-synthesis-small-caps
+
+- font-synthesis-style
+
+- font-synthesis-weight
+
+- font-variant
+
+- font-variant-alternates
+
+- font-variant-caps
+
+- font-variant-east-asian
+
+- font-variant-emoji
+
+- font-variant-ligatures
+
+- font-variant-numeric
+
+- font-variant-position
+
+- font-variation-settings
+
+- font-weight
+
+- font-width
+
+- font
+
+- forced-color-adjust
+
+- frame-sizing
+
+- gap
+
+- grid-*
+
+- grid-area
+
+- grid-auto-columns
+
+- grid-auto-flow
+
+- grid-auto-rows
+
+- grid-column
+
+- grid-column-end
+
+- grid-column-start
+
+- grid-row
+
+- grid-row-end
+
+- grid-row-start
+
+- grid-template
+
+- grid-template-areas
+
+- grid-template-columns
+
+- grid-template-rows
+
+- grid
+
+- hanging-punctuation
+
+- height
+
+- hyphenate-character
+
+- hyphenate-limit-chars
+
+- hyphens
+
+- image-*
+
+- image-orientation
+
+- image-rendering
+
+- image-resolution
+
+- initial-letter
+
+- inline-size
+
+- inset-*
+
+- inset-block
+
+- inset-block-end
+
+- inset-block-start
+
+- inset-inline
+
+- inset-inline-end
+
+- inset-inline-start
+
+- inset
+
+- interactivity
+
+- interest-*
+
+- interest-delay
+
+- interest-delay-end
+
+- interest-delay-start
+
+- interpolate-size
+
+- isolation
+
+- justify-*
+
+- justify-content
+
+- justify-items
+
+- justify-self
+
+- left
+
+- letter-spacing
+
+- lighting-color
+
+- line-*
+
+- line-break
+
+- line-clamp
+
+- line-height
+
+- line-height-step
+
+- link-parameters
+
+- list-*
+
+- list-style
+
+- list-style-image
+
+- list-style-position
+
+- list-style-type
+
+- margin-*
+
+- margin-block
+
+- margin-block-end
+
+- margin-block-start
+
+- margin-bottom
+
+- margin-inline
+
+- margin-inline-end
+
+- margin-inline-start
+
+- margin-left
+
+- margin-right
+
+- margin-top
+
+- margin-trim
+
+- margin
+
+- marker-*
+
+- marker-end
+
+- marker-mid
+
+- marker-start
+
+- marker
+
+- mask-*
+
+- mask-border
+
+- mask-border-mode
+
+- mask-border-outset
+
+- mask-border-repeat
+
+- mask-border-slice
+
+- mask-border-source
+
+- mask-border-width
+
+- mask-clip
+
+- mask-composite
+
+- mask-image
+
+- mask-mode
+
+- mask-origin
+
+- mask-position
+
+- mask-repeat
+
+- mask-size
+
+- mask-type
+
+- mask
+
+- math-*
+
+- math-depth
+
+- math-shift
+
+- math-style
+
+- max-*
+
+- max-block-size
+
+- max-height
+
+- max-inline-size
+
+- max-width
+
+- min-*
+
+- min-block-size
+
+- min-height
+
+- min-inline-size
+
+- min-width
+
+- mix-blend-mode
+
+- object-*
+
+- object-fit
+
+- object-position
+
+- object-view-box
+
+- offset-*
+
+- offset-anchor
+
+- offset-distance
+
+- offset-path
+
+- offset-position
+
+- offset-rotate
+
+- offset
+
+- opacity
+
+- order
+
+- orphans
+
+- outline-*
+
+- outline-color
+
+- outline-offset
+
+- outline-style
+
+- outline-width
+
+- outline
+
+- overflow-*
+
+- overflow-anchor
+
+- overflow-block
+
+- overflow-clip-margin
+
+- overflow-inline
+
+- overflow-wrap
+
+- overflow-x
+
+- overflow-y
+
+- overflow
+
+- overlay
+
+- overscroll-*
+
+- overscroll-behavior
+
+- overscroll-behavior-block
+
+- overscroll-behavior-inline
+
+- overscroll-behavior-x
+
+- overscroll-behavior-y
+
+- padding-*
+
+- padding-block
+
+- padding-block-end
+
+- padding-block-start
+
+- padding-bottom
+
+- padding-inline
+
+- padding-inline-end
+
+- padding-inline-start
+
+- padding-left
+
+- padding-right
+
+- padding-top
+
+- padding
+
+- page-*
+
+- page-break-after
+
+- page-break-before
+
+- page-break-inside
+
+- page
+
+- paint-order
+
+- path-length
+
+- perspective-origin
+
+- perspective
+
+- place-*
+
+- place-content
+
+- place-items
+
+- place-self
+
+- pointer-events
+
+- position-*
+
+- position-anchor
+
+- position-area
+
+- position-try
+
+- position-try-fallbacks
+
+- position-try-order
+
+- position-visibility
+
+- position
+
+- print-color-adjust
+
+- quotes
+
+- r
+
+- reading-flow
+
+- reading-order
+
+- resize
+
+- right
+
+- rotate
+
+- row-*
+
+- row-gap
+
+- row-rule
+
+- row-rule-break
+
+- row-rule-color
+
+- row-rule-inset-cap
+
+- row-rule-inset-cap-end
+
+- row-rule-inset-cap-start
+
+- row-rule-inset-junction
+
+- row-rule-inset-junction-end
+
+- row-rule-inset-junction-start
+
+- row-rule-style
+
+- row-rule-visibility-items
+
+- row-rule-width
+
+- ruby-*
+
+- ruby-align
+
+- ruby-overhang
+
+- ruby-position
+
+- rule-*
+
+- rule-break
+
+- rule-color
+
+- rule-inset-cap
+
+- rule-inset-junction
+
+- rule-overlap
+
+- rule-style
+
+- rule-visibility-items
+
+- rule-width
+
+- rule
+
+- rx
+
+- ry
+
+- scale
+
+- scroll-*
+
+- scroll-behavior
+
+- scroll-initial-target
+
+- scroll-margin
+
+- scroll-margin-block
+
+- scroll-margin-block-end
+
+- scroll-margin-block-start
+
+- scroll-margin-bottom
+
+- scroll-margin-inline
+
+- scroll-margin-inline-end
+
+- scroll-margin-inline-start
+
+- scroll-margin-left
+
+- scroll-margin-right
+
+- scroll-margin-top
+
+- scroll-marker-group
+
+- scroll-padding
+
+- scroll-padding-block
+
+- scroll-padding-block-end
+
+- scroll-padding-block-start
+
+- scroll-padding-bottom
+
+- scroll-padding-inline
+
+- scroll-padding-inline-end
+
+- scroll-padding-inline-start
+
+- scroll-padding-left
+
+- scroll-padding-right
+
+- scroll-padding-top
+
+- scroll-snap-align
+
+- scroll-snap-stop
+
+- scroll-snap-type
+
+- scroll-target-group
+
+- scroll-timeline
+
+- scroll-timeline-axis
+
+- scroll-timeline-name
+
+- scrollbar-*
+
+- scrollbar-color
+
+- scrollbar-gutter
+
+- scrollbar-width
+
+- shape-*
+
+- shape-image-threshold
+
+- shape-margin
+
+- shape-outside
+
+- shape-rendering
+
+- speak-as
+
+- stop-color
+
+- stop-opacity
+
+- stroke-*
+
+- stroke-dasharray
+
+- stroke-dashoffset
+
+- stroke-linecap
+
+- stroke-linejoin
+
+- stroke-miterlimit
+
+- stroke-opacity
+
+- stroke-width
+
+- stroke
+
+- tab-size
+
+- table-layout
+
+- text-*
+
+- text-align
+
+- text-align-last
+
+- text-anchor
+
+- text-autospace
+
+- text-box
+
+- text-box-edge
+
+- text-box-trim
+
+- text-combine-upright
+
+- text-decoration
+
+- text-decoration-color
+
+- text-decoration-inset
+
+- text-decoration-line
+
+- text-decoration-skip
+
+- text-decoration-skip-ink
+
+- text-decoration-style
+
+- text-decoration-thickness
+
+- text-emphasis
+
+- text-emphasis-color
+
+- text-emphasis-position
+
+- text-emphasis-style
+
+- text-fit
+
+- text-indent
+
+- text-justify
+
+- text-orientation
+
+- text-overflow
+
+- text-rendering
+
+- text-shadow
+
+- text-size-adjust
+
+- text-spacing-trim
+
+- text-transform
+
+- text-underline-offset
+
+- text-underline-position
+
+- text-wrap
+
+- text-wrap-mode
+
+- text-wrap-style
+
+- timeline-*
+
+- timeline-scope
+
+- timeline-trigger
+
+- timeline-trigger-activation-range
+
+- timeline-trigger-activation-range-end
+
+- timeline-trigger-activation-range-start
+
+- timeline-trigger-active-range
+
+- timeline-trigger-active-range-end
+
+- timeline-trigger-active-range-start
+
+- timeline-trigger-name
+
+- timeline-trigger-source
+
+- top
+
+- touch-action
+
+- transform-*
+
+- transform-box
+
+- transform-origin
+
+- transform-style
+
+- transform
+
+- transition-*
+
+- transition-behavior
+
+- transition-delay
+
+- transition-duration
+
+- transition-property
+
+- transition-timing-function
+
+- transition
+
+- translate
+
+- trigger-scope
+
+- unicode-bidi
+
+- user-modify
+
+- user-select
+
+- vector-effect
+
+- vertical-align
+
+- view-*
+
+- view-timeline
+
+- view-timeline-axis
+
+- view-timeline-inset
+
+- view-timeline-name
+
+- view-transition-class
+
+- view-transition-name
+
+- view-transition-scope
+
+- visibility
+
+- white-space
+
+- white-space-collapse
+
+- widows
+
+- width
+
+- will-change
+
+- word-break
+
+- word-spacing
+
+- writing-mode
+
+- x
+
+- y
+
+- z-index
+
+- zoom
+
+- Sélecteurs
+
+- Sélecteurs d'imbrication &
+
+- Sélecteurs d'attribut
+
+- Sélecteurs de classe
+
+- Sélecteurs d'ID
+
+- Sélecteurs d'images clés
+
+- Séparateur d'espace de noms
+
+- Liste de sélecteurs
+
+- Sélecteurs de type
+
+- Sélecteurs universels
+
+- Combinateurs
+
+- Combinateur enfant
+
+- Combinateur de colonne
+
+- Combinateur de descendant
+
+- Combinateur de voisins directs
+
+- Combinateur de voisins suivants
+
+- Pseudo-classes
+
+- :-moz-*
+
+- :-moz-broken
+
+- :-moz-drag-over
+
+- :-moz-first-node
+
+- :-moz-handler-blocked
+
+- :-moz-handler-crashed
+
+- :-moz-handler-disabled
+
+- :-moz-last-node
+
+- :-moz-loading
+
+- :-moz-locale-dir(ltr)
+
+- :-moz-locale-dir(rtl)
+
+- :-moz-only-whitespace
+
+- :-moz-submit-invalid
+
+- :-moz-suppressed
+
+- :-moz-user-disabled
+
+- :-moz-window-inactive
+
+- :active-view-transition
+
+- :active-view-transition-type()
+
+- :active
+
+- :any-link
+
+- :autofill
+
+- :blank
+
+- :buffering
+
+- :checked
+
+- :current
+
+- :default
+
+- :defined
+
+- :dir()
+
+- :disabled
+
+- :empty
+
+- :enabled
+
+- :first-child
+
+- :first-of-type
+
+- :first
+
+- :focus-visible
+
+- :focus-within
+
+- :focus
+
+- :fullscreen
+
+- :future
+
+- :has-slotted
+
+- :has()
+
+- :heading
+
+- :heading()
+
+- :host-context()
+
+- :host
+
+- :host()
+
+- :hover
+
+- :in-range
+
+- :indeterminate
+
+- :interest-source
+
+- :interest-target
+
+- :invalid
+
+- :is()
+
+- :lang()
+
+- :last-child
+
+- :last-of-type
+
+- :left
+
+- :link
+
+- :local-link
+
+- :modal
+
+- :muted
+
+- :not()
+
+- :nth-*
+
+- :nth-child()
+
+- :nth-last-child()
+
+- :nth-last-of-type()
+
+- :nth-of-type()
+
+- :only-child
+
+- :only-of-type
+
+- :open
+
+- :optional
+
+- :out-of-range
+
+- :past
+
+- :paused
+
+- :picture-in-picture
+
+- :placeholder-shown
+
+- :playing
+
+- :popover-open
+
+- :read-only
+
+- :read-write
+
+- :required
+
+- :right
+
+- :root
+
+- :scope
+
+- :seeking
+
+- :stalled
+
+- :state()
+
+- :target-*
+
+- :target-after
+
+- :target-before
+
+- :target-current
+
+- :target
+
+- :user-invalid
+
+- :user-valid
+
+- :valid
+
+- :visited
+
+- :volume-locked
+
+- :where()
+
+- :xr-overlay
+
+- Pseudo-éléments
+
+- ::-moz-*
+
+- ::-moz-color-swatch
+
+- ::-moz-focus-inner
+
+- ::-moz-list-bullet
+
+- ::-moz-list-number
+
+- ::-moz-meter-bar
+
+- ::-moz-progress-bar
+
+- ::-moz-range-progress
+
+- ::-moz-range-thumb
+
+- ::-moz-range-track
+
+- ::-webkit-*
+
+- ::-webkit-inner-spin-button
+
+- ::-webkit-meter-bar
+
+- ::-webkit-meter-even-less-good-value
+
+- ::-webkit-meter-inner-element
+
+- ::-webkit-meter-optimum-value
+
+- ::-webkit-meter-suboptimum-value
+
+- ::-webkit-progress-bar
+
+- ::-webkit-progress-inner-element
+
+- ::-webkit-progress-value
+
+- ::-webkit-scrollbar
+
+- ::-webkit-search-cancel-button
+
+- ::-webkit-search-results-button
+
+- ::-webkit-slider-runnable-track
+
+- ::-webkit-slider-thumb
+
+- ::after
+
+- ::backdrop
+
+- ::before
+
+- ::checkmark
+
+- ::column
+
+- ::cue
+
+- ::details-content
+
+- ::file-selector-button
+
+- ::first-letter
+
+- ::first-line
+
+- ::grammar-error
+
+- ::highlight()
+
+- ::marker
+
+- ::part()
+
+- ::picker-icon
+
+- ::picker()
+
+- ::placeholder
+
+- ::scroll-*
+
+- ::scroll-button()
+
+- ::scroll-marker
+
+- ::scroll-marker-group
+
+- ::search-text
+
+- ::selection
+
+- ::slotted()
+
+- ::spelling-error
+
+- ::target-text
+
+- ::view-*
+
+- ::view-transition
+
+- ::view-transition-group()
+
+- ::view-transition-image-pair()
+
+- ::view-transition-new()
+
+- ::view-transition-old()
+
+- Règles @
+
+- @charset
+
+- @color-profile
+
+- @container
+
+- @counter-style
+
+- additive-symbols
+
+- fallback
+
+- negative
+
+- pad
+
+- prefix
+
+- range
+
+- speak-as
+
+- suffix
+
+- symbols
+
+- system
+
+- @custom-media
+
+- @document
+
+- @font-face
+
+- ascent-override
+
+- descent-override
+
+- font-display
+
+- font-family
+
+- font-feature-settings
+
+- font-stretch
+
+- font-style
+
+- font-variation-settings
+
+- font-weight
+
+- font-width
+
+- line-gap-override
+
+- size-adjust
+
+- src
+
+- unicode-range
+
+- @font-feature-values
+
+- font-display
+
+- @font-palette-values
+
+- base-palette
+
+- font-family
+
+- override-colors
+
+- @function
+
+- @import
+
+- @keyframes
+
+- @layer
+
+- @media
+
+- -moz-device-pixel-ratio
+
+- -webkit-animation
+
+- -webkit-device-pixel-ratio
+
+- -webkit-transform-2d
+
+- -webkit-transform-3d
+
+- -webkit-transition
+
+- any-hover
+
+- any-pointer
+
+- aspect-ratio
+
+- color
+
+- color-gamut
+
+- color-index
+
+- device-aspect-ratio
+
+- device-height
+
+- device-posture
+
+- device-width
+
+- display-mode
+
+- dynamic-range
+
+- forced-colors
+
+- grid
+
+- height
+
+- horizontal-viewport-segments
+
+- hover
+
+- inverted-colors
+
+- monochrome
+
+- orientation
+
+- overflow-block
+
+- overflow-inline
+
+- pointer
+
+- prefers-color-scheme
+
+- prefers-contrast
+
+- prefers-reduced-data
+
+- prefers-reduced-motion
+
+- prefers-reduced-transparency
+
+- resolution
+
+- scan
+
+- scripting
+
+- shape
+
+- update
+
+- vertical-viewport-segments
+
+- video-dynamic-range
+
+- width
+
+- @namespace
+
+- @page
+
+- page-orientation
+
+- size
+
+- @position-try
+
+- @property
+
+- inherits
+
+- initial-value
+
+- syntax
+
+- @scope
+
+- @starting-style
+
+- @supports
+
+- @view-transition
+
+- Valeurs
+
+- !important
+
+- fit-content
+
+- inherit
+
+- initial
+
+- max-content
+
+- min-content
+
+- revert
+
+- revert-layer
+
+- revert-rule
+
+- unset
+
+- Types
+
+- <absolute-size>
+
+- <alpha-value>
+
+- <angle-percentage>
+
+- <angle>
+
+- <animation-action>
+
+- <axis>
+
+- <baseline-position>
+
+- <basic-shape>
+
+- <blend-mode>
+
+- <box-edge>
+
+- <calc-keyword>
+
+- <calc-sum>
+
+- <color-interpolation-method>
+
+- <color>
+
+- <content-distribution>
+
+- <content-position>
+
+- <corner-shape-value>
+
+- <custom-ident>
+
+- <dashed-function>
+
+- <dashed-ident>
+
+- <dimension>
+
+- <display-box>
+
+- <display-inside>
+
+- <display-internal>
+
+- <display-legacy>
+
+- <display-listitem>
+
+- <display-outside>
+
+- <easing-function>
+
+- <filter-function>
+
+- <flex>
+
+- <frequency-percentage>
+
+- <frequency>
+
+- <generic-family>
+
+- <gradient>
+
+- <hex-color>
+
+- <hue-interpolation-method>
+
+- <hue>
+
+- <ident>
+
+- <image>
+
+- <integer>
+
+- <length-percentage>
+
+- <length>
+
+- <line-style>
+
+- <line-width>
+
+- <named-color>
+
+- <number>
+
+- <overflow-position>
+
+- <overflow>
+
+- <percentage>
+
+- <position-area>
+
+- <position>
+
+- <ratio>
+
+- <relative-size>
+
+- <resolution>
+
+- <rule-list>
+
+- <self-position>
+
+- <shape>
+
+- <string>
+
+- <system-color>
+
+- <text-edge>
+
+- <time-percentage>
+
+- <time>
+
+- <timeline-range-name>
+
+- <transform-function>
+
+- <url>
+
+- Fonctions
+
+- -moz-image-rect()
+
+- abs()
+
+- acos()
+
+- alpha()
+
+- anchor-size()
+
+- anchor()
+
+- asin()
+
+- atan()
+
+- atan2()
+
+- attr()
+
+- blur()
+
+- brightness()
+
+- calc-size()
+
+- calc()
+
+- circle()
+
+- clamp()
+
+- color-mix()
+
+- color()
+
+- conic-gradient()
+
+- contrast-color()
+
+- contrast()
+
+- cos()
+
+- counter()
+
+- counters()
+
+- cross-fade()
+
+- cubic-bezier()
+
+- device-cmyk()
+
+- drop-shadow()
+
+- dynamic-range-limit-mix()
+
+- element()
+
+- ellipse()
+
+- env()
+
+- exp()
+
+- fit-content()
+
+- grayscale()
+
+- hsl()
+
+- hue-rotate()
+
+- hwb()
+
+- hypot()
+
+- if()
+
+- image-set()
+
+- image()
+
+- inset()
+
+- invert()
+
+- lab()
+
+- lch()
+
+- light-dark()
+
+- linear-gradient()
+
+- linear()
+
+- log()
+
+- matrix()
+
+- matrix3d()
+
+- max()
+
+- min()
+
+- minmax()
+
+- mod()
+
+- oklab()
+
+- oklch()
+
+- opacity()
+
+- paint()
+
+- param()
+
+- path()
+
+- perspective()
+
+- polygon()
+
+- pow()
+
+- progress()
+
+- radial-gradient()
+
+- random()
+
+- ray()
+
+- rect()
+
+- rem()
+
+- repeat()
+
+- repeating-conic-gradient()
+
+- repeating-linear-gradient()
+
+- repeating-radial-gradient()
+
+- rgb()
+
+- rotate()
+
+- rotate3d()
+
+- rotateX()
+
+- rotateY()
+
+- rotateZ()
+
+- round()
+
+- saturate()
+
+- scale()
+
+- scale3d()
+
+- scaleX()
+
+- scaleY()
+
+- scaleZ()
+
+- sepia()
+
+- shape()
+
+- sibling-count()
+
+- sibling-index()
+
+- sign()
+
+- sin()
+
+- skew()
+
+- skewX()
+
+- skewY()
+
+- sqrt()
+
+- steps()
+
+- superellipse()
+
+- symbols()
+
+- tan()
+
+- translate()
+
+- translate3d()
+
+- translateX()
+
+- translateY()
+
+- translateZ()
+
+- type()
+
+- url()
+
+- var()
+
+- xywh()
+
+ Votre modèle pour un internet meilleur.
+
+-
+
+-
+
+-
+
+-
+
+-
+
+MDN
+
+-
+
+ À propos
+
+-
+
+ Blog
+
+-
+
+ Offres d'emploi chez Mozilla
+
+-
+
+ Faites de la publicité avec nous
+
+-
+
+ MDN Plus
+
+-
+
+ Assistance produit
+
+Contribuer
+
+-
+
+ Communauté MDN
+
+-
+
+ Ressources communautaires
+
+-
+
+ Directives de rédaction
+
+-
+
+ Discord MDN
+
+-
+
+ MDN sur GitHub
+
+Développeur·euse·s
+
+-
+
+ Technologies web
+
+-
+
+ Apprendre le développement web
+
+-
+
+ Guides
+
+-
+
+ Tutoriels
+
+-
+
+ Glossaire
+
+-
+
+ Blog Hacks
+
+-
+ Politique de confidentialité du site web
+
+-
+ Paramètres de télémétrie
+
+-
+ Mentions légales
+
+-
+ Directives de participation communautaire
+
+ Certaines parties de ce contenu sont protégées par le droit d'auteur ©1998—2026 des contributeurs individuels de mozilla.org. Contenu disponible sous une licence Creative Commons.

@@ -1,0 +1,83 @@
+{
+ "docid": "nasa_blackholes",
+ "N": 14,
+ "lang": "en",
+ "discipline": "physics",
+ "provenance": "museum_popular_science",
+ "difficulty": "secondary",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is a black hole in terms of matter?",
+   "a": "A huge concentration of matter packed into a very tiny space.",
+   "type": "def"
+  },
+  {
+   "q": "What are accretion disks around black holes?",
+   "a": "Rings of gas and dust that emit light across many wavelengths, including X-rays.",
+   "type": "def"
+  },
+  {
+   "q": "What is the supermassive black hole at the center of the Milky Way called?",
+   "a": "Sagittarius A* (A-star).",
+   "type": "def"
+  },
+  {
+   "q": "What are gravitational waves?",
+   "a": "Ripples in the fabric of space-time created when very massive objects accelerate through space.",
+   "type": "def"
+  },
+  {
+   "q": "What is gravitational lensing?",
+   "a": "The bending and distortion of light from more distant objects by massive objects like black holes.",
+   "type": "def"
+  },
+  {
+   "q": "Why can nothing escape from just beneath a black hole's event horizon?",
+   "a": "Gravity there is strong enough that nothing, not even light, can escape.",
+   "type": "mech"
+  },
+  {
+   "q": "Why are black holes effectively invisible to telescopes?",
+   "a": "They don't emit or reflect light.",
+   "type": "mech"
+  },
+  {
+   "q": "Why does the accretion disk appear to wrap above and below the black hole in NASA's artist's concept?",
+   "a": "The black hole's gravity bends light from the far side of the disk.",
+   "type": "mech"
+  },
+  {
+   "q": "How did astronomers prove the Milky Way's center houses a supermassive black hole?",
+   "a": "By tracking the orbits of several stars near the center.",
+   "type": "mech"
+  },
+  {
+   "q": "What can gravitational lensing be used to find?",
+   "a": "Isolated black holes that are otherwise invisible.",
+   "type": "mech"
+  },
+  {
+   "q": "Which telescope detected bright flares and fainter flickers from Sagittarius A*?",
+   "a": "NASA's James Webb Space Telescope.",
+   "type": "quant"
+  },
+  {
+   "q": "In which year was the Nobel Prize won for the discovery about the Milky Way's central black hole?",
+   "a": "2020.",
+   "type": "quant"
+  },
+  {
+   "q": "Is a black hole's event horizon a surface like Earth's or the Sun's?",
+   "a": "No; it is a boundary that contains all the matter that makes up the black hole.",
+   "type": "contrast"
+  },
+  {
+   "q": "Are black holes wormholes?",
+   "a": "No; they don't provide shortcuts between different points in space, or portals to other dimensions or universes.",
+   "type": "contrast"
+  }
+ ]
+}

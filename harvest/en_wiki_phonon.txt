@@ -1,0 +1,33 @@
+Not to be confused with Photon. For other uses, see Phonon (disambiguation).
+
+A phonon is a quasiparticle of vibrational energy that uniformly oscillates at a single frequency in a medium.[1] They can be thought of as quantized sound waves, similar to the way photons are quantized light waves, but unlike photons, phonons are vibrations in a lattice of atoms.[2] Phonons have both wave and particle-like properties, in a way related to the wave–particle duality of quantum mechanics.
+
+The study of phonons is an important part of condensed matter physics. They play a major role in many of the physical properties of condensed matter systems, such as thermal conductivity and electrical conductivity, as well as in models of neutron scattering and related effects.
+
+A type of quasiparticle in physics,[3] a phonon is an excited state in the modes of vibrations of an elastic structure. In solids with more than one atom in the smallest unit cell, phonons exhibit both acoustic and optical qualities. In the context of optically trapped objects, the quantized vibration mode can be defined as phonons as long as the modal wavelength of the oscillation is smaller than the size of the object.
+
+History
+
+The concept of phonons was introduced in 1930 by Soviet physicist Igor Tamm. The name phonon was suggested by Yakov Frenkel.[4] It comes from the Greek word φωνή (phonē), which translates to sound or voice, because long-wavelength phonons give rise to sound. The name emphasizes the analogy to the word photon, in that phonons represent wave-particle duality for sound waves in the same way that photons represent wave-particle duality for light waves.
+
+Lattice dynamics
+
+The equations in this section do not use axioms of quantum mechanics but instead use relations for which there exists a direct correspondence in classical mechanics.
+
+For example: a rigid regular, crystalline (not amorphous) lattice is composed of N particles. These particles may be atoms or molecules. N is a large number, say of the order of 1023, or on the order of the Avogadro number for a typical sample of a solid. Since the lattice is rigid, the atoms must be exerting forces on one another to keep each atom near its equilibrium position. These forces may be Van der Waals forces, covalent bonds, electrostatic attractions, and others, all of which are ultimately due to the electric force. Magnetic and gravitational forces are generally negligible. The forces between each pair of atoms may be characterized by a potential energy function V that depends on the distance of separation of the atoms. The potential energy of the entire lattice is the sum of all pairwise potential energies multiplied by a factor of 1/2 to compensate for double counting:[5]
+
+12∑i≠jV(ri−rj)
+
+where ri is the position of the ith atom, and V is the potential energy between two atoms.
+
+It is difficult to solve this many-body problem explicitly in either classical or quantum mechanics. In order to simplify the task, two important approximations are usually imposed. First, the sum is only performed over neighboring atoms. Although the electric forces in real solids extend to infinity, this approximation is still valid because the fields produced by distant atoms are effectively screened. Secondly, the potentials V are treated as harmonic potentials. This is permissible as long as the atoms remain close to their equilibrium positions. Formally, this is accomplished by Taylor expanding V about its equilibrium value to quadratic order, giving V proportional to the displacement x2 and the elastic force simply proportional to x. The error in ignoring higher order terms remains small if x remains close to the equilibrium position.
+
+The resulting lattice may be visualized as a system of balls connected by springs. The following figure shows a cubic lattice, which is a good model for many types of crystalline solid. Other lattices include a linear chain, which is a very simple lattice which we will shortly use for modeling phonons. (For other common lattices, see crystal structure.)
+
+A cubic crystal structure
+
+The potential energy of the lattice may now be written as
+
+∑{ij}(nn)12mω2(Ri−Rj)2.
+
+Here, ω is the natural frequency of

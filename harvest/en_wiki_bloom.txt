@@ -1,0 +1,66 @@
+Not to be confused with Bloom shader effect.
+
+Part of a series on |
+
+Probabilisticdata structures |
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Bloom filter
+Count sketch
+Count–min sketch
+Quotient filter
+Skip list |
+
+Random trees |
+
+-
+
+-
+
+-
+
+Random binary tree
+Treap
+Rapidly exploring random tree |
+
+Related |
+
+-
+
+-
+
+Randomized algorithm
+HyperLogLog |
+
+-
+
+-
+
+-
+
+vte |
+
+In computing, a Bloom filter is a space-efficient probabilistic data structure, conceived by Burton Howard Bloom in 1970, that is used to test whether an element is a member of a set. False positive matches are possible, but false negatives are not – in other words, a query returns either "possibly in set" or "definitely not in set". Elements can be added to the set, but not removed (though this can be addressed with the counting Bloom filter variant); the more items added, the larger the probability of false positives.
+
+Bloom proposed the technique for applications where the amount of source data would require an impractically large amount of memory if "conventional" error-free hashing techniques were applied. He gave the example of a hyphenation algorithm for a dictionary of 500,000 words, out of which 90% follow simple hyphenation rules, but the remaining 10% require expensive disk accesses to retrieve specific hyphenation patterns. With sufficient memory, an error-free hash could be used to eliminate all unnecessary disk accesses; on the other hand, with limited memory, Bloom's technique uses a smaller hash area but still eliminates most unnecessary accesses. For example, a hash area only 18% of the size needed by an ideal error-free hash still eliminates 87% of the disk accesses.[1]
+
+More generally, fewer than 10 bits per element are required for a 1% false positive probability, independent of the size or number of elements in the set.[2]
+
+Algorithm description
+
+An example of a Bloom filter, representing the set {x, y, z} . The colored arrows show the positions in the bit array that each set element is mapped to. The element w is not in the set {x, y, z} , because it hashes to one bit-array position containing 0. For this figure, m = 18 and k = 3.
+
+An empty Bloom filter is a bit array of m bits, all set to 0. It is equipped with k different hash functions, which map set elements to one of the m possible array positions. To be optimal, the hash functions should be uniformly distributed and independent. Typically, k is a small constant which depends on the desired false error rate ε, while m is proportional to k and the number of elements to be added.
+
+To add an element, feed it to each of the k hash functions to get k array positions. Set the bits at all these positions to 1.
+
+To test whether an element is in the set, feed it to each of the k hash functions to get k array positions. If any of the bits at these positions is 0, the element is definitely not in the set; if it were, then all the bits would have been set to 1 when it

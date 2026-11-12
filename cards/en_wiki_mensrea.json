@@ -1,0 +1,83 @@
+{
+ "docid": "en_wiki_mensrea",
+ "N": 14,
+ "lang": "en",
+ "discipline": "law",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "In criminal law, what is mens rea?",
+   "a": "The mental state of a defendant who is accused of committing a crime.",
+   "type": "def"
+  },
+  {
+   "q": "What does the Law Latin term mens rea translate to?",
+   "a": "\"Guilty mind\".",
+   "type": "def"
+  },
+  {
+   "q": "What does actus reus translate to?",
+   "a": "\"Guilty act\".",
+   "type": "def"
+  },
+  {
+   "q": "What does the common law maxim actus reus non facit reum nisi mens sit rea mean?",
+   "a": "\"The act is not culpable unless the mind is guilty\".",
+   "type": "def"
+  },
+  {
+   "q": "What are exceptions to the rule that a person acting without mental fault is not criminally liable called?",
+   "a": "Strict liability crimes.",
+   "type": "def"
+  },
+  {
+   "q": "What is transferred intent in criminal law?",
+   "a": "When a person intends a harm but, through bad aim or other cause, the intent transfers from an intended victim to an unintended victim.",
+   "type": "def"
+  },
+  {
+   "q": "What must most crimes in common law jurisdictions prove before a defendant can be found guilty?",
+   "a": "Both mens rea and actus reus.",
+   "type": "mech"
+  },
+  {
+   "q": "What effect can intentionally committing a tort or intentionally breaching a contract have?",
+   "a": "It may increase the scope of liability and the damages payable to the plaintiff.",
+   "type": "mech"
+  },
+  {
+   "q": "Which Latin phrase expresses the standard common law test of criminal liability?",
+   "a": "actus reus non facit reum nisi mens sit rea.",
+   "type": "quant"
+  },
+  {
+   "q": "Within the United States, which code besides the common law tradition determines the types of mental states applying to crimes?",
+   "a": "The Model Penal Code.",
+   "type": "quant"
+  },
+  {
+   "q": "Under the varied common law categories, which mental state was associated with murder?",
+   "a": "\"Malice\".",
+   "type": "quant"
+  },
+  {
+   "q": "How has the US Supreme Court described mens rea requirements for crimes?",
+   "a": "As \"universal\" and essential to \"mature systems of law\".",
+   "type": "quant"
+  },
+  {
+   "q": "How does civil law usually differ from criminal law on proving a subjective mental element?",
+   "a": "It is usually not necessary to prove one to establish liability for breach of contract or tort.",
+   "type": "contrast"
+  },
+  {
+   "q": "What mental state might manslaughter require instead of a \"bad mind\"?",
+   "a": "Simply a \"negligent\" one.",
+   "type": "contrast"
+  }
+ ]
+}

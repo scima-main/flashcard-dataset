@@ -1,0 +1,12 @@
+{
+ "docid": "zh_wiki_ribosome",
+ "url": "https://zh.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=%E6%A0%B8%E7%B3%96%E4%BD%93&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "zh.wikipedia.org",
+ "title": "核糖体",
+ "fetched": "2026-11-12",
+ "chars": 1100,
+ "lang": "zh",
+ "mode": "html",
+ "trimmed": true
+}

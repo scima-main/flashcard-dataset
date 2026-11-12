@@ -1,0 +1,12 @@
+{
+ "docid": "ja_wiki_moment",
+ "url": "https://ja.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=%E6%85%A3%E6%80%A7%E3%83%A2%E3%83%BC%E3%83%A1%E3%83%B3%E3%83%88&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "ja.wikipedia.org",
+ "title": "慣性モーメント",
+ "fetched": "2026-11-12",
+ "chars": 849,
+ "lang": "ja",
+ "mode": "html",
+ "trimmed": true
+}

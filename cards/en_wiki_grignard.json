@@ -1,0 +1,68 @@
+{
+ "docid": "en_wiki_grignard",
+ "N": 11,
+ "lang": "en",
+ "discipline": "chemistry",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "short",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is a Grignard reagent?",
+   "a": "A carbon alkyl, allyl, vinyl, or aryl magnesium halide (RMgX).",
+   "type": "def"
+  },
+  {
+   "q": "In the classical Grignard reaction, what are Grignard reagents added to?",
+   "a": "The carbonyl groups of either an aldehyde or ketone.",
+   "type": "def"
+  },
+  {
+   "q": "Under what conditions is the classical Grignard reaction carried out?",
+   "a": "Anhydrous conditions.",
+   "type": "quant"
+  },
+  {
+   "q": "Which halogens can X represent in a Grignard reagent RMgX?",
+   "a": "Cl, Br, I.",
+   "type": "quant"
+  },
+  {
+   "q": "Why is the Grignard reaction important in organic synthesis?",
+   "a": "It is important for the formation of carbon–carbon bonds.",
+   "type": "mech"
+  },
+  {
+   "q": "Classically, what products does the Grignard reaction form from a ketone or aldehyde?",
+   "a": "A primary or tertiary alcohol.",
+   "type": "def"
+  },
+  {
+   "q": "After whom is the Grignard reaction named?",
+   "a": "The French chemist François Auguste Victor Grignard (University of Nancy, France).",
+   "type": "quant"
+  },
+  {
+   "q": "In what year did Grignard describe Grignard reactions and reagents?",
+   "a": "1900.",
+   "type": "quant"
+  },
+  {
+   "q": "In what year was Grignard awarded the Nobel Prize in Chemistry?",
+   "a": "1912.",
+   "type": "quant"
+  },
+  {
+   "q": "Is the reaction of an organic halide with magnesium itself a Grignard reaction?",
+   "a": "No; it provides a Grignard reagent, but it is not a Grignard reaction.",
+   "type": "contrast"
+  },
+  {
+   "q": "How does some chemists' broader definition of the Grignard reaction differ from the classical one?",
+   "a": "They take it to mean all reactions of any electrophiles with Grignard reagents, not only ketones and aldehydes.",
+   "type": "contrast"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "docid": "doaj_perovskite",
+ "N": 10,
+ "lang": "en",
+ "discipline": "engineering",
+ "provenance": "journal_abstract",
+ "difficulty": "postgraduate",
+ "tier": "short",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "According to the abstract, what is the key challenge for perovskite solar cell technology?",
+   "a": "Device stability issues.",
+   "type": "def"
+  },
+  {
+   "q": "Which database is cited as the best example of accumulated perovskite stability data?",
+   "a": "The \"Perovskite Database Project\".",
+   "type": "def"
+  },
+  {
+   "q": "What do the authors identify as a critical question for future perovskite databases?",
+   "a": "Choosing universal stability metrics.",
+   "type": "def"
+  },
+  {
+   "q": "What did the learning curves show about adding more data of the same quality?",
+   "a": "The potential for improving the models' performance is limited.",
+   "type": "mech"
+  },
+  {
+   "q": "According to the study, what would significantly improve model performance?",
+   "a": "Increasing data quality by reporting more complete information on the performed experiments.",
+   "type": "mech"
+  },
+  {
+   "q": "What can the choice of stability metric do to the interpretation of aging experiments?",
+   "a": "It can strongly change the interpretation, unnaturally favoring some cells over others.",
+   "type": "mech"
+  },
+  {
+   "q": "How many perovskite solar cells with reported device stability were taken from the database?",
+   "a": "1,800.",
+   "type": "quant"
+  },
+  {
+   "q": "Which machine-learning method was used to identify the most important factors for cell stability?",
+   "a": "Random Forest.",
+   "type": "quant"
+  },
+  {
+   "q": "How many solar cells does the in-house database contain?",
+   "a": "More than 1,000.",
+   "type": "quant"
+  },
+  {
+   "q": "How does the in-house database differ from databases holding single-number stability metrics?",
+   "a": "The entire aging curve for each cell is available.",
+   "type": "contrast"
+  }
+ ]
+}

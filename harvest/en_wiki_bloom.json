@@ -1,0 +1,12 @@
+{
+ "docid": "en_wiki_bloom",
+ "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Bloom+filter&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "en.wikipedia.org",
+ "title": "Bloom filter",
+ "fetched": "2026-11-12",
+ "chars": 2918,
+ "lang": "en",
+ "mode": "html",
+ "trimmed": true
+}

@@ -1,0 +1,68 @@
+{
+ "docid": "se_phys_computation",
+ "N": 11,
+ "lang": "en",
+ "discipline": "physics",
+ "provenance": "forum_qa",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "Which principle sets the thermodynamic energy limit for erasing a bit of computer memory?",
+   "a": "Landauer's principle.",
+   "type": "def"
+  },
+  {
+   "q": "In the Landauer limit expression, what does T denote?",
+   "a": "The ambient temperature.",
+   "type": "def"
+  },
+  {
+   "q": "What is the set of tricks that avoids the need to erase bits called?",
+   "a": "Reversible computing.",
+   "type": "def"
+  },
+  {
+   "q": "Which computer operations can in principle be performed without using any energy at all?",
+   "a": "All operations other than erasing bits.",
+   "type": "mech"
+  },
+  {
+   "q": "What is the memory cost of making a computation reversible?",
+   "a": "You must store all sorts of junk data in memory, because you are not allowed to erase it.",
+   "type": "mech"
+  },
+  {
+   "q": "By how much does erasing one bit reduce the computer's information entropy?",
+   "a": "One bit.",
+   "type": "mech"
+  },
+  {
+   "q": "In what form is the energy consumed by erasing a bit given off?",
+   "a": "As heat.",
+   "type": "mech"
+  },
+  {
+   "q": "How much energy does Landauer's principle require per erased bit?",
+   "a": "k_B T ln 2 joules.",
+   "type": "quant"
+  },
+  {
+   "q": "By how much must the environment's thermodynamic entropy increase when a bit is erased?",
+   "a": "One bit, equal to k_B ln 2 joules per kelvin.",
+   "type": "quant"
+  },
+  {
+   "q": "Besides adding heat, how could the environment's entropy in principle be increased?",
+   "a": "By changing its volume or driving a chemical reaction.",
+   "type": "contrast"
+  },
+  {
+   "q": "How does the energy use of any practical computer built so far compare with Landauer's limit?",
+   "a": "It uses many orders of magnitude more energy.",
+   "type": "contrast"
+  }
+ ]
+}

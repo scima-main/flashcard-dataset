@@ -1,0 +1,12 @@
+{
+ "docid": "en_wiki_gvs",
+ "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Great+Vowel+Shift&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "en.wikipedia.org",
+ "title": "Great Vowel Shift",
+ "fetched": "2026-11-12",
+ "chars": 2054,
+ "lang": "en",
+ "mode": "html",
+ "trimmed": true
+}

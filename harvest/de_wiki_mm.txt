@@ -1,0 +1,34 @@
+Die Michaelis-Menten-Kinetik beschreibt die Enzymkinetik nach folgendem vereinfachendem Mechanismus: Das freie Enzym bindet zuerst reversibel an sein Substrat. Im gebundenen Zustand (Enzym-Substrat-Komplex) wird das Substrat umgewandelt und das Reaktionsprodukt löst sich vom Enzym. Falls der Zerfall des Komplexes in Enzym und Substrat gegenüber der Bildung des Produkts dominiert, gilt nach Einstellung des Fließgleichgewichts für die reversible Reaktion das Massenwirkungsgesetz und die Michaelis-Menten-Gleichung für die Geschwindigkeit der Gesamtreaktion (Substratverbrauch und Produktbildung) in Abhängigkeit von der Substratkonzentration und weiteren Parametern. Damit kann zum Beispiel die Sättigung der Produktionsgeschwindigkeit von Produkten in enzymatischen Reaktionen erklärt werden.
+
+Die Michaelis-Menten-Kinetik ist nach Leonor Michaelis und Maud Menten benannt, die 1913 verbesserte experimentelle und Auswertungsmethoden für die Enzymkinetik demonstrierten.[1] Die Hypothese für den Mechanismus mit dem Komplex als Zwischenprodukt hatte Adolphe Wurtz bereits 1880 veröffentlicht. Im Jahr 1902 leitete Victor Henri daraus die Michaelis-Menten-Gleichung ab.[2]
+
+Theoretischer Hintergrund
+
+Einfache Beschreibung einer enzymatischen Reaktion
+
+Als Biokatalysatoren bilden Enzyme E mit ihrem Substrat S einen Komplex ES (Enzym-Substrat-Komplex), aus dem heraus sich die Reaktion zum Produkt P vollzieht:[3]
+
+E+S⇌k1k1′ES⇌k2k2′EP⇌k3k3′P+E
+
+k1 und k’1 sind die Geschwindigkeitskonstanten für die Assoziation (Zusammenlagerung) von E und S bzw. die Dissoziation des Enzym-Substrat-Komplexes ES. k2 und k’2 sind die entsprechenden Konstanten für die Reaktion zum Produkt bzw. die Rückreaktion zum Substrat. k3 und k’3 beschreiben die Dissoziation bzw. Assoziation eines Enzym-Produkt-Komplexes. Diese Rückreaktion ist unter den Bedingungen der Enzymkinetik (kleine Konzentration [P]) vernachlässigbar. Auch ist meist k’2 viel kleiner als k3, sodass die folgende Vereinfachung gerechtfertigt ist:[4]
+
+E+S⇌k1k1′ES→k2P+E
+
+Dieses System lässt sich allgemein durch ein System aus gewöhnlichen Differentialgleichungen beschreiben, welches unter einer der Voraussetzungen [E] >> [S] oder [S] >> [E] näherungsweise analytisch lösbar ist, sonst numerisch.[5] Die Michaelis-Menten-Gleichung gilt unter der weiteren Annahme des Fließgleichgewichtes.
+
+Fließgleichgewicht
+
+Im Allgemeinen sind Enzyme in der Lage, schwankende Substratkonzentrationen auszugleichen, d. h. sehr schnell ein Fließgleichgewicht („steady state“) dadurch einzustellen, dass sie ihre Tätigkeit dem Angebot anpassen. Dies bedeutet, dass die Konzentration des Enzym-Substrat-Komplexes auf der langsameren Zeitskala, die für den Prozess der Produktbildung gültig ist, konstant bleibt. Es gilt also d[ES]dt=0.
+Diese Annahme des Fließgleichgewichts wurde von G.E. Briggs und John Burdon Sanderson Haldane entwickelt. Die Michaelis-Menten-Kinetik ist nur unter Annahme dieses Fließgleichgewichts mit einer konstanten [ES] gültig.
+
+Die Michaelis-Menten-Gleichung
+
+Die Formeln an der Technischen Universität Graz.
+
+Die aus der Reaktionsgleichung abgeleitete Michaelis-Menten-Kinetik lässt sich allgemein darstellen[6] als:
+
+v0=vmax⋅[S]Km+[S]
+
+v0 gibt hierbei die initiale Reaktionsgeschwindigkeit bei einer bestimmten Substratkonzentration [S] an. vmax ist die maximale Reaktionsgeschwindigkeit.
+
+Eine Kenngröße für eine enzymatische Reaktion ist die Michaeliskonstante Km. Sie hängt von der jeweiligen enzymatischen Reaktion ab. Km

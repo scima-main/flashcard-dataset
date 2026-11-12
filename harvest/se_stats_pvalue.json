@@ -1,0 +1,12 @@
+{
+ "docid": "se_stats_pvalue",
+ "url": "https://stats.stackexchange.com/questions/31/what-is-the-meaning-of-p-values-and-t-values-in-statistical-tests",
+ "licence": "CC BY-SA 4.0",
+ "origin": "stats.stackexchange.com",
+ "title": "What is the meaning of p values and t values in statistical tests?",
+ "fetched": "2026-11-12",
+ "chars": 2776,
+ "lang": "en",
+ "api_url": "https://api.stackexchange.com/2.3/questions/31/answers?site=stats&filter=withbody&order=desc&sort=votes&pagesize=1",
+ "score": 199
+}

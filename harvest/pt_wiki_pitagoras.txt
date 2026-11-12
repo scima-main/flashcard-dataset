@@ -1,0 +1,1932 @@
+Esta página cita fontes, mas não cobrem todo o conteúdo |
+
+Esta página cita fontes, mas que não cobrem todo o conteúdo. Ajude a inserir referências (Encontre fontes: Google (N • L • A • I • WP refs) • ABW • CAPES). (fevereiro de 2026) |
+
+O teorema de Pitágoras: a soma das áreas dos quadrados construídos sobre os catetos (a e b) equivale à área do quadrado construído sobre a hipotenusa (c).
+
+Na matemática, o teorema de Pitágoras é uma relação matemática entre os comprimentos dos lados de qualquer triângulo retângulo.[1] Na geometria euclidiana, o teorema afirma que:
+
+“ | Em qualquer triângulo retângulo, o quadrado do comprimento da hipotenusa é igual à soma dos quadrados dos comprimentos dos catetos. | ” |
+
+Por definição, a hipotenusa é o lado oposto ao ângulo reto, e os catetos são os dois lados que o formam. O enunciado anterior relaciona comprimentos, mas o teorema também pode ser enunciado como uma relação entre áreas:
+
+“ | Em qualquer triângulo retângulo, a área do quadrado cujo lado é a hipotenusa é igual à soma das áreas dos quadrados cujos lados são os catetos. | ” |
+
+Para ambos os enunciados, pode-se equacionar
+ {\displaystyle c^{2}=a^{2}+b^{2},}
+
+ c
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ ,
+
+ {\displaystyle c^{2}=a^{2}+b^{2},}
+
+{\displaystyle c^{2}=a^{2}+b^{2},}
+onde c representa o comprimento da hipotenusa, e a e b representam os comprimentos dos outros dois lados.
+
+O teorema de Pitágoras leva o nome do matemático grego Pitágoras (570 a.C. – 495 a.C.), que tradicionalmente é creditado pela sua descoberta e demonstração,[2][3] embora seja frequentemente argumentado que o conhecimento do teorema seja anterior a ele (há muitas evidências de que matemáticos babilônicos conheciam algoritmos para calcular os lados em casos específicos, mas não se sabe se conheciam um algoritmo tão geral quanto o teorema de Pitágoras).[4][5][6]
+
+O teorema de Pitágoras é um caso particular da lei dos cossenos, do matemático persa Ghiyath al-Kashi (1380 – 1429), que permite o cálculo do comprimento do terceiro lado de qualquer triângulo, dados os comprimentos de dois lados e a medida de algum dos três ângulos.
+
+Fórmula e corolários
+
+Um triângulo retângulo, de catetos a e b, e de hipotenusa c
+
+Sendo c o comprimento da hipotenusa e a e b os comprimentos dos catetos, o teorema pode ser expresso por meio da seguinte equação:
+ {\displaystyle c^{2}=a^{2}+b^{2}.}
+
+ c
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ .
+
+ {\displaystyle c^{2}=a^{2}+b^{2}.}
+
+{\displaystyle c^{2}=a^{2}+b^{2}.}
+
+Manipulando algebricamente essa equação, chega-se a que se os comprimentos de quaisquer dois lados do triângulo retângulo são conhecidos, o comprimento do terceiro lado pode ser calculado:
+ {\displaystyle c={\sqrt {a^{2}+b^{2}}},b={\sqrt {c^{2}-a^{2}}}{\text{ e }}a={\sqrt {c^{2}-b^{2}}}.}
+
+ c
+ =
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ ,
+ b
+ =
+
+ c
+
+ 2
+
+ −
+
+ a
+
+ 2
+
+ e
+
+ a
+ =
+
+ c
+
+ 2
+
+ −
+
+ b
+
+ 2
+
+ .
+
+ {\displaystyle c={\sqrt {a^{2}+b^{2}}},b={\sqrt {c^{2}-a^{2}}}{\text{ e }}a={\sqrt {c^{2}-b^{2}}}.}
+
+{\displaystyle c={\sqrt {a^{2}+b^{2}}},b={\sqrt {c^{2}-a^{2}}}{\text{ e }}a={\sqrt {c^{2}-b^{2}}}.}
+
+Outro corolário do teorema é que:
+
+“ | Em qualquer triângulo retângulo, a hipotenusa é maior que qualquer um dos catetos, mas menor que a soma deles.[7] | ” |
+
+A hipotenusa é maior que qualquer um dos catetos, pois todos os comprimentos são necessariamente números positivos, e c² > b², logo c > b, e c² > a², logo c > a. E a hipotenusa é menor que a soma dos catetos, pois c² = b² + a², e (b+a)² = b² + 2ba + a², logo c² < (b+a)², logo c < b + a.
+
+Demonstrações
+
+Não se sabe ao certo qual seria a demonstração utilizada por Pitágoras.[8] O teorema de Pitágoras já teve muitas demonstrações publicadas. O livro The Pythagorean Proposition, de Elisha Scott Loomis, por exemplo, contém 370 demonstrações diferentes.[9] Há uma demonstração no livro Os Elementos, de Euclides.[10] E também ofereceram demonstrações, o matemático indiano Bhaskara Akaria, o polímata italiano Leonardo da Vinci, e o vigésimo presidente dos Estados Unidos, James A. Garfield.[11][12][13] O teorema de Pitágoras é tanto uma afirmação a respeito de áreas quanto a respeito de comprimentos, algumas provas do teorema são baseadas em uma dessas interpretações, e outras provas são baseadas na outra interpretação.
+
+Por comparação de áreas
+
+O quadrado é dividido em partes e rearranjado de forma a demonstrar o Teorema de Pitágoras
+
+- Desenha-se um quadrado de lado {\displaystyle b+a;}
+
+ b
+ +
+ a
+ ;
+
+ {\displaystyle b+a;}
+
+{\displaystyle b+a;}
+
+- De modo a subdividir este quadrado em quatro retângulos, sendo dois deles quadrados de lados, respectivamente, {\displaystyle a}
+
+ a
+
+ {\displaystyle a}
+
+{\displaystyle a} e {\displaystyle b:}
+
+ b
+ :
+
+ {\displaystyle b:}
+
+{\displaystyle b:} Traçam-se dois segmentos de reta paralelos a dois lados consecutivos do quadrado, sendo cada um deles interno ao quadrado e com o mesmo comprimento que o lado do quadrado;
+
+- Divide-se cada um destes dois retângulos em dois triângulos retângulos, traçando-se as diagonais. Chama-se {\displaystyle c}
+
+ c
+
+ {\displaystyle c}
+
+{\displaystyle c} o comprimento de cada diagonal;
+
+- A área da região que resta ao retirar-se os quatro triângulos retângulos é igual a {\displaystyle b^{2}+a^{2};}
+
+ b
+
+ 2
+
+ +
+
+ a
+
+ 2
+
+ ;
+
+ {\displaystyle b^{2}+a^{2};}
+
+{\displaystyle b^{2}+a^{2};}
+
+- Desenha-se agora o mesmo quadrado de lado {\displaystyle b+a,}
+
+ b
+ +
+ a
+ ,
+
+ {\displaystyle b+a,}
+
+{\displaystyle b+a,} mas colocam-se os quatro triângulos retângulos noutra posição dentro do quadrado: a posição que deixa desocupada uma região que é um quadrado de lado {\displaystyle c.}
+
+ c
+ .
+
+ {\displaystyle c.}
+
+{\displaystyle c.}
+
+- Assim, a área da região formada quando os quatro triângulos retângulos são retirados é igual a {\displaystyle c^{2}.}
+
+ c
+
+ 2
+
+ .
+
+ {\displaystyle c^{2}.}
+
+{\displaystyle c^{2}.}
+
+Como {\displaystyle b^{2}+a^{2}}
+
+ b
+
+ 2
+
+ +
+
+ a
+
+ 2
+
+ {\displaystyle b^{2}+a^{2}}
+
+{\displaystyle b^{2}+a^{2}} representa a área do quadrado maior subtraída da soma das áreas dos triângulos retângulos, e {\displaystyle c^{2}}
+
+ c
+
+ 2
+
+ {\displaystyle c^{2}}
+
+{\displaystyle c^{2}} representa a mesma área, então {\displaystyle b^{2}+a^{2}=c^{2}}
+
+ b
+
+ 2
+
+ +
+
+ a
+
+ 2
+
+ =
+
+ c
+
+ 2
+
+ {\displaystyle b^{2}+a^{2}=c^{2}}
+
+{\displaystyle b^{2}+a^{2}=c^{2}}. Ou seja: num triângulo retângulo o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.[14]
+
+Há hipóteses dos matemáticos alemães Carl Anton Bretschneider e Hermann Hankel de que Pitágoras poderia estar ciente dessa demonstração. Contudo, o britânico Sir Thomas Little Heath defende que Pitágoras não deve ser creditado por essa prova, uma vez que "a literatura grega que temos de cinco séculos após Pitágoras não contém nenhuma declaração especificando o papel que ele possui em nessa ou em qualquer descoberta na geometria."[15] Atualmente, ainda há discussões sobre o papel de Pitágoras no teorema.[16]
+
+Por semelhança de triângulos
+
+Demonstração que utiliza o conceito de semelhança: os triângulos ABC, ACH e CBH têm a mesma forma, diferindo apenas pelas suas posições e tamanhos.
+
+A demonstração a seguir se baseia na proporcionalidade dos lados de dois triângulos semelhantes, isto é, que a razão entre quaisquer dois lados correspondentes de triângulos semelhantes é a mesma, independentemente do tamanho dos triângulos.[8]
+
+Sendo ABC um triângulo retângulo, com o ângulo reto localizado em C, como mostrado na figura. Desenha-se a altura com origem no ponto C, e chama-se H sua intersecção com o lado AB. O ponto H divide o comprimento da hipotenusa, c, nas partes d e e. O novo triângulo, ACH, é semelhante ao triângulo ABC, pois ambos têm um ângulo reto, e eles compartilham o ângulo em A, significando que o terceiro ângulo é o mesmo em ambos os triângulos também,[17] marcado como θ na figura. Seguindo-se um raciocínio parecido, percebe-se que o triângulo CBH também é semelhante ao ABC. A semelhança dos triângulos leva à igualdade das razões dos lados correspondentes:
+
+ {\displaystyle {\frac {a}{c}}={\frac {e}{a}}}
+
+ a
+ c
+
+ =
+
+ e
+ a
+
+ {\displaystyle {\frac {a}{c}}={\frac {e}{a}}}
+
+{\displaystyle {\frac {a}{c}}={\frac {e}{a}}} e {\displaystyle {\frac {b}{c}}={\frac {d}{b}}.}
+
+ b
+ c
+
+ =
+
+ d
+ b
+
+ .
+
+ {\displaystyle {\frac {b}{c}}={\frac {d}{b}}.}
+
+{\displaystyle {\frac {b}{c}}={\frac {d}{b}}.}
+
+O primeiro resultado é igual ao cosseno de cada ângulo θ e o segundo resultado é igual ao seno.
+
+Estas relações podem ser escritas como: {\displaystyle a^{2}=c\times e}
+
+ a
+
+ 2
+
+ =
+ c
+ ×
+ e
+
+ {\displaystyle a^{2}=c\times e}
+
+{\displaystyle a^{2}=c\times e} e {\displaystyle b^{2}=c\times d.}
+
+ b
+
+ 2
+
+ =
+ c
+ ×
+ d
+ .
+
+ {\displaystyle b^{2}=c\times d.}
+
+{\displaystyle b^{2}=c\times d.}
+Somando estas duas igualdades, obtém-se
+ {\displaystyle a^{2}+b^{2}=c\times e+c\times d=c\times (d+e)=c^{2},}
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ =
+ c
+ ×
+ e
+ +
+ c
+ ×
+ d
+ =
+ c
+ ×
+ (
+ d
+ +
+ e
+ )
+ =
+
+ c
+
+ 2
+
+ ,
+
+ {\displaystyle a^{2}+b^{2}=c\times e+c\times d=c\times (d+e)=c^{2},}
+
+{\displaystyle a^{2}+b^{2}=c\times e+c\times d=c\times (d+e)=c^{2},}que, rearranjada, é o teorema de Pitágoras: {\displaystyle a^{2}+b^{2}=c^{2}\ .}
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ =
+
+ c
+
+ 2
+
+ .
+
+ {\displaystyle a^{2}+b^{2}=c^{2}\ .}
+
+{\displaystyle a^{2}+b^{2}=c^{2}\ .}
+
+Uma variante
+
+Usando a mesma figura da demonstração acima, após ser mostrado que ΔABC, ΔACH e ΔCBH são semelhantes, pode-se demonstrar o teorema de Pitágoras usando-se o fato de que "a razão entre as áreas de triângulos semelhantes é igual ao quadrado da razão entre lados correspondentes", da seguinte forma: Chamando-se a área de ΔABC de x, a área de ΔACH é x*(b/c)², e a área de ΔCBH é x*(a/c)² (pois c, b e a são as hipotenusas de ΔABC, ΔACH e ΔCBH, respectivamente). Então, como a área do triângulo inteiro é a soma das áreas dos dois triângulos menores, tem-se x*(a/c)² + x*(b/c)² = x, então (a/c)² + (b/c)² = 1, então a² + b² = c².[18][19][20]
+
+Demonstração de Bhaskara[21]
+
+A análise da figura da direita permite computar a área do quadrado construído sobre a hipotenusa de um triângulo retângulo: ela é quatro vezes a área desse triângulo mais a área do quadrado restante, de lado (b−a). Equacionando-se, segue que:
+ {\displaystyle c^{2}=4\cdot {\frac {ab}{2}}+(b-a)^{2}}
+
+ c
+
+ 2
+
+ =
+ 4
+ ⋅
+
+ a
+ b
+
+ 2
+
+ +
+ (
+ b
+ −
+ a
+
+ )
+
+ 2
+
+ {\displaystyle c^{2}=4\cdot {\frac {ab}{2}}+(b-a)^{2}}
+
+{\displaystyle c^{2}=4\cdot {\frac {ab}{2}}+(b-a)^{2}}
+Logo:
+ {\displaystyle c^{2}=2ab+b^{2}-2ba+a^{2}}
+
+ c
+
+ 2
+
+ =
+ 2
+ a
+ b
+ +
+
+ b
+
+ 2
+
+ −
+ 2
+ b
+ a
+ +
+
+ a
+
+ 2
+
+ {\displaystyle c^{2}=2ab+b^{2}-2ba+a^{2}}
+
+{\displaystyle c^{2}=2ab+b^{2}-2ba+a^{2}} (o termo (b-a)² é um produto notável)
+ {\displaystyle c^{2}=b^{2}+a^{2}\ .}
+
+ c
+
+ 2
+
+ =
+
+ b
+
+ 2
+
+ +
+
+ a
+
+ 2
+
+ .
+
+ {\displaystyle c^{2}=b^{2}+a^{2}\ .}
+
+{\displaystyle c^{2}=b^{2}+a^{2}\ .} (por comutatividade da multiplicação: 2ab = 2ba)
+
+Por cálculo diferencial
+
+Pode-se chegar ao teorema de Pitágoras pelo estudo de como mudanças em um lado produzem mudanças na hipotenusa e usando um pouco de cálculo.[22][23] É uma demonstração baseada na interpretação métrica do teorema, visto que usa comprimentos, não áreas.
+
+Demonstração que usa equações diferenciais
+
+Como resultado da mudança da no lado a,
+ {\displaystyle {\frac {da}{dc}}={\frac {c}{a}}}
+
+ d
+ a
+
+ d
+ c
+
+ =
+
+ c
+ a
+
+ {\displaystyle {\frac {da}{dc}}={\frac {c}{a}}}
+
+{\displaystyle {\frac {da}{dc}}={\frac {c}{a}}}
+
+por semelhança de triângulos e para mudanças diferenciais. Então, {\displaystyle c\,dc=a\,da}
+
+ c
+
+ d
+ c
+ =
+ a
+
+ d
+ a
+
+ {\displaystyle c\,dc=a\,da}
+
+{\displaystyle c\,dc=a\,da}
+
+por separação de variáveis.
+
+que resulta da adição de um segundo termo para as mudanças no lado b.
+
+Pela integração, segue:
+
+ {\displaystyle c^{2}=a^{2}+\mathrm {constante} .}
+
+ c
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ +
+
+ c
+ o
+ n
+ s
+ t
+ a
+ n
+ t
+ e
+
+ .
+
+ {\displaystyle c^{2}=a^{2}+\mathrm {constante} .}
+
+{\displaystyle c^{2}=a^{2}+\mathrm {constante} .}
+
+Quando a = 0 então c = b, então a "constante" é b2. Logo,
+
+ {\displaystyle c^{2}=a^{2}+b^{2}.}
+
+ c
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ .
+
+ {\displaystyle c^{2}=a^{2}+b^{2}.}
+
+{\displaystyle c^{2}=a^{2}+b^{2}.}
+
+Num espaço com um produto interno
+
+Pode-se estender o teorema de Pitágoras a espaços com produto interno e com uma norma induzida por este. Nessa situação:
+
+ {\displaystyle \|x\|^{2}=\langle x,x\rangle .}
+
+ ‖
+ x
+
+ ‖
+
+ 2
+
+ =
+ ⟨
+ x
+ ,
+ x
+ ⟩
+ .
+
+ {\displaystyle \|x\|^{2}=\langle x,x\rangle .}
+
+{\displaystyle \|x\|^{2}=\langle x,x\rangle .}
+
+Dois vetores x e y são ditos perpendiculares se:
+
+ {\displaystyle \langle x,y\rangle =\langle y,x\rangle =0.}
+
+ ⟨
+ x
+ ,
+ y
+ ⟩
+ =
+ ⟨
+ y
+ ,
+ x
+ ⟩
+ =
+ 0.
+
+ {\displaystyle \langle x,y\rangle =\langle y,x\rangle =0.}
+
+{\displaystyle \langle x,y\rangle =\langle y,x\rangle =0.}
+
+Segue então:
+
+ {\displaystyle \|x+y\|^{2}=\langle x,x\rangle +\langle x,y\rangle +\langle y,x\rangle +\langle y,y\rangle =\|x\|^{2}+\|y\|^{2},}
+
+ ‖
+ x
+ +
+ y
+
+ ‖
+
+ 2
+
+ =
+ ⟨
+ x
+ ,
+ x
+ ⟩
+ +
+ ⟨
+ x
+ ,
+ y
+ ⟩
+ +
+ ⟨
+ y
+ ,
+ x
+ ⟩
+ +
+ ⟨
+ y
+ ,
+ y
+ ⟩
+ =
+ ‖
+ x
+
+ ‖
+
+ 2
+
+ +
+ ‖
+ y
+
+ ‖
+
+ 2
+
+ ,
+
+ {\displaystyle \|x+y\|^{2}=\langle x,x\rangle +\langle x,y\rangle +\langle y,x\rangle +\langle y,y\rangle =\|x\|^{2}+\|y\|^{2},}
+
+{\displaystyle \|x+y\|^{2}=\langle x,x\rangle +\langle x,y\rangle +\langle y,x\rangle +\langle y,y\rangle =\|x\|^{2}+\|y\|^{2},}
+
+que é o teorema de Pitágoras.
+
+Pelo rearranjo das partes
+
+Demonstração pelo rearranjo de quatro triângulos retângulos idênticos
+
+Animação mostrando outra demonstração por rearranjo.[24]
+
+Uma demonstração por rearranjo é dada pela animação à esquerda. Como a área total e as áreas dos triângulos são constantes, a área preta total é constante também. E a área preta pode ser dividida em quadrados delineados pelos lados a, b, c do triângulo, demonstrando que a2 + b2 = c2.
+
+Na animação à direita, um grande quadrado inicial é formado da área c 2 tornando adjacentes quatro triângulos retângulos idênticos, deixando um pequeno quadrado no centro do grande quadrado, de modo a acomodar a diferença de comprimentos dos lados dos triângulos. Dois retângulos são formados, de lados a e b, movendo-se os triângulos. Incorporando o pequeno quadrado central com um destes retângulos, os dois retângulos são feitos em dois quadrados de áreas a 2 e b 2, mostrando que c 2 = a 2 + b 2.
+
+Demonstração de Euclides
+
+Demonstração de Euclides do Teorema de Pitágoras
+
+A finalidade é mostrar que a área do quadrado AOMG é igual à área do quadrado AIHD e que BEFG é igual a BCHI, mostrando que o quadrado da hipotenusa é igual à soma do quadrado dos catetos. Veja que a reta definida por HL passa pelo centro do ângulo reto AGB e é ortogonal ao segmento AB. Temos que GL = AB, pois ambos são a hipotenusa do triângulo; e AB = HI, pois que ABCD é um quadrado. Logo GL=HI (o triângulo ABG é igual ao triângulo GML). Assim sendo, as áreas dos quadriláteros AIHD e ANLG são iguais, visto que têm a mesma base (HI = GL) e a mesma altura (AI). Mas temos que as áreas dos quadriláteros ANLG e AOMG são também iguais, pois que têm a base AG em comum e a mesma altura AO. Resulta que, pelo silogismo grego, se Y=Z e Z=W, então Y=W, em termos de área, vale: AIHD = ANLG e ANLG = AOMG, então AIHD = AOMG.[25]
+
+Para mostrar que BEFG = BCHI segue-se de modo análogo.[25]
+
+Euclides mostra, desta forma puramente geométrica, que a soma dos quadrados dos catetos é igual ao quadrado da hipotenusa.
+
+Recíproca
+
+O "triângulo egípcio", de medidas 3, 4, 5, é, portanto, um triângulo retângulo.
+
+A recíproca do teorema de Pitágoras também é verdadeira:[26]
+
+"Para qualquer triângulo com lados l, m, e r, se l² + m² = r², então o ângulo entre l e m mede 90°".
+
+ou, usando apenas palavras,
+
+“ | Se num triângulo o quadrado em um dos lados for igual à soma dos quadrados construídos sobre os dois lados restantes do triângulo, o ângulo formado pelos dois lados restantes do triângulo é um ângulo reto. | ” |
+
+Ela pode ser provada usando-se a lei dos cossenos.[27]
+
+Consequências e usos
+
+Talvez nenhuma outra relação geométrica seja tão utilizada em matemática como o teorema de Pitágoras. Na geometria cartesiana, muito usada em ciências e engenharia, todos os cálculos que envolvem relações espaciais e trigonometria têm como base este teorema.[28] É possível utilizar o teorema de Pitágoras em todos os polígonos, pois eles podem ser divididos em triângulos e esses em triângulos retângulos.[29] E por extensão, em todos os poliedros.
+
+A diagonal do quadrado
+
+A diagonal do quadrado divide-o em dois triângulos retângulos congruentes. Sendo {\displaystyle l}
+
+ l
+
+ {\displaystyle l}
+
+{\displaystyle l} o lado e {\displaystyle d}
+
+ d
+
+ {\displaystyle d}
+
+{\displaystyle d} a diagonal, segue que:
+ {\displaystyle d^{2}=l^{2}+l^{2}=2\,l^{2}.}
+
+ d
+
+ 2
+
+ =
+
+ l
+
+ 2
+
+ +
+
+ l
+
+ 2
+
+ =
+ 2
+
+ l
+
+ 2
+
+ .
+
+ {\displaystyle d^{2}=l^{2}+l^{2}=2\,l^{2}.}
+
+{\displaystyle d^{2}=l^{2}+l^{2}=2\,l^{2}.}
+Finalmente, o comprimento da diagonal é encontrado como:
+ {\displaystyle d={\sqrt {2\,l^{2}}}=l{\sqrt {2}}.}
+
+ d
+ =
+
+ 2
+
+ l
+
+ 2
+
+ =
+ l
+
+ 2
+
+ .
+
+ {\displaystyle d={\sqrt {2\,l^{2}}}=l{\sqrt {2}}.}
+
+{\displaystyle d={\sqrt {2\,l^{2}}}=l{\sqrt {2}}.}[30]
+
+A altura do triângulo equilátero
+
+A altura do triângulo equilátero divide-o em dois triângulos retângulos congruentes. Sendo {\displaystyle l}
+
+ l
+
+ {\displaystyle l}
+
+{\displaystyle l} o lado e {\displaystyle h}
+
+ h
+
+ {\displaystyle h}
+
+{\displaystyle h} a altura, segue que:
+
+ {\displaystyle l^{2}=h^{2}+\left({\frac {l}{2}}\right)^{2}=h^{2}+{\frac {l^{2}}{4}}}
+
+ l
+
+ 2
+
+ =
+
+ h
+
+ 2
+
+ +
+
+ (
+
+ l
+ 2
+
+ )
+
+ 2
+
+ =
+
+ h
+
+ 2
+
+ +
+
+ l
+
+ 2
+
+ 4
+
+ {\displaystyle l^{2}=h^{2}+\left({\frac {l}{2}}\right)^{2}=h^{2}+{\frac {l^{2}}{4}}}
+
+{\displaystyle l^{2}=h^{2}+\left({\frac {l}{2}}\right)^{2}=h^{2}+{\frac {l^{2}}{4}}}
+ {\displaystyle h^{2}={\frac {3\,l^{2}}{4}}.}
+
+ h
+
+ 2
+
+ =
+
+ 3
+
+ l
+
+ 2
+
+ 4
+
+ .
+
+ {\displaystyle h^{2}={\frac {3\,l^{2}}{4}}.}
+
+{\displaystyle h^{2}={\frac {3\,l^{2}}{4}}.}
+
+Finalmente, a altura do triângulo equilátero é encontrada como:
+ {\displaystyle h={\sqrt {\frac {3\,l^{2}}{4}}}={\frac {l{\sqrt {3}}}{2}}.}
+
+ h
+ =
+
+ 3
+
+ l
+
+ 2
+
+ 4
+
+ =
+
+ l
+
+ 3
+
+ 2
+
+ .
+
+ {\displaystyle h={\sqrt {\frac {3\,l^{2}}{4}}}={\frac {l{\sqrt {3}}}{2}}.}
+
+{\displaystyle h={\sqrt {\frac {3\,l^{2}}{4}}}={\frac {l{\sqrt {3}}}{2}}.}[30]
+
+A diagonal do cubo
+
+AC' (em azul) é uma diagonal do cubo, enquanto AC (em vermelho) é uma diagonal de uma de suas faces
+
+Seja a a medida da aresta de um cubo (isto é, a medida de um lado de uma das faces quadradas), pelo teorema de Pitágoras:
+ {\displaystyle AC^{2}=a^{2}+a^{2}.}
+
+ A
+
+ C
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ +
+
+ a
+
+ 2
+
+ .
+
+ {\displaystyle AC^{2}=a^{2}+a^{2}.}
+
+{\displaystyle AC^{2}=a^{2}+a^{2}.} (I)
+Pelo mesmo teorema, tem-se que:
+ {\displaystyle AC'^{2}=a^{2}+AC^{2}.}
+
+ A
+
+ C
+
+ ′
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ +
+ A
+
+ C
+
+ 2
+
+ .
+
+ {\displaystyle AC'^{2}=a^{2}+AC^{2}.}
+
+{\displaystyle AC'^{2}=a^{2}+AC^{2}.} (II)
+
+De I e II:
+ {\displaystyle AC'^{2}=a^{2}+a^{2}+a^{2}.}
+
+ A
+
+ C
+
+ ′
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ +
+
+ a
+
+ 2
+
+ +
+
+ a
+
+ 2
+
+ .
+
+ {\displaystyle AC'^{2}=a^{2}+a^{2}+a^{2}.}
+
+{\displaystyle AC'^{2}=a^{2}+a^{2}+a^{2}.}
+Então:
+ {\displaystyle AC'={\sqrt {3a^{2}}}=a{\sqrt {3}}.}
+
+ A
+
+ C
+ ′
+
+ =
+
+ 3
+
+ a
+
+ 2
+
+ =
+ a
+
+ 3
+
+ .
+
+ {\displaystyle AC'={\sqrt {3a^{2}}}=a{\sqrt {3}}.}
+
+{\displaystyle AC'={\sqrt {3a^{2}}}=a{\sqrt {3}}.}[31]
+
+Nas geometrias n-dimensionais, por raciocínio análogo pode-se obter pelo teorema de Pitágoras os valores das diagonais do hipercubo unitário em função de sua respectiva dimensão: As diagonais de quadrado, cubo, tesserato e n-cubo unitários medem, respectivamente, {\displaystyle {\sqrt {2}},}
+
+ 2
+
+ ,
+
+ {\displaystyle {\sqrt {2}},}
+
+{\displaystyle {\sqrt {2}},} {\displaystyle {\sqrt {3}},}
+
+ 3
+
+ ,
+
+ {\displaystyle {\sqrt {3}},}
+
+{\displaystyle {\sqrt {3}},} {\displaystyle {\sqrt {4}}}
+
+ 4
+
+ {\displaystyle {\sqrt {4}}}
+
+{\displaystyle {\sqrt {4}}} (ou seja, 2) e {\displaystyle {\sqrt {n}}.}
+
+ n
+
+ .
+
+ {\displaystyle {\sqrt {n}}.}
+
+{\displaystyle {\sqrt {n}}.} [32][33][34][35]
+
+Identidade trigonométrica fundamental
+
+Ver artigo principal: Identidade trigonométrica fundamental
+
+ {\displaystyle \mathrm {sen} \,\theta ={\frac {b}{c}},\quad \cos \theta ={\frac {a}{c}}.}
+
+ s
+ e
+ n
+
+ θ
+ =
+
+ b
+ c
+
+ ,
+
+ cos
+ ⁡
+ θ
+ =
+
+ a
+ c
+
+ .
+
+ {\displaystyle \mathrm {sen} \,\theta ={\frac {b}{c}},\quad \cos \theta ={\frac {a}{c}}.}
+
+{\displaystyle \mathrm {sen} \,\theta ={\frac {b}{c}},\quad \cos \theta ={\frac {a}{c}}.}
+Disso, segue que:
+
+ {\displaystyle {\cos }^{2}\theta +{\mathrm {sen} \,}^{2}\theta ={\frac {a^{2}+b^{2}}{c^{2}}}=1,}
+
+ cos
+
+ 2
+
+ θ
+ +
+
+ s
+ e
+ n
+
+ 2
+
+ θ
+ =
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ c
+
+ 2
+
+ =
+ 1
+ ,
+
+ {\displaystyle {\cos }^{2}\theta +{\mathrm {sen} \,}^{2}\theta ={\frac {a^{2}+b^{2}}{c^{2}}}=1,}
+
+{\displaystyle {\cos }^{2}\theta +{\mathrm {sen} \,}^{2}\theta ={\frac {a^{2}+b^{2}}{c^{2}}}=1,}
+
+Ternos pitagóricos
+
+Ver artigo principal: Terno pitagórico
+
+Um terno pitagórico (trio pitagórico) consiste em três números inteiros positivos a, b, e c, tais que a 2 + b 2 = c 2. Em outras palavras, um terno pitagórico representa os comprimentos dos lados de um triângulo retângulo, onde todos os três lados têm comprimentos inteiros. Essa tripla é geralmente escrita como (a, b, c ). Alguns exemplos bem conhecidos são (3, 4, 5) e (5, 12, 13).
+
+Um terno pitagórico primitivo é aquele em que a, b e c são coprimos (o máximo divisor comum de a, b e c é 1).
+
+Lista de ternos pitagóricos primitivos até 100:
+
+(3, 4, 5), (5, 12, 13), (7, 24, 25), (8, 15, 17), (9, 40, 41), (11, 60, 61), (12, 35, 37), (13, 84, 85), (16, 63, 65), (20, 21, 29), (28, 45, 53), (33, 56, 65), (36, 77, 85), (39, 80, 89), (48, 55, 73), (65, 72, 97)
+
+A incomensurabilidade
+
+Ver artigo principal: Número irracional
+
+Pitágoras sabia na época, entretanto, que seu teorema tinha uma falha: Quando os catetos do triângulo eram iguais, seu teorema não funcionava, pois não haveria uma medida racional para a hipotenusa. Conta a História que a primeira atitude de Pitágoras frente a essa incoerência na matemática foi a de esconder tal fato.[25]
+Matemáticos e geômetras que o sucederam desde aquela época tentavam compreender o porquê da incomensurabilidade – os lados do triângulo não tinham medida em comum, ou seja, não podiam ser medidos de forma exata através de uma unidade comum a ambos.[25]
+
+Com efeito, suponha que seja a hipotenusa p e que os catetos sejam iguais e representados pela letra q. Sabe-se que p / q é uma fração irredutível (se não fosse torná-la-íamos, até que não mais pudéssemos, restando um numerador par e um denominador ímpar, ou vice-versa). Da aplicação do teorema resulta p² = 2q². Obviamente p² é par, pois é o dobro de q², ou seja, vem de um produto de um número multiplicado por 2. Se p² é par, implica que p é par (o quadrado de um número par é sempre número par e o quadrado de um número ímpar é sempre número ímpar), logo q obrigatoriamente deve ser ímpar, senão a fração dada acima não seria irredutível. Fazendo agora p = 2k (o que pode ser feito, pois p é par) reescrevemos: (2k)² = 2q² simplificando resulta 4k² = 2q² que resulta 2k² = q², o que quer dizer, pelo mesmo raciocínio anterior, que q é par, o que é absurdo pois antes resultou ser ímpar. Um número não pode ser par e ímpar ao mesmo tempo.[25]
+
+A solução só veio 25 séculos depois, no século XIX, com Dedekind quando foi necessário cortar a reta dos números racionais e introduzir o conjunto dos números irracionais para suprir essa deficiência da Matemática.[25]
+
+Espiral de Teodoro
+
+Uma das consequências do teorema de Pitágoras é que comprimentos incomensuráveis (ou seja, cuja razão é um número irracional, tal como a raiz quadrada de 2) podem ser construídos, com instrumentos como régua e compasso. Um triângulo retângulo com ambos os catetos de medida unitária tem uma hipotenusa de comprimento igual à raiz quadrada de 2. A figura da direita mostra como construir segmentos de reta com comprimentos iguais à raiz quadrada de qualquer número inteiro positivo.
+
+Valor de pi
+
+Ver artigo principal: pi
+
+A fórmula para o novo perímetro em cada duplicação é deduzida dos triângulos retângulos que surgem na construção
+
+Em Sobre as Medidas do Círculo, Arquimedes utilizou o teorema de Pitágoras para calcular uma aproximação para o valor do número pi. Ele fez isso posicionando um hexágono regular circunscrito a um círculo e um hexágono regular menor inscrito no círculo, e então realizando a progressiva duplicação do número de lados de cada polígono regular assim obtido, cujo perímetro em cada nova etapa ele calculava por meio do teorema de Pitágoras.[36]
+
+Distância entre dois pontos
+
+Ver artigo principal: Geometria analítica
+
+O teorema de Pitágoras pode ser traduzido para a linguagem das coordenadas de Descartes:[37]
+
+Seja {\displaystyle A=(x_{1},y_{1})}
+
+ A
+ =
+ (
+
+ x
+
+ 1
+
+ ,
+
+ y
+
+ 1
+
+ )
+
+ {\displaystyle A=(x_{1},y_{1})}
+
+{\displaystyle A=(x_{1},y_{1})} e {\displaystyle B=(x_{2},y_{2}).}
+
+ B
+ =
+ (
+
+ x
+
+ 2
+
+ ,
+
+ y
+
+ 2
+
+ )
+ .
+
+ {\displaystyle B=(x_{2},y_{2}).}
+
+{\displaystyle B=(x_{2},y_{2}).} Para auxiliar, seja {\displaystyle C=(x_{2},y_{1}).}
+
+ C
+ =
+ (
+
+ x
+
+ 2
+
+ ,
+
+ y
+
+ 1
+
+ )
+ .
+
+ {\displaystyle C=(x_{2},y_{1}).}
+
+{\displaystyle C=(x_{2},y_{1}).}
+
+Como A e C possuem mesma ordenada, {\displaystyle d(A,C)=\left|x_{1}-x_{2}\right|.}
+
+ d
+ (
+ A
+ ,
+ C
+ )
+ =
+
+ x
+
+ 1
+
+ −
+
+ x
+
+ 2
+
+ .
+
+ {\displaystyle d(A,C)=\left|x_{1}-x_{2}\right|.}
+
+{\displaystyle d(A,C)=\left|x_{1}-x_{2}\right|.}
+
+Como B e C possuem mesma abcissa, {\displaystyle d(B,C)=\left|y_{1}-y_{2}\right|}
+
+ d
+ (
+ B
+ ,
+ C
+ )
+ =
+
+ y
+
+ 1
+
+ −
+
+ y
+
+ 2
+
+ {\displaystyle d(B,C)=\left|y_{1}-y_{2}\right|}
+
+{\displaystyle d(B,C)=\left|y_{1}-y_{2}\right|}
+
+Então {\displaystyle d(A,B)={\sqrt[{}]{d(A,C)^{2}+d(B,C)^{2}}}={\sqrt[{}]{(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}}}.}
+
+ d
+ (
+ A
+ ,
+ B
+ )
+ =
+
+ d
+ (
+ A
+ ,
+ C
+
+ )
+
+ 2
+
+ +
+ d
+ (
+ B
+ ,
+ C
+
+ )
+
+ 2
+
+ =
+
+ (
+
+ x
+
+ 1
+
+ −
+
+ x
+
+ 2
+
+ )
+
+ 2
+
+ +
+ (
+
+ y
+
+ 1
+
+ −
+
+ y
+
+ 2
+
+ )
+
+ 2
+
+ .
+
+ {\displaystyle d(A,B)={\sqrt[{}]{d(A,C)^{2}+d(B,C)^{2}}}={\sqrt[{}]{(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}}}.}
+
+{\displaystyle d(A,B)={\sqrt[{}]{d(A,C)^{2}+d(B,C)^{2}}}={\sqrt[{}]{(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}}}.}[38]
+
+Generalizações
+
+Lei dos cossenos
+
+Ver artigo principal: Lei dos cossenos
+
+O teorema de Pitágoras permite calcular um lado de um triângulo retângulo conhecendo os outros dois. A lei dos cossenos permite calculá-lo em qualquer triângulo. Assim, o teorema de Pitágoras é um caso especial do teorema mais geral que relaciona o comprimento dos lados de qualquer triângulo, a lei dos cossenos é a seguinte:
+ {\displaystyle c^{2}=a^{2}+b^{2}-2ab\cos {\theta },}
+
+ c
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ −
+ 2
+ a
+ b
+ cos
+ ⁡
+
+ θ
+
+ ,
+
+ {\displaystyle c^{2}=a^{2}+b^{2}-2ab\cos {\theta },}
+
+{\displaystyle c^{2}=a^{2}+b^{2}-2ab\cos {\theta },}
+onde θ é o ângulo entre os lados a e b. Quando θ é 90 graus, cos(θ) = 0, assim, a fórmula reduz-se ao teorema de Pitágoras.
+
+Teorema de Gua
+
+Ver artigo principal: Teorema de Gua
+
+O teorema de Pitágoras pode ser generalizado para um n-simplex retângulo: o quadrado do (n-1)-volume da hipotenusa é igual à soma dos quadrados dos (n-1)-volumes dos catetos. Em particular, num tetraedro retângulo (isto é, que tem três faces perpendiculares entre si - os "catetos"), o quadrado da área da "hipotenusa" (a face que não é perpendicular às restantes) é igual à soma dos quadrados das áreas dos catetos.
+
+Figuras semelhantes nos três lados
+
+O teorema de Pitágoras foi generalizado por Euclides em seu livro Os Elementos para estender-se além das áreas dos quadrados nos três lados, para figuras semelhantes:[39][40]
+
+“ | Erguendo-se figuras semelhantes nos lados de um triângulo retângulo, então a soma das áreas das duas menores é igual à área da maior. | ” |
+
+Outro matemático que demonstrou essa afirmação foi George Pólya, e o resultado ficou conhecido como Generalização do Teorema de Pitágoras que diz:
+
+Se C, A e B são três figuras semelhantes, construídas, respectivamente, sobre a hipotenusa e os catetos do triângulo retângulo, então as áreas das figuras A, B e C satisfazem a relação A(C) = A(A) + A(B)[41] (Podemos observar essa figura ao lado).
+
+Demonstração: Usaremos o resultado que garante que se duas figuras X e X' são semelhantes com razão de semelhança {\displaystyle K\in \mathbb {R} }
+
+ K
+ ∈
+
+ R
+
+ {\displaystyle K\in \mathbb {R} }
+
+{\displaystyle K\in \mathbb {R} }, então {\displaystyle A(X)/A(X')=K^{2}}
+
+ A
+ (
+ X
+ )
+
+ /
+
+ A
+ (
+
+ X
+ ′
+
+ )
+ =
+
+ K
+
+ 2
+
+ {\displaystyle A(X)/A(X')=K^{2}}
+
+{\displaystyle A(X)/A(X')=K^{2}}. Como as figuras A, B e C são semelhantes, temos que
+
+ {\displaystyle {\frac {A(A)}{A(C)}}=\left({\frac {a}{c}}\right)^{2}={\frac {a^{2}}{c^{2}}}\,\,\,e\,\,\,{\frac {A(B)}{A(C)}}=\left({\frac {b}{c}}\right)^{2}={\frac {b^{2}}{c^{2}}}}
+
+ A
+ (
+ A
+ )
+
+ A
+ (
+ C
+ )
+
+ =
+
+ (
+
+ a
+ c
+
+ )
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ c
+
+ 2
+
+ e
+
+ A
+ (
+ B
+ )
+
+ A
+ (
+ C
+ )
+
+ =
+
+ (
+
+ b
+ c
+
+ )
+
+ 2
+
+ =
+
+ b
+
+ 2
+
+ c
+
+ 2
+
+ {\displaystyle {\frac {A(A)}{A(C)}}=\left({\frac {a}{c}}\right)^{2}={\frac {a^{2}}{c^{2}}}\,\,\,e\,\,\,{\frac {A(B)}{A(C)}}=\left({\frac {b}{c}}\right)^{2}={\frac {b^{2}}{c^{2}}}}
+
+{\displaystyle {\frac {A(A)}{A(C)}}=\left({\frac {a}{c}}\right)^{2}={\frac {a^{2}}{c^{2}}}\,\,\,e\,\,\,{\frac {A(B)}{A(C)}}=\left({\frac {b}{c}}\right)^{2}={\frac {b^{2}}{c^{2}}}}
+
+Daí, obtemos
+
+ {\displaystyle {\frac {A(A)+A(B)}{A(C)}}={\frac {a^{2}+b^{2}}{c^{2}}}}
+
+ A
+ (
+ A
+ )
+ +
+ A
+ (
+ B
+ )
+
+ A
+ (
+ C
+ )
+
+ =
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ c
+
+ 2
+
+ {\displaystyle {\frac {A(A)+A(B)}{A(C)}}={\frac {a^{2}+b^{2}}{c^{2}}}}
+
+{\displaystyle {\frac {A(A)+A(B)}{A(C)}}={\frac {a^{2}+b^{2}}{c^{2}}}}
+
+e como o triângulo é retângulo, pelo Teorema de Pitágoras, temos que {\displaystyle c^{2}=a^{2}+b^{2}}
+
+ c
+
+ 2
+
+ =
+
+ a
+
+ 2
+
+ +
+
+ b
+
+ 2
+
+ {\displaystyle c^{2}=a^{2}+b^{2}}
+
+{\displaystyle c^{2}=a^{2}+b^{2}}, substituindo na equação anterior, encontramos
+
+ {\displaystyle {\frac {A(A)+A(B)}{A(C)}}={\frac {c^{2}}{c^{2}}}=1\Rightarrow A(C)=A(A)+A(B)}
+
+ A
+ (
+ A
+ )
+ +
+ A
+ (
+ B
+ )
+
+ A
+ (
+ C
+ )
+
+ =
+
+ c
+
+ 2
+
+ c
+
+ 2
+
+ =
+ 1
+ ⇒
+ A
+ (
+ C
+ )
+ =
+ A
+ (
+ A
+ )
+ +
+ A
+ (
+ B
+ )
+
+ {\displaystyle {\frac {A(A)+A(B)}{A(C)}}={\frac {c^{2}}{c^{2}}}=1\Rightarrow A(C)=A(A)+A(B)}
+
+{\displaystyle {\frac {A(A)+A(B)}{A(C)}}={\frac {c^{2}}{c^{2}}}=1\Rightarrow A(C)=A(A)+A(B)}
+
+Nas geometrias não euclidianas
+
+Um triângulo esférico
+
+Um triângulo hiperbólico
+
+O teorema de Pitágoras é derivado dos axiomas da geometria euclidiana, por isso, acreditava-se que a versão euclidiana não fosse válida nas geometrias não euclidianas.[42] (Foi mostrado que o teorema de Pitágoras é equivalente ao postulado das paralelas, que por sua vez, é equivalente à afirmação de que "a soma dos ângulos internos de um triângulo é igual a dois ângulos retos", usada em todas as demonstrações apresentadas do teorema).[43] Em outras palavras, numa geometria não euclidiana, a relação entre os lados de um triângulo deveria necessariamente tomar outra forma. Por exemplo, na geometria esférica, a² + b² ≠ c².
+
+Seja c a hipotenusa de um triângulo retângulo numa geometria não euclidiana e a e b os catetos. O teorema de Pitágoras toma uma das seguintes formas:
+
+- Na geometria esférica, tem-se
+
+ {\displaystyle \cos(c)=\cos(a)\cos(b).}
+
+ cos
+ ⁡
+ (
+ c
+ )
+ =
+ cos
+ ⁡
+ (
+ a
+ )
+ cos
+ ⁡
+ (
+ b
+ )
+ .
+
+ {\displaystyle \cos(c)=\cos(a)\cos(b).}
+
+{\displaystyle \cos(c)=\cos(a)\cos(b).}
+
+- Na geometria hiperbólica tem-se
+
+ {\displaystyle \cosh(c)=\cosh(a)\cosh(b).}
+
+ cosh
+ ⁡
+ (
+ c
+ )
+ =
+ cosh
+ ⁡
+ (
+ a
+ )
+ cosh
+ ⁡
+ (
+ b
+ )
+ .
+
+ {\displaystyle \cosh(c)=\cosh(a)\cosh(b).}
+
+{\displaystyle \cosh(c)=\cosh(a)\cosh(b).}
+
+Entretanto, existe uma versão para a geometria hiperbólica (usando uma métrica adequada) na qual o teorema apresenta-se no formato conhecido.[44]
+
+Quanto aos espaços vetoriais, em alguns deles o teorema de Pitágoras (ou mesmo generalizações dele) é verdadeiro e em outros ele é falso.[45] Sabe-se, por exemplo, que o teorema de Pitágoras é verdadeiro em espaços pré-hilbertianos.[46][47] Erhard Schmidt provou o teorema de Pitágoras para espaços vetoriais abstratos com produto interno.[48] Dieter Brill e Ted Jacobson derivaram o análogo do teorema de Pitágoras no espaço minkowskiano (que chamaram de "Teorema de Pitágoras para o espaço-tempo").[49]
+
+Embora o teorema de Pitágoras seja necessariamente falso em qualquer espaço descontínuo, Jean Paul Van Bendegem mostrou que num espaço desse tipo o teorema de Pitágoras pode ser usado como aproximação dentro de certos limites de tolerância.[50]
+
+O teorema de Pitágoras também foi generalizado para as geometrias riemannianas.[51] Investigações nesse tema remontam ao próprio Bernhard Riemann, e a questão acerca da validade do teorema de Pitágoras na vizinhança de um ponto foi abordada por, dentre outros, Hermann von Helmholtz, Sophus Lie e Hermann Weyl.[52]
+
+História
+
+A tabuleta Plimpton 322 registra ternos pitagóricos. (ver também: Matemática babilônica)
+
+Ilustração do livro Chou Pei Suan Ching, que sugere uma demonstração do teorema para um triângulo específico (de lados 3, 4 e 5).
+
+O teorema de Pitágoras foi descoberto independentemente nas antigas civilizações babilônica, indiana, chinesa e grega.[53][54]
+
+A história do teorema pode ser dividida em quatro partes: o conhecimento de trios pitagóricos, conhecimento da relação entre os lados de um triângulo retângulo, conhecimento das relações entre ângulos adjacentes, e demonstrações do teorema dentro de sistemas dedutivos.
+
+Egito
+
+Escrito em 1800 a.C., durante o Império Médio do Egipto, o Papiro de Berlim 6619 apresenta um problema envolvendo dois quadrados cujas áreas somam a um terceiro quadrado, cuja solução segue a proporção 6:8:10; porém, a solução não menciona a construção de um triângulo.[55] De acordo com Plutarco, os egípcios já tinham consciência da existência do triângulo reto 3:4:5, atribuindo os lados respectivamente aos deuses Osíris, Isis e Hórus.[56]
+
+O historiador da matemática alemão Moritz Cantor, tomando por base que 3² + 4² = 5² era conhecido dos egípcios e que eles usavam cordas em agrimensura, especulou que eles construíam ângulos retos por meio de uma corda com nós para formar um triângulo de lados 3, 4 e 5.[57]Por outro lado, Bartel van der Waerden afirmou que não há evidências que sustentem esta especulação,[57] visão compartilhada por Thomas Little Heath.[58]
+
+Mesopotâmia
+
+Há provas de que os antigos babilônios já conheciam o teorema muito antes de Pitágoras. Tabletes de barro do período de 1800 a.C. a 1600 a.C., durante o Império Paleobabilônico, foram encontrados e estudados, estando hoje em vários museus.[59][60][61] Um deles, Plimpton 322, escrito perto de Larsa por volta de 1800 a.C., mostra uma tabela de 15 linhas e 3 colunas, ilustrando trios pitagóricos.[62] Outra tabela similar, a YBC 7289, apresenta cálculos da diagonal de um quadrado, ou seja, os cálculos da hipotenusa de um triângulo retângulo.[63]
+
+Índia
+
+Na Índia, o Sulba Sutra escrito por Baudhayana em data incerta entre os séculos VIII a.C. e II a.C., contém uma lista de trios pitagóricos descobertos algebricamente, um enunciado do teorema de Pitágoras, e uma demonstração geométrica deste para um triângulo retângulo isósceles. O Sulba Sutra de Apastamba (ca. 600 a.C.) contém uma demonstração numérica do caso geral do teorema de Pitágoras, usando cálculo de áreas. Van der Waerden acreditava que esta demonstração "estava certamente baseada em tradições antigas". Carl Benjamin Boyer pensava que os elementos achados em Śulba-sũtram deviam ter raízes mesopotâmicas.[64]
+
+China
+
+Na China, o teorema também já era conhecido cerca de 600 anos antes do período Pitagórico. O problema "Gou Gu", do famoso livro chinês Zhoubi Saunjing é uma evidência da existência de conhecimento a respeito do teorema.[65]
+
+Grécia
+
+Pitágoras (569 a.C. - 475 a.C.) usou métodos algébricos para construir trios pitagóricos, de acordo com os comentários de Proclo sobre Euclides. Proclo, porém, escreveu entre os anos 410 e 485 d.C. Segundo Thomas Little Heath (1861–1940), não existe nenhuma atribuição específica do teorema a Pitágoras na literatura grega que se conserva dos cinco séculos posteriores à época em que Pitágoras viveu.[15] No entanto, quando autores como Plutarco e Cícero atribuíram o teorema a Pitágoras, fizeram-no de tal forma que sugeria que esta atribuição era amplamente conhecida e livre de qualquer dúvida.[15][66] "Se esta fórmula é corretamente atribuída ao próprio Pitágoras, [...] pode-se assumir com certeza que pertence ao período mais antigo da matemática pitagórica".[67]
+
+Segundo Proclo, por volta do ano 400 a.C. Platão forneceu um método para encontrar trios pitagóricos que combinava álgebra e geometria. A demonstração axiomática do teorema mais antiga que se conhece aparece nos Elementos de Euclides, que data aproximadamente do ano 300 a.C.[68]
+
+Ver também
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Álgebra
+Lista de construções do desenho geométrico
+Perpendicularidade
+Teorema
+Terno pitagórico
+Triângulo
+Trigonometria |
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Área
+Geometria
+Mosaico pitagórico
+Número irracional
+Regra do paralelogramo
+Teorema de Tales
+Terno pitagórico
+Último teorema de Fermat |
+
+Referências
+
+- ↑ Alan S. Tussy, R. David Gustafson, Diane Koenig. Prealgebra, pg. 855.
+
+- ↑ George Johnston Allman (1889). Greek Geometry from Thales to Euclid Reprinted by Kessinger Publishing LLC 2005 ed. [S.l.]: Hodges, Figgis, & Co. p. 26. ISBN 143260662X. Cópia arquivada em 5 de abril de 2023. The discovery of the law of three squares, commonly called the "theorem of Pythagoras" is attributed to him by – amongst others –Vitruvius, Diogenes Laertius, Proclus, and Plutarch ...
+
+- ↑ Heath, Vol I, p. 144.
+
+- ↑ Otto Neugebauer (1969). The exact sciences in antiquity Republication of 1957 Brown University Press 2nd ed. [S.l.]: Courier Dover Publications. p. 36. ISBN 0486223329. Cópia arquivada em 18 de novembro de 2025
+
+- ↑ Mario Livio (2003). The golden ratio: the story of phi, the world's most astonishing number. [S.l.]: Random House, Inc. p. 25. ISBN 0767908163. Cópia arquivada em 30 de julho de 2023
+
+- ↑ «Babylonian Pythagoras». mathshistory.st-andrews.ac.uk (em inglês). Arquivado do original em 21 de dezembro de 2019
+
+- ↑ Uma generalização disso é a desigualdade triangular.
+
+- ↑ a b Maor, Eli (2007). The Pythagorean Theorem: A 4,000-year History (em inglês). [S.l.]: Princeton University Press. p. 31, 39. ISBN 978-0-691-12526-8. Cópia arquivada em 15 de dezembro de 2024
+
+- ↑ «The Pythagorean Proposition, Classics in Mathematics Education Series» (PDF). Education Resources Information Center. Institute of Education Sciences (IES) of the U.S. Department of Education. Cópia arquivada (PDF) em 9 de setembro de 2026
+
+- ↑ «Proposition 47». Aleph0.clarku. Cópia arquivada em 25 de agosto de 2026
+
+- ↑ «The Pythagorean Theorem - Proof #6». jimloy (em inglês). Arquivado do original em 13 de janeiro de 2014
+
+- ↑ «Proof #16». Arquivado do original em 29 de junho de 2016
+
+- ↑ Published in a weekly mathematics column: James A Garfield (1876). The New England Journal of Education. 3: 161 as noted in William Dunham (1997). The mathematical universe: An alphabetical journey through the great proofs, problems, and personalities. [S.l.]: Wiley. p. 96. ISBN 0471176613. Cópia arquivada em 15 de dezembro de 2024 and in A calendar of mathematical dates: April 1, 1876 Arquivado em 14 de julho de 2010, no Wayback Machine. by V. Frederick Rickey
+
+- ↑ Benson, Donald C., ed. (1999). The moment of proof: mathematical epiphanies. Oxford: Oxford University Press. p. 172-173. ISBN 978-0-19-513919-8
+
+- ↑ a b c Euclides (1956) [1908]. Heiberg, Johan Ludvig, ed. Os Elementos [The Elements (3 vols.)] (em inglês). 1 (Livros I e II). [S.l.]: Dover. p. 351. ISBN 0-486-60088-2. Cópia arquivada em 21 de junho de 2025. Introdución e comentario de Sir Thomas L. Heath
+
+- ↑ Huffman, Carl (2018). «Pythagoras». Metaphysics Research Lab, Stanford University. Stanford Encyclopedia of Philosophy Archive
+
+- ↑ Pois a soma dos ângulos internos de qualquer triângulo é sempre igual a 180 graus (32ª proposição de Euclides).
+
+- ↑ «Introduction to Scaling Laws: Proof 1.6.1.». www.av8n.com
+
+- ↑ [1] Blog de Terence Tao
+
+- ↑ «2.ª edição do número especial da Revista do Professor de Matemática – RPM». RPB/Estágio OBMEP: 34-39. 2008. Cópia arquivada em 20 de abril de 2024
+
+- ↑ Proof #6 in Jim Loy, The Pythagorean Theorem
+
+- ↑ Staring, Mike (1 de fevereiro de 1996). «The Pythagorean Proposition: A Proof by Means of Calculus». Mathematics Magazine (em inglês). 69 (1). 45 páginas. doi:10.2307/2691395
+
+- ↑ Berndt, Bruce C. (janeiro de 1988). «Ramanujan—100 years old (fashioned) or 100 years new (fangled)?». The Mathematical Intelligencer (em inglês). 10 (3): 24–31. ISSN 0343-6993. doi:10.1007/BF03026638
+
+- ↑ Alexander Bogomolny. «Pythagorean Theorem, proof number 10». Cut the Knot. Cópia arquivada em 19 de setembro de 2026
+
+- ↑ a b c d e f HOGBEN, Lancelot. MARAVILHAS DA MATEMÁTICA Vol. 1 , Editora Globo, Porto Alegre, 1956.
+
+- ↑ «Euclid's Elements, Book I, Proposition 48». aleph0.clarku.edu
+
+- ↑ James Stuart Tanton. Encyclopedia of Mathematics, pg. 426.
+
+- ↑ [2] en:Alexander Givental, The Pythagorean Theorem: What is it about?
+
+- ↑ Rhoad, Milauskas & Whipple. Geometry for Enjoyment and Challenge, pg 384.
+
+- ↑ a b Osvaldo Dolce e José Nicolau Pompeo. Fundamentos de Matemática Elementar - Vol. 9 - Geometria Plana, pg. 239.
+
+- ↑ Ira K. Wolf. How to Prepare for the SAT II: Math Level IC, pg. 91.
+
+- ↑ Banchoff - Diagonals of Cubes in Different Dimensions.
+
+- ↑ Banchoff - Lengths and the Generalized Pythagorean Theorem.
+
+- ↑ Price - A Study in Dimensions: Distances Within Basic Units.
+
+- ↑ Stan Gibilisco, Understanding Einstein's Theories of Relativity, pp. 98-100.
+
+- ↑ MAOR, Eli. The Pythagorean Theorem: A 4,000-year History, pp. 50-56.
+
+- ↑ Hietaniemi, Jarkko; Macdonald, John; Orwant, Jon (2011). Mastering Algorithms with Perl. Sebastopol: O'Reilly Media. p. 426. ISBN 978-1-56592-398-0 |acessodata= requer |url= (ajuda)
+
+- ↑ A. Kolmogorov et al. Mathematics: Its Content, Methods and Meaning, pgs. 186-187.
+
+- ↑ [3] Elementos. Livro VI, Proposição 31
+
+- ↑ Elon Lages Lima. Medida e Forma em Geometria, pgs. 26-27.
+
+- ↑ Silva, João; Fanti, Ermínia; Pedroso, Hermes (julho de 2016). «Teorema de Pitágoras: extensões e generalizações» (PDF). C.Q.D.- Revista Eletrônica Paulista de Matemática. 6: 21–47. ISSN 2316-9664. doi:10.21167/cqdvol6201623169664jebselcfhap2147. Cópia arquivada (PDF) em 4 de setembro de 2024
+
+- ↑ Stephen Hawking. God Created the Integers: The Mathematical Breakthroughs That Changed History, pg 4.
+
+- ↑ Scott E. Brodie. The Pythagorean Theorem is Equivalent to the Parallel Postulate.
+
+- ↑ Ungar, Abraham. «From Pythagoras To Einstein: The Hyperbolic Pythagorean Theorem». Foundations of physics. doi:10.1023/A:1018874826277 |acessodata= requer |url= (ajuda)
+
+- ↑ Charles R. Leake, Hidden symbolism in verbal problems taught to students in mathematics classes (publicado em Semiotica 125 (1-3):155-164 (1999)).
+
+- ↑ David C. Nachman, Notes on Hilbert Space: The Projection Theorem and Some of Its Consequences, p. 3.
+
+- ↑ Hilbert space. Encyclopedia of Mathematics. URL: https://www.encyclopediaofmath.org/index.php?title=Hilbert_space&oldid=24082
+
+- ↑ Elliott Ward Cheney, David Ronald Kincaid. Linear Algebra: Theory and Applications, p. 544.
+
+- ↑ Dieter Brill, Ted Jacobson. Spacetime and Euclidean Geometry.
+
+- ↑ John R. McKie. Transition and Contradiction (publicado em Philosophica 50 (1992, 2) pp. 19-32), p. 23.
+
+- ↑ Lawrence Sklar. Space, Time, and Spacetime, p. 47.
+
+- ↑ Max Jammer. Concepts of Space: The History of Theories of Space in Physics, pp. 141-142.
+
+- ↑ Anna Barry - Was Pythagoras the First to Discover Pythagoras’s Theorem?
+
+- ↑ Barry, Anna (1 de maio de 2013). «Was Pythagoras the First to Discover Pythagoras's Theorem?» Pitágoras foi o primeiro a descobrir o Teorema de Pitágoras?. Society for Industrial and Applied Mathematics (em inglês). Arquivado do original em 7 de julho de 2014
+
+- ↑ Gillings, Richard J. (1982). Mathematics in the Time of the Pharaohs. Nova Iorque: Dover. p. 161
+
+- ↑ Plutarch; Babbitt, Frank Cole, (trad.). Isis and Osiris, by Plutarch. [S.l.]: Harvard University Press
+
+- ↑ a b Craig Smorynski - History of Mathematics: A Supplement, pg. 14
+
+- ↑ Eli Maor - The Pythagorean Theorem: A 4,000-Year History, pg. 15
+
+- ↑ Neugebauer, Otto (1991). The exact sciences in Antiquity Facsim. ed. ed. New York: Dover. p. 36. ISBN 978-0-486-22332-2 |acessodata= requer |url= (ajuda) !CS1 manut: Texto extra (link)
+
+- ↑ Friberg, Jöran (agosto de 1981). «Methods and traditions of Babylonian mathematics». Historia Mathematica (em inglês). 8 (3): 306. doi:10.1016/0315-0860(81)90069-0. Cópia arquivada em 1 de setembro de 2025
+
+- ↑ Robson, Eleanor (1 de janeiro de 2009). Mathematics in Ancient Iraq. [S.l.]: Princeton University Press. ISBN 978-0-691-20140-5
+
+- ↑ Robson, Eleanor (agosto de 2001). «Neither Sherlock Holmes nor Babylon: A Reassessment of Plimpton 322». Historia Mathematica (em inglês). 28 (3): 167–206. doi:10.1006/hmat.2001.2317. Cópia arquivada em 1 de junho de 2025
+
+- ↑ Mackinnon, Nick (março de 1992). «Homage to Babylonia». The Mathematical Gazette (em inglês). 76 (475): 158–178. ISSN 0025-5572. doi:10.2307/3620389
+
+- ↑ Boyer, Carl Benjamin (1968). «China and India». In: Wiley. A history of mathematics (em inglês). "encontramos regras para a construção de ângulos retos mediante o uso de cordas divididas em três partes cujas longitudes formam uma terna pitagórica, como, por exemplo 3:4:5, 5:12:13, 8:15:17 ou 12:35:37. Porém todas estas ternas podem ser derivadas facilmente das antigas regras babilônicas; por tanto, é bastante provável a influencia mesopotâmica nos Sulvasũtras. Aspastamba sabia que o quadrado da diagonal de um retângulo é igual à soma dos quadrados dos dois lados adjacentes, mas esta forma do teorema de Pitágoras também pode ser derivada da Mesopotâmia. [...] Tão conjecturais são a origem e o período dos Sulvasũtras que não se pode dizer se estas regras estão relacionadas ou não com a agrimensura egípcia ou com o posterior problema grego da duplicação do altar. Há várias datações num amplo período de quase um milênio, desde o século VIII a.C. até o século II de nossa era.". [S.l.: s.n.] p. 229 . Veja-se também Boyer, Carl B.; Merzbach, Uta C. (2010). A History of Mathematics (em inglês) 3ª ed. [S.l.]: Wiley. ISBN 0-470-52548-7
+
+- ↑ Proof of Guogu or Pythagoras' Theorem Arquivado em 12 de julho de 2010, no Wayback Machine. (em inglês)
+
+- ↑ *Heath, Sir Thomas (1921). «The 'Theorem of Pythagoras'». A History of Greek Mathematics (2 Vols.) Dover Publications, Inc. (1981) ed. [S.l.]: Clarendon Press, Oxford. p. 144 ff. ISBN 0-486-24073-8
+
+- ↑ Uma cuidadosa discussão das contribuições de Hipaso pode ser encontrada em Kurt Von Fritz (Abril de 1945). Annals of Mathematics, ed. «The Discovery of Incommensurability by Hippasus of Metapontum». The Annals of Mathematics. Second Series (em inglês). 46 (2): 242–264. JSTOR 1969021
+
+- ↑ Aaboe, Asger (1997). Mathematical Association of America, ed. Episodes from the early history of mathematics (em inglês). "... não foi antes de Euclides que achamos uma sequência lógica de teoremas gerais com demonstrações adequadas.". [S.l.: s.n.] p. 51. ISBN 0-88385-613-1. Cópia arquivada em 30 de janeiro de 2026
+
+Ligações externas
+
+- Demonstração do teorema de Pitágoras (segundo Euclides)
+
+- «Pythagorean Theorem and its many proofs» (em inglês). O teorema de Pitágoras e suas muitas demonstrações, no Cut-the-Knot.
+
+- Geometria Analítica e Desenho Geométrico, Unicamp: Teorema de Pitágoras Introdução, a demonstração de Da Vinci, e História do teorema.
+
+-
+Portal da matemática

@@ -1,0 +1,12 @@
+{
+ "docid": "es_wiki_covalente",
+ "url": "https://es.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Enlace+covalente&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "es.wikipedia.org",
+ "title": "Enlace covalente",
+ "fetched": "2026-11-12",
+ "chars": 2088,
+ "lang": "es",
+ "mode": "html",
+ "trimmed": true
+}

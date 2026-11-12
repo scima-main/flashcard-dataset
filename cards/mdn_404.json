@@ -1,0 +1,68 @@
+{
+ "docid": "mdn_404",
+ "N": 11,
+ "lang": "en",
+ "discipline": "computer_science",
+ "provenance": "technical_documentation",
+ "difficulty": "secondary",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What does the HTTP 404 Not Found status code indicate?",
+   "a": "That the server cannot find the requested resource.",
+   "type": "def"
+  },
+  {
+   "q": "What are links that lead to a 404 page often called?",
+   "a": "Broken or dead links.",
+   "type": "def"
+  },
+  {
+   "q": "What phenomenon are broken links subject to?",
+   "a": "Link rot.",
+   "type": "def"
+  },
+  {
+   "q": "Why should the number of broken links on a website be minimised?",
+   "a": "404 errors lead to a poor user experience and frustration for readers.",
+   "type": "mech"
+  },
+  {
+   "q": "What are common causes of 404 responses?",
+   "a": "Mistyped URLs, or pages moved or deleted without redirection.",
+   "type": "quant"
+  },
+  {
+   "q": "In which Apache file can a path to a custom 404 page be specified?",
+   "a": "A .htaccess file.",
+   "type": "quant"
+  },
+  {
+   "q": "Which Apache directive sets a custom 404 page in the MDN example?",
+   "a": "ErrorDocument 404 /notfound.html.",
+   "type": "quant"
+  },
+  {
+   "q": "Which filenames are commonly used for a custom 404 page at the server's top level?",
+   "a": "404.html or 404.php.",
+   "type": "quant"
+  },
+  {
+   "q": "In the example 404 response, what is the Cache-Control value?",
+   "a": "max-age=604800.",
+   "type": "quant"
+  },
+  {
+   "q": "Does a 404 status indicate whether the resource's absence is temporary or permanent?",
+   "a": "No; it only indicates the resource is missing, without indicating if this is temporary or permanent.",
+   "type": "contrast"
+  },
+  {
+   "q": "Which status should a server send instead of 404 if a resource is permanently removed?",
+   "a": "410 Gone.",
+   "type": "contrast"
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+Protein blot (Western) hub
+
+From OpenWetWare
+
+(Redirected from Western blot)
+
+Jump to navigationJump to search
+
+The protein blot, also know as Western blot or immunoblot, is one of the most tried and true experiments for antibody-dependent determination of protein expression/presence in a sample. This pages directs you both to the general and lab-specific protocols regarding protein blotting.
+
+Contents
+
+- 1 General protein blot protocol
+
+- 2 Western blot protocols by individual labs
+
+- 3 See also
+
+- 4 External links
+
+General protein blot protocol
+
+- Protein blot (Western)
+
+Western blot protocols by individual labs
+
+- Endy:Tris-Tricine Acrylamide Gels
+
+- Endy:E. coli Western Blot
+
+- Endy: General Western Blot
+
+- Odom:Western Blot
+
+- Sauer:Western blot
+
+- Ketner: Tissue culture viral lysate Western Blot
+
+- Tissue preparation for western blot
+
+See also
+
+- Griffin:Membrane Stripping and Reprobing
+
+- Griffin:Western Blot Optimization
+
+External links
+
+- Western blot on Wikipedia
+
+- Discussion on Western blots on Protocol Online
+
+- Quantifying protein blot (Western) band without expensive software - Photoshop, ImageJ
+
+Retrieved from "https://openwetware.org/mediawiki/index.php?title=Protein_blot_(Western)_hub&oldid=610610"
+
+Categories:
+
+- Protocol
+
+- In vitro
+
+- Protein
+
+Navigation menu
+
+Page actions
+
+- Page
+
+- Talk
+
+- Read
+
+- View source
+
+- History
+
+- Refresh
+
+Page actions
+
+- Page
+
+- Talk
+
+- More
+
+- Tools
+
+Personal tools
+
+- Log in
+
+- Request account
+
+Navigation
+
+- Main Page
+
+- Recent changes
+
+- Help
+
+- Contact OWW
+
+- Add a Lab Notebook
+
+- Special pages
+
+Search
+
+research
+
+- Materials
+
+- Protocols
+
+- Resources
+
+Tools
+
+- What links here
+
+- Related changes
+
+- Printable version
+
+- Permanent link
+
+- Page information
+
+- Cite this page
+
+- Browse properties
+
+ Powered by MediaWiki
+
+ Powered by Semantic MediaWiki
+
+- This page was last edited on 27 June 2012, at 09:17.
+
+- Content is available under GNU FDL or Creative Commons BY-SA unless otherwise noted.
+
+- About OpenWetWare
+
+- Disclaimers
+
+- Mobile view

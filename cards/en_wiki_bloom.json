@@ -1,0 +1,113 @@
+{
+ "docid": "en_wiki_bloom",
+ "N": 20,
+ "lang": "en",
+ "discipline": "computer_science",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "long",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is a Bloom filter?",
+   "a": "A space-efficient probabilistic data structure used to test whether an element is a member of a set.",
+   "type": "def"
+  },
+  {
+   "q": "What are the two possible answers returned by a Bloom filter query?",
+   "a": "\"Possibly in set\" or \"definitely not in set\".",
+   "type": "def"
+  },
+  {
+   "q": "Which Bloom filter variant addresses the inability to remove elements?",
+   "a": "The counting Bloom filter.",
+   "type": "def"
+  },
+  {
+   "q": "What is an empty Bloom filter?",
+   "a": "A bit array of m bits, all set to 0.",
+   "type": "def"
+  },
+  {
+   "q": "What do the k hash functions of a Bloom filter do?",
+   "a": "Map set elements to one of the m possible array positions.",
+   "type": "def"
+  },
+  {
+   "q": "What happens to the probability of false positives as more items are added to a Bloom filter?",
+   "a": "It increases.",
+   "type": "mech"
+  },
+  {
+   "q": "In Bloom's hyphenation example, why do the remaining 10% of words matter?",
+   "a": "They require expensive disk accesses to retrieve specific hyphenation patterns.",
+   "type": "mech"
+  },
+  {
+   "q": "For optimality, which two properties should a Bloom filter's hash functions have?",
+   "a": "They should be uniformly distributed and independent.",
+   "type": "mech"
+  },
+  {
+   "q": "What does the choice of k in a Bloom filter depend on?",
+   "a": "The desired false error rate ε; k is typically a small constant.",
+   "type": "mech"
+  },
+  {
+   "q": "What is m, the Bloom filter's bit-array size, proportional to?",
+   "a": "k and the number of elements to be added.",
+   "type": "mech"
+  },
+  {
+   "q": "How is an element added to a Bloom filter?",
+   "a": "Feed it to each of the k hash functions to get k array positions, then set the bits at all these positions to 1.",
+   "type": "mech"
+  },
+  {
+   "q": "When testing an element in a Bloom filter, what does a 0 at any of the k positions prove?",
+   "a": "That the element is definitely not in the set.",
+   "type": "mech"
+  },
+  {
+   "q": "Who conceived the Bloom filter?",
+   "a": "Burton Howard Bloom.",
+   "type": "quant"
+  },
+  {
+   "q": "In what year was the Bloom filter conceived?",
+   "a": "1970.",
+   "type": "quant"
+  },
+  {
+   "q": "In Bloom's hyphenation example, how many words were in the dictionary?",
+   "a": "500,000 words.",
+   "type": "quant"
+  },
+  {
+   "q": "In Bloom's hyphenation example, what percentage of words follow simple hyphenation rules?",
+   "a": "90%.",
+   "type": "quant"
+  },
+  {
+   "q": "A Bloom filter hash area of what relative size still eliminates 87% of disk accesses?",
+   "a": "Only 18% of the size needed by an ideal error-free hash.",
+   "type": "quant"
+  },
+  {
+   "q": "How many bits per element are required for a 1% false positive probability in a Bloom filter?",
+   "a": "Fewer than 10 bits per element, independent of the size or number of elements in the set.",
+   "type": "quant"
+  },
+  {
+   "q": "Are false negatives possible in a Bloom filter?",
+   "a": "No — false positive matches are possible, but false negatives are not.",
+   "type": "contrast"
+  },
+  {
+   "q": "Can elements be removed from a standard Bloom filter?",
+   "a": "No; elements can be added to the set but not removed.",
+   "type": "contrast"
+  }
+ ]
+}

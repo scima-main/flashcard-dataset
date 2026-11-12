@@ -1,0 +1,11 @@
+{
+ "docid": "ar_wiki_desert",
+ "url": "https://ar.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=%D8%AA%D8%B5%D8%AD%D8%B1&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "ar.wikipedia.org",
+ "title": "تصحر",
+ "fetched": "2026-11-12",
+ "chars": 16979,
+ "lang": "ar",
+ "mode": "html"
+}

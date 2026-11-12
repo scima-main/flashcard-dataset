@@ -1,0 +1,68 @@
+{
+ "docid": "en_wiki_chelation",
+ "N": 11,
+ "lang": "en",
+ "discipline": "chemistry",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "short",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is chelation?",
+   "a": "A type of bonding and sequestration of metal atoms.",
+   "type": "def"
+  },
+  {
+   "q": "What names are given to the ligand involved in chelation?",
+   "a": "Chelant, chelator, chelating agent, or sequestering agent.",
+   "type": "def"
+  },
+  {
+   "q": "What bonding arrangement forms the ring structure in chelation?",
+   "a": "Two or more separate dative covalent bonds between a ligand and a single metal atom.",
+   "type": "mech"
+  },
+  {
+   "q": "Why is a crab's claw used as the metaphor for chelation?",
+   "a": "Because the ligand molecule or molecules hold the metal atom like the claws of a crab.",
+   "type": "mech"
+  },
+  {
+   "q": "How many chelate rings do ligands of higher denticity form?",
+   "a": "Two or more.",
+   "type": "mech"
+  },
+  {
+   "q": "What is chelation therapy used for?",
+   "a": "Removing toxic metals from the body.",
+   "type": "mech"
+  },
+  {
+   "q": "What does the Greek word χηλή (chēlē), the origin of \"chelation\", mean?",
+   "a": "Claw.",
+   "type": "quant"
+  },
+  {
+   "q": "Who first applied the term \"chelate\"?",
+   "a": "Sir Gilbert T. Morgan and H. D. K. Drew.",
+   "type": "quant"
+  },
+  {
+   "q": "In what year was the term \"chelate\" first applied?",
+   "a": "1920.",
+   "type": "quant"
+  },
+  {
+   "q": "What type of chelate ring does ethylenediamine form when binding a metal?",
+   "a": "A C2N2M chelate ring.",
+   "type": "quant"
+  },
+  {
+   "q": "In which medical imaging application is chelation useful?",
+   "a": "As contrast agents in MRI scanning.",
+   "type": "quant"
+  }
+ ]
+}

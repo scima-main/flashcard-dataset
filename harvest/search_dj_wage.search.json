@@ -1,0 +1,51 @@
+{
+ "query": "minimum wage employment",
+ "url": "https://www.doaj.org/api/search/articles/minimum%20wage%20employment?pageSize=5",
+ "results": [
+  {
+   "title": "A minimum wage solution to halving world poverty by 2015: A stakeholder approach",
+   "abstract": "The UNDP has set Millennium Goals which include the halving of world poverty by 2015. This was translated into reducing by half the number of people living in abject poverty. We examine some existing poverty reduction solutions which are being experimented with, including aid (with central planning with participatory development), property rights, education, microfinance, bottom of the pyramid inclusion, and public sector employment, and find that these have been inadequate to the task, even conjointly. We add a minimum wage based solution.",
+   "journal": "IIMB Management Review",
+   "year": "2013",
+   "licence": null,
+   "doi": "10.1016/j.iimb.2012.11.001",
+   "url": "http://www.sciencedirect.com/science/article/pii/S0970389612001188"
+  },
+  {
+   "title": "Employment First* (not only)",
+   "abstract": "Do you know your preferred employment outcome? Many of you reading this editorial may not have a disability, but if you do and you qualify to receive employment services, your options are being limited as you read this because of a policy known as Employment First. This approach sets “community-based, integrated employment – which pays at least the minimum wage – [as] the first option for employment services for youth and adults with significant disabilities” (Scaglione, 2015). Employment First is a federal policy that has been adopted in many states, and is currently being set in New York State after Governor Cuomo issued an Executive Order establishing an Employment First policy commission in September 2014 (Executive Order No. 136, 2014). To understand how this policy has come about, it is crucial that we understand its origins in the evolving definition of inclusion.",
+   "journal": "Columbia Social Work Review",
+   "year": "2019",
+   "licence": null,
+   "doi": null,
+   "url": "https://journals.library.columbia.edu/index.php/cswr/article/view/1869"
+  },
+  {
+   "title": "The Role of Unemployment, Financial Hardship, and Economic Recession on Suicidal Behaviors and Interventions to Mitigate Their Impact: A Review",
+   "abstract": "Understanding the social determinants and risk factors for suicidal behaviors underlies the development of effective suicide prevention interventions. This review focused on recently published literature (2010 onwards), with the aim to determine the role of economic factors (at the individual and population level) on suicidal behaviors and ideation as well as the effectiveness of interventions addressing these factors in reducing suicidal behaviors and ideation. Where available, literature examining the economic impact of COVID-19 was highlighted. Economic recession and unemployment are associated with increased risk of suicidal behavior at the population and individual level. Additionally, personal financial problems such as debt and financial strain are associated with increased risk of suicidal behavior and ideation at the individual level. Regarding interventions, unemployment benefits, employment protection legislation, higher minimum wage and active labor market programs may reduce suicide at the population level. However, it is not clear what impact they have at the individual level, nor in relation to suicide attempts, self-harm, or suicidal ideation. There was a lack of evidence as to the effectiveness of financially focused suicide prevention interventions at either level. Current findings were contextualized within, and advance, prominent social theoretical models. Recommendations focused on future areas of research, including the unfolding economic impact of COVID-19, as well as the co-design and evaluation of tailored interventions and/or gatekeeper training for those in the financial and welfare sector, and enhanced early education aimed at increasing financial literacy in young people before onset or exacerbation of financial hardship.",
+   "journal": "Frontiers in Public Health",
+   "year": "2022",
+   "licence": null,
+   "doi": "10.3389/fpubh.2022.907052",
+   "url": "https://www.frontiersin.org/articles/10.3389/fpubh.2022.907052/full"
+  },
+  {
+   "title": "Low-Wage Workers and Health Insurance Coverage: Can Policymakers Target Them through Their Employers?",
+   "abstract": "Many policy initiatives to increase health insurance coverage would subsidize employers to offer coverage or subsidize employees to participate in their employers' health plans. Using data from the 1997 Robert Wood Johnson Foundation Employer Health Insurance Survey, we contrast “low-wage employers” with all other employers. Employees in low-wage businesses have significantly worse access to employment-based insurance than other employees do; they are less likely to work for an employer that offers insurance, less likely to be eligible if working in a business that offers insurance, and less likely to be enrolled if eligible. Low-wage employers contribute lower shares of premiums and offer less generous benefits than other employers do. Policies that would target subsidies to selected employers to increase insurance offers to low-wage workers are difficult to design, however, because several commonly mentioned employer characteristics (including firm size) are found to be poor indicators of low-wage worker concentration. Programs that would set minimum standards for employer plans to be eligible for “buy-ins” need to base these standards on the less generous terms offered by low-wage employers in order to effectively reach low-wage workers and their dependents.",
+   "journal": "Inquiry: The Journal of Health Care Organization, Provision, and Financing",
+   "year": "2001",
+   "licence": null,
+   "doi": "10.5034/inquiryjrnl_38.3.331",
+   "url": "https://doi.org/10.5034/inquiryjrnl_38.3.331"
+  },
+  {
+   "title": "Precarious work and its impact on health: a study of female textile workers in Lahore and Faisalabad",
+   "abstract": "IntroductionThis study aimed to examine work conditions, wage disparities, and health outcomes among female textile workers in Lahore and Faisalabad districts, employing a cross-sectional design to survey 541 participants.MethodsUtilizing the Respiratory Health Questionnaire, validated with a Cronbach alpha of 0.7762, alongside OLS and Logit regression models, the research investigated the interplay between employment conditions and health risks.ResultsThe analysis revealed significant wage discrepancies, with permanent employees earning PKR 1,896 more on average than their temporary counterparts (p &lt; 0.01), and identified a strong correlation between employment type, excessive work hours, and health issues. Permanent contracts were associated with a 2.4-fold increase in the likelihood of excessive work hours (p &lt; 0.01), while higher wages and dustier work environments were positively correlated with longer working hours. Conversely, social security benefits were linked to reduced excessive work hours (OR = 0.060956, p &lt; 0.01). Furthermore, precarious work conditions, notably overtime and temporary contracts, significantly elevated the risk of respiratory problems and other health issues, with overtime work markedly increasing the likelihood of adverse health outcomes, including blood phlegm (OR = 11.285, p &lt; 0.01) and fatigue (OR = 7.579, p &lt; 0.01).DiscussionThe findings underscore the critical need for policy interventions to improve work conditions, enforce minimum wage and work hour standards, and ensure the provision of social security benefits to mitigate health risks among this vulnerable worker group.",
+   "journal": "Frontiers in Public Health",
+   "year": "2025",
+   "licence": null,
+   "doi": "10.3389/fpubh.2025.1529594",
+   "url": "https://www.frontiersin.org/articles/10.3389/fpubh.2025.1529594/full"
+  }
+ ]
+}

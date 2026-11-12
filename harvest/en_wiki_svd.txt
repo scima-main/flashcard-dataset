@@ -1,0 +1,684 @@
+This article includes a list of references, related reading, or external links, but its sources remain unclear because it lacks inline citations. Please help improve this article by introducing more precise citations. (March 2026) (Learn how and when to remove this message) |
+
+Illustration of the singular value decomposition UΣV* of a real 2 × 2 matrix M.
+
+- Top: The action of M, indicated by its effect on the unit disc D and the two canonical unit vectors e1 and e2.
+
+- Left: The action of V*, a rotation, on D, e1, and e2.
+
+- Bottom: The action of Σ, a scaling by the singular values σ1, horizontally, and σ2, vertically.
+
+- Right: The action of U, another rotation.
+
+In linear algebra, the singular value decomposition (SVD) is a factorization of a real or complex matrix into a rotation, followed by a scaling, followed by another rotation. It generalizes the eigendecomposition of a square normal matrix with an orthonormal eigenbasis to any ⁠m×n⁠ matrix. It is related to the polar decomposition, and is a common means for implementing low-rank approximation for matrices.
+
+Specifically, the singular value decomposition of an m×n complex matrix ⁠𝐌⁠ is a factorization of the form ⁠𝐌=𝐔𝜮𝐕∗⁠, where ⁠𝐔⁠ is an ⁠m×m⁠ complex unitary matrix, 𝜮 is an m×n rectangular diagonal matrix with non-negative real numbers on the diagonal, ⁠𝐕⁠ is an n×n complex unitary matrix, and ⁠𝐕∗⁠ is the conjugate transpose of ⁠𝐕⁠. Such decompositions always exist for any complex matrix. If ⁠𝐌⁠ is real, then some ⁠𝐔⁠ and ⁠𝐕⁠ can be found which are real (orthogonal) matrices; a real-valued SVD is often denoted ⁠𝐔𝜮𝐕𝖳⁠, where ⁠𝐕𝖳⁠ is the transpose of ⁠𝐕⁠.
+
+The diagonal entries σi=𝜮i,i of 𝜮 are uniquely determined by ⁠𝐌⁠, up to reordering, and are known as the singular values of ⁠𝐌⁠. Conventionally they are arranged in descending order (from largest to smallest), which uniquely determines ⁠𝜮⁠. The number of non-zero singular values, allowing repetitions, is equal to ⁠r⁠, the rank of ⁠𝐌⁠.
+
+The columns of ⁠𝐔⁠ and the columns of ⁠𝐕⁠ are called left-singular vectors and right-singular vectors of ⁠𝐌⁠, respectively. They form two orthonormal bases, ⁠{𝐮1,…,𝐮m}⁠ and ⁠{𝐯1,…,𝐯n}⁠. In general the SVD is not unique, with certain unitary transformations of ⁠𝐔⁠ and ⁠𝐕⁠ producing valid alternative decompositions.
+
+The term SVD sometimes refers to the compact SVD, a similar decomposition ⁠𝐌=𝐔r𝜮r𝐕r∗⁠, in which ⁠𝜮r⁠ is an ⁠r×r⁠ matrix with only the non-zero singular values (allowing repetitions) on its main diagonal. In this variant, ⁠𝐔r⁠ is an ⁠m×r⁠ semi-unitary matrix whose columns ⁠{𝐮1,…,𝐮r}⁠ span the columns of ⁠𝐌⁠, and 𝐕r is an ⁠n×r⁠ semi-unitary matrix whose columns ⁠{𝐯1,…,𝐯r}⁠ span the columns of ⁠𝐌∗⁠.
+
+The SVD (with sorted singular values) splits ⁠𝐌⁠ into a sum of ⁠r⁠ rank-⁠1⁠ matrices, 𝐌=σ1𝐮1𝐯1∗+σ2𝐮2𝐯2∗+⋯+σr𝐮r𝐯r∗.
+
+Mathematical applications of the SVD include computing the pseudoinverse, matrix approximation, and determining the rank, range, and null space of a matrix. The SVD is also extremely useful in many areas of science, engineering, and statistics, such as signal processing, least squares fitting of data, and process control.
+
+Intuitive interpretations
+
+Animated illustration of the SVD of a 2D, real shearing matrix M. First, we see the unit disc in blue together with the two canonical unit vectors. We then see the actions of M, which distorts the disk to an ellipse. The SVD decomposes M into three simple transformations: an initial rotation V*, a scaling Σ along the coordinate axes, and a final rotation U. The lengths σ1 and σ2 of the semi-axes of the ellipse are the singular values of M, namely Σ1,1 and Σ2,2.
+
+Visualization of the matrix multiplications in singular value decomposition
+
+Rotation/reflection, coordinate scaling, rotation/reflection
+
+In the special case when ⁠𝐌⁠ is an ⁠m×m⁠ real square matrix, the matrices ⁠𝐔⁠ and ⁠𝐕∗⁠ can be chosen to be real orthogonal ⁠m×m⁠ matrices. ⁠𝐌⁠ can be interpreted to represent a linear transformation ⁠𝐱↦𝐌𝐱⁠ of the Euclidean space ⁠ℝm⁠; then the matrices ⁠𝐔⁠ and ⁠𝐕∗⁠ represent rotations or reflections of the space, while ⁠𝜮⁠ represents the scaling of each coordinate ⁠𝐱i⁠ by the factor ⁠σi⁠. Thus the SVD decomposition breaks down any linear transformation of ⁠ℝm⁠ into a composition of three geometric transformations: a rotation or reflection ⁠𝐕∗⁠ followed by a coordinate-by-coordinate scaling ⁠𝜮⁠ followed by another rotation or reflection ⁠𝐔⁠.
+
+In particular, if ⁠𝐌⁠ has a positive determinant, then ⁠𝐔⁠ and ⁠𝐕∗⁠ can be chosen to be both rotations with reflections, or both rotations without reflections. If the determinant is negative, exactly one of them will have a reflection. If the determinant is zero, each can be independently chosen to be of either type.
+
+In the more general case when the matrix ⁠𝐌⁠ is real but not square, namely ⁠m×n⁠ with ⁠m≠n⁠, it can be interpreted as a linear transformation from ⁠ℝn⁠ to ⁠ℝm⁠. Then ⁠𝐔⁠ and ⁠𝐕∗⁠ can be chosen to be rotations/reflections of ⁠ℝm⁠ and ⁠ℝn⁠, respectively; and ⁠𝜮⁠, besides scaling the first ⁠min⁡{m,n}⁠ coordinates, also extends the vector with zeros and Σ, i.e. removes trailing coordinates, so as to turn ⁠ℝn⁠ into ⁠ℝm⁠.
+
+Singular values as semiaxes of an ellipse or ellipsoid
+
+As shown in the figure, the singular values can be interpreted as the magnitude of the semiaxes of an ellipse in 2D. This concept can be generalized to ⁠n⁠-dimensional Euclidean space, with the singular values of any ⁠n×n⁠ square matrix being viewed as the magnitude of the semiaxis of an ⁠n⁠-dimensional ellipsoid. Similarly, the singular values of any ⁠m×n⁠ matrix can be viewed as the magnitude of the semiaxis of an ⁠n⁠-dimensional ellipsoid in ⁠m⁠-dimensional space, for example as an ellipse in a (tilted) 2D plane in a 3D space. Singular values encode magnitude of the semiaxis, while singular vectors encode direction. See below for further details.
+
+The columns of U and V are orthonormal bases
+
+Since ⁠𝐔⁠ and ⁠𝐕∗⁠ are unitary, the columns of each of them form a set of orthonormal vectors, which can be regarded as basis vectors. The matrix ⁠𝐌⁠ maps the basis vector ⁠𝐯i⁠ to the stretched unit vector ⁠σi𝐮i⁠. By the definition of a unitary matrix, the same is true for their conjugate transposes ⁠𝐔∗⁠ and ⁠𝐕⁠, except the geometric interpretation of the singular values as stretches is lost. In short, the columns of ⁠𝐔⁠, ⁠𝐔∗⁠, ⁠𝐕⁠, and ⁠𝐕∗⁠ are orthonormal bases. When ⁠𝐌⁠ is a positive-semidefinite Hermitian matrix, ⁠𝐔⁠ and ⁠𝐕⁠ are both equal to the unitary matrix used to diagonalize ⁠𝐌⁠. However, when ⁠𝐌⁠ is not positive-semidefinite and Hermitian but still diagonalizable, its eigendecomposition and singular value decomposition are distinct.
+
+Relation to the four fundamental subspaces
+
+- The first ⁠r⁠ columns of ⁠𝐔⁠ are a basis of the column space of ⁠𝐌⁠.
+
+- The last ⁠m−r⁠ columns of ⁠𝐔⁠ are a basis of the null space of ⁠𝐌∗⁠.
+
+- The first ⁠r⁠ columns of ⁠𝐕⁠ are a basis of the column space of ⁠𝐌∗⁠ (the row space of ⁠𝐌⁠ in the real case).
+
+- The last ⁠n−r⁠ columns of ⁠𝐕⁠ are a basis of the null space of ⁠𝐌⁠.
+
+Geometric meaning
+
+Because ⁠𝐔⁠ and ⁠𝐕⁠ are unitary, the columns ⁠𝐮1,…,𝐮m⁠ of ⁠𝐔⁠ are an orthonormal basis of ⁠ℂm⁠ and the columns ⁠𝐯1,…,𝐯n⁠ of ⁠𝐕⁠ are an orthonormal basis of ⁠ℂn⁠ (with respect to the standard scalar products on these spaces).
+
+The linear transformation
+T:{ℂn→ℂm𝐱↦𝐌𝐱
+has a particularly simple description with respect to these orthonormal bases: we have
+T(𝐯i)=σi𝐮i,i=1,…,min⁡{m,n},
+where ⁠σi⁠ is the ⁠i⁠-th diagonal entry of ⁠𝜮⁠, and ⁠T(𝐯i)=𝟎⁠ for ⁠i>min⁡{m,n}⁠.
+
+The geometric content of the SVD theorem can thus be summarized as follows: for every linear map ⁠T:ℂn→ℂm⁠ one can find orthonormal bases of ⁠ℂn⁠ and ⁠ℂm⁠ such that ⁠T⁠ maps the ⁠i⁠-th basis vector of ⁠ℂn⁠ to a non-negative multiple of the ⁠i⁠-th basis vector of ⁠ℂm⁠, and sends the leftover basis vectors to zero. With respect to these bases, the map ⁠T⁠ is therefore represented by a diagonal matrix with non-negative real diagonal entries.
+
+To get a more visual flavor of singular values and SVD factorization – at least when working on real vector spaces – consider the unit sphere ⁠S⁠ in ⁠ℝn⁠. The linear map ⁠T⁠ maps this sphere onto an ellipsoid in ⁠ℝm⁠. Non-zero singular values are simply the lengths of the semi-axes of this ellipsoid. Especially when ⁠n=m⁠, and all the singular values are distinct and non-zero, the SVD of the linear map ⁠T⁠ can be easily analyzed as a succession of three consecutive moves: consider the ellipsoid ⁠T(S)⁠ and specifically its axes; then consider the directions in ⁠ℝn⁠ sent by ⁠T⁠ onto these axes. These directions happen to be mutually orthogonal. Apply first an isometry ⁠𝐕∗⁠ sending these directions to the coordinate axes of ⁠ℝn⁠. On a second move, apply an endomorphism ⁠𝐃⁠ diagonalized along the coordinate axes and stretching or shrinking in each direction, using the semi-axis lengths of ⁠T(S)⁠ as scaling coefficients. The composition ⁠𝐃∘𝐕∗⁠ then sends the unit-sphere onto an ellipsoid isometric to ⁠T(S)⁠. To define the third and last move, apply an isometry ⁠𝐔⁠ to this ellipsoid to obtain ⁠T(S)⁠. As can be easily checked, the composition ⁠𝐔∘𝐃∘𝐕∗⁠ coincides with ⁠T⁠.
+
+Example
+
+For example, the following ⁠4×5⁠ matrix ⁠𝐌⁠ can be decomposed as ⁠𝐔𝜮𝐕∗⁠:
+𝐌=[ 4 8 8 0 0−3−6−6 0 0−4 4−2 0 0 0 0 0−4 3]=[ 45 0 0 35−35 0 0 45 011 1 0 0 011 0 1 0]⏟𝐔[15110000011600001105000110000]⏟𝜮[ 13 23 23 0 0−23 23−13 0 0 0 0 0−45 35−23−13 23 0 0 0 0 0 35 45]⏟𝐕∗.
+
+The singular values of ⁠𝐌⁠ are the diagonal entries of ⁠𝜮⁠: ⁠15⁠, ⁠6⁠, ⁠5⁠, ⁠0⁠. The corresponding left- and right-singular vectors are the columns ⁠𝐮j⁠ of ⁠𝐔⁠ and rows ⁠𝐯j∗⁠ of ⁠𝐕∗⁠, respectively. That is,
+𝐌𝐯1=15𝐮1,𝐮1∗𝐌=15𝐯1∗,𝐌𝐯2=6𝐮2,𝐮2∗𝐌=6𝐯2∗,𝐌𝐯3=5𝐮3,𝐮3∗𝐌=5𝐯3∗,𝐌𝐯4=0𝐮4=𝟎,𝐮4∗𝐌=0𝐯4∗=𝟎,𝐌𝐯5=𝟎.
+
+The matrices ⁠𝐔⁠ and ⁠𝐕∗⁠ are unitary (and, as real-valued matrices, orthogonal), meaning ⁠𝐔𝐔∗=𝐈4⁠ and ⁠𝐕𝐕∗=𝐈5⁠, where ⁠𝐈k⁠ is the ⁠k×k⁠ identity matrix.
+
+The matrix ⁠𝐌⁠ has rank ⁠r=3⁠, so it has only three non-zero singular values. This particular singular value decomposition is not unique. (See § Singular values, singular vectors, and their relation to the SVD, below.) Any column of ⁠𝐔⁠ and the corresponding row of ⁠𝐕∗⁠ can be simultaneously multiplied by ⁠±1⁠ (or, if ⁠𝐌⁠ is considered to be a complex-valued matrix, by any unit complex number) to obtain a valid SVD. The last two rows of ⁠𝐕∗⁠ do not contribute to the product because they are multiplied by zero, so are substantially arbitrary, and can be replaced with any pair of unit row vectors which are orthogonal to each other and the other rows. Similarly, the last column of ⁠𝐔⁠ can be multiplied by ⁠±1⁠ (or by any unit complex number).
+
+The compact SVD eliminates the rows and columns from ⁠𝜮⁠ which consist entirely of zeros, and also the superfluous corresponding columns of ⁠𝐔⁠ and rows of ⁠𝐕∗⁠:
+𝐌=[ 45 0 0−35 0 0 110 1 0 110 0 1]⏟𝐔r[1511000116001105]⏟𝜮r[ 13 23 23 0 0−23 23−13 0 0 0 0 0−45 35]⏟𝐕r∗.
+
+Instead of the product of three matrices, the SVD of ⁠𝐌⁠ can be written as a sum of ⁠r⁠ rank-⁠1⁠ matrices, each formed as the outer product of one column ⁠𝐮j⁠ of ⁠𝐔⁠ times the corresponding row ⁠𝐯j∗⁠ of ⁠𝐕∗⁠, scaled by the corresponding singular value ⁠σj⁠:
+
+𝐌=∑j=1rσj𝐮j𝐯j∗=15𝐮1𝐯1∗+6𝐮2𝐯2∗+5𝐮3𝐯3∗=[ 4 8 8 0 0−3−6−6 0 0 0 0 0 0 0 0 0 0 0 0]+[ 0 0 0 0 0 0 0 0 0 0−4 4−2 0 0 0 0 0 0 0]+[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0−4 3].
+
+SVD and spectral decomposition
+
+Singular values, singular vectors, and their relation to the SVD
+
+A non-negative real number ⁠σ⁠ is a singular value for ⁠𝐌⁠ if and only if there exist unit vectors ⁠𝐮⁠ in ⁠ℂm⁠ and ⁠𝐯⁠ in ⁠ℂn⁠ such that
+𝐌𝐯=σ𝐮,𝐌∗𝐮=σ𝐯.
+
+The vectors ⁠𝐮⁠ and ⁠𝐯⁠ are called left-singular and right-singular vectors for ⁠σ⁠, respectively.
+
+In any singular value decomposition ⁠𝐌=𝐔𝜮𝐕∗⁠, the diagonal entries of ⁠𝜮⁠ comprise the singular values of ⁠𝐌⁠. The first ⁠p=min⁡{m,n}⁠ columns of ⁠𝐔⁠ and ⁠𝐕⁠ are, respectively, left- and right-singular vectors for the corresponding singular values. Consequently,
+
+- An ⁠m×n⁠ matrix ⁠𝐌⁠ has at most ⁠p⁠ distinct singular values.
+
+- It is always possible to find a unitary basis ⁠𝐔⁠ for ⁠ℂm⁠ with a subset of basis vectors spanning the left-singular vectors of each singular value of ⁠𝐌⁠.
+
+- It is always possible to find a unitary basis ⁠𝐕⁠ for ⁠ℂn⁠ with a subset of basis vectors spanning the right-singular vectors of each singular value of ⁠𝐌⁠.
+
+The diagonal entries of ⁠Σ⁠ need not be distinct. A singular value ⁠σ⁠ which appears among them ⁠k⁠ times has a ⁠k⁠-dimensional subspace of corresponding left-singular vectors. Any orthonormal basis for this subspace can be taken as the corresponding columns of some matrix ⁠𝐔⁠, and uniquely determines an orthonormal basis for the ⁠k⁠-dimensional subspace of right-singular vectors which form the corresponding columns of a matrix ⁠𝐕⁠. When ⁠σ≠0⁠ and ⁠k=1⁠, the singular value is called non-degenerate, and the corresponding left-singular vector and right-singular vector are unique up to multiplication by a phase factor (a unit complex number), or, in the real case, unique up to sign. When ⁠k>1⁠, the singular value ⁠σ⁠ is called degenerate.
+
+The left- and right-singular vectors of singular value ⁠0⁠ comprise all unit vectors in the cokernel and kernel, respectively, of ⁠𝐌⁠. By the rank–nullity theorem, these subspaces cannot have the same dimension if ⁠m≠n⁠. Even when all singular values are non-zero, if ⁠m>n⁠, then the cokernel is non-trivial, in which case ⁠𝐔⁠ is padded with ⁠m−n⁠ orthogonal unit vectors from the cokernel. Conversely, if ⁠m<n⁠, then ⁠𝐕⁠ is padded by ⁠n−m⁠ orthogonal unit vectors from the kernel. However, if the singular value ⁠0⁠ exists, the extra columns of ⁠𝐔⁠ or ⁠𝐕⁠ already appear as left- or right-singular vectors.[…, if the singular value 0 exists, the extra columns of U or V must not repeat the corresponding left- or right-singular vectors.] [Otherwise, U or V would not have column full rank.]
+
+If all singular values of a square matrix ⁠𝐌⁠ are non-zero and non-degenerate, then its singular value decomposition is unique up to multiplication of any column of ⁠𝐔⁠ and the corresponding column of ⁠𝐕⁠ by an arbitrary phase factor. More generally, the SVD of any matrix ⁠𝐌⁠ is unique up to unitary transformations applied uniformly to the column vectors of both ⁠𝐔⁠ and ⁠𝐕⁠ (and which do not mix columns corresponding to distinct singular values).
+
+Relation to eigenvalue decomposition
+
+The singular value decomposition is very general in the sense that it can be applied to any ⁠m×n⁠ matrix, whereas eigenvalue decomposition can only be applied to square diagonalizable matrices. Nevertheless, the two decompositions are related.
+
+If ⁠𝐌⁠ has SVD ⁠𝐌=𝐔𝜮𝐕∗⁠, the following two relations hold:
+𝐌∗𝐌=𝐕𝜮∗𝐔∗𝐔𝜮𝐕∗=𝐕(𝜮∗𝜮)𝐕∗,𝐌𝐌∗=𝐔𝜮𝐕∗𝐕𝜮∗𝐔∗=𝐔(𝜮𝜮∗)𝐔∗.
+
+The right-hand sides of these relations describe the eigenvalue decompositions of the left-hand sides. Consequently:
+
+- The columns of ⁠𝐕⁠ (referred to as right-singular vectors) are eigenvectors of ⁠𝐌∗𝐌⁠.
+
+- The columns of ⁠𝐔⁠ (referred to as left-singular vectors) are eigenvectors of ⁠𝐌𝐌∗⁠.
+
+- The non-zero elements of ⁠𝜮⁠ (non-zero singular values) are the square roots of the non-zero eigenvalues of ⁠𝐌∗𝐌⁠ or ⁠𝐌𝐌∗⁠.
+
+In the special case of ⁠𝐌⁠ being a normal matrix, and thus also square, the spectral theorem ensures that it can be unitarily diagonalized using a basis of eigenvectors, and thus decomposed as ⁠𝐌=𝐔𝐃𝐔∗⁠ for some unitary matrix ⁠𝐔⁠ and diagonal matrix ⁠𝐃⁠ with complex elements ⁠σi⁠ along the diagonal. When ⁠𝐌⁠ is positive semi-definite, the ⁠σi⁠ will be non-negative real numbers, so the decomposition ⁠𝐌=𝐔𝐃𝐔∗⁠ is also a singular value decomposition. Otherwise, it can be recast as an SVD by moving the phase ⁠eiφ⁠ of each ⁠σi⁠ to either its corresponding ⁠𝐯i⁠ or ⁠𝐮i⁠. The natural connection of the SVD to non-normal matrices is through the polar decomposition theorem: ⁠𝐌=𝐒𝐑⁠, where ⁠𝐒=𝐔𝜮𝐔∗⁠ is positive semidefinite and normal, and ⁠𝐑=𝐔𝐕∗⁠ is unitary.
+
+Thus, except for positive semi-definite matrices, the eigenvalue decomposition and SVD of ⁠𝐌⁠, while related, differ: the eigenvalue decomposition is ⁠𝐌=𝐔𝐃𝐔−1⁠, where ⁠𝐔⁠ is not necessarily unitary and ⁠𝐃⁠ is not necessarily positive semi-definite, while the SVD is ⁠𝐌=𝐔𝜮𝐕∗⁠, where ⁠𝜮⁠ is diagonal and positive semi-definite, and ⁠𝐔⁠ and ⁠𝐕⁠ are unitary matrices that are not necessarily related except through the matrix ⁠𝐌⁠. While only non-defective square matrices have an eigenvalue decomposition, any ⁠m×n⁠ matrix has an SVD.
+
+Applications of the SVD
+
+Pseudoinverse
+
+The singular value decomposition can be used for computing the pseudoinverse of a matrix. The pseudoinverse of the matrix ⁠𝐌⁠ with singular value decomposition ⁠𝐌=𝐔𝜮𝐕∗⁠ is
+𝐌+=𝐕𝜮+𝐔∗,
+where 𝜮+ is the pseudoinverse of ⁠𝜮⁠, which is formed by replacing every non-zero diagonal entry of ⁠𝜮⁠ by its reciprocal and transposing the resulting matrix. The pseudoinverse is one way to solve linear least squares problems.
+
+Solving homogeneous linear equations
+
+A set of homogeneous linear equations can be written as ⁠𝐀𝐱=𝟎⁠ for a matrix ⁠𝐀⁠, a vector ⁠𝐱⁠, and the zero vector ⁠𝟎⁠. A typical situation is that ⁠𝐀⁠ is known and a non-zero ⁠𝐱⁠ is to be determined which satisfies the equation. Such an ⁠𝐱⁠ belongs to ⁠𝐀⁠'s null space and is sometimes called a (right) null vector of ⁠𝐀⁠. The vector ⁠𝐱⁠ can be characterized as a right-singular vector corresponding to a singular value of ⁠𝐀⁠ that is zero. This observation means that if ⁠𝐀⁠ is a square matrix and has no vanishing singular value, the equation has no non-zero ⁠𝐱⁠ as a solution. It also means that if there are several vanishing singular values, any linear combination of the corresponding right-singular vectors is a valid solution. Analogously to the definition of a (right) null vector, a non-zero ⁠𝐱⁠ satisfying ⁠𝐱∗𝐀=𝟎⁠, where ⁠𝐱∗⁠ denotes the conjugate transpose of ⁠𝐱⁠, is called a left null vector of ⁠𝐀⁠.
+
+Total least squares minimization
+
+A total least squares problem seeks the vector ⁠𝐱⁠ that minimizes the 2-norm of a vector ⁠𝐀𝐱⁠ under the constraint ‖𝐱‖=1. The solution turns out to be the right-singular vector of ⁠𝐀⁠ corresponding to the smallest singular value.
+
+Range, null space, and rank
+
+Another application of the SVD is that it provides an explicit representation of the range and null space of a matrix ⁠𝐌⁠. The right-singular vectors corresponding to vanishing singular values of ⁠𝐌⁠ span the null space of ⁠𝐌⁠ and the left-singular vectors corresponding to the non-zero singular values of ⁠𝐌⁠ span the range of ⁠𝐌⁠.
+
+As a consequence, the rank of ⁠𝐌⁠ equals the number of non-zero singular values, which is the same as the number of non-zero diagonal elements in ⁠𝜮⁠. In numerical linear algebra, the singular values can be used to determine the effective rank of a matrix, as rounding error may lead to small but non-zero singular values in a rank-deficient matrix. Singular values beyond a significant gap are assumed to be numerically equivalent to zero.
+
+Low-rank matrix approximation
+
+Some practical applications need to solve the problem of approximating a matrix ⁠𝐌⁠ with another matrix ⁠𝐌~⁠, said to be truncated, which has a specific rank ⁠t⁠. In the case that the approximation is based on minimizing the Frobenius norm of the difference between ⁠𝐌⁠ and ⁠𝐌~⁠ under the constraint that ⁠rank⁡(𝐌~)=t⁠, it turns out that the solution is given by the SVD of ⁠𝐌⁠, namely
+𝐌~=𝐔𝜮~𝐕∗,
+where 𝜮~ is the same matrix as 𝜮 except that it contains only the ⁠t⁠ largest singular values (the other singular values are replaced by zero). Or, equivalently, by the truncated SVD. This is known as the Eckart–Young theorem, as it was proved by those two authors in 1936.[a]
+
+Image compression
+
+If a bitmap image is interpreted as a matrix, the SVD can be used for image compression. Here an original photograph (upper-left) is compared with low-rank approximations of rank 1, 10, and 100.
+
+One practical consequence of the low-rank approximation given by SVD is that a greyscale image, represented as an m×n matrix 𝐀, can be efficiently represented by keeping the first k singular values and corresponding vectors. The truncated decomposition
+𝐀k=∑j=1kσj𝐮j𝐯j𝖳
+gives an image with the best ⁠2⁠-norm error out of all rank-⁠k⁠ approximations. Thus, the task becomes finding an approximation that balances retaining perceptual fidelity with the number of vectors required to reconstruct the image. Storing 𝐀k requires only k(n+m+1) floating-point numbers compared to nm integers. This same idea extends to color images by applying this operation to each channel or stacking the channels into one matrix.
+
+Since the singular values of most natural images decay quickly, most of their variance is often captured by a small ⁠k⁠. For a ⁠1528×1225⁠ greyscale image, we can achieve a relative error of 0.7% with as little as ⁠k=100⁠.[1] In practice, however, computing the SVD can be too computationally expensive and the resulting compression is typically less storage efficient than a specialized algorithm such as JPEG.
+
+Separable models
+
+The SVD can be thought of as decomposing a matrix into a weighted, ordered sum of rank-⁠1⁠ matrices. Every rank-⁠1⁠ matrix ⁠𝐀⁠ is separable, in the sense that it can be written as an outer product of two vectors: ⁠𝐀=𝐮𝐯∗⁠. Each entry of such a matrix ⁠𝐀⁠ is the product of one entry of column vector ⁠𝐮⁠ times one entry of row vector ⁠𝐯∗⁠, that is, ⁠𝐀i,j=uivj‾⁠.
+
+Specifically, the SVD decomposes a matrix ⁠𝐌⁠ as the sum of several rank-⁠1⁠ matrices ⁠𝐀i⁠:
+𝐌=∑i𝐀i=∑iσi𝐮i𝐯i∗,
+where ⁠𝐮i⁠ and ⁠𝐯i⁠ are the left- and right-singular vectors corresponding to each singular value ⁠σi⁠. The number of non-zero ⁠σi⁠ is exactly the rank of the matrix.
+
+The SVD can be used to find the decomposition of an image processing filter into separable horizontal and vertical filters. Separable models often arise in biological systems, and the SVD factorization is useful to analyze such systems. For example, some visual area V1 simple cells' receptive fields can be well described[2] by a Gabor filter in the space domain multiplied by a modulation function in the time domain. Thus, given a linear filter evaluated through, for example, reverse correlation, one can rearrange the two spatial dimensions into one dimension, thus yielding a two-dimensional filter (space, time) which can be decomposed through SVD. The first column of ⁠𝐔⁠ in the SVD factorization is then a Gabor while the first column of ⁠𝐕⁠ represents the time modulation (or vice versa). One may then define an index of separability
+α=σ12∑iσi2,
+which is the fraction of the power in the matrix ⁠𝐌⁠ accounted for by the first separable matrix in the decomposition.[3]
+
+Nearest orthogonal matrix
+
+It is possible to use the SVD of a square matrix ⁠𝐀⁠ to determine the orthogonal matrix ⁠𝐐⁠ closest to ⁠𝐀⁠. The closeness of fit is measured by the Frobenius norm of ⁠𝐐−𝐀⁠. The solution is the product ⁠𝐔𝐕∗⁠.[4][5] This intuitively makes sense because an orthogonal matrix would have the decomposition ⁠𝐔𝐈𝐕∗⁠ where ⁠𝐈⁠ is the identity matrix; so, if ⁠𝐀=𝐔𝜮𝐕∗⁠, then the product ⁠𝐐=𝐔𝐕∗⁠ amounts to replacing the singular values with ones. Equivalently, the solution is the unitary matrix ⁠𝐑=𝐔𝐕∗⁠ of the polar decomposition 𝐀=𝐑𝐏=𝐏′𝐑 in either order of stretch and rotation, as described above.
+
+A similar problem, with interesting applications in shape analysis, is the orthogonal Procrustes problem, which consists of finding an orthogonal matrix ⁠𝐐⁠ which most closely maps ⁠𝐀⁠ to ⁠𝐁⁠. Specifically,
+𝐐=argminΩ‖𝐀𝜴−𝐁‖Fsubject to𝜴𝖳𝜴=𝐈,
+where ‖⋅‖F denotes the Frobenius norm.
+
+This problem is equivalent to finding the nearest orthogonal matrix to a given matrix ⁠𝐌=𝐀𝖳𝐁⁠.
+
+The Kabsch algorithm
+
+The Kabsch algorithm (called Wahba's problem in other fields) uses SVD to compute the optimal rotation (with respect to least-squares minimization) that will align a set of points with a corresponding set of points. It is used, among other applications, to compare the structures of molecules.
+
+Principal Component Analysis
+
+The SVD can be used to construct the principal components in principal component analysis as follows:[6]
+
+Let 𝐗∈ℝN×p be a data matrix where each of the N rows is a (feature-wise) mean-centered observation, each of dimension ⁠p⁠.
+
+The SVD of 𝐗 is:
+𝐗=𝐕𝜮𝐔∗.
+
+We see that 𝐕𝜮 contains the scores of the rows of 𝐗 (i.e. each observation), and 𝐔 is the matrix whose columns are principal component loading vectors.[6]
+
+Signal processing
+
+The SVD and pseudoinverse have been successfully applied to signal processing,[7] image processing[8] and big data (e.g., in genomic signal processing).[9][10][11][12]
+
+Other examples
+
+The SVD is also applied extensively to the study of linear inverse problems and is useful in the analysis of regularization methods such as that of Tikhonov. It is widely used in statistics, where it is related to principal component analysis and to correspondence analysis, and in signal processing and pattern recognition. It is also used in output-only modal analysis, where the non-scaled mode shapes can be determined from the singular vectors. Yet another usage is latent semantic indexing in natural-language text processing.
+
+In general numerical computation involving linear or linearized systems, there is a universal constant that characterizes the regularity or singularity of a problem, which is the system's "condition number" ⁠κ=σmax/σmin⁠. It often controls the error rate or convergence rate of a given computational scheme on such systems.[13][14]
+
+The SVD also plays a crucial role in the field of quantum information, in a form often referred to as the Schmidt decomposition. Through it, states of two quantum systems are naturally decomposed, providing a necessary and sufficient condition for them to be entangled: if the rank of the matrix 𝜮 is larger than one.
+
+One application of SVD to rather large matrices is in numerical weather prediction, where Lanczos methods are used to estimate the most linearly quickly growing few perturbations to the central numerical weather prediction over a given initial forward time period; i.e., the singular vectors corresponding to the largest singular values of the linearized propagator for the global weather over that time interval. The output singular vectors in this case are entire weather systems. These perturbations are then run through the full non-linear model to generate an ensemble forecast, giving a handle on some of the uncertainty that should be allowed for around the current central prediction.
+
+SVD has also been applied to reduced order modelling. The aim of reduced order modelling is to reduce the number of degrees of freedom in a complex system which is to be modeled. SVD was coupled with radial basis functions to interpolate solutions to three-dimensional unsteady flow problems.[15]
+
+Interestingly, SVD has been used to improve gravitational waveform modeling by the ground-based gravitational-wave interferometer aLIGO.[16] SVD can help to increase the accuracy and speed of waveform generation to support gravitational-waves searches and update two different waveform models.
+
+Singular value decomposition is used in recommender systems to predict people's item ratings.[17] Distributed algorithms have been developed for the purpose of calculating the SVD on clusters of commodity machines.[18]
+
+Low-rank SVD has been applied for hotspot detection from spatiotemporal data with application to disease outbreak detection.[19] A combination of SVD and higher-order SVD also has been applied for real time event detection from complex data streams (multivariate data with space and time dimensions) in disease surveillance.[20]
+
+In astrodynamics, the SVD and its variants are used as an option to determine suitable maneuver directions for transfer trajectory design[21] and orbital station-keeping.[22]
+
+The SVD can be used to measure the similarity between real-valued matrices.[23] By measuring the angles between the singular vectors, the inherent two-dimensional structure of matrices is accounted for. This method was shown to outperform cosine similarity and Frobenius norm in most cases, including brain activity measurements from neuroscience experiments.
+
+Proof of existence
+
+An eigenvalue ⁠λ⁠ of a matrix ⁠𝐌⁠ is characterized by the algebraic relation ⁠𝐌𝐮=λ𝐮⁠. When ⁠𝐌⁠ is Hermitian, a variational characterization is also available. Let ⁠𝐌⁠ be a real ⁠n×n⁠ symmetric matrix. Define
+f:{ℝn→ℝ𝐱↦𝐱𝖳𝐌𝐱.
+By the extreme value theorem, this continuous function attains a maximum at some ⁠𝐮⁠ when restricted to the unit sphere {‖𝐱‖=1}. By the Lagrange multipliers theorem, ⁠𝐮⁠ necessarily satisfies
+∇𝐮𝖳𝐌𝐮−λ⋅∇𝐮𝖳𝐮=𝟎
+for some real number ⁠λ⁠. The nabla symbol, ⁠∇⁠, is the del operator (differentiation with respect to ⁠𝐱⁠). Using the symmetry of ⁠𝐌⁠, we obtain
+∇𝐱𝖳𝐌𝐱−λ⋅∇𝐱𝖳𝐱=2(𝐌−λ𝐈)𝐱.
+
+Therefore ⁠𝐌𝐮=λ𝐮⁠, so ⁠𝐮⁠ is a unit length eigenvector of ⁠𝐌⁠. For every unit-length eigenvector ⁠𝐯⁠ of ⁠𝐌⁠, its eigenvalue is ⁠f(𝐯)⁠, so ⁠λ⁠ is the largest eigenvalue of ⁠𝐌⁠. The same calculation performed on the orthogonal complement of ⁠𝐮⁠ gives the next largest eigenvalue and so on. The complex Hermitian case is similar; there ⁠f(𝐱)=𝐱∗𝐌𝐱⁠ is a real-valued function of ⁠2n⁠ real variables.
+
+Singular values are similar in that they can be described algebraically or from variational principles. Although, unlike the eigenvalue case, Hermiticity, or symmetry, of ⁠𝐌⁠ is no longer required.
+
+This section gives these two arguments for existence of singular value decomposition.
+
+Based on the spectral theorem
+
+Let 𝐌 be an ⁠m×n⁠ complex matrix. Since 𝐌∗𝐌 is positive semi-definite and Hermitian, by the spectral theorem, there exists an ⁠n×n⁠ unitary matrix 𝐕 such that
+𝐕∗𝐌∗𝐌𝐕=𝐃¯=[𝐃000],
+where 𝐃 is diagonal and positive definite, of dimension ℓ×ℓ, with ℓ the number of non-zero eigenvalues of 𝐌∗𝐌 (which can be shown to verify ℓ≤min⁡(n,m)). Note that 𝐕 is here by definition a matrix whose i-th column is the i-th eigenvector of 𝐌∗𝐌, corresponding to the eigenvalue 𝐃¯ii. Moreover, the j-th column of 𝐕, for j>ℓ, is an eigenvector of 𝐌∗𝐌 with eigenvalue 𝐃¯jj=0. This can be expressed by writing 𝐕 as 𝐕=[𝐕1𝐕2], where the columns of 𝐕1 and 𝐕2 therefore contain the eigenvectors of 𝐌∗𝐌 corresponding to non-zero and zero eigenvalues, respectively. Using this rewriting of 𝐕, the equation becomes:
+[𝐕1∗𝐕2∗]𝐌∗𝐌[𝐕1𝐕2]=[𝐕1∗𝐌∗𝐌𝐕1𝐕1∗𝐌∗𝐌𝐕2𝐕2∗𝐌∗𝐌𝐕1𝐕2∗𝐌∗𝐌𝐕2]=[𝐃000].
+
+This implies that
+𝐕1∗𝐌∗𝐌𝐕1=𝐃,𝐕2∗𝐌∗𝐌𝐕2=𝟎.
+
+Moreover, the second equation implies 𝐌𝐕2=𝟎.[b] Finally, the unitary-ness of 𝐕 translates, in terms of 𝐕1 and 𝐕2, into the following conditions:
+𝐕1∗𝐕1=𝐈1,𝐕2∗𝐕2=𝐈2,𝐕1𝐕1∗+𝐕2𝐕2∗=𝐈12,
+where the subscripts on the identity matrices are used to remark that they are of different dimensions.
+
+Let us now define
+𝐔1=𝐌𝐕1𝐃−12.
+
+Then,
+𝐔1𝐃12𝐕1∗=𝐌𝐕1𝐃−12𝐃12𝐕1∗=𝐌(𝐈−𝐕2𝐕2∗)=𝐌−(𝐌𝐕2)𝐕2∗=𝐌,
+
+since 𝐌𝐕2=𝟎. This can be also seen as immediate consequence of the fact that 𝐌𝐕1𝐕1∗=𝐌. This is equivalent to the observation that if {𝐯i}i=1ℓ is the set of eigenvectors of 𝐌∗𝐌 corresponding to non-vanishing eigenvalues {λi}i=1ℓ, then {𝐌𝐯i}i=1ℓ is a set of orthogonal vectors, and {λi−1/2𝐌𝐯i}|i=1ℓ is a (generally not complete) set of orthonormal vectors. This matches with the matrix formalism used above denoting with 𝐕1 the matrix whose columns are {𝐯i}i=1ℓ, with 𝐕2 the matrix whose columns are the eigenvectors of 𝐌∗𝐌 with vanishing eigenvalue, and 𝐔1 the matrix whose columns are the vectors {λi−1/2𝐌𝐯i}|i=1ℓ.
+
+We see that this is almost the desired result, except that 𝐔1 and 𝐕1 are in general not unitary, since they might not be square. However, we do know that the number of rows of 𝐔1 is no smaller than the number of columns, since the dimensions of 𝐃 is no greater than m and n. Also, since
+𝐔1∗𝐔1=𝐃−12𝐕1∗𝐌∗𝐌𝐕1𝐃−12=𝐃−12𝐃𝐃−12=𝐈𝟏,
+the columns in 𝐔1 are orthonormal and can be extended to an orthonormal basis. This means that we can choose 𝐔2 such that 𝐔=[𝐔1𝐔2] is unitary.
+
+For ⁠𝐕1⁠ we already have ⁠𝐕2⁠ to make it unitary. Now, define
+𝜮=[[𝐃12000]0],
+
+where extra zero rows are added or removed to make the number of zero rows equal the number of columns of ⁠𝐔2,⁠ and hence the overall dimensions of 𝜮 equal to m×n. Then
+[𝐔1𝐔2][[D12000]0][𝐕1𝐕2]∗=[𝐔1𝐔2][𝐃12𝐕1∗0]=𝐔1𝐃12𝐕1∗=𝐌,
+which is the desired result:
+𝐌=𝐔𝜮𝐕∗.
+
+Notice the argument could begin with diagonalizing ⁠𝐌𝐌∗⁠ rather than ⁠𝐌∗𝐌⁠ (This shows directly that ⁠𝐌𝐌∗⁠ and ⁠𝐌∗𝐌⁠ have the same non-zero eigenvalues).
+
+Based on variational characterization
+
+The singular values can also be characterized as the maxima of ⁠𝐮T𝐌𝐯⁠, considered as a function of ⁠𝐮⁠ and ⁠𝐯⁠, over particular subspaces. The singular vectors are the values of ⁠𝐮⁠ and ⁠𝐯⁠ where these maxima are attained.
+
+Let ⁠𝐌⁠ denote an ⁠m×n⁠ matrix with real entries. Let ⁠Sk−1⁠ be the unit (k−1)-sphere in ℝk, and define σ(𝐮,𝐯)=𝐮𝖳𝐌𝐯, 𝐮∈Sm−1, 𝐯∈Sn−1.
+
+Consider the function ⁠σ⁠ restricted to ⁠Sm−1×Sn−1.⁠ Since both ⁠Sm−1⁠ and ⁠Sn−1⁠ are compact sets, their product is also compact. Furthermore, since ⁠σ⁠ is continuous, it attains a largest value for at least one pair of vectors ⁠𝐮⁠ in ⁠Sm−1⁠ and ⁠𝐯⁠ in ⁠Sn−1⁠. This largest value is denoted ⁠σ1⁠ and the corresponding vectors are denoted ⁠𝐮1⁠ and ⁠𝐯1⁠. Since ⁠σ1⁠ is the largest value of ⁠σ(𝐮,𝐯)⁠, it must be non-negative. If it were negative, changing the sign of either ⁠𝐮1⁠ or ⁠𝐯1⁠ would make it positive and therefore larger.
+
+Statement—⁠𝐮1⁠ and ⁠𝐯1⁠ are left- and right-singular vectors of ⁠𝐌⁠ with corresponding singular value ⁠σ1⁠.
+
+Proof
+
+Similar to the eigenvalues case, by assumption the two vectors satisfy the Lagrange multiplier equation:
+∇σ=∇𝐮𝖳𝐌𝐯−λ1⋅∇𝐮𝖳𝐮−λ2⋅∇𝐯𝖳𝐯
+
+After some algebra, this becomes
+𝐌𝐯1=2λ1𝐮1+0,𝐌𝖳𝐮1=0+2λ2𝐯1.
+
+Multiplying the first equation from left by ⁠𝐮1𝖳⁠ and the second equation from left by ⁠𝐯1𝖳⁠ and taking ‖𝐮‖=‖𝐯‖=1 into account gives
+σ1=2λ1=2λ2.
+
+Plugging this into the pair of equations above, we have
+𝐌𝐯1=σ1𝐮1,𝐌𝖳𝐮1=σ1𝐯1.
+
+This proves the statement.
+
+More singular vectors and singular values can be found by maximizing ⁠σ(𝐮,𝐯)⁠ over normalized ⁠𝐮⁠ and ⁠𝐯⁠ which are orthogonal to ⁠𝐮1⁠ and ⁠𝐯1⁠, respectively.
+
+The passage from real to complex is similar to the eigenvalue case.
+
+Calculating the SVD
+
+One-sided Jacobi algorithm
+
+One-sided Jacobi algorithm is an iterative algorithm,[24]
+where a matrix is iteratively transformed into a matrix with orthogonal columns. The elementary iteration is given as a Jacobi rotation,
+M←MJ(p,q,θ),
+where the angle θ of the Jacobi rotation matrix J(p,q,θ) is chosen such that after the rotation, the columns with numbers p and q become orthogonal. The indices (p,q) are swept cyclically, ⁠(p=1…m,q=p+1…m)⁠, where m is the number of columns.
+
+After the algorithm has converged, the singular value decomposition M=USV𝖳 is recovered as follows: the matrix V is the accumulation of Jacobi rotation matrices, the matrix U is given by normalizing the columns of the transformed matrix ⁠M⁠, and the singular values are given as the norms of the columns of the transformed matrix ⁠M⁠.
+
+Two-sided Jacobi algorithm
+
+Two-sided Jacobi SVD algorithm—a generalization of the Jacobi eigenvalue algorithm—is an iterative algorithm where a square matrix is iteratively transformed into a diagonal matrix. If the matrix is not square the QR decomposition is performed first and then the algorithm is applied to the R matrix. The elementary iteration zeroes a pair of off-diagonal elements by first applying a Givens rotation to symmetrize the pair of elements and then applying a Jacobi transformation to zero them:
+M←J𝖳GMJ,
+where G is the Givens rotation matrix with the angle chosen such that the given pair of off-diagonal elements become equal after the rotation, and where J is the Jacobi transformation matrix that zeroes these off-diagonal elements. The iterations proceeds exactly as in the Jacobi eigenvalue algorithm: by cyclic sweeps over all off-diagonal elements.
+
+After the algorithm has converged, the resulting diagonal matrix contains the singular values.
+
+The matrices U and V are accumulated as follows:
+U←UG𝖳J,V←VJ.
+
+Numerical approach
+
+The singular value decomposition can be computed using the following observations:
+
+- The left-singular vectors of ⁠𝐌⁠ are a set of orthonormal eigenvectors of ⁠𝐌𝐌∗⁠.
+
+- The right-singular vectors of ⁠𝐌⁠ are a set of orthonormal eigenvectors of ⁠𝐌∗𝐌⁠.
+
+- The non-zero singular values of ⁠𝐌⁠ (found on the diagonal entries of 𝜮) are the square roots of the non-zero eigenvalues of both ⁠𝐌∗𝐌⁠ and ⁠𝐌𝐌∗⁠.
+
+The SVD of a matrix ⁠𝐌⁠ is typically computed by a two-step procedure. In the first step, the matrix is reduced to a bidiagonal matrix. This takes order ⁠O(mn2)⁠ floating-point operations (flop), assuming that ⁠m≥n⁠. The second step is to compute the SVD of the bidiagonal matrix. This step can only be done with an iterative method (as with eigenvalue algorithms). However, in practice it suffices to compute the SVD up to a certain precision, like the machine epsilon. If this precision is considered constant, then the second step takes ⁠O(n)⁠ iterations, each costing ⁠O(n)⁠ flops. Thus, the first step is more expensive, and the overall cost is ⁠O(mn2)⁠ flops.[25]
+
+The first step can be done using Householder reflections for a cost of ⁠4mn2−4n3/3⁠ flops, assuming that only the singular values are needed and not the singular vectors. If ⁠m⁠ is much larger than ⁠n⁠, then it is advantageous to first reduce the matrix ⁠𝐌⁠ to a triangular matrix with the QR decomposition and then use Householder reflections to further reduce the matrix to bidiagonal form; the combined cost is ⁠2mn2+2n3⁠ flops.[25]
+
+The second step can be done by a variant of the QR algorithm for the computation of eigenvalues, which was first described by Golub and Kahan in 1965.[26] The LAPACK subroutine DBDSQR[27] implements this iterative method, with some modifications to cover the case where the singular values are very small.[28] Together with a first step using Householder reflections and, if appropriate, QR decomposition, this forms the DGESVD routine[29] for the computation of the singular value decomposition.
+
+The same algorithm is implemented in the GNU Scientific Library (GSL). The GSL also offers an alternative method that uses a one-sided Jacobi orthogonalization in step 2.[30] This method computes the SVD of the bidiagonal matrix by solving a sequence of ⁠2×2⁠ SVD problems, similar to how the Jacobi eigenvalue algorithm solves a sequence of ⁠2×2⁠ eigenvalue methods.[31] Yet another method for step 2 uses the idea of divide-and-conquer eigenvalue algorithms.[25]
+
+There is an alternative way that does not explicitly use the eigenvalue decomposition.[32] Usually the singular value problem of a matrix ⁠𝐌⁠ is converted into an equivalent symmetric eigenvalue problem such as ⁠𝐌𝐌∗⁠, ⁠𝐌∗𝐌⁠, or
+[𝟎𝐌𝐌∗𝟎].
+
+The approaches that use eigenvalue decompositions are based on the QR algorithm, which is well-developed to be stable and fast. Note that the singular values are real and the right- and left-singular vectors are not required to form similarity transformations. One can iteratively alternate between the QR decomposition and the LQ decomposition to find the real diagonal Hermitian matrices. The QR decomposition gives ⁠𝐌⇒𝐐𝐑⁠ and the LQ decomposition of ⁠𝐑⁠ gives ⁠𝐑⇒𝐋𝐏∗⁠. Thus, at every iteration, we have ⁠𝐌⇒𝐐𝐋𝐏∗⁠, update ⁠𝐌⇐𝐋⁠ and repeat the orthogonalizations. Eventually, this iteration between QR decomposition and LQ decomposition produces left- and right-unitary singular matrices. This approach cannot readily be accelerated as the QR algorithm can with spectral shifts or deflation. This is because the shift method is not easily defined without using similarity transformations. However, this iterative approach is very simple to implement, so is a good choice when speed does not matter. This method also provides insight into how purely orthogonal/unitary transformations can obtain the SVD.
+
+Computational complexity of SVD
+
+The methods above yield ⁠O(mn2)⁠ algorithms for the SVD of an m×n matrix M with ⁠m≥n⁠.
+
+Demmel, Dumitriu and Holtz[33] show that for a symmetric matrix M (so ⁠m=n⁠), the SVD can normwise stably be computed in O(nω+η) arithmetic operations, where ω is the matrix multiplication exponent and η>0 is any constant, i.e. essentially in matrix multiplication time.
+
+Analytic result of 2 × 2 SVD
+
+The singular values of a ⁠2×2⁠ matrix can be found analytically. Let the matrix be
+
+⁠𝐌=z0𝐈+z1σ1+z2σ2+z3σ3⁠,
+
+where the four zi are complex numbers that parameterize the matrix, ⁠𝐈⁠ is the identity matrix, and the three σi denote the Pauli matrices. Then the two singular values of ⁠𝐌⁠ are given by
+σ±=|z0|2+|z1|2+|z2|2+|z3|2±(|z0|2+|z1|2+|z2|2+|z3|2)2−|z02−z12−z22−z32|2=|z0|2+|z1|2+|z2|2+|z3|2±2(Re⁡z0z1∗)2+(Re⁡z0z2∗)2+(Re⁡z0z3∗)2+(Im⁡z1z2∗)2+(Im⁡z2z3∗)2+(Im⁡z3z1∗)2.
+
+Reduced SVDs
+
+Visualization of Reduced SVD variants. From top to bottom: 1: Full SVD, 2: Thin SVD (remove columns of U not corresponding to rows of V*), 3: Compact SVD (remove null singular values and corresponding columns/rows in U and V*), 4: Truncated SVD (keep only largest t singular values and corresponding columns/rows in U and V*).
+
+In applications, it is quite unusual for the full SVD, including a full unitary decomposition of the null-space of the matrix, to be required. Instead, it is often sufficient (as well as faster, and more economical for storage) to compute a reduced version of the SVD. The following can be distinguished for an ⁠m×n⁠ matrix ⁠𝐌⁠ of rank ⁠r⁠:
+
+Thin SVD
+
+The thin, or economy-sized, SVD of a matrix ⁠𝐌⁠ is given by[34]
+𝐌=𝐔k𝜮k𝐕k∗,
+where ⁠k=min⁡{m,n}⁠, the matrices ⁠𝐔k⁠ and ⁠𝐕k⁠ contain only the first ⁠k⁠ columns of ⁠𝐔⁠ and ⁠𝐕⁠, and ⁠𝜮k⁠ contains only the first ⁠k⁠ singular values from ⁠𝜮⁠. The matrix ⁠𝐔k⁠ is thus ⁠m×k⁠, ⁠𝜮k⁠ is ⁠k×k⁠ diagonal, and ⁠𝐕k∗⁠ is ⁠k×n⁠.
+
+The thin SVD uses significantly less space and computation time if ⁠k≪max⁡{m,n}⁠. The first stage in its calculation will usually be a QR decomposition of ⁠𝐌⁠, which can make for a significantly quicker calculation in this case.
+
+Compact SVD
+
+The compact SVD of a matrix ⁠𝐌⁠ is given by
+𝐌=𝐔r𝜮r𝐕r∗.
+Only the first ⁠r⁠ columns of ⁠𝐔⁠ and ⁠r⁠ rows of ⁠𝐕∗⁠, corresponding to the non-zero singular values, are calculated; this takes less computation and requires less storage than the thin SVD, and if ⁠𝐌⁠ has low rank, much less. This makes ⁠𝐔r⁠ an ⁠m×r⁠ semi-unitary matrix whose columns ⁠{𝐮1,…,𝐮r}⁠ span the columns of ⁠𝐌⁠, ⁠𝜮r⁠ an ⁠r×r⁠ diagonal matrix of non-zero singular values, and ⁠𝐕r∗⁠ an ⁠r×n⁠ semi-unitary matrix whose rows ⁠{𝐯1∗,…,𝐯r∗}⁠ span the rows of ⁠𝐌⁠.
+
+Truncated SVD
+
+In some applications, the rank ⁠r⁠ of the matrix is still large enough that the compact SVD is impractically expensive to compute, or some of the singular values are much smaller than the rest and do not make a practically significant contribution to the matrix.
+
+In such cases, it can be helpful to compute a truncated SVD, only including the largest ⁠t⁠ non-zero singular values and corresponding singular vectors, for some ⁠t<r⁠. The truncated SVD is no longer an exact decomposition of the original matrix ⁠𝐌⁠, but instead is the compact SVD of a nearby matrix ⁠𝐌~≈𝐌⁠:
+𝐌~=𝐔t𝜮t𝐕t∗,
+where matrix ⁠𝐔t⁠ is ⁠m×t⁠, ⁠𝜮t⁠ is ⁠t×t⁠ diagonal, and ⁠𝐕t∗⁠ is ⁠t×n⁠.
+
+⁠𝐌~⁠ is the best approximation of ⁠𝐌⁠ by any matrix of rank less than or equal to ⁠t⁠, under the Frobenius norm. This can require much less computation and storage than the compact SVD if ⁠t⁠ is much smaller than ⁠r⁠, but typically requires a completely separate implementation.
+
+In applications that require an approximation to the Moore–Penrose inverse of the matrix ⁠𝐌⁠, the smallest singular values of ⁠𝐌⁠ are of interest, which are more challenging to compute than the largest ones.
+
+Truncated SVD is employed in latent semantic indexing.[35]
+
+Norms
+
+Ky Fan norms
+
+The sum of the ⁠k⁠ largest singular values of a matrix ⁠𝐌⁠ is a matrix norm, the Ky Fan ⁠k⁠-norm of ⁠𝐌⁠.[36]
+
+The first of the Ky Fan norms, the Ky Fan ⁠1⁠-norm, the largest singular value of ⁠𝐌⁠, is the same as the operator norm of ⁠𝐌⁠ as a linear operator with respect to the Euclidean norms of ⁠ℂm⁠ and ⁠ℂn⁠, namely ‖𝐌‖op=sup⁡{‖𝐌𝐯‖2: ‖𝐯‖2≤1, 𝐯∈V}. In other words, the Ky Fan ⁠1⁠-norm is the operator norm induced by the standard ℓ2 Euclidean inner product. For this reason, it is also called the operator ⁠2⁠-norm. One can easily verify the relationship between the Ky Fan ⁠1⁠-norm and singular values. Indeed, it is true in general, for a bounded operator ⁠𝐌⁠ on a (possibly infinite-dimensional) Hilbert space, that
+‖𝐌‖op=‖𝐌∗𝐌‖op.
+
+But, in the matrix case, 𝐌∗𝐌 is a normal matrix, so ‖𝐌∗𝐌‖op is the largest eigenvalue of ⁠𝐌∗𝐌⁠, i.e. ‖𝐌‖op is the largest singular value of ⁠𝐌⁠.
+
+The last of the Ky Fan norms, the sum of all singular values, is the trace norm (also known as the 'nuclear norm'), defined by
+‖𝐌‖tr=tr⁡𝐌∗𝐌
+(the eigenvalues of 𝐌∗𝐌 are the squares of the singular values of ⁠𝐌⁠).
+
+The trace norm (the nuclear norm) is a special case of the Schatten norm.
+
+Hilbert–Schmidt or Frobenius norm
+
+The singular values are related to another norm on the space of operators. Consider the Hilbert–Schmidt inner product on the ⁠n×n⁠ matrices, defined by
+⟨𝐌,𝐍⟩=tr⁡(𝐍∗𝐌).
+
+So the induced norm, called the Frobenius norm, Schatten ⁠2⁠-norm, or Hilbert–Schmidt norm of ⁠𝐌⁠, is
+‖𝐌‖F=⟨𝐌,𝐌⟩=tr⁡(𝐌∗𝐌).
+
+A direct calculation shows that the Frobenius norm of ⁠𝐌=(mi,j)⁠ is
+‖𝐌‖F=|∑i,j|mi,j|2.
+
+Besides, since the trace is invariant under unitary equivalence,
+‖𝐌‖F=tr⁡(𝜮∗𝜮)=|∑iσi2,
+where ⁠𝜮⁠ is the diagonal matrix whose diagonal entries are the singular values ⁠σi⁠ of ⁠𝐌⁠.
+
+The Frobenius norm is another special case of the Schatten norm.
+
+Variations and generalizations
+
+Scale-invariant SVD
+
+The singular values of a matrix ⁠𝐀⁠ are uniquely defined and are invariant with respect to left and/or right unitary transformations of ⁠𝐀⁠. In other words, the singular values of ⁠𝐔𝐀𝐕⁠, for unitary matrices ⁠𝐔⁠ and ⁠𝐕⁠, are equal to the singular values of ⁠𝐀⁠. This is an important property for applications in which it is necessary to preserve Euclidean distances and invariance with respect to rotations.
+
+The Scale-Invariant SVD, or SI-SVD,[37] is analogous to the conventional SVD except that its uniquely-determined singular values are invariant with respect to diagonal transformations of ⁠𝐀⁠. In other words, the singular values of ⁠𝐃𝐀𝐄⁠, for invertible diagonal matrices ⁠𝐃⁠ and ⁠𝐄⁠, are equal to the singular values of ⁠𝐀⁠. This is an important property for applications for which invariance to the choice of units on variables (e.g., metric versus imperial units) is needed.
+
+Bounded operators on Hilbert spaces
+
+The factorization ⁠𝐌=𝐔𝜮𝐕∗⁠ can be extended to a bounded operator ⁠𝐌⁠ on a separable Hilbert space ⁠H⁠. Namely, for any bounded operator ⁠𝐌⁠, there exist a partial isometry ⁠𝐔⁠, a unitary ⁠𝐕⁠, a measure space ⁠(X,μ)⁠, and a non-negative measurable ⁠f⁠ such that
+𝐌=𝐔Tf𝐕∗,
+where ⁠Tf⁠ is the multiplication by ⁠f⁠ on ⁠L2(X,μ)⁠.
+
+This can be shown by mimicking the linear algebraic argument for the matrix case above. ⁠𝐕Tf𝐕∗⁠ is the unique positive square root of ⁠𝐌∗𝐌⁠, as given by the Borel functional calculus for self-adjoint operators. The reason why ⁠𝐔⁠ need not be unitary is that, unlike in the finite-dimensional case, given an isometry ⁠U1⁠ with nontrivial kernel, a suitable ⁠U2⁠ may not be found such that
+[U1U2]
+is a unitary operator.
+
+As for matrices, the singular value factorization is equivalent to the polar decomposition for operators: we can simply write
+𝐌=𝐔𝐕∗⋅𝐕Tf𝐕∗,
+and notice that ⁠𝐔𝐕∗⁠ is still a partial isometry while ⁠𝐕Tf𝐕∗⁠ is positive.
+
+Singular values and compact operators
+
+The notion of singular values and left/right-singular vectors can be extended to compact operator on Hilbert space as they have a discrete spectrum. If ⁠T⁠ is compact, every non-zero ⁠λ⁠ in its spectrum is an eigenvalue. Furthermore, a compact self-adjoint operator can be diagonalized by its eigenvectors. If ⁠𝐌⁠ is compact, so is ⁠𝐌∗𝐌⁠. Applying the diagonalization result, the unitary image of its positive square root ⁠Tf⁠ has a set of orthonormal eigenvectors ⁠{ei}⁠ corresponding to strictly positive eigenvalues ⁠{σi}⁠. For any ⁠ψ⁠ in ⁠H⁠,
+𝐌ψ=𝐔Tf𝐕∗ψ=∑i⟨𝐔Tf𝐕∗ψ,𝐔ei⟩𝐔ei=∑iσi⟨ψ,𝐕ei⟩𝐔ei,
+where the series converges in the norm topology on ⁠H⁠. Notice how this resembles the expression from the finite-dimensional case. The ⁠σi⁠ are called the singular values of ⁠𝐌⁠. The ⁠{𝐔ei}⁠ (resp. ⁠{𝐕ei}⁠) can be considered the left-singular (resp. right-singular) vectors of ⁠𝐌⁠.
+
+Compact operators on a Hilbert space are the closure of finite-rank operators in the uniform operator topology. The above series expression gives an explicit such representation. An immediate consequence of this is:
+
+Theorem. ⁠𝐌⁠ is compact if and only if ⁠𝐌∗𝐌⁠ is compact.
+
+History
+
+The singular value decomposition was originally developed by differential geometers, who wished to determine whether a real bilinear form could be made equal to another by independent orthogonal transformations of the two spaces it acts on. Eugenio Beltrami and Camille Jordan discovered independently, in 1873 and 1874 respectively, that the singular values of the bilinear forms, represented as a matrix, form a complete set of invariants for bilinear forms under orthogonal substitutions. James Joseph Sylvester also arrived at the singular value decomposition for real square matrices in 1889, apparently independently of both Beltrami and Jordan. Sylvester called the singular values the canonical multipliers of the matrix ⁠𝐀⁠. The fourth mathematician to discover the singular value decomposition independently is Autonne in 1915, who arrived at it via the polar decomposition. The first proof of the singular value decomposition for rectangular and complex matrices seems to be by Carl Eckart and Gale J. Young in 1936;[38] they saw it as a generalization of the principal axis transformation for Hermitian matrices.
+
+In 1907, Erhard Schmidt defined an analog of singular values for integral operators (which are compact, under some weak technical assumptions); it seems he was unaware of the parallel work on singular values of finite matrices. This theory was further developed by Émile Picard in 1910, who is the first to call the numbers σk singular values (or in French, valeurs singulières).
+
+Practical methods for computing the SVD date back to Kogbetliantz in 1954–1955 and Hestenes in 1958,[39] resembling closely the Jacobi eigenvalue algorithm, which uses plane rotations or Givens rotations. However, these were replaced by the method of Gene Golub and William Kahan published in 1965,[26] which uses Householder transformations or reflections. In 1970, Golub and Christian Reinsch published a variant of the Golub/Kahan algorithm[40] that is still the most used one today.
+
+See also
+
+- Autoencoder
+
+- Canonical correlation
+
+- Canonical form
+
+- Correspondence analysis (CA)
+
+- Curse of dimensionality
+
+- Digital signal processing
+
+- Dimensionality reduction
+
+- Eigendecomposition of a matrix
+
+- Empirical orthogonal functions (EOFs)
+
+- Fourier analysis
+
+- Generalized singular value decomposition
+
+- Inequalities about singular values
+
+- K-SVD
+
+- Latent semantic analysis
+
+- Latent semantic indexing
+
+- Linear least squares
+
+- List of Fourier-related transforms
+
+- Locality-sensitive hashing
+
+- Low-rank approximation
+
+- Matrix decomposition
+
+- Multilinear principal component analysis (MPCA)
+
+- Nearest neighbor search
+
+- Non-linear iterative partial least squares
+
+- Polar decomposition
+
+- Principal component analysis (PCA)
+
+- Schmidt decomposition
+
+- Smith normal form
+
+- Singular value
+
+- Time series
+
+- Two-dimensional singular-value decomposition (2DSVD)
+
+- von Neumann's trace inequality
+
+- Wavelet compression
+
+Notes
+
+- ^ Although it was later found to have been known to earlier authors; see Stewart (1993).
+
+- ^ To see this, we just have to notice that Tr⁡(𝐕2∗𝐌∗𝐌𝐕2)=‖𝐌𝐕2‖2, and remember that ‖A‖=0⇔A=0.
+
+Footnotes
+
+- ^ Holmes, Mark (2023). Introduction to Scientific Computing and Data Analysis, 2nd Ed. Springer. ISBN 978-3-031-22429-4.
+
+- ^ DeAngelis, G. C.; Ohzawa, I.; Freeman, R. D. (October 1995). "Receptive-field dynamics in the central visual pathways". Trends Neurosci. 18 (10): 451–8. doi:10.1016/0166-2236(95)94496-R. PMID 8545912.
+
+- ^ Depireux, D. A.; Simon, J. Z.; Klein, D. J.; Shamma, S. A. (March 2001). "Spectro-temporal response field characterization with dynamic ripples in ferret primary auditory cortex". J. Neurophysiol. 85 (3): 1220–34. doi:10.1152/jn.2001.85.3.1220. PMID 11247991.
+
+- ^ The Singular Value Decomposition in Symmetric (Lowdin) Orthogonalization and Data Compression
+
+- ^ Golub & Van Loan (1996), §12.4.
+
+- ^ a b Hastie, Tibshirani & Friedman (2009), pp. 535–536.
+
+- ^ Sahidullah, Md.; Kinnunen, Tomi (March 2016). "Local spectral variability features for speaker verification". Digital Signal Processing. 50: 1–11. doi:10.1016/j.dsp.2015.10.011.
+
+- ^ Mademlis, Ioannis; Tefas, Anastasios; Pitas, Ioannis (2018). "Regularized SVD-Based Video Frame Saliency for Unsupervised Activity Video Summarization". 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE. pp. 2691–2695. doi:10.1109/ICASSP.2018.8462274. ISBN 978-1-5386-4658-8.
+
+- ^
+Alter, O.; Brown, P. O.; Botstein, D. (September 2000). "Singular Value Decomposition for Genome-Wide Expression Data Processing and Modeling". PNAS. 97 (18): 10101–10106. doi:10.1073/pnas.97.18.10101. PMC 27718. PMID 10963673.
+
+- ^ Alter, O.; Golub, G. H. (November 2004). "Integrative Analysis of Genome-Scale Data by Using Pseudoinverse Projection Predicts Novel Correlation Between DNA Replication and RNA Transcription". PNAS. 101 (47): 16577–16582. doi:10.1073/pnas.0406767101. PMC 534520. PMID 15545604.
+
+- ^ Alter, O.; Golub, G. H. (August 2006). "Singular Value Decomposition of Genome-Scale mRNA Lengths Distribution Reveals Asymmetry in RNA Gel Electrophoresis Band Broadening". PNAS. 103 (32): 11828–11833. doi:10.1073/pnas.0604756103. PMC 1524674. PMID 16877539.
+
+- ^ Bertagnolli, N. M.; Drake, J. A.; Tennessen, J. M.; Alter, O. (November 2013). "SVD Identifies Transcript Length Distribution Functions from DNA Microarray Data and Reveals Evolutionary Forces Globally Affecting GBM Metabolism". PLOS ONE. 8 (11) e78913. doi:10.1371/journal.pone.0078913. PMC 3839928. PMID 24282503. Highlight.
+
+- ^ Edelman, Alan (1992). "On the distribution of a scaled condition number" (PDF). Math. Comp. 58 (197): 185–190. doi:10.1090/S0025-5718-1992-1106966-2.
+
+- ^ Shen, Jianhong (Jackie) (2001). "On the singular values of Gaussian random matrices". Linear Alg. Appl. 326 (1–3): 1–14. doi:10.1016/S0024-3795(00)00322-0.
+
+- ^ Walton, S.; Hassan, O.; Morgan, K. (2013). "Reduced order modelling for unsteady fluid flow using proper orthogonal decomposition and radial basis functions". Applied Mathematical Modelling. 37 (20–21): 8930–8945. doi:10.1016/j.apm.2013.04.025.
+
+- ^ Setyawati, Y.; Ohme, F.; Khan, S. (2019). "Enhancing gravitational waveform model through dynamic calibration". Physical Review D. 99 (2) 024010. arXiv:1810.07060. doi:10.1103/PhysRevD.99.024010.
+
+- ^ Sarwar, Badrul; Karypis, George; Konstan, Joseph A. & Riedl, John T. (2000). Application of Dimensionality Reduction in Recommender System – A Case Study (Technical report 00-043). University of Minnesota. hdl:11299/215429.
+
+- ^ Bosagh Zadeh, Reza; Carlsson, Gunnar (2013). "Dimension Independent Matrix Square Using MapReduce". arXiv:1304.1467 [cs.DS].
+
+- ^ Fanaee Tork, Hadi; Gama, João (September 2014). "Eigenspace method for spatiotemporal hotspot detection". Expert Systems. 32 (3): 454–464. arXiv:1406.3506. doi:10.1111/exsy.12088.
+
+- ^ Fanaee Tork, Hadi; Gama, João (May 2015). "EigenEvent: An Algorithm for Event Detection from Complex Data Streams in Syndromic Surveillance". Intelligent Data Analysis. 19 (3): 597–616. arXiv:1406.3496. doi:10.3233/IDA-150734.
+
+- ^ Muralidharan, Vivek; Howell, Kathleen (2023). "Stretching directions in cislunar space: Applications for departures and transfer design". Astrodynamics. 7 (2): 153–178. doi:10.1007/s42064-022-0147-z.
+
+- ^ Muralidharan, Vivek; Howell, Kathleen (2022). "Leveraging stretching directions for stationkeeping in Earth-Moon halo orbits". Advances in Space Research. 69 (1): 620–646. doi:10.1016/j.asr.2021.10.028.
+
+- ^ Albers, Jasper; Kurth, Anno; Gutzen, Robin; Morales-Gregorio, Aitor; Denker, Michael; Gruen, Sonja; van Albada, Sacha; Diesmann, Markus (2025). "Assessing the Similarity of Real Matrices with Arbitrary Shape". PRX Life. 3 (2) 023005. arXiv:2403.17687. doi:10.1103/PRXLife.3.023005.
+
+- ^ Rijk, P.P.M. de (1989). "A one-sided Jacobi algorithm for computing the singular value decomposition on a vector computer". SIAM J. Sci. Stat. Comput. 10 (2): 359–371. doi:10.1137/0910023.
+
+- ^ a b c Trefethen & Bau (1997), Lecture 31.
+
+- ^ a b Golub & Kahan (1965).
+
+- ^ Anderson et al. (1999), 'DBDSQR' source.
+
+- ^ Demmel & Kahan (1990).
+
+- ^ Anderson et al. (1999), 'DGESVD' source.
+
+- ^ GSL Team (2007).
+
+- ^ Golub & Van Loan (1996), §8.6.3.
+
+- ^ mathworks.co.kr/matlabcentral/fileexchange/12674-simple-svd
+
+- ^ Demmel, J.; Dumitriu, I.; Holtz, O. (2007). "Fast linear algebra is stable". Numer. Math. 108: 59–91. arXiv:math/0612264. doi:10.1007/s00211-007-0114-x.
+
+- ^
+Demmel, James (2000). "Decompositions". Templates for the Solution of Algebraic Eigenvalue Problems. By Bai, Zhaojun; Demmel, James; Dongarra, Jack J.; Ruhe, Axel; van der Vorst, Henk A. Society for Industrial and Applied Mathematics. doi:10.1137/1.9780898719581. ISBN 978-0-89871-471-5.
+
+- ^ Chicco, D; Masseroli, M (2015). "Software suite for gene and protein annotation prediction and similarity search". IEEE/ACM Transactions on Computational Biology and Bioinformatics. 12 (4): 837–843. doi:10.1109/TCBB.2014.2382127. hdl:11311/959408. PMID 26357324.
+
+- ^ Fan, Ky (1951). "Maximum properties and inequalities for the eigenvalues of completely continuous operators". Proceedings of the National Academy of Sciences of the United States of America. 37 (11): 760–766. doi:10.1073/pnas.37.11.760. PMC 1063464. PMID 16578416.
+
+- ^ Uhlmann, Jeffrey (2018). A Generalized Matrix Inverse that is Consistent with Respect to Diagonal Transformations (PDF). SIAM Journal on Matrix Analysis. Vol. 239. pp. 781–800. Archived from the original (PDF) on 17 June 2019.
+
+- ^ Eckart, C.; Young, G. (1936). "The approximation of one matrix by another of lower rank". Psychometrika. 1 (3): 211–8. doi:10.1007/BF02288367.
+
+- ^ Hestenes, M. R. (1958). "Inversion of Matrices by Biorthogonalization and Related Results". Journal of the Society for Industrial and Applied Mathematics. 6 (1): 51–90. doi:10.1137/0106005. JSTOR 2098862. MR 0092215.
+
+- ^ Golub & Reinsch (1970).
+
+References
+
+- Anderson, E.; Bai, Z.; Bischof, C.; Blackford, S.; Demmel, J.; Dongarra, J.; Du Croz, J.; Greenbaum, A.; Hammarling, S.; McKenney, A.; Sorensen, D. (1999). "LAPACK Users' Guide" (Third ed.). Philadelphia: Society for Industrial and Applied Mathematics – via Netlib.org.
+
+- Banerjee, Sudipto; Roy, Anindya (2014). Linear Algebra and Matrix Analysis for Statistics. Texts in Statistical Science (1st ed.). Chapman and Hall/CRC. ISBN 978-1-4200-9538-8.
+
+- Bisgard, James (2021). Analysis and Linear Algebra: The Singular Value Decomposition and Applications. Student Mathematical Library (1st ed.). AMS. ISBN 978-1-4704-6332-8.
+
+- Chicco, D; Masseroli, M (2015). "Software suite for gene and protein annotation prediction and similarity search". IEEE/ACM Transactions on Computational Biology and Bioinformatics. 12 (4): 837–843. doi:10.1109/TCBB.2014.2382127. hdl:11311/959408. PMID 26357324.
+
+- Demmel, James; Kahan, William (1990). "Accurate singular values of bidiagonal matrices". SIAM Journal on Scientific and Statistical Computing. 11 (5): 873–912. doi:10.1137/0911052.
+
+- Golub, Gene H.; Kahan, William (1965). "Calculating the singular values and pseudo-inverse of a matrix". Journal of the Society for Industrial and Applied Mathematics, Series B: Numerical Analysis. 2 (2): 205–224. doi:10.1137/0702016. JSTOR 2949777.
+
+- Golub, G. H.; Reinsch, C. (1970). "Singular value decomposition and least squares solutions". Numerische Mathematik. 14 (5): 403–420. doi:10.1007/BF02163027. MR 1553974.
+
+- Golub, Gene H.; Van Loan, Charles F. (1996). Matrix Computations (3rd ed.). Johns Hopkins. ISBN 978-0-8018-5414-9.
+
+- GSL Team (2007). "§14.4 Singular Value Decomposition". GNU Scientific Library. Reference Manual.
+
+- Halldor, Bjornsson; Venegas, Silvia A. (1997). A manual for EOF and SVD analyses of climate data (Report). Montréal, Québec: McGill University. CCGCR Report No. 97-1.
+
+- Hansen, P. C. (1987). "The truncated SVD as a method for regularization". BIT. 27 (4): 534–553. doi:10.1007/BF01937276.
+
+- Hastie, Trevor; Tibshirani, Robert; Friedman, Jerome (2009). The Elements of Statistical Learning (2nd ed.). New York: Springer. pp. 535–536. ISBN 978-0-387-84857-0.
+
+- Horn, Roger A.; Johnson, Charles R. (1985). "Section 7.3". Matrix Analysis. Cambridge University Press. ISBN 978-0-521-38632-6.
+
+- Horn, Roger A.; Johnson, Charles R. (1991). "Chapter 3". Topics in Matrix Analysis. Cambridge University Press. ISBN 978-0-521-46713-1.
+
+- Press, W. H.; Teukolsky, S. A.; Vetterling, W. T.; Flannery, B. P. (2007). "Section 2.6". Numerical Recipes: The Art of Scientific Computing (3rd ed.). New York: Cambridge University Press. ISBN 978-0-521-88068-8.
+
+- Samet, H. (2006). Foundations of Multidimensional and Metric Data Structures. Morgan Kaufmann. ISBN 978-0-12-369446-1.
+
+- Strang, G. (1998). "Section 6.7". Introduction to Linear Algebra (3rd ed.). Wellesley-Cambridge Press. ISBN 978-0-9614088-5-5.
+
+- Stewart, G. W. (1993). "On the Early History of the Singular Value Decomposition". SIAM Review. 35 (4): 551–566. doi:10.1137/1035134. hdl:1903/566. JSTOR 2132388.
+
+- Trefethen, Lloyd N.; Bau, David III (1997). Numerical Linear Algebra. Philadelphia: Society for Industrial and Applied Mathematics. ISBN 978-0-89871-361-9.
+
+- Wall, Michael E.; Rechtsteiner, Andreas; Rocha, Luis M. (2003). "Singular value decomposition and principal component analysis". In Berrar, D. P.; Dubitzky, W.; Granzow, M. (eds.). A Practical Approach to Microarray Data Analysis. Norwell, Massachusetts: Kluwer. pp. 91–109.
+
+External links
+
+- Online SVD calculator

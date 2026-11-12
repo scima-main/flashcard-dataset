@@ -1,0 +1,67 @@
+Im Rahmen der dreigliedrig aufgebauten Dogmatik des deutschen Strafrechts ist Schuld neben den subjektiven und objektiven Merkmalen des Straftatbestandes und der Rechtswidrigkeit die dritte Voraussetzung für die Strafbarkeit eines Täters. Die individuelle Schuld muss nachgewiesen werden, was Ausfluss des Gesetzlichkeitsprinzips „nulla poena sine culpa“ ist, denn straffrei bleibt, wer schuldlos handelt.
+
+Innerhalb des Rahmens eines normativen Schuldbegriffs wird die Schuldfähigkeit des Täters geprüft und darauf aufbauend die an ihn gerichtete persönliche Vorwerfbarkeit der Tat. Liegen Schuldfähigkeit und persönliche Vorwerfbarkeit vor, kann der Täter bestraft werden. Insoweit grenzt sich der strafrechtliche Schuldbegriff zum zivilrechtlichen Verschulden ab, insbesondere dem des Rechts der unerlaubten Handlungen, denn dort ist keine Bestrafung vorgesehen.
+
+Begriff der Schuld
+
+Das deutsche Strafgesetzbuch enthält keine Legaldefinition des Schuldbegriffs.
+
+Heute herrschend ist der von Reinhard Frank begründete[1] normative Schuldbegriff, wonach Schuld die persönliche Vorwerfbarkeit vorsätzlichen oder fahrlässigen Verhaltens bedeutet.[2][3] Der Verhaltensvorwurf beruht auf dem Gedanken der Willensfreiheit. Vorwerfbarkeit des Verhaltens setzt voraus, dass der Täter sich anders hätte entscheiden können. Nach der Theorie des Determinismus, welche bei rückschauender Betrachtung das Handeln des Menschen in anlage- und umweltbedingten Bestimmungskräften begründet sieht, ist in Ermangelung der Fähigkeit des Menschen, sich frei zwischen Recht und Unrecht zu entscheiden, dem Schuldprinzip der Boden entzogen. Die Verantwortlichkeit des einsichtsfähigen und gesunden Menschen wird dadurch aber nicht berührt. Deshalb hat der Umstand, dass die Wissenschaft den Indeterminismus nicht beweisen kann, weder Auswirkungen auf das Zivilrecht noch auf die Frage (strafbaren) Unrechts. Ob sich vor diesem Hintergrund aber der Schuldvorwurf auf Willensfreiheit als „staatsnotwendige Fiktion“ (Eduard Kohlrausch) stützen lässt, erscheint sehr fraglich und wird in den letzten Jahren zunehmend kritisch diskutiert. Von der Klärung, ob überhaupt ein Schuldvorwurf gegen den Täter erhoben werden darf, könnte vor allem der Umgang mit Gefangenen abhängen.
+
+Der psychologische Schuldbegriff betrachtet Schuld als die Beziehung des Täters zu seiner Handlung anhand der Gesichtspunkte Kenntnis/Unkenntnis (kognitive Elemente) und Wollen/Nichtwollen (voluntative Elemente).
+
+Als besonderer Ausdruck relativer Straftheorien sind die Lehre der Rechtsschuld und der diskursive Schuldbegriff zu begreifen. Die „Lehre der Restschuld“ wirft dem Täter mangelnde Rechtstreue vor, sieht aber keine moralische oder sozialethische Wertung in der Strafe. Der „diskursive Schuldbegriff“ versucht hingegen eine Verbindung von Schuld und Legitimität der Norm, gegen die der Täter verstößt, herzustellen. In einer insbesondere demokratisch verfassten Gesellschaft sei jedem freigestellt im Rahmen einer Verständigung mit der Gemeinschaft (diskursiv) auf eine Änderung von Normen hinzuwirken. Handelt eine Person tatbestandsmäßig, zeigt dies ihren Abweichungswillen von konsentierten Normen. Der Täter handelt nicht wegen seines Abweichungswillen schuldhaft, sondern weil der Täter, als Autor seiner Norm, mit der Verständigung bricht und gegen den (ebenfalls) vereinbarten Weg einer möglichen neuen Verständigung (z. B. durch einen demokratisch fundierten Mechanismus), welche seinen Abweichungswillen berücksichtigt, zuwiderhandelt.[4]
+
+Davon zu unterscheiden sind die Lebensführungsschuld und die Charakterschuld.
+
+Von Laien wird Schuld regelmäßig mit Kausalität oder Vorsatz vermengt oder verwechselt.
+
+Voraussetzungen der Schuld
+
+Durch die Rechtswidrigkeit des tatbestandlich relevanten Verhaltens wird die Schuld indiziert. Die Schuld des Täters muss grundsätzlich also nicht positiv festgestellt werden. Der Jurist prüft vielmehr die sogenannten allgemeinen Schuldmerkmale des einschlägigen Straftatbestands. Dies sind die Schuldfähigkeit, die persönliche Vorwerfbarkeit und gegebenenfalls besondere Merkmale der Tat. Die Schuld muss im Rahmen des Simultaneitätsprinzips bei Begehung der Tat vorliegen, also bei Vornahme der Tathandlung (§ 8 StGB).
+
+Schuldfähigkeit
+
+Die Schuldfähigkeit ist nicht legaldefiniert, sie ergibt sich aus der Abgrenzung zu den gesetzlichen Bestimmungen der Schuldunfähigkeit, gemäß § 19, § 20, § 21 StGB beziehungsweise § 3 JGG im Jugendstrafrecht. In den genannten Normen ist definiert, wer schuldunfähig ist. Schuldfähig ist demnach jeder, der die Fähigkeit hat, das Unrecht der Tat einzusehen oder nach dieser Einsicht zu handeln.
+
+Gemäß dem Simultanitätsprinzip muss die Schuld zum Zeitpunkt der Begehung der Tat vorliegen. Eine prominente Ausnahme gilt für den Problemkreis der actio libera in causa. Bei der actio libera in causa hat der Täter zum Zeitpunkt der Ausübung der Tat (beispielsweise Volltrunkenheit) nicht die Fähigkeit, das Unrecht seiner Tat einzusehen, hatte diese Fähigkeit aber noch zum Zeitpunkt seines Tatentschlusses. Gleichwohl wird er als Schuldfähiger behandelt, denn die Rechtsprechung verlagert das strafbewehrte Handeln des Täters auf den Zeitpunkt der Entschlussfassung vor. Dogmatisch wird dieses Ergebnis durch teleologische Reduktion des Handlungsbegriffs des § 8 StGB erreicht. Abgestellt wird nicht auf den Zeitpunkt der Tatbegehung, sondern auf den Zeitpunkt des Tatentschlusses (mit allen seinen Beweisproblemen). Der extensiv genutzte Handlungsbegriff lässt das Ingangsetzen des Geschehensablaufs genügen, sodass die Tatverübung im schuldunfähigen Zustand Bestandteil eines einheitlichen Handlungsablaufs ist. Beispiel: Der Täter betrinkt sich, weil er seinen Nachbarn töten will, aber straffrei ausgehen möchte; er tötet ihn erst im Zustand des Vollrausches. Die Rechtsfolge ist eine Bestrafung aus Vorsatzdelikt.
+
+Persönliche Vorwerfbarkeit
+
+Persönliche Vorwerfbarkeit bedeutet, dass der Täter rechtswidrig handelt, obwohl er nach seinen Fähigkeiten und unter Würdigung der konkreten Tatumstände in der Lage ist, den Apell der im Tatbestand normierten Pflicht – nämlich rechtmäßig zu handeln – zu verstehen. Er blendet diese individuelle Einsicht aus und handelt stattdessen in Abweichung zur Normpflicht. Die persönliche Vorwerfbarkeit indiziert den Schuldvorwurf (minima non curat praetor). Die Vorsatzschuld als Schuldform besteht in der vorsätzlich-fehlerhaften subjektiven Einstellung zur Rechtsordnung und steht im Bezug zum Tatbestandsvorsatz selbst, soweit dieser nicht (ausnahmsweise) durch einen Erlaubnistatbestandsirrtum ausgeschlossen ist. Gemäß § 15 StGB kann auch Fahrlässigkeit die Schuldform bestimmen. Notwendig ist in allen Fällen aktuelles, mindestens aber potentielles Unrechtsbewusstsein, mithin die Einsicht in die materielle Rechtswidrigkeit des Handelns. Verbots- oder Erlaubnisirrtümer (§ 17 StGB) können entgegenstehen. Sofern nicht ein Entschuldigungsgrund vorliegt, so intensiver Notwehrexzess (§ 33 StGB), oder entschuldigender Notstand (§ 35 StGB) und gegebenenfalls übergesetzlicher entschuldigender Notstand, so ist die Tat persönlich vorwerfbar.
+
+Daneben können bei bestimmten Delikten besondere Schuldmerkmale auftreten. Diese wirken strafmildernd oder strafschärfend und beziehen sich allein auf die Schuld, wirken sich also anders aus, als die persönlichen Strafausschließungs- oder -aufhebungsgründe. Sie erfassen besonders belastende Tätersituationen, die beispielsweise beim Aussagenotstand (§ 157 StGB) Strafmilderung nach sich ziehen können; besonders tadelnswerte Gesinnungen, so zum Beispiel die „Rücksichtslosigkeit“ im Falle der Gefährdung des Straßenverkehrs (§ 315c Abs. 1 Nr. 2 StGB), können zur Strafschärfung führen.
+
+Literatur
+
+- Klaus Günther: Schuld und kommunikative Freiheit. Studien zur personalen Zurechnung strafbaren Unrechts im demokratischen Rechtsstaat, Frankfurt am Main 2004, ISBN 978-3-465-03378-3
+
+- Grischa Detlefsen: Grenzen der Freiheit – Bedingungen des Handelns – Perspektive des Schuldprinzips. Konsequenzen neurowissenschaftlicher Forschung für das Strafrecht, Berlin 2006, ISBN 978-3-428-12212-7
+
+- Bert Götting: Gesetzliche Strafrahmen und Strafzumessungspraxis, ISBN 3-631-31743-3
+
+Weblinks
+
+- Detlef Krauß, Humboldt-Universität zu Berlin: Schuld im Strafrecht (pdf)
+
+- Rainer Marcus Christmann: Strafrechtliche Schuld und gesellschaftliche Wirklichkeit. Das Schuldprinzip im Licht sozialwissenschaftlicher Deutungen jugendlicher Gewaltdelinquenz (Dissertation an der Humboldt-Universität zu Berlin, pdf; 2,0 MB)
+
+- Stephan Schleim: Sind unsere Rechtsnormen tatsächlich mit den neuen wissenschaftlichen Funden unvereinbar? – Kritische Betrachtung zum Schuldbegriff; Telepolis
+
+- Kleiner Online-Crashkurs zur Schuld im Strafrecht (deutsches Recht).
+
+- Boris Duru: https://www.zjs-online.com/dat/artikel/2012_5_638.pdf [Gießener Erneuerung des Strafrechts – Reinhard Frank und der Schuldbegriff], ZJS 2012, S. 734 ff.
+
+Einzelnachweise
+
+- ↑ Reinhard Frank: Über den Aufbau des Schuldbegriffs, 1907
+
+- ↑ ständige Rechtsprechung, z. B. BGHSt 2, 194, 200
+
+- ↑ Duru: Gießener Erneuerung des Strafrechts – Reinhard Frank und der Schuldbegriff. In: ZJS 2012. S. 734 ff.
+
+- ↑ Urs Kindhäuser: Strafrecht Allgemeiner Teil, Nomos 2013, § 21.
+
+Bitte den Hinweis zu Rechtsthemen beachten!
+
+Normdaten (Sachbegriff): GND: 4053460-1

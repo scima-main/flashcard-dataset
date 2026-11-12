@@ -1,0 +1,68 @@
+{
+ "docid": "fr_wiki_maillard",
+ "N": 11,
+ "lang": "fr",
+ "discipline": "chemistry",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "Que sont les réactions de Maillard ?",
+   "a": "Des réactions de glycation entre des sucres réducteurs et des composés portant un groupe amine, tels les acides aminés, les peptides et les protéines.",
+   "type": "def"
+  },
+  {
+   "q": "Quel nom est présenté comme mieux approprié que « réactions de Maillard » ?",
+   "a": "Réactions amino-carbonyles.",
+   "type": "def"
+  },
+  {
+   "q": "Quel phénomène de coloration les réactions de glycation produisent-elles dans les aliments chauffés, cuits ou stockés ?",
+   "a": "Leur brunissement non enzymatique.",
+   "type": "def"
+  },
+  {
+   "q": "Que sont les mélanoïdines issues des produits avancés de glycation ?",
+   "a": "Des pigments bruns de structure variable.",
+   "type": "def"
+  },
+  {
+   "q": "À partir de quel sucre les produits d'Amadori se forment-ils, selon la légende de figure ?",
+   "a": "Le glucose.",
+   "type": "def"
+  },
+  {
+   "q": "Par quelle étape commencent les réactions de Maillard ?",
+   "a": "Une condensation entre le groupe amine d'un acide aminé, d'un peptide ou d'une protéine et le groupe carbonyle de sucres réducteurs.",
+   "type": "mech"
+  },
+  {
+   "q": "À quoi contribuent les composés engendrés par les réactions de Maillard dans les aliments ?",
+   "a": "À la couleur, à la saveur et à l'odeur.",
+   "type": "mech"
+  },
+  {
+   "q": "Quelles autres réactions se déroulent souvent en même temps que la glycation dans les situations culinaires courantes ?",
+   "a": "Des pyrolyses (de protéines notamment) et des oxydations (par exemple des lipides).",
+   "type": "mech"
+  },
+  {
+   "q": "Quels sucres réducteurs sont cités comme réactifs des réactions de Maillard ?",
+   "a": "Glucoses, fructoses, lactose, ribose.",
+   "type": "quant"
+  },
+  {
+   "q": "Selon la légende de figure, quel composé cancérigène se forme à la suite de l'implication de l'asparagine ?",
+   "a": "L'acrylamide.",
+   "type": "quant"
+  },
+  {
+   "q": "En quoi la réaction de Maillard diffère-t-elle de la caramélisation ?",
+   "a": "La caramélisation fait intervenir uniquement le saccharose.",
+   "type": "contrast"
+  }
+ ]
+}

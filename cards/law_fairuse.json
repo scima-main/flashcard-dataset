@@ -1,0 +1,15 @@
+{
+ "docid": "law_fairuse",
+ "N": 8,
+ "lang": "en",
+ "discipline": "law",
+ "provenance": "primary_humanities",
+ "difficulty": "undergraduate",
+ "tier": "short",
+ "flags": [
+  "boilerplate_only"
+ ],
+ "kind": "negative",
+ "neg_type": "boilerplate_only",
+ "cards": []
+}

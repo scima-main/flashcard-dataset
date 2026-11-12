@@ -1,0 +1,1284 @@
+-
+ Skip to main content
+
+-
+ Skip to search
+
+ HTML: Markup language
+
+HTML reference
+
+-
+ Elements
+
+-
+ Global attributes
+
+-
+ Attributes
+
+-
+ See all…
+
+HTML guides
+
+-
+ Responsive images
+
+-
+ HTML cheatsheet
+
+-
+ Date & time formats
+
+-
+ See all…
+
+Markup languages
+
+-
+ SVG
+
+-
+ MathML
+
+-
+ XML
+
+ CSS: Styling language
+
+CSS reference
+
+-
+ Properties
+
+-
+ Selectors
+
+-
+ At-rules
+
+-
+ Values
+
+-
+ See all…
+
+CSS guides
+
+-
+ Box model
+
+-
+ Animations
+
+-
+ Flexbox
+
+-
+ Colors
+
+-
+ See all…
+
+Layout cookbook
+
+-
+ Column layouts
+
+-
+ Centering an element
+
+-
+ Card component
+
+-
+ See all…
+
+ JavaScript: Scripting language
+
+JS reference
+
+-
+ Standard built-in objects
+
+-
+ Expressions & operators
+
+-
+ Statements & declarations
+
+-
+ Functions
+
+-
+ See all…
+
+JS guides
+
+-
+ Control flow & error handling
+
+-
+ Loops and iteration
+
+-
+ Working with objects
+
+-
+ Using classes
+
+-
+ See all…
+
+ Web APIs: Programming interfaces
+
+Web API reference
+
+-
+ File system API
+
+-
+ Fetch API
+
+-
+ Geolocation API
+
+-
+ HTML DOM API
+
+-
+ Push API
+
+-
+ Service worker API
+
+-
+ See all…
+
+Web API guides
+
+-
+ Using the Web animation API
+
+-
+ Using the Fetch API
+
+-
+ Working with the History API
+
+-
+ Using the Web speech API
+
+-
+ Using web workers
+
+ All web technology
+
+Technologies
+
+-
+ Accessibility
+
+-
+ HTTP
+
+-
+ URI
+
+-
+ Web extensions
+
+-
+ WebAssembly
+
+-
+ WebDriver
+
+-
+ See all…
+
+Topics
+
+-
+ Media
+
+-
+ Performance
+
+-
+ Privacy
+
+-
+ Security
+
+-
+ Progressive web apps
+
+ Learn web development
+
+Frontend developer course
+
+-
+ Getting started modules
+
+-
+ Core modules
+
+-
+ MDN Curriculum
+
+-
+ Check out the video course from Scrimba, our partner
+
+Learn HTML
+
+-
+ Structuring content with HTML module
+
+Learn CSS
+
+-
+ CSS styling basics module
+
+-
+ CSS layout module
+
+Learn JavaScript
+
+-
+ Dynamic scripting with JavaScript module
+
+ Discover our tools
+
+-
+ Playground
+
+-
+ HTTP Observatory
+
+-
+ Border-image generator
+
+-
+ Border-radius generator
+
+-
+ Box-shadow generator
+
+-
+ Color format converter
+
+-
+ Color mixer
+
+-
+ Shape generator
+
+ Get to know MDN better
+
+-
+ About MDN
+
+-
+ Advertise with us
+
+-
+ Community
+
+-
+ MDN on GitHub
+
+ Blog
+
+ Toggle sidebar
+
+-
+ Веб-технологии для разработчиков
+
+-
+ HTTP
+
+-
+ Reference
+
+-
+ Коды состояния ответа HTTP
+
+-
+ 404 Not Found
+
+-
+
+-
+
+-
+
+ Remember language
+
+ Learn more
+
+-
+ Deutsch
+
+-
+ English (US)
+
+-
+ Español
+
+-
+ Français
+
+-
+ 日本語
+
+-
+ 한국어
+
+-
+ Português (do Brasil)
+
+-
+ Русский
+
+-
+ 中文 (简体)
+
+-
+ 正體中文 (繁體)
+
+This page was translated from English by the community.
+ Learn more and join the MDN Web Docs community.
+
+ View in English
+
+ Always switch to English
+
+404 Not Found
+
+Код ответа на ошибку HTTP 404 Not Found указывает, что сервер не может найти запрошенный ресурс. Ссылки, ведущие к коду 404, часто называются сломанными или мёртвыми связями и приводят к ссылочной гнили.
+
+Код статуса 404 не уточняет, отсутствует ли запрашиваемый ресурс временно или постоянно. Но если серверу известно, что указанный ресурс удалён навсегда, то вместо статуса 404 следует использовать 410 (Gone) .
+
+In this article
+
+-
+ Статус
+
+-
+ Пользовательские страницы ошибок
+
+-
+ Спецификации
+
+-
+ Совместимость с браузерами
+
+-
+ Смотрите также
+
+Статус
+
+404 Not Found
+
+Пользовательские страницы ошибок
+
+Многие веб-сайты настраивают внешний вид страницы 404, чтобы быть более полезными для пользователя и давать рекомендации. Серверы Apache могут быть настроены с использованием файла .htaccess и фрагмента кода, например, такого, как этот.
+
+bash
+
+ErrorDocument 404 /notfound.html
+
+Вы можете взять MDN's 404 page в качестве вдохновения.
+
+Примечание:
+дизайн на 404 страницах - an endless source of inspiration, но имейте в виду, что в нем также существует a set of best practices, которые делают эти страницы полезными для пользователей веб-сайтов.
+
+Спецификации
+
+Спецификация | Название |
+
+RFC 7231, раздел 6.5.4: 404 Not Found | Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content |
+
+Совместимость с браузерами
+
+Смотрите также
+
+- 410
+
+ Help improve MDN
+
+ Was this page helpful to you?
+
+ Yes
+
+ No
+
+ Learn how to contribute
+
+ This page was last modified on 7 июл. 2025 г. by MDN contributors.
+
+ View this page on GitHub • Report a problem with this content
+
+ Filter sidebar
+
+ Clear filter input
+
+- HTTP
+
+- Учебники
+
+- Обзор протокола HTTP
+
+- Evolution of HTTP
+
+- HTTP сессия
+
+- Сообщения HTTP
+
+- MIME types
+
+- Неполный список типов MIME
+
+- Compression in HTTP
+
+- HTTP-кеширование
+
+- HTTP аутентификация
+
+- HTTP-куки
+
+- Перенаправления в HTTP
+
+- Условные HTTP запросы
+
+- Range requests
+
+- Client hints
+
+- User-Agent reduction
+
+- Compression Dictionary Transport
+
+- Network Error Logging
+
+- Согласование контента
+
+- Используемые по умолчанию значения заголовка Accept
+
+- Browser detection using the UA string
+
+- Connection management in HTTP/1.x
+
+- Protocol upgrade mechanism
+
+- Proxy servers and tunneling
+
+- Proxy Auto-Configuration (PAC) file
+
+- Безопасность в HTTP
+
+- HTTP Observatory
+
+- Practical implementation guides
+
+- Feature Policy
+
+- IFrame credentialless
+
+- Fetch metadata
+
+- Cross-Origin Resource Sharing (CORS)
+
+- Ошибки CORS
+
+- Ошибка: CORS disabled
+
+- Причина: CORS заголовок 'Access-Control-Allow-Origin' не соответствует 'xyz'
+
+- Причина: отсутствует заголовок CORS «Access-Control-Allow-Origin»
+
+- Reason: CORS header 'Origin' cannot be added
+
+- Reason: CORS preflight channel did not succeed
+
+- Причина: Не удалось выполнить запрос CORS
+
+- Reason: CORS request external redirect not allowed
+
+- Reason: CORS request not HTTP
+
+- Reason: Credential is not supported if the CORS header 'Access-Control-Allow-Origin' is '*'
+
+- Reason: Did not find method in CORS header 'Access-Control-Allow-Methods'
+
+- Reason: expected 'true' in CORS header 'Access-Control-Allow-Credentials'
+
+- Reason: invalid token 'xyz' in CORS header 'Access-Control-Allow-Headers'
+
+- Reason: invalid token 'xyz' in CORS header 'Access-Control-Allow-Methods'
+
+- Reason: missing token 'xyz' in CORS header 'Access-Control-Allow-Headers' from CORS preflight channel
+
+- Reason: Multiple CORS header 'Access-Control-Allow-Origin' not allowed
+
+- Content Security Policy (CSP)
+
+- Errors and warnings
+
+- Справочники
+
+- Заголовки HTTP
+
+- Accept
+
+- Accept-CH
+
+- Accept-Encoding
+
+- Accept-Language
+
+- Accept-Patch
+
+- Accept-Post
+
+- Accept-Query
+
+- Accept-Ranges
+
+- Access-Control-Allow-Credentials
+
+- Access-Control-Allow-Headers
+
+- Access-Control-Allow-Methods
+
+- Access-Control-Allow-Origin
+
+- Access-Control-Expose-Headers
+
+- Access-Control-Max-Age
+
+- Access-Control-Request-Headers
+
+- Access-Control-Request-Method
+
+- Activate-Storage-Access
+
+- Age
+
+- Allow
+
+- Alt-Svc
+
+- Alt-Used
+
+- Attribution-Reporting-Eligible
+
+- Attribution-Reporting-Register-Source
+
+- Attribution-Reporting-Register-Trigger
+
+- Authorization
+
+- Available-Dictionary
+
+- Cache-Control
+
+- Clear-Site-Data
+
+- Connection
+
+- Content-Digest
+
+- Content-Disposition
+
+- Content-DPR
+
+- Content-Encoding
+
+- Content-Language
+
+- Content-Length
+
+- Content-Location
+
+- Content-Range
+
+- Content-Security-Policy
+
+- Content-Security-Policy-Report-Only
+
+- Content-Type
+
+- Cookie
+
+- Critical-CH
+
+- Cross-Origin-Embedder-Policy
+
+- Cross-Origin-Embedder-Policy-Report-Only
+
+- Cross-Origin-Opener-Policy
+
+- Cross-Origin-Resource-Policy
+
+- Date
+
+- Device-Memory
+
+- Dictionary-ID
+
+- DNT
+
+- Downlink
+
+- DPR
+
+- Early-Data
+
+- ECT
+
+- ETag
+
+- Expect
+
+- Expect-CT
+
+- Expires
+
+- Forwarded
+
+- From
+
+- Host
+
+- Idempotency-Key
+
+- If-Match
+
+- If-Modified-Since
+
+- If-None-Match
+
+- If-Range
+
+- If-Unmodified-Since
+
+- Integrity-Policy
+
+- Integrity-Policy-Report-Only
+
+- Keep-Alive
+
+- Last-Modified
+
+- Link
+
+- Location
+
+- Max-Forwards
+
+- NEL
+
+- No-Vary-Search
+
+- Observe-Browsing-Topics
+
+- Origin
+
+- Origin-Agent-Cluster
+
+- Permissions-Policy
+
+- Permissions-Policy-Report-Only
+
+- Pragma
+
+- Prefer
+
+- Preference-Applied
+
+- Priority
+
+- Proxy-Authenticate
+
+- Proxy-Authorization
+
+- Range
+
+- Referer
+
+- Referrer-Policy
+
+- Refresh
+
+- Report-To
+
+- Reporting-Endpoints
+
+- Repr-Digest
+
+- Retry-After
+
+- RTT
+
+- Save-Data
+
+- Sec-Browsing-Topics
+
+- Sec-CH-Device-Memory
+
+- Sec-CH-DPR
+
+- Sec-CH-Prefers-Color-Scheme
+
+- Sec-CH-Prefers-Reduced-Motion
+
+- Sec-CH-Prefers-Reduced-Transparency
+
+- Sec-CH-UA
+
+- Sec-CH-UA-Arch
+
+- Sec-CH-UA-Bitness
+
+- Sec-CH-UA-Form-Factors
+
+- Sec-CH-UA-Full-Version
+
+- Sec-CH-UA-Full-Version-List
+
+- Sec-CH-UA-Mobile
+
+- Sec-CH-UA-Model
+
+- Sec-CH-UA-Platform
+
+- Sec-CH-UA-Platform-Version
+
+- Sec-CH-UA-WoW64
+
+- Sec-CH-Viewport-Height
+
+- Sec-CH-Viewport-Width
+
+- Sec-CH-Width
+
+- Sec-Fetch-Dest
+
+- Sec-Fetch-Mode
+
+- Sec-Fetch-Site
+
+- Sec-Fetch-Storage-Access
+
+- Sec-Fetch-User
+
+- Sec-GPC
+
+- Sec-Private-State-Token
+
+- Sec-Private-State-Token-Crypto-Version
+
+- Sec-Private-State-Token-Lifetime
+
+- Sec-Purpose
+
+- Sec-Redemption-Record
+
+- Sec-Speculation-Tags
+
+- Sec-WebSocket-Accept
+
+- Sec-WebSocket-Extensions
+
+- Sec-WebSocket-Key
+
+- Sec-WebSocket-Protocol
+
+- Sec-WebSocket-Version
+
+- Server
+
+- Server-Timing
+
+- Service-Worker
+
+- Service-Worker-Allowed
+
+- Service-Worker-Navigation-Preload
+
+- Set-Cookie
+
+- Set-Login
+
+- SourceMap
+
+- Speculation-Rules
+
+- Strict-Transport-Security
+
+- Supports-Loading-Mode
+
+- TE
+
+- Timing-Allow-Origin
+
+- Tk
+
+- Trailer
+
+- Transfer-Encoding
+
+- Upgrade
+
+- Upgrade-Insecure-Requests
+
+- Use-As-Dictionary
+
+- User-Agent
+
+- Vary
+
+- Via
+
+- Viewport-Width
+
+- Want-Content-Digest
+
+- Want-Repr-Digest
+
+- Warning
+
+- Width
+
+- WWW-Authenticate
+
+- X-Content-Type-Options
+
+- X-DNS-Prefetch-Control
+
+- X-Forwarded-For
+
+- X-Forwarded-Host
+
+- X-Forwarded-Proto
+
+- X-Frame-Options
+
+- X-Permitted-Cross-Domain-Policies
+
+- X-Powered-By
+
+- X-Robots-Tag
+
+- X-XSS-Protection
+
+- Методы HTTP запроса
+
+- CONNECT
+
+- DELETE
+
+- GET
+
+- HEAD
+
+- OPTIONS
+
+- PATCH
+
+- POST
+
+- PUT
+
+- QUERY
+
+- TRACE
+
+- Коды ответа HTTP
+
+- 100 Continue
+
+- 101 Switching Protocol
+
+- 103 Early Hints
+
+- 200 OK
+
+- 201 Created
+
+- 202 Accepted
+
+- 203 Non-Authoritative Information
+
+- 204 No Content
+
+- 205 Reset Content
+
+- 206 Partial Content
+
+- 207 Multi-Status
+
+- 208 Already Reported
+
+- 226 IM Used
+
+- 300 Multiple Choices
+
+- 301 Moved Permanently
+
+- 302 Found
+
+- 303 See Other
+
+- 304 Not Modified
+
+- 307 Temporary Redirect
+
+- 308 Permanent Redirect
+
+- 400 Bad Request
+
+- 401 Unauthorized
+
+- 402 Payment Required
+
+- 403 Forbidden
+
+- 404 Not Found
+
+- 405 Method Not Allowed
+
+- 406 Not Acceptable
+
+- 407 Proxy Authentication Required
+
+- 408 Request Timeout
+
+- 409 Conflict
+
+- 410 Gone
+
+- 411 Length Required
+
+- 412 Precondition Failed
+
+- 413 Payload Too Large
+
+- 414 URI Too Long
+
+- 415 Unsupported Media Type
+
+- 416 Range Not Satisfiable
+
+- 417 Expectation Failed
+
+- 418 I'm a teapot
+
+- 421 Misdirected Request
+
+- 422 Unprocessable Entity
+
+- 423 Locked
+
+- 424 Failed Dependency
+
+- 425 Too Early
+
+- 426 Upgrade Required
+
+- 428 Precondition Required
+
+- 429 Too Many Requests
+
+- 431 Request Header Fields Too Large
+
+- 451 Unavailable For Legal Reasons
+
+- 500 Internal Server Error
+
+- 501 Not Implemented
+
+- 502 Bad Gateway
+
+- 503 Service Unavailable
+
+- 504 Gateway Timeout
+
+- 505 HTTP Version Not Supported
+
+- 506 Variant Also Negotiates
+
+- 507 Insufficient Storage
+
+- 508 Loop Detected
+
+- 510 Not Extended
+
+- 511 Network Authentication Required
+
+- Директивы CSP
+
+- base-uri
+
+- block-all-mixed-content
+
+- child-src
+
+- connect-src
+
+- default-src
+
+- fenced-frame-src
+
+- font-src
+
+- form-action
+
+- frame-ancestors
+
+- frame-src
+
+- img-src
+
+- manifest-src
+
+- media-src
+
+- object-src
+
+- prefetch-src
+
+- report-to
+
+- report-uri
+
+- require-trusted-types-for
+
+- sandbox
+
+- script-src
+
+- script-src-attr
+
+- script-src-elem
+
+- style-src
+
+- style-src-attr
+
+- style-src-elem
+
+- trusted-types
+
+- upgrade-insecure-requests
+
+- worker-src
+
+- Директивы Permissions-Policy
+
+- accelerometer
+
+- ambient-light-sensor
+
+- aria-notify
+
+- attribution-reporting
+
+- autoplay
+
+- bluetooth
+
+- browsing-topics
+
+- camera
+
+- captured-surface-control
+
+- ch-ua-high-entropy-values
+
+- compute-pressure
+
+- cross-origin-isolated
+
+- deferred-fetch
+
+- deferred-fetch-minimal
+
+- display-capture
+
+- encrypted-media
+
+- fullscreen
+
+- gamepad
+
+- geolocation
+
+- gyroscope
+
+- hid
+
+- identity-credentials-get
+
+- idle-detection
+
+- language-detector
+
+- language-model
+
+- local-fonts
+
+- local-network
+
+- local-network-access
+
+- loopback-network
+
+- magnetometer
+
+- microphone
+
+- midi
+
+- on-device-speech-recognition
+
+- otp-credentials
+
+- payment
+
+- picture-in-picture
+
+- private-state-token-issuance
+
+- private-state-token-redemption
+
+- publickey-credentials-create
+
+- publickey-credentials-get
+
+- screen-wake-lock
+
+- serial
+
+- speaker-selection
+
+- storage-access
+
+- summarizer
+
+- translator
+
+- unload
+
+- usb
+
+- web-share
+
+- window-management
+
+- xr-spatial-tracking
+
+- HTTP resources and specifications
+
+ Your blueprint for a better internet.
+
+-
+
+-
+
+-
+
+-
+
+-
+
+MDN
+
+-
+
+ About
+
+-
+
+ Blog
+
+-
+
+ Mozilla careers
+
+-
+
+ Advertise with us
+
+-
+
+ MDN Plus
+
+-
+
+ Product help
+
+Contribute
+
+-
+
+ MDN Community
+
+-
+
+ Community resources
+
+-
+
+ Writing guidelines
+
+-
+
+ MDN Discord
+
+-
+
+ MDN on GitHub
+
+Developers
+
+-
+
+ Web technologies
+
+-
+
+ Learn web development
+
+-
+
+ Guides
+
+-
+
+ Tutorials
+
+-
+
+ Glossary
+
+-
+
+ Hacks blog
+
+-
+ Website Privacy Notice
+
+-
+ Telemetry Settings
+
+-
+ Legal
+
+-
+ Community Participation Guidelines
+
+ Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under a Creative Commons license.

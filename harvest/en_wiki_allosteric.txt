@@ -1,0 +1,43 @@
+Allosteric regulation of an enzyme
+
+In the fields of biochemistry and pharmacology an allosteric regulator (or allosteric modulator) is a substance that binds to a site on an enzyme or receptor distinct from the active site, resulting in a conformational change that alters the protein's activity, either enhancing or inhibiting its function. In contrast, substances that bind directly to an enzyme's active site or the binding site of the endogenous ligand of a receptor are called orthosteric regulators or modulators.
+
+The site to which the effector binds is termed the allosteric site or regulatory site. Allosteric sites allow effectors to bind to the protein, often resulting in a conformational change and/or a change in protein dynamics.[1][2] Effectors that enhance the protein's activity are referred to as allosteric activators, whereas those that decrease the protein's activity are called allosteric inhibitors.
+
+Allosteric regulations are a natural example of control loops, such as feedback from downstream products or feedforward from upstream substrates. Long-range allostery is especially important in cell signaling.[3] Allosteric regulation is also particularly important in the cell's ability to adjust enzyme activity.
+
+The term allostery comes from the Ancient Greek allos (ἄλλος), "other", and stereos (στερεός), "solid (object)". This is in reference to the fact that the regulatory site of an allosteric protein is physically distinct from its active site. Allostery contrasts with substrate presentation which requires no conformational change for an enzyme's activation. The term orthostery comes from the Ancient Greek orthós (ὀρθός) meaning "straight", "upright", "right" or "correct".
+
+Ortho vs. allosteric inhibitors
+
+Orthosteric
+
+- Binding Site: Orthosteric inhibitors bind directly to the enzyme's active site, where the substrate normally binds.
+
+- Mechanism of Action: By occupying the active site, these inhibitors prevent the substrate from binding, thereby directly blocking the enzyme's catalytic activity.
+
+- Competitive Inhibition: Most orthosteric inhibitors compete with the substrate for the active site, which means their effectiveness can be reduced if substrate concentration increases.
+
+Allosteric
+
+- Binding Site: Allosteric inhibitors bind to a site on the enzyme that is distinct and separate from the active site, known as the allosteric site.
+
+- Mechanism of Action: Binding to the allosteric site induces a conformational change in the enzyme that can either reduce the affinity of the active site for the substrate or alter the enzyme's catalytic activity. This indirect interference can inhibit the enzyme's function even if the substrate is present.
+
+- Non-Competitive Inhibition: Allosteric inhibitors often exhibit non-competitive inhibition, meaning their inhibitory effect is not dependent on the substrate concentration.
+
+Models
+
+A – Active site
+
+ B – Allosteric site
+
+ C – Substrate
+
+ D – Inhibitor
+
+ E – Enzyme
+
+This is a diagram of allosteric regulation of an enzyme.
+
+Many allosteric effects can be explained by the concerted MWC model put forth by Monod, Wyman, and Changeux,[4] or by the sequential model (also known as the KNF model) described by Koshland, Nemethy, and Filmer.[5] Both postulate that protein subunits exist in one of two conformations, tensed (T) or relaxed (R), and that relaxed subunits bind substrate more readily than those in the tense state. The two models differ most in their assumptions about subunit interaction and

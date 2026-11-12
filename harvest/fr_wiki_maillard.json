@@ -1,0 +1,12 @@
+{
+ "docid": "fr_wiki_maillard",
+ "url": "https://fr.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=R%C3%A9action+de+Maillard&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "fr.wikipedia.org",
+ "title": "Réaction de Maillard",
+ "fetched": "2026-11-12",
+ "chars": 2248,
+ "lang": "fr",
+ "mode": "html",
+ "trimmed": true
+}

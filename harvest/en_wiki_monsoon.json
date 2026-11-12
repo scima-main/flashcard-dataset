@@ -1,0 +1,11 @@
+{
+ "docid": "en_wiki_monsoon",
+ "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Monsoon&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "en.wikipedia.org",
+ "title": "Monsoon",
+ "fetched": "2026-11-12",
+ "chars": 41655,
+ "lang": "en",
+ "mode": "html"
+}

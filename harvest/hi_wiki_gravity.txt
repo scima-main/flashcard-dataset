@@ -1,0 +1,154 @@
+इस लेख या भाग में मूल शोध या अप्रमाणित दावे हो सकते हैं। कृपया संदर्भ जोड़ कर लेख को सुधारने में मदद करें। अधिक जानकारी के लिए संवाद पृष्ठ देखें। (अगस्त 2015) |
+
+गुरुत्वाकर्षण के कारण ही ग्रह, सूर्य के चारों ओर चक्कर लगा पाते हैं और यही उन्हें रोके रखती है।
+
+गुरुत्वाकर्षण (gravitation) पदार्थो द्वारा एक दूसरे की ओर आकर्षित होने की प्रवृति है। गुरुत्वाकर्षण के बारे में पहली बार कोई गणितीय सूत्र देने की कोशिश आइज़क न्यूटन द्वारा की गयी जो आश्चर्यजनक रूप से सही था। उन्होंने गुरुत्वाकर्षण सिद्धांत का प्रतिपादन किया
+
+गुरुत्वीय त्वरण:-
+
+गुरुत्वाकर्षण के कारण त्वरण, जिसे अक्सर "जी" के रूप में दर्शाया जाता है, एक वस्तु द्वारा अनुभव किया जाने वाला त्वरण है क्योंकि यह पृथ्वी के केंद्र की ओर गिरता है। पृथ्वी की सतह पर g का मान लगभग 9.8 m/s^2 या 1 g (जहाँ 1 g = 9.8 m/s^2) होता है। यह ऊंचाई और पृथ्वीहै।गुरुत्वाकर्षण के कारण त्वरण भौतिकी में एक मौलिक अवधारणा है और किसी वस्तु पर गुरुत्वाकर्षण बल के कार्य से संबंधित है। गुरुत्वाकर्षण बल वह है जो वस्तुओं को पृथ्वी के केंद्र की ओर गिरने का कारण बनता है, और गुरुत्वाकर्षण के कारण त्वरण वह दर है जिस पर इस बल के परिणामस्वरूप वस्तु का वेग बदल जाता है। गुरुत्वाकर्षण के कारण त्वरण किसी वस्तु के वजन के लिए भी जिम्मेदार होता है, जो गुरुत्वाकर्षण के कारण वस्तु पर लगाया गया बल है। किसी वस्तु का वजन उसके द्रव्यमान के गुरुत्वाकर्षण[1] के कारण त्वरण के गुणनफल के बराबर होता है।
+
+सतह पर स्थान के आधार पर थोड़ा भिन्न हो सकता ह
+
+गुरुत्वाकर्षण के कारण त्वरण भौतिकी में एक मौलिक अवधारणा है और किसी वस्तु पर गुरुत्वाकर्षण बल के कार्य से संबंधित है। गुरुत्वाकर्षण बल वह है जो वस्तुओं को पृथ्वी के केंद्र की ओर गिरने का कारण बनता है, और गुरुत्वाकर्षण के कारण त्वरण वह दर है जिस पर इस बल के परिणामस्वरूप वस्तु का वेग बदल जाता है। गुरुत्वाकर्षण के कारण त्वरण किसी वस्तु के वजन के लिए भी जिम्मेदार होता है, जो गुरुत्वाकर्षण के कारण वस्तु पर लगाया गया बल है। किसी वस्तु का वजन उसके द्रव्यमान के गुरुत्वाकर्षण के कारण त्वरण के गुणनफल के बराबर होता है।
+
+गुरुत्वाकर्षण सिद्धांत का इतिहास
+
+प्राचीन काल
+
+अरस्तू ने पाया कि किसी माध्यम में डूबी वस्तुएं अपने वजन के अनुपातिक और माध्यम के घनत्व के व्युत्क्रमानुपाती गति से गिरती हैं।.[2][3][4]
+
+चौथी शताब्दी ईसा पूर्व में ग्रीक दार्शनिक अरस्तू ने गुरुत्वाकर्षण को एक भारी वस्तु की गति के रूप में वर्णित किया जो पृथ्वी के केंद्र की ओर बढ़ती है।[5]ग्रीक दार्शनिक, प्लूटार्क ने सुझाव दिया कि गुरुत्वाकर्षण का आकर्षण पृथ्वी के लिए अद्वितीय नहीं था|[6]रोमन इंजीनियर और वास्तुकार विटरुवियस ने अपने डी आर्किटेक्चर में तर्क दिया कि गुरुत्वाकर्षण किसी पदार्थ के वजन पर निर्भर नहीं है बल्कि इसकी 'प्रकृति' पर निर्भर करता है[7]।
+
+यदि क्विकसिल्वर को एक बर्तन में डाला जाता है, और उस पर एक सौ पाउंड वजन का पत्थर रखा जाता है, तो पत्थर सतह पर तैरता है, और तरल को दबा नहीं सकता है, न ही तोड़ सकता है, न ही इसे अलग कर सकता है . यदि हम सौ पाउंड का वजन हटा दें और उस पर सोने का ढेर लगा दें, तो वह तैर नहीं पाएगा, बल्कि अपने आप ही नीचे तक डूब जाएगा। अत: यह निर्विवाद है कि किसी पदार्थ का गुरुत्वाकर्षण उसके भार की मात्रा पर नहीं, बल्कि उसकी प्रकृति पर निर्भर करता है।[8]
+
+भारतीय गणितज्ञ/खगोलविद ब्रह्मगुप्त ( 598 - सी। 668 CE) ने "गुरुत्वाकर्षणम् (गुरुत्वाकर्षणम्)" शब्द का उपयोग करते हुए गुरुत्वाकर्षण को एक आकर्षक बल के रूप में वर्णित किया[9]। भारतीय गणितज्ञ और खगोलशास्त्री भास्कराचार्य द्वितीय (c. 1114 - c. 1185) अपने ग्रंथ सिद्धांत शिरोमणि के गोलाध्याय (गोलाकार पर) खंड में गुरुत्वाकर्षण को पृथ्वी की एक अंतर्निहित आकर्षक संपत्ति के रूप में वर्णित करते हैं||[10]
+
+पृथ्वी में आकर्षण का गुण निहित है। इस गुण के कारण पृथ्वी किसी भी असमर्थित भारी वस्तु को अपनी ओर आकर्षित करती है: वस्तु गिरती हुई प्रतीत होती है लेकिन वह पृथ्वी की ओर खींचे जाने की स्थिति में होती है। ... इससे यह स्पष्ट है कि ... हमसे पृथ्वी की परिधि के एक चौथाई भाग की दूरी पर या विपरीत गोलार्ध में स्थित लोग, किसी भी तरह से नीचे की ओर अंतरिक्ष में नहीं गिर सकते।[11][12]
+
+इस्लामी दुनिया
+
+11वीं सदी के फ़ारसी बहुश्रुत, अल-बिरूनी ने प्रस्तावित किया कि आकाशीय पिंडों में पृथ्वी की तरह ही द्रव्यमान, भार और गुरुत्वाकर्षण होता है।[13]12वीं सदी के वैज्ञानिक अल-खज़िनी ने सुझाव दिया कि किसी वस्तु में गुरुत्वाकर्षण ब्रह्मांड के केंद्र से उसकी दूरी के आधार पर भिन्न होता है।[14]
+
+पुनर्जागरण काल
+
+लियोनार्डो दा विंची
+
+लियोनार्डो दा विंची ने गिरने वाली वस्तुओं के त्वरण को रिकॉर्ड करते हुए चित्र बनाए।[15] उन्होंने गुरुत्वाकर्षण और त्वरण के बीच की कड़ी को भी नोट किया। उन्होंने कहा कि यदि एक पानी डालने वाला फूलदान अनुप्रस्थ रूप से (बग़ल में) चलता है, तो एक लंबवत गिरने वाली वस्तु के प्रक्षेपवक्र का अनुकरण करता है, यह एक सही पैदा करता है। पैर की लंबाई के बराबर त्रिकोण, गिरने वाली सामग्री से बना है जो कर्ण बनाता है और फूलदान प्रक्षेपवक्र पैरों में से एक बनाता है।[16]
+
+वैज्ञानिक क्रांति
+
+गुरुत्वाकर्षण सिद्धांत पर आधुनिक काम 16 वीं शताब्दी के अंत में और 17 वीं शताब्दी की शुरुआत में गैलीलियो गैलीलि के काम से शुरू हुआ। अपने मशहूर (यद्यपि संभवतः अपोक्य्रीफल [4]) प्रयोगों में पीसा के टॉवर से गेंदों को छोड़ने का प्रयोग किया गया, और बाद में गेंदों के सावधानीपूर्वक माप के साथ इनक्लीइन को घुमाया गया, गैलीलियो ने दिखाया कि गुरुत्वाकर्षण त्वरण सभी वस्तुओं के लिए समान है। यह अरस्तू के विश्वास से एक बड़ा प्रस्थान था कि भारी वस्तुओं में उच्च गुरुत्वाकर्षण त्वरण होता है। [5] गैलीलियो ने हवा के प्रतिरोध को इस कारण के रूप में बताया कि कम द्रव्यमान वाली वस्तुएं वातावरण में धीमी गति से गिर सकती हैं। गैलीलियो के काम ने न्यूटन के गुरुत्व के सिद्धांत के निर्माण के लिए मंच तैयार किया।
+
+गैलीलियो
+
+कोई भी वस्तु ऊपर से गिरने पर सीधी पृथ्वी की ओर आती है। ऐसा प्रतीत होता है, मानो कोई अलक्ष्य और अज्ञात शक्ति उसे पृथ्वी की ओर खींच रही है। इटली के वैज्ञानिक, गैलिलीयो गैलिलीआई ने सर्वप्रथम इस तथ्य पर प्रकाश डाला था कि कोई भी पिंड जब ऊपर से गिरता है तब वह एक नियत त्वरण (constant acceleration) से पृथ्वी की ओर आता है। त्वरण का यह मान सभी वस्तुओं के लिए एक सा रहता है। अपने इस निष्कर्ष की पुष्टि उसने प्रयोगों और गणितीय विवेचनों द्वारा की[17]
+
+केप्लर की ग्रहीय गति के नियम
+
+केप्लर की ग्रहीय गति के नियम देखिये
+
+जर्मन खगोलविद केप्लर ने ग्रहों की गति का अध्ययन करके तीन नियम दिये।
+
+केप्लर का प्रथम नियम: (कक्षाओं का नियम) -सभी ग्रह सूर्य के चारों ओर दीर्घवृत्ताकार कक्षाओं मे चक्कर लगाते हैं तथा सूर्य उन कक्षाओं के फोकस पर होता है।
+
+द्वितीय नियम - किसी भी ग्रह को सूर्य से मिलाने वाली रेखा समान समय मे समान क्षेत्रफल पार करती है। अर्थात प्रत्येक ग्रह की क्षेत्रीय चाल (एरियल वेलासिटी) नियत रहती है। अर्थात जब ग्रह सूर्य से दूर होता है तो उसकी चाल कम हो जाती है।
+
+तृतीय नियम : (परिक्रमण काल का नियम)- प्रत्येक ग्रह का सूर्य का परिक्रमण काल का वर्ग उसकी दीर्घ वृत्ताकार कक्षा की अर्ध-दीर्घ अक्ष की तृतीय घात के समानुपाती होता है।[18]
+
+केप्लर के नियमों ने ग्रहों की गति का वर्णन किया, लेकिन ग्रहों की इन गतियों का कारण स्पष्ट नहीं किया। न्यूटन ने बाद में गुरुत्वाकर्षण के नियम द्वारा इन गतियों की भौतिक व्याख्या प्रस्तुत की।
+
+न्यूटन का सार्वत्रिक गुरुत्वाकर्षण का नियम
+
+यदि पृथ्वी के द्रव्यमान के तुल्य द्रव्यमान वाली कोई वस्तु इसकी तरफ गिरे तो उस स्थिति में पृथ्वी का त्वरण भी नगण्य नहीं बल्कि मापने योग्य होगा।
+
+इसके बाद आइज़क न्यूटन ने अपनी मौलिक खोजों के आधार पर बताया कि केवल पृथ्वी ही नहीं, अपितु विश्व का प्रत्येक कण प्रत्येक दूसरे कण को अपनी ओर आकर्षित करता रहता है। दो कणों के बीच कार्य करनेवाला आकर्षण बल उन कणों की संहतियों के गुणनफल का (प्रत्यक्ष) समानुपाती तथा उनके बीच की दूरी के वर्ग का व्युत्क्रमानुपाती होता है। कणों के बीच कार्य करनेवाले पारस्परिक आकर्षण को गुरुत्वाकर्षण (Gravitation) तथा उससे उत्पन्न बल को गुरुत्वाकर्षण बल (Force of Gravitation) कहते है। न्यूटन द्वारा प्रतिपादित उपर्युक्त नियम को न्यूटन का गुरुत्वाकर्षण नियम (Law of Gravitation) कहते हैं। कभी-कभी इस नियम को गुरुत्वाकर्षण का प्रतिलोम वर्ग नियम (Inverse Square Law) भी कहा जाता है।
+
+उपर्युक्त नियम को सूत्र रूप में इस प्रकार व्यक्त किया जा सकता है : मान लिया m1 और संहति वाले m2 दो पिंड परस्पर d दूरी पर स्थित हैं। उनके बीच कार्य करनेवाले बल f का संबंध होगा :
+
+F=m1m2r2 --- (१)
+
+यहाँ G एक समानुपाती नियतांक है जिसका मान सभी पदार्थों के लिए एक जैसा रहता है। इसे गुरुत्व नियतांक (Gravitational Constant) कहते हैं। इस नियतांक की विमा (dimension) है और आंकिक मान प्रयुक्त इकाई पर निर्भर करता है। सूत्र (१) द्वारा किसी पिंड पर पृथ्वी के कारण लगनेवाले आकर्षण बल की गणना की जा सकती है।[19]
+
+आधुनिक भौतिकी में गुरुत्वाकर्षण की व्याख्या अल्बर्ट आइंस्टीन के सामान्य सापेक्षता सिद्धांत द्वारा की जाती है। इसके अनुसार गुरुत्वाकर्षण को पारंपरिक बल के बजाय द्रव्यमान और ऊर्जा के कारण अंतरिक्ष-समय के वक्रण के रूप में समझा जाता है। यह सिद्धांत न्यूटन के गुरुत्वाकर्षण नियम को अधिक व्यापक रूप में प्रस्तुत करता है और विशेष रूप से अत्यधिक गुरुत्वीय क्षेत्रों में महत्वपूर्ण है।
+
+इन्हें भी देखें
+
+- न्यूटन का सार्वत्रिक गुरुत्वाकर्षण का सिद्धान्त‎
+
+- सापेक्षिकता सिद्धांत
+
+- गुरुत्वजनित त्वरण
+
+- गुरुत्वाकर्षण क्षेत्र
+
+- सामान्य सापेक्षता
+
+- केप्लर के ग्रहीय गति के नियम
+
+- गुरुत्वीय तरंग
+
+( g )
+
+बाहरी कड़ियाँ
+
+- न्यूटन से पहले भास्कराचार्य ने बताया था-गुरुत्वाकर्षण का सिद्धान्त
+
+- Chapter 10. Gravity, from Light and Matter: educational materials for physics and astronomy
+
+- Gravity Probe B Experiment The Official Einstein website from Stanford University
+
+- Center for Gravity, Electrical, and Magnetic Studies
+
+- Gravity for kids (flash)
+
+- Ask a scientist, Physics Archive
+
+- How does gravity work?
+
+- What if there were no gravity on Earth?
+
+- Alternative theory of gravity explains large structure formation -- without dark matter PhysOrg.com
+
+- Do it yourself, gravitation experiment
+
+- How to calculate the size of the gravitation
+
+- ↑ Guide, Rpsc. "गुरुत्वाकर्षण बल किसे कहते हैं?". Rpsc guide. मूल से से 24 जनवरी 2023 को पुरालेखित।.
+
+- ↑ "Part I – B. Aristotle's Theory of Free-Fall | Relativity of Gravity" (अमेरिकी अंग्रेज़ी भाषा में).
+
+- ↑ Drabkin, Israel E. (1938). "Notes on the Laws of Motion in Aristotle". The American Journal of Philology. 59 (1): 60–84. डीओआई:10.2307/290584. आईएसएसएन 0002-9475. जेस्टोर 90584.
+
+- ↑ Rovelli, Carlo (2015). "Aristotle's Physics: A Physicist's Look". Journal of the American Philosophical Association (अंग्रेज़ी भाषा में). 1 (1): 23–40. आर्काइव:1312.4057. डीओआई:10.1017/apa.2014.11. आईएसएसएन 2053-4477. एस2सीआईडी 44193681.
+
+- ↑ Grant, Edward (1996-10-13). The Foundations of Modern Science in the Middle Ages. Cambridge University Press. ISBN 978-0-521-56137-2.
+
+- ↑ Bakker, Frederik; Palmerino, Carla Rita (2020-06-01). "Motion to the Center or Motion to the Whole? Plutarch's Views on Gravity and Their Influence on Galileo". Isis (अंग्रेज़ी भाषा में). 111 (2): 217–238. डीओआई:10.1086/709138. आईएसएसएन 0021-1753.
+
+- ↑ "The Architecture of Vitruvius, Book VIII", The Architecture of Marcus Vitruvius Pollio, Cambridge University Press, pp. 227–258, 2014-10-31
+
+- ↑
+Vitruvius, Marcus Pollio (1914). "VII". In Howard, Alfred A. (ed.). De Architectura libri decem [Ten Books on Architecture] (अमेरिकी अंग्रेज़ी भाषा में). Herbert Langford Warren, Nelson Robinson (illus), Morris Hicky Morgan. Harvard University, Cambridge, Massachusetts: Harvard University Press. p. 215.
+
+- ↑ "Columbia University Libraries: Alberuni's India (v. 1)". www.columbia.edu.
+
+- ↑ Bhāskarācārya, Bapu Deva Sastri. Ancient system of Hindu astronomy (English भाषा में). Harvard University. Baptist mission press, 1861.{{cite book}}: CS1 maint: unrecognized language (link)
+
+- ↑ Bhāskarācārya, Bapu Deva Sastri. Ancient system of Hindu astronomy (English भाषा में). Harvard University. Baptist mission press, 1861.{{cite book}}: CS1 maint: unrecognized language (link)
+
+- ↑ Bháskarácárya (1150). "ভুবনকোষ". Siddhánta Shiromańi: Goládhyáyah (PDF) (संस्कृत भाषा में). Calcutta, India.
+
+- ↑ Starr, S. Frederick (2015-06-02). Lost Enlightenment: Central Asia's Golden Age from the Arab Conquest to Tamerlane (अंग्रेज़ी भाषा में). Princeton University Press. ISBN 978-0-691-16585-1.
+
+- ↑ “Statics”. Encyclopedia of the History of Arabic Science 2: 614–642. (1996). Psychology Press. “Using a whole body of mathematical methods (not only those inherited from the antique theory of ratios and infinitesimal techniques, but also the methods of the contemporary algebra and fine calculation techniques), Muslim scientists raised statics to a new, higher level. The classical results of Archimedes in the theory of the centre of gravity were generalized and applied to three-dimensional bodies, the theory of ponderable lever was founded and the 'science of gravity' was created and later further developed in medieval Europe. The phenomena of statics were studied by using the dynamic approach so that two trends – statics and dynamics – turned out to be inter-related within a single science, mechanics. The combination of the dynamic approach with Archimedean hydrostatics gave birth to a direction in science which may be called medieval hydrodynamics. ... Numerous fine experimental methods were developed for determining the specific weight, which were based, in particular, on the theory of balances and weighing. The classical works of al-Biruni and al-Khazini can by right be considered as the beginning of the application of experimental methods in medieval science.”
+
+- ↑ Ouellette, Jennifer (2023-02-10). "Leonardo noted link between gravity and acceleration before Newton". Ars Technica (अमेरिकी अंग्रेज़ी भाषा में).
+
+- ↑ direct.mit.edu https://direct.mit.edu/leon/article-abstract/56/1/21/113863/Leonardo-da-Vinci-s-Visualization-of-Gravity-as-a. {{cite web}}: Missing or empty |title= (help)
+
+- ↑ Machamer, Peter; Miller, David Marshall (2021), Zalta, Edward N. (ed.), "Galileo Galilei", The Stanford Encyclopedia of Philosophy (Summer 2021 ed.), Metaphysics Research Lab, Stanford University
+
+- ↑ "Orbits and Kepler's Laws". NASA Solar System Exploration.
+
+- ↑ Smith, George (2008), Zalta, Edward N. (ed.), "Newton's Philosophiae Naturalis Principia Mathematica", The Stanford Encyclopedia of Philosophy (Winter 2008 ed.), Metaphysics Research Lab, Stanford University

@@ -1,0 +1,11 @@
+{
+ "docid": "ko_wiki_enzyme",
+ "url": "https://ko.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=%ED%9A%A8%EC%86%8C&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "ko.wikipedia.org",
+ "title": "효소",
+ "fetched": "2026-11-12",
+ "chars": 55271,
+ "lang": "ko",
+ "mode": "html"
+}

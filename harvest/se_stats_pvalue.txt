@@ -1,0 +1,37 @@
+Q: What is the meaning of p values and t values in statistical tests?
+After taking a statistics course and then trying to help fellow students, I noticed one subject that inspires much head-desk banging is interpreting the results of statistical hypothesis tests. It seems that students easily learn how to perform the calculations required by a given test but get hung up on interpreting the results. Many computerized tools report test results in terms of "p values" or "t values".
+
+How would you explain the following points to college students taking their first course in statistics:
+
+-
+What does a "p-value" mean in relation to the hypothesis being tested? Are there cases when one should be looking for a high p-value or a low p-value?
+
+-
+What is the relationship between a p-value and a t-value?
+
+A (score 199):
+Understanding $p$-value
+
+Suppose, that you want to test the hypothesis that the average height of male students at your University is $5$ ft $7$ inches. You collect heights of $100$ students selected at random and compute the sample mean (say it turns out to be $5$ ft $9$ inches). Using an appropriate formula/statistical routine you compute the $p$-value for your hypothesis and say it turns out to be $0.06$.
+
+In order to interpret $p=0.06$ appropriately, we should keep several things in mind:
+
+-
+The first step under classical hypothesis testing is the assumption that the hypothesis under consideration is true. (In our context, we assume that the true average height is $5$ ft $7$ inches.)
+
+-
+Imagine doing the following calculation: Compute the probability that the sample mean is greater than $5$ ft $9$ inches assuming that our hypothesis is in fact correct (see point 1).
+
+In other words, we want to know $$\mathrm{P}(\mathrm{Sample\: mean} \ge 5 \:\mathrm{ft} \:9 \:\mathrm{inches} \:|\: \mathrm{True\: value} = 5 \:\mathrm{ft}\: 7\: \mathrm{inches}).$$
+
+The calculation in step 2 is what is called the $p$-value. Therefore, a $p$-value of $0.06$ would mean that if we were to repeat our experiment many, many times (each time we select $100$ students at random and compute the sample mean) then $6$ times out of $100$ we can expect to see a sample mean greater than or equal to $5$ ft $9$ inches.
+
+Given the above understanding, should we still retain our assumption that our hypothesis is true (see step 1)? Well, a $p=0.06$ indicates that one of two things have happened:
+
+- (A) Either our hypothesis is correct and an extremely unlikely event has occurred (e.g., all $100$ students are student athletes)
+
+or
+
+- (B) Our assumption is incorrect and the sample we have obtained is not that unusual.
+
+The traditional way to choose between (A) and (B) is to choose an arbitrary cut-off for $p$. We choose (A) if $p > 0.05$ and (B) if $p < 0.05$.

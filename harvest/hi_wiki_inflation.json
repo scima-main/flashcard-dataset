@@ -1,0 +1,11 @@
+{
+ "docid": "hi_wiki_inflation",
+ "url": "https://hi.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=%E0%A4%AE%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%AB%E0%A5%80%E0%A4%A4%E0%A4%BF&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "hi.wikipedia.org",
+ "title": "मुद्रास्फीति",
+ "fetched": "2026-11-12",
+ "chars": 11565,
+ "lang": "hi",
+ "mode": "html"
+}

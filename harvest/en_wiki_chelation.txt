@@ -1,0 +1,15 @@
+This article is about sequestering agents in general. For chemicals used in food processing, see sequestrant. For the isopod genus, see Chelator (crustacean).
+
+This article may be too technical for most readers to understand. Please help improve it to make it understandable to non-experts, without removing the technical details. (August 2026) (Learn how and when to remove this message) |
+
+Chelation (/kiːˈleɪʃən/) is a type of bonding and sequestration of metal atoms. It involves two or more separate dative covalent bonds between a ligand and a single metal atom, thereby forming a ring structure.[1] The ligand is called a chelant, chelator, chelating agent, or sequestering agent. It is usually an organic compound, but this is not a requirement.
+
+The word chelation is derived from Greek χηλή, chēlē, meaning "claw", because the ligand molecule or molecules hold the metal atom like the claws of a crab. The term chelate (/ˈkiːleɪt/) was first applied in 1920 by Sir Gilbert T. Morgan and H. D. K. Drew, who stated: "The adjective chelate, derived from the great claw or chele (Greek) of the crab or other crustaceans, is suggested for the caliper like groups which function as two associating units and fasten to the central atom so as to produce heterocyclic rings."[2]
+
+Chelation is useful in the preparation of nutritional supplements, in chelation therapy to remove toxic metals from the body, as contrast agents in MRI scanning, in manufacturing using homogeneous catalysts, in chemical water treatment to assist in the removal of metals, and in fertilizers.
+
+Chelate ring
+
+Ethylenediamine binds to a metal by formation of a C2N2M chelate ring.
+
+Bidentate ligands bind to metal ions forming a chelate ring. Ligands of higher denticity form two or more chelate rings. Ethylenediamine, 2,2'-bipyridine, and 1,10-phenanthroline form C2N2M chelate rings. Just like in organic chemistry, 5-

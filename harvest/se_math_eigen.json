@@ -1,0 +1,12 @@
+{
+ "docid": "se_math_eigen",
+ "url": "https://math.stackexchange.com/questions/23312/what-is-the-importance-of-eigenvalues-eigenvectors",
+ "licence": "CC BY-SA 4.0",
+ "origin": "math.stackexchange.com",
+ "title": "What is the importance of eigenvalues/eigenvectors?",
+ "fetched": "2026-11-12",
+ "chars": 3275,
+ "lang": "en",
+ "api_url": "https://api.stackexchange.com/2.3/questions/23312/answers?site=math&filter=withbody&order=desc&sort=votes&pagesize=1",
+ "score": 384
+}

@@ -1,0 +1,17 @@
+In criminal law, mens rea (/ˈmɛnz ˈreɪə/; Law Latin for "guilty mind"[1]) is the mental state of a defendant who is accused of committing a crime. In common law jurisdictions, most crimes require proof both of mens rea and actus reus ("guilty act") before the defendant can be found guilty.
+
+Introduction
+
+The standard common law test of criminal liability is expressed in the Latin phrase actus reus non facit reum nisi mens sit rea,[2] i.e. "the act is not culpable unless the mind is guilty".[3][4] As a general rule, someone who acted without mental fault is not liable in criminal law.[5][6] Exceptions are known as strict liability crimes.[7][8][9] Moreover, when a person intends a harm, but as a result of bad aim or other cause the intent is transferred from an intended victim to an unintended victim, the case is considered to be a matter of transferred intent.[10]: 63–64 [11]
+
+The types of mental states that apply to crimes vary depending on whether a jurisdiction follows criminal law under the common law tradition or, within the United States, according to the Model Penal Code.[12]
+
+In civil law, it is usually not necessary to prove a subjective mental element to establish liability for breach of contract or tort, for example. But if a tort is intentionally committed or a contract is intentionally breached, such intent may increase the scope of liability and the damages payable to the plaintiff.
+
+In some jurisdictions, the terms mens rea and actus reus have been replaced by alternative terminology.[13]: 95 [14]: 84
+
+Levels of mens rea within the United States
+
+Under the tradition of common law, judges would often require a "bad state of mind" in addition to an action or omission (actus reus) to find a criminal guilty.[2][15][16] Over time, culpable mental states (mens rea) became varied among different types of crimes.[2] Such crimes and mental states might include, for example, "malice" for murder, "fraudulence" for fraud, "willfulness and corruption" for perjury, and so on.[2] The crime of manslaughter, further, might not even require a "bad mind" but simply a "negligent" one.[2] Regardless of how the requirements are categorized, the Supreme Court has explained mens rea requirements for crimes are "universal" and essential to "mature systems of law", even going so far as to say that this belief undergirds notions of free will and morality.[17]
+
+Within the United States, there is no single encompassing criminal law. Criminal laws are passed and enforced by the states‚ or the federal government, but each of these criminal "codes" vary and may or may not draw from the same

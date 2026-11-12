@@ -1,0 +1,39 @@
+Classical Grignard reaction |
+
+Named after | Victor Grignard |
+
+Reaction type | Coupling reaction |
+
+Reaction |
+
+Methanal/Higher aldehyde/Ketone |
+
++ R-MgX |
+
++ (H3O+) |
+
+↓ |
+
+Primary/Secondary/Tertiary alcohols |
+
+Identifiers |
+
+Organic Chemistry Portal | grignard-reaction |
+
+RSC ontology ID | RXNO:0000014 |
+
+A solution of a carbonyl compound is added to a Grignard reagent. (See gallery)
+
+An example of a Grignard reaction (R2 or R3 could be hydrogen)
+
+The Grignard reaction (French: [ɡʁiɲaʁ]) is an organometallic chemical reaction in which, according to the classical definition, carbon alkyl, allyl, vinyl, or aryl magnesium halides (Grignard reagent) are added to the carbonyl groups of either an aldehyde or ketone under anhydrous conditions.[1][2][3] This reaction is important for the formation of carbon–carbon bonds.[4][5]
+
+History and definitions
+
+Grignard reactions and reagents were discovered by and are named after the French chemist François Auguste Victor Grignard (University of Nancy, France), who described them in 1900.[6] He was awarded the 1912 Nobel Prize in Chemistry for this work.[7]
+
+The reaction of an organic halide with magnesium is not a Grignard reaction, but provides a Grignard reagent.[8]
+
+Although Grignard reagents undergo many reactions, the classical Grignard reaction refers only to the reaction of RMgX with ketones and aldehydes, shown in red. X = Cl, Br, I.
+
+Classically, the Grignard reaction refers to the reaction between a ketone or aldehyde group with a Grignard reagent to form a primary or tertiary alcohol.[1] However, some chemists understand the definition to mean all reactions of any electrophiles with Grignard reagents.[9] Therefore, there is some dispute about the modern definition of the Grignard reaction. In the Merck Index, published online by the Royal Society of Chemistry, the classical definition is acknowledged, followed by "A more modern interpretation extends the scope of the reaction to include the addition

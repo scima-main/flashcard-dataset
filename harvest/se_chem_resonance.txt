@@ -1,0 +1,21 @@
+Q: What is resonance, and are resonance structures real?
+My teacher told me about resonance and explained it as different structures which are flipping back and forth and that we only observe a sort of average structure. How does this work? Why do the different structures not exist on their own?
+
+A (score 43):
+This answer is intended to clear up some misconceptions about resonance which have come up many times on this site.
+
+Resonance is a part of valence bond theory which is used to describe delocalised electron systems in terms of contributing structures, each only involving 2-centre-2-electron bonds. It is a concept that is very often taught badly and misinterpreted by students. The usual explanation is that it is as if the molecule is flipping back and forth between different structures very rapidly and that what is observed is an average of these structures. This is wrong! (There are molecules that do this (e.g bullvalene), but the rapidly interconverting structures are not called resonance forms or resonance structures.)
+
+Individual resonance structures do not exist on their own. They are not in some sort of rapid equilibrium. There is only a single structure for a molecule such as benzene, which can be described by resonance. The difference between an equilibrium situation and a resonance situation can be seen on a potential energy diagram.
+
+Potential energy diagrams for norbornyl cation
+
+This diagram shows two possible structures of the 2-norbornyl cation. Structure (a) shows the single delocalised structure, described by resonance whereas structures (b) show the equilibrium option, with the delocalised structure (a) as a transition state. The key point is that resonance hybrids are a single potential energy minimum, whereas equilibrating structures are two energy minima separated by a barrier. In 2013 an X-ray diffraction structure was finally obtained and the correct structure was shown to be (a).
+
+Resonance describes delocalised bonding in terms of contributing structures that give some of their character to the single overall structure. These structures do not have to be equally weighted in their contribution. For example, amides can be described by the following resonance structures:
+
+Resonance forms of acetamide
+
+The left structure is the major contributor but the right structure also contributes and so the structure of an amide has some double bond character in the C-N bond (ie. the bond order is >1) and less double bond character in the C-O bond (bond order <2).
+
+The alternative to valence bond theory and the resonance description of molecules is molecular orbital theory. This explains delocalised bonding as electrons occupying molecular orbitals which extend over more than two atoms.

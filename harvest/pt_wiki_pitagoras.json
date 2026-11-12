@@ -1,0 +1,11 @@
+{
+ "docid": "pt_wiki_pitagoras",
+ "url": "https://pt.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Teorema+de+Pit%C3%A1goras&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "pt.wikipedia.org",
+ "title": "Teorema de Pitágoras",
+ "fetched": "2026-11-12",
+ "chars": 47365,
+ "lang": "pt",
+ "mode": "html"
+}

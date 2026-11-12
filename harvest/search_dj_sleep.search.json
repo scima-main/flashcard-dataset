@@ -1,0 +1,51 @@
+{
+ "query": "sleep memory consolidation",
+ "url": "https://www.doaj.org/api/search/articles/sleep%20memory%20consolidation?pageSize=5",
+ "results": [
+  {
+   "title": "Digital Transition and Mental Health in School Settings: Does Handwriting Still Matter? A Multidisciplinary Perspective",
+   "abstract": "Background/Objectives: The digital transition in school settings is reshaping children’s learning, writing practices, and mental health trajectories. This narrative review examines whether handwriting still matters in contemporary hybrid educational environments from a multidisciplinary perspective. Methods: Evidence from neuroscience, developmental psychology, educational sciences, pediatrics, and child psychiatry was narratively synthesized, with attention to handwriting, digital exposure, learning, emotional regulation, and vulnerable populations. Results: Handwriting uniquely integrates fine motor control, visuomotor coordination, orthographic processing, attention, and embodied cognition, supporting early literacy, memory consolidation, conceptual learning, and reflective writing. Conversely, excessive or poorly mediated digital exposure may interact with attentional fragmentation, sleep disruption, online stressors, problematic use, and internalizing symptoms, particularly in vulnerable children and adolescents. Digital tools remain essential for personalization, accessibility, and compensatory support, especially for students with neurodevelopmental or learning difficulties. Conclusions: Handwriting and digital technologies should not be framed as competing educational paradigms. A developmentally sensitive hybrid model is needed, preserving handwriting during key stages of literacy and self-regulation while integrating digital tools as purposeful, individualized resources for learning, inclusion, and school mental health promotion.",
+   "journal": "Children",
+   "year": "2026",
+   "licence": null,
+   "doi": "10.3390/children13070940",
+   "url": "https://www.mdpi.com/2227-9067/13/7/940"
+  },
+  {
+   "title": "Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep",
+   "abstract": "Large slow oscillations (SO, 0.5–2 Hz) characterise slow-wave sleep and are crucial to memory consolidation and other physiological functions. Manipulating slow oscillations may enhance sleep and memory, as well as benefitting the immune system. Closed-loop auditory stimulation (CLAS) has been demonstrated to increase the SO amplitude and to boost fast sleep spindle activity (11–16 Hz). Nevertheless, not all such stimuli are effective in evoking SOs, even when they are precisely phase locked. Here, we studied what factors of the ongoing activity patterns may help to determine what oscillations to stimulate to effectively enhance SOs or SO-locked spindle activity. Hence, we trained classifiers using the morphological characteristics of the ongoing SO, as measured by electroencephalography (EEG), to predict whether stimulation would lead to a benefit in terms of the resulting SO and spindle amplitude. Separate classifiers were trained using trials from spontaneous control and stimulated datasets, and we evaluated their performance by applying them to held-out data both within and across conditions. We were able to predict both when large SOs occurred spontaneously, and whether a phase-locked auditory click effectively enlarged them with good accuracy for predicting the SO trough (∼70%) and SO peak values (∼80%). Also, we were able to predict when stimulation would elicit spindle activity with an accuracy of ∼60%. Finally, we evaluate the importance of the various SO features used to make these predictions. Our results offer new insight into SO and spindle dynamics and may suggest techniques for developing future methods for online optimization of stimulation.",
+   "journal": "NeuroImage",
+   "year": "2022",
+   "licence": null,
+   "doi": "10.1016/j.neuroimage.2022.119055",
+   "url": "http://www.sciencedirect.com/science/article/pii/S1053811922001847"
+  },
+  {
+   "title": "The role of REM theta activity in emotional memory",
+   "abstract": "While NREM sleep has been strongly implicated in the reactivation and consolidation of memory traces, the role of REM sleep remains unclear. A growing body of research on humans and animals provide behavioral evidence for a role of REM sleep in the strengthening and modulation of emotional memories. Theta activity – which describes low frequency oscillations in the local field potential within the hippocampus, amygdala and neocortex – is a prominent feature of both wake and REM sleep in humans and rodents. Theta coherence between the hippocampus and amygdala drives large-scale PGO waves, the density of which predicts increases in plasticity-related gene expression. This could potentially facilitate the processing of emotional memory traces within the hippocampus during REM sleep. Further, the timing of hippocampal activity in relation to theta phase is vital in determining subsequent potentiation of neuronal activity. This could allow the emotionally modulated strengthening of novel and the gradual weakening of consolidated hippocampal memory traces observed in both wake and REM sleep. Hippocampal theta activity is also correlated with REM sleep acetylcholine levels – which are thought to reduce hippocampal afferent inputs in the neocortex. The additional low levels of noradrenaline during REM sleep, which facilitate recurrent activation within the neocortex, could allow the integration of novel memory traces previously consolidated during NREM sleep. We therefore propose that REM sleep mediates the prioritized processing of emotional memories within the hippocampus, the integration of previously consolidated memory traces within the neocortex, as well as the disengagement of consolidated neocortical memory traces from the hippocampus.",
+   "journal": "Frontiers in Psychology",
+   "year": "2015",
+   "licence": null,
+   "doi": "10.3389/fpsyg.2015.01439",
+   "url": "http://journal.frontiersin.org/Journal/10.3389/fpsyg.2015.01439/full"
+  },
+  {
+   "title": "Evidence for Maintained Post-Encoding Memory Consolidation Across the Adult Lifespan Revealed by Network Complexity",
+   "abstract": "Memory consolidation is well known to occur during sleep, but might start immediately after encoding new information while awake. While consolidation processes are important across the lifespan, they may be even more important to maintain memory functioning in old age. We tested whether a novel measure of information processing known as network complexity might be sensitive to post-encoding consolidation mechanisms in a sample of young, middle-aged, and older adults. Network complexity was calculated by assessing the irregularity of brain signals within a network over time using multiscale entropy. To capture post-encoding mechanisms, network complexity was estimated using functional magnetic resonance imaging (fMRI) during rest before and after encoding of picture pairs, and subtracted between the two rest periods. Participants received a five-alternative-choice memory test to assess associative memory performance. Results indicated that aging was associated with an increase in network complexity from pre- to post-encoding in the default mode network (DMN). Increases in network complexity in the DMN also were associated with better subsequent memory across all age groups. These findings suggest that network complexity is sensitive to post-encoding consolidation mechanisms that enhance memory performance. These post-encoding mechanisms may represent a pathway to support memory performance in the face of overall memory declines.",
+   "journal": "Entropy",
+   "year": "2019",
+   "licence": null,
+   "doi": "10.3390/e21111072",
+   "url": "https://www.mdpi.com/1099-4300/21/11/1072"
+  },
+  {
+   "title": "Motor memory consolidation in children: The role of awareness and sleep on offline general and sequence-specific learning",
+   "abstract": "Study aim: The purpose of this study was to investigate the role of sleep and awareness on consolidation of general and Sequence-Specific learning in children.",
+   "journal": "Biomedical Human Kinetics",
+   "year": "2022",
+   "licence": null,
+   "doi": "10.2478/bhk-2022-0011",
+   "url": "https://doi.org/10.2478/bhk-2022-0011"
+  }
+ ]
+}

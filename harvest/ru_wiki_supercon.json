@@ -1,0 +1,11 @@
+{
+ "docid": "ru_wiki_supercon",
+ "url": "https://ru.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=%D0%A1%D0%B2%D0%B5%D1%80%D1%85%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "ru.wikipedia.org",
+ "title": "Сверхпроводимость",
+ "fetched": "2026-11-12",
+ "chars": 33883,
+ "lang": "ru",
+ "mode": "html"
+}

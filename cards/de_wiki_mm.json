@@ -1,0 +1,78 @@
+{
+ "docid": "de_wiki_mm",
+ "N": 13,
+ "lang": "de",
+ "discipline": "chemistry",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "Was beschreibt die Michaelis-Menten-Kinetik?",
+   "a": "Die Enzymkinetik nach einem vereinfachenden Mechanismus, bei dem das freie Enzym zuerst reversibel an sein Substrat bindet.",
+   "type": "def"
+  },
+  {
+   "q": "Wofür stehen k1 und k'1 im Reaktionsschema der Enzymkinetik?",
+   "a": "Für die Assoziation von E und S bzw. die Dissoziation des Enzym-Substrat-Komplexes ES.",
+   "type": "def"
+  },
+  {
+   "q": "Was bedeutet das Fließgleichgewicht („steady state“) für die Konzentration des Enzym-Substrat-Komplexes?",
+   "a": "Sie bleibt auf der langsameren Zeitskala der Produktbildung konstant, d. h. d[ES]/dt = 0.",
+   "type": "def"
+  },
+  {
+   "q": "Was gibt vmax in der Michaelis-Menten-Gleichung an?",
+   "a": "Die maximale Reaktionsgeschwindigkeit.",
+   "type": "def"
+  },
+  {
+   "q": "Was ist die Michaeliskonstante Km?",
+   "a": "Eine Kenngröße für eine enzymatische Reaktion, die von der jeweiligen enzymatischen Reaktion abhängt.",
+   "type": "def"
+  },
+  {
+   "q": "Unter welcher Bedingung ist die Rückreaktion des Enzym-Produkt-Komplexes vernachlässigbar?",
+   "a": "Unter den Bedingungen der Enzymkinetik, also bei kleiner Konzentration [P].",
+   "type": "mech"
+  },
+  {
+   "q": "Unter welchen Voraussetzungen ist das Differentialgleichungssystem der Enzymkinetik näherungsweise analytisch lösbar?",
+   "a": "Unter [E] >> [S] oder [S] >> [E]; sonst nur numerisch.",
+   "type": "mech"
+  },
+  {
+   "q": "Welches Phänomen lässt sich mit der Michaelis-Menten-Kinetik erklären?",
+   "a": "Die Sättigung der Produktionsgeschwindigkeit von Produkten in enzymatischen Reaktionen.",
+   "type": "mech"
+  },
+  {
+   "q": "Nach wem ist die Michaelis-Menten-Kinetik benannt?",
+   "a": "Nach Leonor Michaelis und Maud Menten.",
+   "type": "quant"
+  },
+  {
+   "q": "In welchem Jahr demonstrierten Michaelis und Menten verbesserte experimentelle und Auswertungsmethoden für die Enzymkinetik?",
+   "a": "1913.",
+   "type": "quant"
+  },
+  {
+   "q": "Wer veröffentlichte die Hypothese des Komplexes als Zwischenprodukt bereits 1880?",
+   "a": "Adolphe Wurtz.",
+   "type": "quant"
+  },
+  {
+   "q": "Wer leitete im Jahr 1902 die Michaelis-Menten-Gleichung ab?",
+   "a": "Victor Henri.",
+   "type": "quant"
+  },
+  {
+   "q": "Wer entwickelte die Annahme des Fließgleichgewichts?",
+   "a": "G.E. Briggs und John Burdon Sanderson Haldane.",
+   "type": "quant"
+  }
+ ]
+}

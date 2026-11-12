@@ -1,0 +1,11 @@
+{
+ "docid": "hi_wiki_gravity",
+ "url": "https://hi.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=%E0%A4%97%E0%A5%81%E0%A4%B0%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%A3&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "hi.wikipedia.org",
+ "title": "गुरुत्वाकर्षण",
+ "fetched": "2026-11-12",
+ "chars": 13464,
+ "lang": "hi",
+ "mode": "html"
+}

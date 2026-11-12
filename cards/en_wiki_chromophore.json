@@ -1,0 +1,58 @@
+{
+ "docid": "en_wiki_chromophore",
+ "N": 9,
+ "lang": "en",
+ "discipline": "chemistry",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "short",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is a chromophore?",
+   "a": "The part of a molecule responsible for its color.",
+   "type": "def"
+  },
+  {
+   "q": "In molecular-orbital terms, what characterises a chromophore region?",
+   "a": "The energy difference between two separate molecular orbitals falls within the range of the visible spectrum.",
+   "type": "def"
+  },
+  {
+   "q": "What happens to an electron when a chromophore absorbs visible light?",
+   "a": "It is excited from its ground state into an excited state.",
+   "type": "mech"
+  },
+  {
+   "q": "How many conjugated double bonds form the chromophore of β-carotene?",
+   "a": "Eleven.",
+   "type": "quant"
+  },
+  {
+   "q": "Why are healthy plants perceived as green?",
+   "a": "Chlorophyll absorbs mainly blue and red wavelengths, while green light is reflected by structures such as cell walls and is less absorbed.",
+   "type": "mech"
+  },
+  {
+   "q": "Which chromophores give human blood its red color?",
+   "a": "Heme chromophores, arising from porphyrin moieties whose primary function is to bind iron atoms that capture oxygen.",
+   "type": "quant"
+  },
+  {
+   "q": "Which heme degradation product gives bruises their blue-green color?",
+   "a": "Biliverdin.",
+   "type": "mech"
+  },
+  {
+   "q": "Which heme degradation product gives patients with jaundice a yellow skin tone?",
+   "a": "Bilirubin.",
+   "type": "mech"
+  },
+  {
+   "q": "What structural change does 11-cis-retinal undergo on capturing a photon of the correct wavelength?",
+   "a": "It straightens out into all-trans-retinal.",
+   "type": "contrast"
+  }
+ ]
+}

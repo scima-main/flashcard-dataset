@@ -1,0 +1,78 @@
+{
+ "docid": "doaj_microplastics",
+ "N": 13,
+ "lang": "en",
+ "discipline": "earth_environmental",
+ "provenance": "review_meta_analysis",
+ "difficulty": "postgraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "Which two environments have become primary reservoirs of microplastic pollutants?",
+   "a": "Sewage sludge and soil.",
+   "type": "def"
+  },
+  {
+   "q": "What is the trade-off of using sludge to enrich soil?",
+   "a": "It provides nutrients but simultaneously introduces substantial microplastic content.",
+   "type": "mech"
+  },
+  {
+   "q": "Beyond altering soil properties, what can accumulated microplastics pollute?",
+   "a": "Deeper soil layers and groundwater.",
+   "type": "mech"
+  },
+  {
+   "q": "Which two soil physical properties do microplastics detrimentally affect?",
+   "a": "Soil bulk density and aggregate stability.",
+   "type": "mech"
+  },
+  {
+   "q": "What else does the presence of microplastics alter in soil?",
+   "a": "Pollutant transport behavior.",
+   "type": "mech"
+  },
+  {
+   "q": "On what do microplastics' effects on sludge properties, microbial communities and soil characteristics depend?",
+   "a": "Microplastic attributes and soil conditions.",
+   "type": "mech"
+  },
+  {
+   "q": "What microplastic concentrations does the review report for sludge versus soil?",
+   "a": "271 Particles/kg dry weight in sludge versus 34.6 Particles/kg in soil.",
+   "type": "quant"
+  },
+  {
+   "q": "What R² value expresses the correlation between microplastic concentrations in soil and sludge?",
+   "a": "R² = 0.95.",
+   "type": "quant"
+  },
+  {
+   "q": "Which p-value indicates a significant correlation between microplastic amounts in soil and sludge?",
+   "a": "0.0001.",
+   "type": "quant"
+  },
+  {
+   "q": "Which p-value suggests no significant association between microplastic concentrations in wastewater and sludge?",
+   "a": "0.47.",
+   "type": "quant"
+  },
+  {
+   "q": "Which microplastic shapes predominate in sludge and soil?",
+   "a": "Fibers and fragments.",
+   "type": "quant"
+  },
+  {
+   "q": "What is the predominance of fibers and fragments in soil often linked to?",
+   "a": "Agricultural fertilizer use.",
+   "type": "quant"
+  },
+  {
+   "q": "How does microplastic contamination in terrestrial environments compare with that in marine environments?",
+   "a": "It has risen significantly, far exceeding levels in marine environments.",
+   "type": "contrast"
+  }
+ ]
+}

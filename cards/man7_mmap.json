@@ -1,0 +1,83 @@
+{
+ "docid": "man7_mmap",
+ "N": 14,
+ "lang": "en",
+ "discipline": "computer_science",
+ "provenance": "technical_documentation",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What do mmap and munmap do?",
+   "a": "Map or unmap files or devices into memory.",
+   "type": "def"
+  },
+  {
+   "q": "What does mmap() create?",
+   "a": "A new mapping in the virtual address space of the calling process.",
+   "type": "def"
+  },
+  {
+   "q": "Which header must be included to use mmap()?",
+   "a": "<sys/mman.h>.",
+   "type": "def"
+  },
+  {
+   "q": "What does the flags argument of mmap() determine?",
+   "a": "Whether updates are visible to other processes mapping the same region, and whether updates are carried through to the underlying file.",
+   "type": "def"
+  },
+  {
+   "q": "What happens when addr is NULL in mmap()?",
+   "a": "The kernel chooses the page-aligned address at which to create the mapping.",
+   "type": "mech"
+  },
+  {
+   "q": "How does the Linux kernel treat a non-NULL addr in mmap()?",
+   "a": "As a hint, picking a nearby page boundary at or above /proc/sys/vm/mmap_min_addr.",
+   "type": "mech"
+  },
+  {
+   "q": "What does mmap() return?",
+   "a": "The address of the new mapping.",
+   "type": "mech"
+  },
+  {
+   "q": "How are the contents of a file mapping initialised?",
+   "a": "Using length bytes starting at offset in the file referred to by the file descriptor fd.",
+   "type": "mech"
+  },
+  {
+   "q": "What can be done with the file descriptor immediately after mmap() returns?",
+   "a": "It can be closed without invalidating the mapping.",
+   "type": "mech"
+  },
+  {
+   "q": "What constraint applies to the length argument of mmap()?",
+   "a": "It must be greater than 0.",
+   "type": "quant"
+  },
+  {
+   "q": "Which way of creating a new mapping is described as the most portable?",
+   "a": "Passing addr as NULL.",
+   "type": "quant"
+  },
+  {
+   "q": "What alignment must the offset argument of mmap() satisfy?",
+   "a": "It must be a multiple of the page size returned by sysconf(_SC_PAGE_SIZE).",
+   "type": "quant"
+  },
+  {
+   "q": "What constraint applies to prot relative to the file?",
+   "a": "It must not conflict with the open mode of the file.",
+   "type": "quant"
+  },
+  {
+   "q": "Which prot flag means pages may not be accessed?",
+   "a": "PROT_NONE.",
+   "type": "quant"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "docid": "se_chem_resonance",
+ "N": 12,
+ "lang": "en",
+ "discipline": "chemistry",
+ "provenance": "forum_qa",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "Resonance is part of which bonding theory?",
+   "a": "Valence bond theory.",
+   "type": "def"
+  },
+  {
+   "q": "What does resonance describe in valence bond theory?",
+   "a": "Delocalised electron systems, in terms of contributing structures.",
+   "type": "def"
+  },
+  {
+   "q": "What kind of bonds does each contributing resonance structure involve?",
+   "a": "Only 2-centre-2-electron bonds.",
+   "type": "def"
+  },
+  {
+   "q": "Do individual resonance structures exist on their own in rapid equilibrium?",
+   "a": "No; they do not exist on their own and are not in any rapid equilibrium.",
+   "type": "mech"
+  },
+  {
+   "q": "Must resonance contributing structures be equally weighted?",
+   "a": "No; they do not have to be equally weighted in their contribution.",
+   "type": "mech"
+  },
+  {
+   "q": "Which molecule is given as an example of genuine rapid interconversion that is not called resonance?",
+   "a": "Bullvalene.",
+   "type": "quant"
+  },
+  {
+   "q": "For the 2-norbornyl cation, which structure did X-ray diffraction show to be correct?",
+   "a": "Structure (a), the single delocalised structure.",
+   "type": "quant"
+  },
+  {
+   "q": "In what year was an X-ray diffraction structure of the 2-norbornyl cation obtained?",
+   "a": "2013.",
+   "type": "quant"
+  },
+  {
+   "q": "In amides, what does resonance imply for the C–N bond order?",
+   "a": "It is greater than 1, giving the bond some double bond character.",
+   "type": "quant"
+  },
+  {
+   "q": "In amides, what does resonance imply for the C–O bond order?",
+   "a": "It is less than 2.",
+   "type": "quant"
+  },
+  {
+   "q": "On a potential energy diagram, how does a resonance hybrid differ from equilibrating structures?",
+   "a": "A resonance hybrid is a single potential energy minimum; equilibrating structures are two minima separated by a barrier.",
+   "type": "contrast"
+  },
+  {
+   "q": "What is the alternative to the valence bond and resonance description of delocalised bonding?",
+   "a": "Molecular orbital theory, in which electrons occupy molecular orbitals extending over more than two atoms.",
+   "type": "contrast"
+  }
+ ]
+}

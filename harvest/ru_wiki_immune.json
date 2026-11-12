@@ -1,0 +1,11 @@
+{
+ "docid": "ru_wiki_immune",
+ "url": "https://ru.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "ru.wikipedia.org",
+ "title": "Иммунитет",
+ "fetched": "2026-11-12",
+ "chars": 15703,
+ "lang": "ru",
+ "mode": "html"
+}

@@ -1,0 +1,14 @@
+Leaves change color in the fall because their chromophores (chlorophyll molecules) break down and stop absorbing red and blue light.[1]
+
+A chromophore is the part of a molecule responsible for its color.[2] The word is derived from Ancient Greek χρῶμᾰ (chroma) 'color' and -φόρος (phoros) 'carrier of'.
+The color that is seen by our eyes is that of the light not absorbed by the reflecting object within a certain wavelength spectrum of visible light. The chromophore is a region in the molecule where the energy difference between two separate molecular orbitals falls within the range of the visible spectrum (or in informal contexts, the spectrum under scrutiny). Visible light that hits the chromophore can thus be absorbed by exciting an electron from its ground state into an excited state. In biological molecules that serve to capture or detect light energy, the chromophore is the moiety that causes a conformational change in the molecule when hit by light.
+
+Healthy plants are perceived as green because chlorophyll absorbs mainly the blue and red wavelengths but green light, reflected by plant structures like cell walls, is less absorbed.[3]
+
+The eleven conjugated double bonds that form the chromophore of the β-carotene molecule are highlighted in red.
+
+Conjugated pi-bond system chromophores
+
+The porphyrin moieties in our red blood cells, whose primary function is to bind iron atoms which capture oxygen, result in the heme chromophores which give human blood its red color. Heme is degraded by the body into biliverdin (which gives bruises their blue-green color), which in turn is degraded into bilirubin (which gives patients with jaundice a yellow skin tone).
+
+In the mammalian eye, the molecule retinal is a conjugated chromophore. Retinal begins as 11-cis-retinal, which, upon capturing a photon γ (light) of the correct wavelength, straightens out into all-trans-retinal which pushes against

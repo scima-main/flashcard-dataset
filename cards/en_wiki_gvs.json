@@ -1,0 +1,68 @@
+{
+ "docid": "en_wiki_gvs",
+ "N": 11,
+ "lang": "en",
+ "discipline": "linguistics",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What was the Great Vowel Shift?",
+   "a": "A series of pronunciation changes in the vowels of the English language.",
+   "type": "def"
+  },
+  {
+   "q": "Which class of Middle English vowels had their pronunciation altered by the Great Vowel Shift?",
+   "a": "All Middle English long vowels.",
+   "type": "mech"
+  },
+  {
+   "q": "What consonant change is occasionally included under the term Great Vowel Shift?",
+   "a": "Some consonant sounds becoming silent.",
+   "type": "mech"
+  },
+  {
+   "q": "Why do English spellings now often deviate considerably from the pronunciations they represent?",
+   "a": "The Great Vowel Shift is the major reason, alongside spelling standardization that began in the 15th and 16th centuries.",
+   "type": "mech"
+  },
+  {
+   "q": "Between which years did the Great Vowel Shift primarily take place?",
+   "a": "Between 1400 and 1700.",
+   "type": "quant"
+  },
+  {
+   "q": "Which century formed the transition period from Middle English to Early Modern English?",
+   "a": "The 15th century.",
+   "type": "quant"
+  },
+  {
+   "q": "Where did the Great Vowel Shift begin?",
+   "a": "Southern England.",
+   "type": "quant"
+  },
+  {
+   "q": "Who coined the term \"Great Vowel Shift\"?",
+   "a": "Otto Jespersen, in Part I (1909) of A Modern English Grammar on Historical Principles.",
+   "type": "quant"
+  },
+  {
+   "q": "Who first produced a diagram of the Great Vowel Shift?",
+   "a": "Otto Jespersen, a Danish linguist and Anglicist.",
+   "type": "quant"
+  },
+  {
+   "q": "Who wrote A History of English Sounds (1874, revised edition 1888)?",
+   "a": "Henry Sweet.",
+   "type": "quant"
+  },
+  {
+   "q": "Which Vienna-based researcher published Untersuchungen zur englischen Lautgeschichte (1896)?",
+   "a": "Karl Luick.",
+   "type": "quant"
+  }
+ ]
+}

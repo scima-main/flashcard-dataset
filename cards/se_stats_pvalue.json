@@ -1,0 +1,60 @@
+{
+ "docid": "se_stats_pvalue",
+ "N": 12,
+ "lang": "en",
+ "discipline": "mathematics",
+ "provenance": "forum_qa",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [
+  "under_budget"
+ ],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "In classical hypothesis testing, what is the first step before interpreting a p-value?",
+   "a": "Assuming that the hypothesis under consideration is true.",
+   "type": "def"
+  },
+  {
+   "q": "In the height example, which conditional probability is the p-value?",
+   "a": "P(sample mean ≥ 5 ft 9 inches | true value = 5 ft 7 inches).",
+   "type": "def"
+  },
+  {
+   "q": "What does a p-value of 0.06 imply about repeating the sampling experiment many times?",
+   "a": "About 6 times out of 100 you would expect a sample mean greater than or equal to 5 ft 9 inches.",
+   "type": "mech"
+  },
+  {
+   "q": "Which two interpretations does a p-value of 0.06 leave open?",
+   "a": "Either the hypothesis is correct and an extremely unlikely event occurred, or the assumption is incorrect and the sample is not that unusual.",
+   "type": "contrast"
+  },
+  {
+   "q": "What traditional arbitrary cut-off is used to decide between retaining and rejecting the hypothesis?",
+   "a": "Choose (A) if p > 0.05 and (B) if p < 0.05.",
+   "type": "quant"
+  },
+  {
+   "q": "In the worked example, what average height of male students is hypothesised?",
+   "a": "5 ft 7 inches.",
+   "type": "quant"
+  },
+  {
+   "q": "In the worked example, how many students were selected at random?",
+   "a": "100 students.",
+   "type": "quant"
+  },
+  {
+   "q": "In the worked example, what sample mean turned out to be observed?",
+   "a": "5 ft 9 inches.",
+   "type": "quant"
+  },
+  {
+   "q": "In the answer's example, what would make the observed sample an extremely unlikely event under the hypothesis?",
+   "a": "If all 100 students were student athletes.",
+   "type": "quant"
+  }
+ ]
+}

@@ -1,0 +1,413 @@
+Iambic pentameter (/aɪˌæmbɪk pɛnˈtæmɪtər/ eye-AM-bik pen-TAM-it-ər) is a type of metric line used in traditional English poetry and verse drama. The term describes the rhythm, or meter, established by the words in each line. Meter is measured in small groups of syllables called feet. "Iambic" indicates that the type of foot used is the iamb, which in English consists of an unstressed syllable followed by a stressed syllable (as in a-BOVE). "Pentameter" indicates that each line has five metrical feet.[1]
+
+Iambic pentameter is the most common meter in English poetry. It was first introduced into English by Chaucer in the 14th century on the basis of French and Italian models. It is used in several major English poetic forms, including blank verse, the heroic couplet, and some of the traditionally rhymed stanza forms. William Shakespeare famously used iambic pentameter in his plays and sonnets,[2] as did John Milton in his Paradise Lost and William Wordsworth in The Prelude.
+
+As lines in iambic pentameter usually contain ten syllables, it is considered a form of decasyllabic verse.
+
+Meter
+
+Example
+
+An iambic foot is an unstressed syllable followed by a stressed syllable. The rhythm can be written as:
+
+da DUM
+
+A standard line of iambic pentameter is five iambic feet in a row:
+
+da DUM da DUM da DUM da DUM da DUM
+
+Straightforward examples of this rhythm can be heard in the opening line of William Shakespeare's Sonnet 12:
+
+When I do count the clock that tells the time
+
+and in John Keats's ode To Autumn:[3]
+
+To swell the gourd, and plump the hazel shells
+
+It is possible to notate this with a "/" marking ictic syllables (experienced as beats) and a "×" marking nonictic syllables (experienced as offbeats). In this notation a standard line of iambic pentameter would look like this:
+
+× / × / × / × / × /
+
+The scansion of the examples above can be notated as follows:
+
+ × / × / × / × / × /
+When I do count the clock that tells the time
+
+ × / × / × / × / × /
+To swell the gourd, and plump the hazel shells
+
+The iamb in classical and English verse
+
+The term "iamb" originally applied to the quantitative meter of classical poetry. The classical terms were adapted to describe the equivalent meters in English accentual-syllabic verse. Different languages express rhythm in different ways. In Ancient Greek and Latin, the rhythm was created through the alternation of short and long syllables. In English, the rhythm is created through the use of stress, alternating between unstressed and stressed syllables. An English unstressed syllable is equivalent to a classical short syllable, while an English stressed syllable is equivalent to a classical long syllable. When a pair of syllables is arranged as a short followed by a long, or an unstressed followed by a stressed, pattern, that foot is said to be "iambic". The English word "trapeze" is an example of an iambic pair of syllables, since the word is made up of two syllables ("tra-peze") and is pronounced with the stress on the second syllable ("tra-PEZE", rather than "TRA-peze"). A line of iambic pentameter is made up of five such pairs of short/long, or unstressed/stressed, syllables.
+
+Rhythmic variation
+
+Although strictly speaking, iambic pentameter refers to five iambs in a row (as above), in practice, poets vary their iambic pentameter a great deal, while maintaining the iamb as the most common foot. However, there are some conventions to these variations. Iambic pentameter must always contain only five feet, and the second foot is almost always an iamb. The first foot, in contrast, often changes by the use of inversion, which reverses the order of the syllables in the foot. The following line from Shakespeare's Richard III begins with an inversion:
+
+ / × × / × / × / × /
+Now is the winter of our discontent
+
+Besides inversion, whereby a beat is pulled back, a beat can also be pushed forward to create an indivisible 4-syllable unit: x x / /.[4][5][6] In the following example, the 4th beat has been pushed forward:
+
+x / x / x / x x / /
+A mote it is to trouble the mind's eye
+
+Another common departure from standard iambic pentameter is the addition of a final unstressed syllable, which creates a weak or feminine ending. One of Shakespeare's most famous lines of iambic pentameter has a weak ending:[7]
+
+ × / × / × / / × × / (×)
+To be or not to be, | that is the question
+
+This line also has an inversion of the fourth foot, following the caesura (marked with "|"). In general a caesura acts in many ways like a line-end: inversions are common after it, and the extra unstressed syllable of the feminine ending may appear before it. Shakespeare and John Milton (in his work before Paradise Lost) at times employed feminine endings before a caesura.[8]
+
+Here is the first quatrain of a sonnet by John Donne, which demonstrates how he uses a number of metrical variations strategically. This scansion adds numbers to indicate how Donne uses a variety of stress levels to realize his beats and offbeats (1 = lightest stress, 4 = heaviest stress):
+
+ 4 1 1 4 3 4 1 4 1 2
+ / × × / × / × / × /
+Batter my heart three-personed God, for you
+1 3 2 4 3 4 1 4 1 4
+× / × / × / × / × /
+As yet but knock, breathe, shine and seek to mend.
+ 1 2 1 4 1 4 2 4 1(1) 4
+ × / × / × / × / ×(×) /
+That I may rise and stand o'erthrow me and bend
+ 1 4 1 4 3 4 1 4 1 4
+ × / × / × / × / × /
+Your force to break, blow, burn and make me new.
+
+Donne uses an inversion (DUM da instead of da DUM) in the first foot of the first line to stress the key verb, "batter", and then sets up a clear iambic pattern with the rest of the line (da DUM da DUM da DUM da DUM). In the second and fourth lines he uses strongly-stressed offbeats (which can be interpreted as spondees) in the third foot to slow down the rhythm as he lists monosyllabic verbs. The parallel rhythm and grammar of these lines highlights the comparison Donne sets up between what God does to him "as yet" ("knock, breathe, shine and seek to mend"), and what he asks God to do ("break, blow, burn and make me new"). Donne also uses enjambment between lines three and four to speed up the flow as he builds to his desire to be made new. To further the speed-up effect of the enjambment, Donne puts an extra syllable in the final foot of the line (this can be read as an anapest (dada DUM) or as an elision).
+
+Percy Bysshe Shelley also used skilful variation of the metre in his "Ode to the West Wind":
+
+× / × / | × / × / × /(×)
+O wild West Wind, thou breath of Autumn's being,
+ / × × / × / × × / /
+Thou, from whose unseen presence the leaves dead
+ × / × / / × × / × / (×)
+Are driven, like ghosts from an enchanter fleeing,
+
+As the examples show, iambic pentameter need not consist entirely of iambs, nor need it have ten syllables. Most poets who have a great facility for iambic pentameter frequently vary the rhythm of their poetry as Donne and Shakespeare do in the examples, both to create a more interesting overall rhythm and to highlight important thematic elements. In fact, the skilful variation of iambic pentameter, rather than the consistent use of it, may well be what distinguishes the rhythmic artistry of Donne, Shakespeare, Milton, and the 20th century sonneteer Edna St. Vincent Millay.
+
+Several scholars have argued that iambic pentameter has been so important in the history of English poetry by contrasting it with the one other important meter (tetrameter), variously called "four-beat," "strong-stress," "native meter," or "four-by-four meter."[9] Four-beat, with four beats to a line, is the meter of nursery rhymes, children's jump-rope and counting-out rhymes, folk songs and ballads, marching cadence calls, and a good deal of art poetry. It has been described by Attridge as based on doubling: two beats to each half line, two half lines to a line, two pairs of lines to a stanza. The metrical stresses alternate between light and heavy.[10] It is a heavily regular beat that produces something like a repeated tune in the performing voice, and is, indeed, close to song. Because of its odd number of metrical beats, iambic pentameter, as Attridge says, does not impose itself on the natural rhythm of spoken language.[11] Thus iambic pentameter frees intonation from the repetitiveness of four-beat and allows instead the varied intonations of significant speech to be heard. Pace can be varied in iambic pentameter, as it cannot in four-beat, as Alexander Pope demonstrated in his "An Essay on Criticism":
+
+When Ajax strives some rock's vast weight to throw,
+
+The line, too, labours and the words move slow.
+
+Not so when swift Camilla scours the plain,
+
+Flies o'er th'unbending corn, and skims along the main.
+
+In the first couplet, in phrases like "Ajax strives", "rock's vast weight", "words move slow", the long vowels and accumulation of consonants make the syllables long and slow the reader down; whereas in the second couplet, in the word "Camilla" all the syllables are short, even the stressed one.
+
+The last line is in fact an alexandrine—an iambic hexameter, which occurs occasionally in some iambic pentameter texts as a variant line, most commonly the final line of a passage or stanza, and has a tendency, as in this example, to break in the middle, producing a symmetry, with its even number of syllables split into two halves, that contrasts with the asymmetry of the 5-beat pentameter line.[12][13][14][15] Pope exemplifies "swiftness" partly through his use of contraction—two extra implied syllables squeezed into the metrical template between the first two ictuses:
+
+ / ×(×) (×)× / × / × / × / × /
+Flies o'er th'unbending corn, and skims along the main.
+
+Moreover, iambic pentameter, instead of the steady alternation of lighter and heavier beats of four-beat, permits principal accents, that is, accents on the most significant words, to occur at various points in a line as long as they are on the even-numbered syllables, or on the first syllable, in the case of an initial trochaic inversion. It is not the case, as is often alleged, that iambic pentameter is "natural" to English; rather it is that iambic pentameter allows the varied intonations and pace natural to significant speech to be heard along with the regular meter.[16]
+
+Theories of iambic pentameter
+
+Halle–Keyser
+
+Linguists Morris Halle and Samuel Jay Keyser developed the earliest theory of generative metrics[17]—a set of rules that define those variations that are permissible (in their view) in English iambic pentameter. Essentially, the Halle–Keyser rules state that only "stress maximum" syllables are important in determining the meter. A stress maximum syllable is a stressed syllable surrounded on both sides by weak syllables in the same syntactic phrase and in the same verse line. In order to be a permissible line of iambic pentameter, no stress maximum can fall on a syllable that is designated as a weak syllable in the standard, unvaried iambic pentameter pattern. In the Donne line, the word God is not a maximum. That is because it is followed by a pause. Similarly the words you, mend, and bend are not maxima since they are each at the end of a line (as required for the rhyming of mend/bend and you/new.) Rewriting the Donne quatrain showing the stress maxima (denoted with an "M") results in the following:
+
+ / × × M × M × / × /
+Batter my heart three-personed God, for you
+× M × / × / × M × /
+As yet but knock, breathe, shine and seek to mend.
+ × / × M × / × / ×(×) /
+That I may rise and stand o'erthrow me and bend
+ × M × / × / × M × /
+Your force to break, blow, burn and make me new.
+
+The Halle–Keyser system has been criticized because it can identify passages of prose as iambic pentameter.[18] Other scholars have revised Halle–Keyser, and they, along with Halle and Keyser, are known collectively as “generative metrists.”
+
+Later generative metrists pointed out that poets have often treated non-compound words of more than one syllable differently from monosyllables and compounds of monosyllables. Any normally weak syllable may be stressed as a variation if it is a monosyllable, but not if it is part of a polysyllable except at the beginning of a line or a phrase.[19] Thus Shakespeare wrote in The Merchant of Venice, Act I, Scene 1:
+
+ × × / / × / × /(×)× /
+For the four winds blow in from every coast
+
+but wrote "vanishingly few"[20] lines of the form of "As gazelles leap a never-resting brook". The stress patterns are the same, and in particular, the normally weak third syllable is stressed in both lines; the difference is that in Shakespeare's line the stressed third syllable is a one-syllable word, "four", whereas in the un-Shakespearean line it is part of a two-syllable word, "gazelles". (The definitions and exceptions are more technical than stated here.) Pope followed such a rule strictly, Shakespeare fairly strictly,[21] Milton much less, and Donne not at all—which may be why Ben Jonson said Donne deserved hanging for "not keeping of accent".[19]
+
+Derek Attridge has pointed out the limits of the generative approach; it has “not brought us any closer to understanding why particular metrical forms are common in English, why certain variations interrupt the metre and others do not, or why metre functions so powerfully as a literary device.”[22] Generative metrists also fail to recognize that a normally weak syllable in a strong position will be pronounced differently, i.e. “promoted” and so no longer "weak."
+
+History
+
+Possible Latin origin
+
+It is not known for certain where this metre came from. However, in the 19th century, the Swiss scholar Rudolf Thurneysen suggested that it had developed from the Latin hexameter,[23] for there is a common type of hexameter which has two stresses in the first half and three in the second, for example:
+
+at páter Aenéas, audíto nómine Túrni
+
+[but Father Aeneas, when he heard the name of Turnus, ...]
+
+— Virgil, Aen. 9.697
+
+or
+
+íbant obscúri, sóla sub nócte per úmbram
+
+[they were walking slowly, beneath the lonely night through the shadow]
+
+— Virgil, Aen. 6.268
+
+The 3rd-century Christian African writer Commodian, who wrote irregular hexameters in a popular style, favoured this kind with five word-accents. Thurneysen quotes:
+
+irásci nolíte / sine caúsa frátri devóto
+
+recipiétis énim / quídquid fecerítis ab íllo
+
+do not be angry without cause at a devout brother;
+
+for you will receive back from him whatever you have done
+
+When the pronunciation of the Latin changed to French, the number of syllables in many words was reduced. For example, illa venit currens "she came running" changed in the vernacular pronunciation to la vint corant, and audite, seniores "listen, sirs" with seven syllables changed to oez seignurs with four. Final syllables in French were particularly subject to being lost, unlike in Spanish and Italian.[24]
+
+Another feature the accentual Latin hexameter has in common with iambic pentameter is that the position of the 1st and 3rd accents is not fixed; for example, the first accent can come either at the beginning of the verse or in second place, as in the pentameter.
+
+Early French and Provençal writers
+
+Possibly the earliest example of iambic pentameter verse is the poem Boecis ("Boethius"), written in the Occitan dialect of the Limousin region in southern France about 1000 AD.[25] An example is the following extract:
+
+Bella's la domna, e'l vis a ta preclar,
+
+Davan so vis, nulz om no's pot celar;
+
+Ne eps li omne, qui sun ultra la mar
+
+Beautiful is the lady, and her face is so bright,
+
+before her face, no man can hide himself;
+
+not even those men, who are beyond the sea.
+
+In this metre, every line has two halves: the first half of the line has four syllables, but sometimes after the 4th syllable an extra unaccented syllable is added, as in lines 1 and 3 above; the second half has six syllables.
+
+This optional extra syllable in the middle of the line, as well as an extra unaccented syllable at the end of the line, are also seen in the 11th-century French poem, La Vie de Saint Alexis, of which an extract is as follows:
+
+De la dolor, que demenat li pedre
+
+Grant fut la noise, si l’entendit la medre:
+
+La vint corant, com feme forsenede,
+
+Batant ses palmes, cridant, eschavelede;
+
+Veit mort son fil, a terre chiet pasmede.
+
+Of the grief, which the father was showing,
+
+great was the noise; the mother heard it;
+
+she came running, like a frenzied woman,
+
+beating her palms, crying, dishevelled,
+
+sees her son dead; falls fainting to the ground.
+
+Also composed in iambic pentameter were the earliest of the Old French chansons de geste of the 11th to 13th centuries. Like the examples above, the poems usually had a caesura after the fourth syllable. One of the oldest is The Song of Roland, which begins as follows:
+
+Carles li reis, nostre emperere magnes
+
+Set anz tuz pleins ad estet en Espaigne:
+
+Tresqu'en la mer cunquist la tere altaigne.
+
+N'i ad castel ki devant lui remaigne;
+
+Mur ne citet n'i est remes a fraindre,
+
+Fors Sarraguce, ki est en une muntaigne.
+
+Charles the King, our great Emperor,
+
+For seven full years has been in Spain;
+
+As far as the sea conquered the high land.
+
+No castle remains in his way;
+
+No wall or citadel is left to break,
+
+Except for Saragossa, which is on a hill.
+
+In this version of the metre as in the poems above, each line has two halves: the first half has four syllables (sometimes 5), while the second half has seven (sometimes 6); in the first half there are two stresses and in the second half three. In some places the final weak vowel -e is ignored, e.g. nostr(e) emperere.
+
+Troubadors and Italians
+
+This line was adopted with more flexibility by the troubadours of Provence in the 12th century, notably Cercamon, Bernart de Ventadorn, and Bertran de Born.[26] In both Old French and Old Provençal, the tenth syllable of the line was accented and feminine endings were common, in which case the line had eleven syllables.
+
+Italian poets such as Giacomo da Lentini, Boccaccio, Petrarch, and Dante adopted this line, generally using the eleven-syllable form (endecasillabo)[26] because most Italian words have feminine endings.[27]: 91  They often used a pattern where the fourth syllable (normally accented) and the fifth (normally unaccented) were part of the same word, the opposite of the Old French line with its required pause after the fourth syllable. This pattern came to be considered typically Italian.
+
+Dante's Divine Comedy, completed in 1320, begins as follows:
+
+Nel mezzo del cammin di nostra vita
+
+mi ritrovai per una selva oscura
+
+ché la diritta via era smarrita.
+
+In the middle of the road of my life
+
+I found myself going through a dark forest
+
+where the straight path was obscured.
+
+There is now often no syntactic pause after the fourth syllable, and every line has eleven syllables. Another innovation common in Italian is synaloepha where a final and an initial vowel merge into one syllable, as in selva_oscura or via_era above.
+
+Giovanni Boccaccio's Filostrato of the 1330s, imitated by Chaucer in his Troilus and Criseyde, has a similar rhythm. It begins as follows:
+
+Alcun di Giove sógliono il favore
+
+Ne’ lor principii pietosi invocare;
+
+Altri d’Apollo chiámano il valore;
+
+Some are accustomed to invoke Jupiter's favour
+
+in their pious opening verses;
+
+others call on Apollo's power
+
+Chaucer
+
+The first to write iambic pentameter verse in English was Geoffrey Chaucer, who not only knew French, but also Italian, even having visited Italy two or three times.[25] His Troilus and Criseyde, written in the 1380s, begins as follows, using lines sometimes of 11, and sometimes of 10 syllables. Quite often (but not in every line) there is a syntactic break after the fourth syllable, as in the French poems quoted above:
+
+The double sorwe of Troilus to tellen,
+
+That was the king Priamus sone of Troye,
+
+In lovinge, how his aventures fellen
+
+Fro wo to wele, and after out of joye,
+
+My purpos is, er that I parte fro ye.
+
+Thesiphone, thou help me for t'endite
+
+Thise woful vers, that wepen as I write!
+
+Chaucer's friend John Gower used a similar meter in his poem "In Praise of Peace."[27]: 91  This was written after Henry IV's coronation in 1399.
+
+Chaucer's meter depended on the pronunciation of final e's that even by his time were probably silent. It was soon forgotten that they were ever pronounced, so later readers could not recognize his meter and found his lines rough.[28] His Scottish followers of the century from 1420 to 1520—King James I, Robert Henryson, William Dunbar, and Gavin Douglas—seem to have understood his meter (though final e had long been silent in Scots) and came close to it. Dunbar, in particular, wrote poems in true iambic pentameter.[27]: 105–112
+
+Later English poets
+
+In England, the poems of the 15th and early 16th centuries are in a wide variety of meters. Thomas Wyatt, for example, often mixed iambic pentameters with other lines of similar length but different rhythm. Henry Howard, Earl of Surrey, on the other hand, used a strict ten-syllable line that was similar to the Old French line, with its pause after the fourth syllable, but typically had a regular iambic pattern, and had many of the modern types of variation. Thomas Sackville, in his two poems in the Mirror for Magistrates, used a similar line but with few caesuras. The result was essentially the normal iambic pentameter except for the avoidance of the "Italian" line. It was Philip Sidney, apparently influenced by Italian poetry, who used large numbers of "Italian" lines and thus is often considered to have reinvented iambic pentameter in its final form. He was also more adept than his predecessors in working polysyllabic words into the meter. However, Sidney avoided feminine endings. They appear more often in the work of such masters of iambic pentameter as Edmund Spenser and Shakespeare.[27]: 119–127
+
+Iambic pentameter became the prevalent meter in English. It was estimated in 1971 that at least three-quarters of all English poetry since Chaucer has been written in this meter.[29]
+
+Reading in drama
+
+There is some debate over whether works such as Shakespeare's were originally performed with the rhythm prominent, or whether the rhythm was embedded in the patterns of contemporary speech. In either case, when read aloud, such verse naturally follows an iambic beat. Scholars have explained that there are few stage directions in Shakespeare "because the verse serves that purpose. The dramatic action of the lines is related to the physical action required."[30]
+
+The rhythm of iambic pentameter was emphasised in Sir Kenneth Branagh's 2000 production of Love's Labour's Lost, in a scene where the protagonists tap-dance to the "Have at you now, affection's men-at-arms" speech. In this case, each iamb is underscored with a flap step.
+
+See also
+
+- Anapaest
+
+- Blank verse
+
+- Dactyl
+
+- Dactylic pentameter
+
+- Decasyllable
+
+- Hendecasyllable
+
+- Ragale
+
+- Systems of scansion
+
+- Trochee
+
+Notes
+
+- ^ "Iambic pentameter | Poetry, Definition, & Facts | Britannica". www.britannica.com.
+
+- ^ "Poetry 101: What Is a Shakespearean Sonnet? Learn About Shakespearean Sonnets With Examples". MasterClass. Master Class.
+
+- ^ This line (line 7 of "To Autumn") is used by Timothy Steele as an example of an unvaried line of iambic pentameter, see Steele 1999, p. 5
+
+- ^ The Strict Metrical Tradition by David Keppel-Jones, pp. 73–92
+
+- ^ Rhythm and Meaning in Shakespeare by Peter Groves pp. 43–49
+
+- ^ "Iambic pentameter & the principles of metrical variation: Part 2 – radical variations". 15 September 2016.
+
+- ^ This line is used as an example by Marjorie Boulton in The Anatomy of Poetry (revised edition), Routledge and Kegan Paul, 1953, revised 1982. ISBN 0-7100-9087-0, page 28, although she marks the third foot as carrying no stress.
+
+- ^ Bridges & Milton's Prosody
+
+- ^ Attridge, Derek (2014) [1982]. The Rhythms of English Poetry. Routledge. ISBN 978-1-317-86951-1.
+
+Easthope, Antony (2013) [2002]. Poetry as Discourse. Taylor & Francis. ISBN 978-1-135-03365-1.
+
+Halpern, Martin (June 1962). "On the Two Chief Metrical Modes in English". PMLA. 77 (3): 177–186. doi:10.2307/460476. JSTOR 460476. S2CID 163571788.
+
+- ^ Attridge 2014, pp. 76–122
+
+- ^ Attridge 2014, pp. 124–6
+
+- ^ All the Fun's in How You Say a Thing by Timothy Steele, pp. 57–59
+
+- ^ The Ode Less Travelled by Stephen Fry, pp. 56–57
+
+- ^ "Why iambic pentameter?". 13 April 2018.
+
+- ^ "Iambic pentameter & the principles of metrical variation: Part 3 – double trochees, hexameters, epic caesuras in shared lines, missing syllables, emphasis on a non-beat syllable & the false choriamb". 10 September 2016.
+
+- ^ For a detailed discussion of the varied intonations possible in iambic pentameter, see Cooper, John R. (Fall 1997). "Intonation and iambic pentameter". Papers on Language and Literature. 33 (4): 392–421. reprinted with changes as the first chapter of Cooper, John R. (2009). "Iambic Pentameter". Wit's Voices: Intonation in Seventeenth-century English Poetry. University of Delaware Press. pp. 37–58. ISBN 978-0-87413-059-1.
+
+- ^ Its final revised form in English Stress: Its Forms, Its Growth, and Its Role in Verse, Harper and Row, 1971.
+
+- ^ Attridge 2014, p. 41
+
+- ^ a b Kiparsky, Paul (1975), "Stress, Syntax, and Meter" (PDF), Language, 51 (3): 576–616, doi:10.2307/412889, JSTOR 412889, archived from the original (PDF) on 2011-01-01
+
+- ^ Hayes, Bruce (1989), "The Prosodic Hierarchy in Meter" ( (PDF)), Phonetics and Phonology, Volume I: Rhythm and Meter, Academic Press, pp. 201–260, archived from the original on 2012-05-03
+
+- ^ Kiparsky said there were no such lines in Shakespeare. However, there is at least one: "Give renew'd fire to our extincted Spirits" (Othello II 1), pointed out as an objection to Kiparsky's theory by Groves, Peter L. (1998), Strange Music: The Metre of the English Heroic Line, ELS Monograph Series No.74, Victoria, BC: University of Victoria, ISBN 0-920604-55-2. Thus Hayes's characterization "vanishingly few" seems more accurate.
+
+- ^ Attridge 2014, p. 50
+
+- ^ Thurneysen, R. (1887). "Der Weg vom dactylischen Hexameter zum epischen Zehnsilber der Franzosen.". Zeitschr. f. rom. Phil. XI.
+
+- ^ Thurneysen, p. 324.
+
+- ^ a b Duffell, Martin J. (2000). ""The Craft so Long to Lerne": Chaucer's Invention of the Iambic Pentameter". The Chaucer Review, Vol. 34, No. 3 (2000), pp. 269–288.
+
+- ^ a b Menichetti, Aldo (1994), "Quelques considérations sur la structure et l'origine de l'«endecasillabo»", in Cerquiglini-Toulet, Jacqueline; Collet, Olivier (eds.), Mélanges de Philologie et de Littérature Médiévales Offerts à Michel Burger, Librairie Droz, p. 225, ISBN 2-600-00017-8
+
+- ^ a b c d Duffell, Martin J. (2008). A New History of English Meter. Modern Humanities Research Association. ISBN 978-1-905981-91-5.
+
+- ^ That Chaucer had counted these es in his meter was not proposed till the 19th century and not proved statistically till the late 20th. Duffell 2008, pp. 83–84
+
+- ^ Nims, John Frederick (1971), Sappho to Valéry: Poems in Translation, Princeton University Press, p. 18, ISBN 0-691-01365-9
+
+- ^ Bartlett, Mike (18 November 2015). "Mike Bartlett on writing King Charles III". Sydney Theatre Company Magazine. Sydney Theatre Company. Archived from the original on 31 July 2017.
+
+References
+
+- Baker, David, ed. (1996). Meter in English: A Critical Engagement. University of Arkansas Press. ISBN 978-1-55728-444-0.
+
+- Bridges, Robert (2009) [1921]. Milton's Prosody with a Chapter on Accentual Verse and Notes. BiblioBazaar. ISBN 978-1-115-33690-1.
+
+- Corn, Alfred (2008). The Poem's Heartbeat: A Manual of Prosody. Copper Canyon Press. ISBN 978-1-55659-281-2.
+
+- Fussell, Paul (1979) [1965]. Poetic Meter and Poetic Form. McGraw Hill. ISBN 0-07-553606-4.
+
+- McDowell, Robert; Gross, Harvey S. (1996). Sound and Form in Modern Poetry. University of Michigan Press. ISBN 0-472-06517-3.
+
+- Hobsbaum, Philip (1996). Metre, Rhythm and Verse Form. Psychology Press. ISBN 978-0-415-08797-1.
+
+- Malcovati, Leonardo (2005). Prosody in England and Elsewhere: A Comparative Approach. Gival Press. ISBN 978-1-928589-26-6.
+
+- Steele, Timothy (1999). All the fun's in how you say a thing: an explanation of meter and versification. Ohio University Press. ISBN 978-0-8214-1259-6.
+
+- Turco, Lewis (1986). The New Book of Forms: A Handbook of Poetics. University Press of New England. ISBN 978-0-87451-380-6.
+
+- Williams, Miller (1986). Patterns of Poetry: An Encyclopedia of Forms. Louisiana State University Press. ISBN 978-0-8071-1330-1.

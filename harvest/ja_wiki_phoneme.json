@@ -1,0 +1,12 @@
+{
+ "docid": "ja_wiki_phoneme",
+ "url": "https://ja.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=%E9%9F%B3%E7%B4%A0&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "ja.wikipedia.org",
+ "title": "音素",
+ "fetched": "2026-11-12",
+ "chars": 1099,
+ "lang": "ja",
+ "mode": "html",
+ "trimmed": true
+}

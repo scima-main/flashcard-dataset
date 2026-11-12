@@ -1,0 +1,611 @@
+"Elasticity of demand" redirects here. For income elasticity, see Income elasticity of demand. For cross elasticity, see Cross elasticity of demand. For wealth elasticity, see Wealth elasticity of demand. For supply elasticity, see Price elasticity of supply.
+
+A good's price elasticity of demand (Ed, PED) is a measure of how sensitive the quantity demanded is to its price. When the price rises, quantity demanded falls for almost any good (law of demand), but it falls more for some than for others. The price elasticity gives the percentage change in quantity demanded when there is a one percent increase in price, holding everything else constant. If the elasticity is −2, that means a one percent price rise leads to a two percent decline in quantity demanded. Other elasticities measure how the quantity demanded changes with other variables (e.g. the income elasticity of demand for consumer income changes).[1]
+
+Price elasticities are negative except in special cases. If a good is said to have an elasticity of 2, it almost always means that the good has an elasticity of −2 according to the formal definition. The phrase "more elastic" means that a good's elasticity has greater magnitude, ignoring the sign. Veblen and Giffen goods are two classes of goods which have positive elasticity, rare exceptions to the law of demand. Demand for a good is said to be inelastic when the elasticity is less than one in absolute value: that is, changes in price have a relatively small effect on the quantity demanded. Demand for a good is said to be elastic when the elasticity is greater than one. A good with an elasticity of −2 has elastic demand because quantity demanded falls twice as much as the price increase; an elasticity of −0.5 has inelastic demand because the change in quantity demanded is half of the price increase.[2]
+
+At an elasticity of 0 consumption would not change at all, in spite of any price increases.
+
+Revenue is maximized when price is set so that the elasticity is exactly one. The good's elasticity can be used to predict the incidence (or "burden") of a tax on that good. Various research methods are used to determine price elasticity, including test markets, analysis of historical sales data and conjoint analysis.
+
+Definition
+
+The variation in demand in response to a variation in price is called price elasticity of demand. It may also be defined as the ratio of the percentage change in quantity demanded to the percentage change in price of particular commodity.[3] The formula for the coefficient of price elasticity of demand for a good is:[4][5][6]
+
+E⟨P⟩=ΔQ/QΔP/P
+
+where P is the initial price of the good demanded, ΔP is how much it changed, Q is the initial quantity of the good demanded, and ΔQ is how much it changed. In other words, we can say that the price elasticity of demand is the percentage change in demand for a commodity due to a given percentage change in the price. If the quantity demanded falls 20 tons from an initial 200 tons after the price rises $5 from an initial price of $100, then the quantity demanded has fallen 10% and the price has risen 5%, so the elasticity is (−10%)/(+5%) = −2.
+
+The price elasticity of demand is ordinarily negative because quantity demanded falls when price rises, as described by the "law of demand".[5] Two rare classes of goods which have elasticity greater than 0 (consumers buy more if the price is higher) are Veblen and Giffen goods.[7] Since the price elasticity of demand is negative for the vast majority of goods and services (unlike most other elasticities, which take both positive and negative values depending on the good), economists often leave off the word "negative" or the minus sign and refer to the price elasticity of demand as a positive value (i.e., in absolute value terms).[6] They will say "Yachts have an elasticity of two" meaning the elasticity is −2. This is a common source of confusion for students.
+
+Depending on its elasticity, a good is said to have
+elastic demand (> 1),
+inelastic demand (< 1), or
+unitary elastic demand (= 1). If demand is elastic, the quantity demanded is very sensitive to price, e.g. when a 1% rise in price generates a 10% decrease in quantity. If demand is inelastic, the good's demand is relatively insensitive to price, with quantity changing less than price. If demand is unitary elastic, the quantity falls by exactly the percentage that the price rises. Two important special cases are perfectly elastic demand (= ∞), where even a small rise in price reduces the quantity demanded to zero; and perfectly inelastic demand (= 0), where a rise in price leaves the quantity unchanged.
+The above measure of elasticity is sometimes referred to as the own-price elasticity of demand for a good, i.e., the elasticity of demand with respect to the good's own price, in order to distinguish it from the elasticity of demand for that good with respect to the change in the price of some other good, i.e., an independent, complementary, or substitute good.[3] That two-good type of elasticity is called a cross-price elasticity of demand.[8][9] If a 1% rise in the price of gasoline causes a 0.5% fall in the quantity of cars demanded, the cross-price elasticity is Ecgd=(−0.5%)/(+1%)=−0.5.
+
+As the size of the price change gets bigger, the elasticity definition becomes less reliable for a combination of two reasons. First, a good's elasticity is not necessarily constant; it varies at different points along the demand curve because a 1% change in price has a quantity effect that may depend on whether the initial price is high or low.[10][11] Contrary to common misconception, the price elasticity is not constant even along a linear demand curve, but rather varies along the curve.[12] A linear demand curve's slope is constant, to be sure, but the elasticity can change even if ΔP/ΔQ is constant.[13][14] There does exist a nonlinear shape of demand curve along which the elasticity is constant: P=aQ1/E, where a is a shift constant and E is the elasticity.
+
+Second, percentage changes are not symmetric; instead, the percentage change between any two values depends on which one is chosen as the starting value and which as the ending value. For example, suppose that when the price rises from $10 to $16, the quantity falls from 100 units to 80. This is a price increase of 60% and a quantity decline of 20%, an elasticity of (−20%)/(+60%)≈−0.33 for that part of the demand curve. If the price falls from $16 to $10 and the quantity rises from 80 units to 100, however, the price decline is 37.5% and the quantity gain is 25%, an elasticity of (+25%)/(−37.5%)=−0.67 for the same part of the curve. This is an example of the index number problem.[15][16]
+
+Two refinements of the definition of elasticity are used to deal with these shortcomings of the basic elasticity formula: arc elasticity and point elasticity.
+
+Arc elasticity
+
+Main article: arc elasticity
+
+Arc elasticity was introduced very early on by Hugh Dalton. It is very similar to an ordinary elasticity problem, but it adds in the index number problem. A second solution to the asymmetry problem of having an elasticity dependent on which of the two given points on a demand curve is chosen as the "original" point and which as the "new" one is Arc Elasticity, which is to compute the percentage change in P and Q relative to the average of the two prices and the average of the two quantities, rather than just the change relative to one point or the other. Loosely speaking, this gives an "average" elasticity for the section of the actual demand curve—i.e., the arc of the curve—between the two points. As a result, this measure is known as the arc elasticity, in this case with respect to the price of the good. The arc elasticity is defined mathematically as:[16][17][18]
+
+Ed=(P1+P22)(Qd1+Qd22)×ΔQdΔP=P1+P2Qd1+Qd2×ΔQdΔP
+
+This method for computing the price elasticity is also known as the "midpoints formula", because the average price and average quantity are the coordinates of the midpoint of the straight line between the two given points.[15][18] This formula is an application of the midpoint method. However, because this formula implicitly assumes the section of the demand curve between those points is linear, the greater the curvature of the actual demand curve is over that range, the worse this approximation of its elasticity will be.[17][19]
+
+Point elasticity
+
+In order to avoid the accuracy problem described above, the difference between the starting and ending prices and quantities should be minimised. This is the approach taken in the definition of point elasticity, which uses differential calculus to calculate the elasticity for an infinitesimal change in price and quantity at any given point on the demand curve:[20]
+
+Ed=dQddP×PQd
+
+In other words, it is equal to the absolute value of the first derivative of quantity with respect to price dQddP multiplied by the point's price (P) divided by its quantity (Qd).[21] However, the point elasticity can be computed only if the formula for the demand function, Qd=f(P), is known so its derivative with respect to price, dQd/dP, can be determined.
+
+In terms of partial-differential calculus, point elasticity of demand can be defined as follows:[22] let x(p,w) be the demand of goods x1,x2,…,xL as a function of parameters price and wealth, and let xℓ(p,w) be the demand for good ℓ. The elasticity of demand for good xℓ(p,w) with respect to price pk is
+
+Exℓ,pk=∂xℓ(p,w)∂pk⋅pkxℓ(p,w)=∂log⁡xℓ(p,w)∂log⁡pk
+
+History
+
+The illustration that accompanied Marshall's original definition of elasticity, the ratio of PT to Pt
+
+Together with the concept of an economic "elasticity" coefficient, Alfred Marshall is credited with defining "elasticity of demand" in Principles of Economics, published in 1890.[23] Alfred Marshall invented price elasticity of demand only four years after he had invented the concept of elasticity. He used Cournot's basic creation of the demand curve to get the equation for price elasticity of demand. He described price elasticity of demand as thus: "And we may say generally:— the elasticity (or responsiveness) of demand in a market is great or small according as the amount demanded increases much or little for a given fall in price, and diminishes much or little for a given rise in price".[24] He reasons this since "the only universal law as to a person's desire for a commodity is that it diminishes ... but this diminution may be slow or rapid. If it is slow... a small fall in price will cause a comparatively large increase in his purchases. But if it is rapid, a small fall in price will cause only a very small increase in his purchases. In the former case... the elasticity of his wants, we may say, is great. In the latter case... the elasticity of his demand is small."[25] Mathematically, the Marshallian PED was based on a point-price definition, using differential calculus to calculate elasticities.[26]
+
+Determinants
+
+The overriding factor in determining the elasticity is the willingness and ability of consumers after a price change to postpone immediate consumption decisions concerning the good and to search for substitutes ("wait and look").[27] A number of factors can thus affect the elasticity of demand for a good:[28]
+
+- Availability of substitute goods: The more and closer the substitutes available, the higher the elasticity is likely to be, as people can easily switch from one good to another if an even minor price change is made;[28][29][30] There is a strong substitution effect.[31] If no close substitutes are available, the substitution effect will be small and the demand inelastic.[31]
+
+- Breadth of definition: The broader the definition of a good (or service), the lower the elasticity, because it is no longer possible to substitute. For example, McDonald's hamburgers will probably have a relatively high elasticity of demand (as customers can switch to other fast-food options), whereas food in general will have an extremely low elasticity of demand, because no substitutes exist.[32] Specific foodstuffs (ice cream, beef, spinach) or families of them (dairy, meat, sea products) may be more elastic.
+
+- Necessity: The more necessary a good is, the lower the elasticity, as people will attempt to buy it no matter the price, such as the case of insulin for those who need it.[13][29]
+
+- Timespan: For most goods, the longer a price change holds, the higher the elasticity is likely to be, as more and more consumers find they have the time and inclination to search for substitutes.[28][30] When fuel prices increase suddenly, for instance, consumers may still fill up their empty tanks in the short run, but when prices remain high over several years, more consumers will reduce their demand for fuel by switching to carpooling or public transportation, investing in vehicles with greater fuel economy or taking other measures.[29] This does not hold for consumer durables such as the cars themselves, however; eventually, it may become necessary for consumers to replace their present cars, so one would expect demand to be less elastic.[29]
+
+- Brand loyalty: An attachment to a certain brand can override sensitivity to price changes, resulting in more inelastic demand.[32][33]
+
+- Who pays: Where the purchaser does not directly pay for the good they consume, such as with corporate expense accounts, demand is likely to be more inelastic.[33]
+
+When measuring Marshallian demand—the demand curve holding nominal, rather than real, income constant—the percentage of income a customer spends on a certain good also affects the elasticity. In introductory microeconomics, the distinction between Marshallian and Hicksian (real-value) demand is often ignored, assuming that any particular good will be a small part of the customer's budget, but for large or frequent purchases (e.g. food or transportation) the income effect can become substantial or even dominate the price effect (as for Giffen goods).[28][29][34] When the goods represent only a negligible portion of the budget, the income effect is insignificant and does not contribute substantially to elasticity.[34]
+
+Relation to marginal revenue
+
+The following equation holds:
+
+R′=P(1+1Ed)
+
+where
+
+R′ is the marginal revenue
+
+P is the price
+
+Proof:
+
+Define Total Revenue as R
+
+R′=∂R∂Q=∂∂Q(PQ)=P+Q∂P∂Q
+
+Ed=∂Q∂P⋅PQ⇒Ed⋅QP=∂Q∂P⇒PEd⋅Q=∂P∂Q
+
+R′=P+Q⋅PEd⋅Q=P(1+1Ed)
+
+On a graph with both a demand curve and a marginal revenue curve, demand will be elastic at all quantities where marginal revenue is positive. Demand is unit elastic at the quantity where marginal revenue is zero. Demand is inelastic at every quantity where marginal revenue is negative.[35]
+
+Effect on entire revenue
+
+See also: Total revenue test
+
+A set of graphs shows the relationship between demand and revenue (PQ) for the specific case of a linear demand curve. As price decreases in the elastic range, the revenue increases, but in the inelastic range, revenue falls. Revenue is highest at the quantity where the elasticity equals 1.
+
+A firm considering a price change must know what effect the change in price will have on total revenue. Revenue is simply the product of unit price times quantity:
+
+Revenue=PQd
+
+Generally, any change in price will have two effects:[36]
+
+The price effect
+
+For inelastic goods, an increase in unit price will tend to increase revenue, while a decrease in price will tend to decrease revenue. (The effect is reversed for elastic goods.)
+
+The quantity effect
+
+An increase in unit price will tend to lead to fewer units sold, while a decrease in unit price will tend to lead to more units sold.
+
+For inelastic goods, because of the inverse nature of the relationship between price and quantity demanded (i.e., the law of demand), the two effects affect total revenue in opposite directions. But in determining whether to increase or decrease prices, a firm needs to know what the net effect will be. Elasticity provides the answer: The percentage change in total revenue is approximately equal to the percentage change in quantity demanded plus the percentage change in price. (One change will be positive, the other negative.)[37] The percentage change in quantity is related to the percentage change in price by elasticity: hence the percentage change in revenue can be calculated by knowing the elasticity and the percentage change in price alone.
+
+As a result, the relationship between elasticity and revenue can be described for any good:[38][39]
+
+- When the price elasticity of demand for a good is perfectly inelastic (Ed = 0), changes in the price do not affect the quantity demanded for the good; raising prices will always cause total revenue to increase. Goods necessary to survival can be classified here; a rational person will be willing to pay anything for a good if the alternative is death. For example, a person in the desert weak and dying of thirst would easily give all the money in his wallet, no matter how much, for a bottle of water if he would otherwise die. His demand is not contingent on the price.
+
+- When the price elasticity of demand is relatively inelastic (−1 < Ed < 0), the percentage change in quantity demanded is smaller than that in price. Hence, when the price is raised, the total revenue increases, and vice versa.
+
+- When the price elasticity of demand is unit (or unitary) elastic (Ed = −1), the percentage change in quantity demanded is equal to that in price, so a change in price will not affect total revenue.
+
+- When the price elasticity of demand is relatively elastic (−∞ < Ed < −1), the percentage change in quantity demanded is greater than that in price. Hence, when the price is raised, the total revenue falls, and vice versa.
+
+- When the price elasticity of demand is perfectly elastic (Ed is − ∞), any increase in the price, no matter how small, will cause the quantity demanded for the good to drop to zero. Hence, when the price is raised, the total revenue falls to zero. This situation is typical for goods that have their value defined by law (such as fiat currency); if a five-dollar bill were sold for anything more than five dollars, nobody would buy it [unless there is demand for economical jokes], so demand is zero (assuming that the bill does not have a misprint or something else which would cause it to have its own inherent value).
+
+Hence, as the accompanying diagram shows, total revenue is maximized at the combination of price and quantity demanded where the elasticity of demand is unitary.[39]
+
+Price-elasticity of demand is not necessarily constant over all price ranges. The linear demand curve in the accompanying diagram illustrates that changes in price also change the elasticity: the price elasticity is different at every point on the curve.
+
+Effect on tax incidence
+
+When demand is more inelastic than supply, consumers will bear a greater proportion of the tax burden than producers will.
+
+Main article: tax incidence
+
+Demand elasticity, in combination with the price elasticity of supply can be used to assess where the incidence (or "burden") of a per-unit tax is falling or to predict where it will fall if the tax is imposed. For example, when demand is perfectly inelastic, by definition consumers have no alternative to purchasing the good or service if the price increases, so the quantity demanded would remain constant. Hence, suppliers can increase the price by the full amount of the tax, and the consumer would end up paying the entirety. In the opposite case, when demand is perfectly elastic, by definition consumers have an infinite ability to switch to alternatives if the price increases, so they would stop buying the good or service in question completely—quantity demanded would fall to zero. As a result, firms cannot pass on any part of the tax by raising prices, so they would be forced to pay all of it themselves.[40]
+
+In practice, demand is likely to be only relatively elastic or relatively inelastic, that is, somewhere between the extreme cases of perfect elasticity or inelasticity. More generally, then, the higher the elasticity of demand compared to PES, the heavier the burden on producers; conversely, the more inelastic the demand compared to supply, the heavier the burden on consumers. The general principle is that the party (i.e., consumers or producers) that has fewer opportunities to avoid the tax by switching to alternatives will bear the greater proportion of the tax burden.[40]
+
+PED and PES can also have an effect on the deadweight loss associated with a tax regime. When PED, PES or both are inelastic, the deadweight loss is lower than a comparable scenario with higher elasticity.
+
+Optimal pricing
+
+Among the most common applications of price elasticity is to determine prices that maximize revenue or profit.
+
+Constant elasticity and optimal pricing
+
+If one point elasticity is used to model demand changes over a finite range of prices, elasticity is implicitly assumed constant with respect to price over the finite price range. The equation defining price elasticity for one product can be rewritten (omitting secondary variables) as a linear equation.
+
+LQ=K+E×LP
+
+where
+
+LQ=ln⁡(Q),LP=ln⁡(P),E is the elasticity, and K is a constant.
+
+Similarly, the equations for cross elasticity for n products can be written as a set of n simultaneous linear equations.
+
+LQℓ=Kℓ+Eℓ,k×LPk
+
+where
+
+ℓ and k=1,…,n,LQℓ=ln⁡(Qℓ),LPℓ=ln⁡(Pℓ), and Kℓ are constants; and appearance of a letter index as both an upper index and a lower index in the same term implies summation over that index.
+
+This form of the equations shows that point elasticities assumed constant over a price range cannot determine what prices generate maximum values of ln⁡(Q); similarly they cannot predict prices that generate maximum Q or maximum revenue.
+
+Constant elasticities can predict optimal pricing only by computing point elasticities at several points, to determine the price at which point elasticity equals −1 (or, for multiple products, the set of prices at which the point elasticity matrix is the negative identity matrix).
+
+Non-constant elasticity and optimal pricing
+
+If the definition of price elasticity is extended to yield a quadratic relationship between demand units (Q) and price, then it is possible to compute prices that maximize ln⁡(Q), Q, and revenue. The fundamental equation for one product becomes
+
+LQ=K+E1×LP+E2×LP2
+
+and the corresponding equation for several products becomes
+
+LQℓ=Kℓ+E1ℓ,k×LPk+E2ℓ,k×(LPk)2
+
+Excel models are available that compute constant elasticity, and use non-constant elasticity to estimate prices that optimize revenue or profit for one product[41] or several products.[42]
+
+Limitations of revenue-maximizing strategies
+
+In most situations, such as those with nonzero variable costs, revenue-maximizing prices are not profit-maximizing prices.[43] For these situations, using a technique for Profit maximization is more appropriate.
+
+Selected price elasticities
+
+Various research methods are used to calculate the price elasticities in real life, including analysis of historic sales data, both public and private, and use of present-day surveys of customers' preferences to build up test markets capable of modelling such changes.[44] Alternatively, conjoint analysis (a ranking of users' preferences which can then be statistically analysed) may be used.[45] Approximate estimates of price elasticity can be calculated from the income elasticity of demand, under conditions of preference independence. This approach has been empirically validated using bundles of goods (e.g. food, healthcare, education, recreation, etc.).[46]
+
+Though elasticities for most demand schedules vary depending on price, they can be modeled assuming constant elasticity.[47] Using this method, the elasticities for various goods—intended to act as examples of the theory described above—are as follows. For suggestions on why these goods and services may have the elasticity shown, see the above section on determinants of price elasticity.
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Cigarettes (US)[48]
+−0.3 to −0.6 (general)
+−0.6 to −0.7 (youth)
+Alcoholic beverages (US)[49]
+−0.3 or −0.7 to −0.9 as of 1972 (beer)
+−1.0 (wine)
+−1.5 (spirits)
+Airline travel (US)[50]
+−0.3 (first class)
+−0.9 (discount)
+−1.5 (for pleasure travelers)
+Livestock
+−0.5 to −0.6 (broiler chickens)[51]
+Oil (World)
+−0.4
+Car fuel[52]
+−0.09 (short run)
+−0.31 (long run)
+−0.085 to −0.13 (non-linear with price change in the short-run for Saudi Arabia in 2013}[53]
+Cinema visits (US)
+−0.87 (general)[54]
+live performing arts (theater, etc.)
+−0.4 to −0.9[55]
+Medicine (US)
+−0.31 (medical insurance)[54]
+−0.03 to −0.06 (pediatric visits)[56]
+Patents
+−0.45[57] |
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Rice[58]
+−0.47 (Austria)
+−0.80 (Bangladesh)
+−0.80 (China)
+−0.25 (Japan)
+−0.55 (US)
+Trademarks
+−0.25 to −0.40 (international market)[59]
+Transport
+−0.20 (bus travel US)[54]
+−2.80 (Ford compact automobile)[60]
+−0.52 (commuter parking)[61]
+Cannabis (US)[62]
+−0.655
+Soft drinks
+−0.8 to −1.0 (general)[63]
+−3.8 (Coca-Cola)[64]
+−4.4 (Mountain Dew)[64]
+Steel
+−0.2 to −0.3[65]
+Telecommunications
+−0.405 (mobile)[66]
+−0.434 (broadband)[67]
+Eggs
+−0.1 (US: household only)[68]
+−0.35 (Canada)[69]
+−0.55 (South Africa)[70]
+Golf
+−0.3 to −0.7[65]
+University education
+near 0[71] |
+
+See also
+
+- Arc elasticity – Elasticity of one variable with respect to another between two given points
+
+- Brand loyalty – Marketing term for a consumer's emotional attachment to a given brand
+
+- Cross elasticity of demand – Economic measure of a good's price change
+
+- Income elasticity of demand – Variation of demand for goods with respect to income increase
+
+- Price elasticity of supply – Measure in economics
+
+- Supply and demand – Economic model of price determination in a market
+
+Notes
+
+- ^ "Price elasticity of demand | Economics Online". 2020-01-14.
+
+- ^ Browning, Edgar K. (1992). Microeconomic theory and applications. New York City: HarperCollins. pp. 94–95. ISBN 978-0-673-52142-2.
+
+- ^ a b Png, Ivan (1989). p. 57.
+
+- ^ Parkin, Michael; Powell, Melanie; Matthews, Kent (11 July 2002). Economics (5th ed.). Pearson Education. pp. 74–75. ISBN 978-0-273-65813-9.{{cite book}}: CS1 maint: date and year (link)
+
+- ^ a b Gillespie, Andrew (2007). p. 43.
+
+- ^ a b Gwartney, Yaw Bugyei-Kyei.James D.; Stroup, Richard L.; Sobel, Russell S. (2008). p. 425.
+
+- ^ Gillespie, Andrew (2007). p. 57.
+
+- ^ Ruffin; Gregory (1988). p. 524.
+
+- ^ Ferguson, C.E. (1972). p. 106.
+
+- ^ Ruffin; Gregory (1988). p. 520
+
+- ^ McConnell; Brue (1990). p. 436.
+
+- ^ Economics, Tenth edition, John Sloman
+
+- ^ a b Parkin; Powell; Matthews (2002). p .75.
+
+- ^ McConnell; Brue (1990). p. 437
+
+- ^ a b Ruffin; Gregory (1988). pp. 518–519.
+
+- ^ a b Ferguson, C.E. (1972). pp. 100–101.
+
+- ^ a b Wall, Stuart; Griffiths, Alan (2008). pp. 53–54.
+
+- ^ a b McConnell;Brue (1990). pp. 434–435.
+
+- ^ Ferguson, C.E. (1972). p. 101n.
+
+- ^ Sloman, John (2006). p. 55.
+
+- ^ Wessels, Walter J. (2000). p. 296.
+
+- ^ Mas-Colell; Winston; Green (1995).
+
+- ^ Taylor, John (2006). p. 93.
+
+- ^ Marshall, Alfred (1890). III.IV.2.
+
+- ^ Marshall, Alfred (1890). III.IV.1.
+
+- ^ Schumpeter, Joseph Alois; Schumpeter, Elizabeth Boody (1994). p. 959.
+
+- ^ Negbennebor (2001).
+
+- ^ a b c d Parkin; Powell; Matthews (2002). pp. 77–9.
+
+- ^ a b c d e Walbert, Mark. "Tutorial 4a". Archived from the original on 4 December 2008.
+
+- ^ a b Goodwin, Nelson, Ackerman, & Weisskopf (2009).
+
+- ^ a b Frank (2008) 118.
+
+- ^ a b Gillespie, Andrew (2007). p. 48.
+
+- ^ a b Png, Ivan (1999). pp. 62–3.
+
+- ^ a b Frank (2008) 119.
+
+- ^ Reed, Jacob (2016-05-26). "AP Microeconomics Review: Elasticity Coefficients". APEconReview.com.
+
+- ^ Krugman, Wells (2009). p. 151.
+
+- ^ Goodwin, Nelson, Ackerman & Weisskopf (2009). p. 122.
+
+- ^ Gillespie, Andrew (2002). p. 51.
+
+- ^ a b Arnold, Roger (2008). p. 385.
+
+- ^ a b Wall, Stuart; Griffiths, Alan (2008). pp. 57–58.
+
+- ^ "Pricing Tests and Price Elasticity for one product". Archived from the original on 2012-11-13.
+
+- ^ "Pricing Tests and Price Elasticity for several products". Archived from the original on 2012-11-13.
+
+- ^ Nash, John F. (1975). "A Note on Cost-Volume-Profit Analysis and Price Elasticity". The Accounting Review. 50 (2): 384–386. ISSN 0001-4826. JSTOR 244724.
+
+- ^ Samia Rekhi (16 May 2016). "Empirical Estimation of Demand: Top 10 Techniques". economicsdiscussion.net.
+
+- ^ Png, Ivan (1999). pp. 79–80.
+
+- ^ Sabatelli, Lorenzo (2016-03-21). "Relationship between the Uncompensated Price Elasticity and the Income Elasticity of Demand under Conditions of Additive Preferences". PLOS ONE. 11 (3) e0151390. arXiv:1602.08644. Bibcode:2016PLoSO..1151390S. doi:10.1371/journal.pone.0151390. ISSN 1932-6203. PMC 4801373. PMID 26999511.
+
+- ^ "Constant Elasticity Demand and Supply Curves (Q=A*P^c)". Archived from the original on 13 January 2011.
+
+- ^ Perloff, J. (2008). p. 97.
+
+- ^ Chaloupka, Frank J.; Grossman, Michael; Saffer, Henry (2002); Hogarty and Elzinga (1972) cited by Douglas
+ (1993).
+
+- ^ Pindyck; Rubinfeld (2001). p. 381.; Steven Morrison in Duetsch (1993), p. 231.
+
+- ^ Richard T. Rogers in Duetsch (1993), p. 6.
+
+- ^ Havranek, Tomas; Irsova, Zuzana; Janda, Karel (2012). "Demand for gasoline is more price-inelastic than commonly thought" (PDF). Energy Economics. 34: 201–207. Bibcode:2012EneEc..34..201H. doi:10.1016/j.eneco.2011.09.003. S2CID 55215422.
+
+- ^ Algunaibet, Ibrahim; Matar, Walid (2018). "The responsiveness of fuel demand to gasoline price change in passenger transport: a case study of Saudi Arabia". Energy Efficiency. 11 (6): 1341–1358. Bibcode:2018EnEff..11.1341A. doi:10.1007/s12053-018-9628-6. S2CID 157328882.
+
+- ^ a b c Samuelson; Nordhaus (2001).
+
+- ^ Heilbrun and Gray (1993, p. 94) cited in Vogel (2001)
+
+- ^ Goldman and Grossman (1978) cited in Feldstein (1999), p. 99
+
+- ^ de Rassenfosse, Gaétan; van Pottelsberghe de la Potterie, Bruno (2007). "Per un pugno di dollari: A first look at the price elasticity of patents". Oxford Review of Economic Policy. 23. doi:10.2139/ssrn.1743840. hdl:2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/53933. S2CID 219337939.
+
+- ^ Perloff, J. (2008).
+
+- ^ de Rassenfosse, Gaétan (2020). "On the price elasticity of demand for trademarks". Industry and Innovation. 27 (1–2): 11–24. doi:10.1080/13662716.2019.1591939.
+
+- ^ Goodwin; Nelson; Ackerman; Weisskopf (2009). p. 124.
+
+- ^ Lehner, S.; Peer, S. (2019), The price elasticity of parking: A meta-analysis, Transportation Research Part A: Policy and Practice, Volume 121, March 2019, pages 177−191" web|url=https://doi.org/10.1016/j.tra.2019.01.014
+
+- ^ Davis, A.; Nichols, M. (2013), The Price Elasticity of Marijuana Demand"
+
+- ^ Brownell, Kelly D.; Farley, Thomas; Willett, Walter C. et al. (2009).
+
+- ^ a b Ayers; Collinge (2003). p. 120.
+
+- ^ a b Barnett and Crandall in Duetsch (1993), p. 147
+
+- ^ "Valuing the Effect of Regulation on New Services in Telecommunications" (PDF). Jerry A. Hausman.
+
+- ^ "Price and Income Elasticity of Demand for Broadband Subscriptions: A Cross-Sectional Model of OECD Countries" (PDF). SPC Network.
+
+- ^ Krugman and Wells (2009) p. 147.
+
+- ^ "Profile of The Canadian Egg Industry". Agriculture and Agri-Food Canada. Archived from the original on 8 July 2011.
+
+- ^ Cleasby, R. C. G.; Ortmann, G. F. (1991). "Demand Analysis of Eggs in South Africa". Agrekon. 30 (1): 34–36. doi:10.1080/03031853.1991.9524200.
+
+- ^ Havranek, Tomas; Irsova, Zuzana; Zeynalova, Olesia (2018). "Tuition Fees and University Enrolment: A Meta-Regression Analysis". Oxford Bulletin of Economics and Statistics. 80 (6): 1145–1184. doi:10.1111/obes.12240. S2CID 158193395.
+
+References
+
+- Arnold, Roger A. (17 December 2008). Economics. Cengage Learning. ISBN 978-0-324-59542-0.
+
+- Ayers; Collinge (2003). Microeconomics. Pearson. ISBN 978-0-536-53313-5.
+
+- Brownell, Kelly D.; Farley, Thomas; Willett, Walter C.; Popkin, Barry M.; Chaloupka, Frank J.; Thompson, Joseph W.; Ludwig, David S. (15 October 2009). "The Public Health and Economic Benefits of Taxing Sugar-Sweetened Beverages". New England Journal of Medicine. 361 (16): 1599–1605. doi:10.1056/NEJMhpr0905723. PMC 3140416. PMID 19759377.
+
+- Browning, Edgar K.; Browning, Jacquelene M. (1992). Microeconomic Theory and Applications (4th ed.). HarperCollins.
+
+- Case, Karl; Fair, Ray (1999). Principles of Economics (5th ed.). Prentice-Hall. ISBN 978-0-13-961905-2.
+
+- Chaloupka, Frank J.; Grossman, Michael; Saffer, Henry (2002). "The effects of price on alcohol consumption and alcohol-related problems". Alcohol Research and Health. 26 (1): 22–34. PMC 6683806. PMID 12154648.
+
+- Duetsch, Larry L. (1993). Industry Studies. Englewood Cliffs, NJ: Prentice Hall. ISBN 978-0-585-01979-6.
+
+- Feldstein, Paul J. (1999). Health Care Economics (5th ed.). Albany, NY: Delmar Publishers. ISBN 978-0-7668-0699-3.
+
+- Ferguson, Charles E. (1972). Microeconomic Theory (3rd ed.). Homewood, Illinois: Richard D. Irwin. ISBN 978-0-256-02157-8.
+
+- Frank, Robert (2008). Microeconomics and Behavior (7th ed.). McGraw-Hill. ISBN 978-0-07-126349-8.
+
+- Gillespie, Andrew (1 March 2007). Foundations of Economics. Oxford University Press. ISBN 978-0-19-929637-8.
+
+- Goodwin; Nelson; Ackerman; Weisskopf (2009). Microeconomics in Context (2nd ed.). Sharpe. ISBN 978-0-618-34599-1.
+
+- Gwartney, James D.; Stroup, Richard L.; Sobel, Russell S.; David MacPherson (14 January 2008). Economics: Private and Public Choice. Cengage Learning. ISBN 978-0-324-58018-1.
+
+- Krugman; Wells (2009). Microeconomics (2nd ed.). Worth. ISBN 978-0-7167-7159-3.
+
+- Landers (February 2008). Estimates of the Price Elasticity of Demand for Casino Gaming and the Potential Effects of Casino Tax Hikes.
+
+- Marshall, Alfred (1920). Principles of Economics. Library of Economics and Liberty. ISBN 978-0-256-01547-8. {{cite book}}: ISBN / Date incompatibility (help)
+
+- Mas-Colell, Andreu; Winston, Michael D.; Green, Jerry R. (1995). Microeconomic Theory. New York: Oxford University Press. ISBN 978-1-4288-7151-9.
+
+- McConnell, Campbell R.; Brue, Stanley L. (1990). Economics: Principles, Problems, and Policies (11th ed.). New York: McGraw-Hill. ISBN 978-0-07-044967-1.
+
+- Negbennebor (2001). "The Freedom to Choose". Microeconomics. ISBN 978-1-56226-485-7.
+
+- Parkin, Michael; Powell, Melanie; Matthews, Kent (2002). Economics. Harlow: Addison-Wesley. ISBN 978-0-273-65813-9.
+
+- Perloff, J. (2008). Microeconomic Theory & Applications with Calculus. Pearson. ISBN 978-0-321-27794-7.
+
+- Pindyck; Rubinfeld (2001). Microeconomics (5th ed.). Prentice-Hall. ISBN 978-1-4058-9340-4.
+
+- Png, Ivan (1999). Managerial Economics. Blackwell. ISBN 978-0-631-22516-4.
+
+- Ruffin, Roy J.; Gregory, Paul R. (1988). Principles of Economics (3rd ed.). Glenview, Illinois: Scott, Foresman. ISBN 978-0-673-18871-7.
+
+- Samuelson; Nordhaus (2001). Microeconomics (17th ed.). McGraw-Hill. ISBN 978-0-07-057953-8.
+
+- Schumpeter, Joseph Alois; Schumpeter, Elizabeth Boody (1994). History of economic analysis (12th ed.). Routledge. ISBN 978-0-415-10888-1.
+
+- Sloman, John (2006). Economics. Financial Times Prentice Hall. ISBN 978-0-273-70512-3.
+
+- Taylor, John B. (1 February 2006). Economics. Cengage Learning. ISBN 978-0-618-64085-0.
+
+- Vogel, Harold (2001). Entertainment Industry Economics (5th ed.). Cambridge University Press. ISBN 978-0-521-79264-6.
+
+- Wall, Stuart; Griffiths, Alan (2008). Economics for Business and Management. Financial Times Prentice Hall. ISBN 978-0-273-71367-8.
+
+- Wessels, Walter J. (1 September 2000). Economics. Barron's Educational Series. ISBN 978-0-7641-1274-4.
+
+External links
+
+- A Lesson on Elasticity in Four Parts, Youtube, Jodi Beggs
+
+- Price Elasticity Models and Optimization
+
+- Approx. PED of Various Products (U.S.)
+
+- Approx. PED of Various Home-Consumed Foods (U.K.)

@@ -1,0 +1,83 @@
+{
+ "docid": "en_wiki_allosteric",
+ "N": 14,
+ "lang": "en",
+ "discipline": "biology",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "What is an allosteric regulator?",
+   "a": "A substance that binds a site on an enzyme or receptor distinct from the active site, causing a conformational change that alters the protein's activity.",
+   "type": "def"
+  },
+  {
+   "q": "What is the allosteric site of a protein also called?",
+   "a": "The regulatory site.",
+   "type": "def"
+  },
+  {
+   "q": "What are allosteric activators?",
+   "a": "Effectors that enhance the protein's activity.",
+   "type": "def"
+  },
+  {
+   "q": "What are allosteric inhibitors?",
+   "a": "Effectors that decrease the protein's activity.",
+   "type": "def"
+  },
+  {
+   "q": "Where do orthosteric regulators bind, in contrast to allosteric regulators?",
+   "a": "Directly to the enzyme's active site, or to the binding site of the receptor's endogenous ligand.",
+   "type": "contrast"
+  },
+  {
+   "q": "Why can raising substrate concentration reduce the effectiveness of most orthosteric inhibitors?",
+   "a": "Most orthosteric inhibitors compete with the substrate for the active site.",
+   "type": "mech"
+  },
+  {
+   "q": "How can an allosteric inhibitor inhibit an enzyme even when substrate is present?",
+   "a": "Binding induces a conformational change that reduces the active site's affinity for substrate or alters catalytic activity.",
+   "type": "mech"
+  },
+  {
+   "q": "Which type of inhibition do allosteric inhibitors often exhibit?",
+   "a": "Non-competitive inhibition, whose effect is not dependent on substrate concentration.",
+   "type": "mech"
+  },
+  {
+   "q": "Which control loops does allosteric regulation naturally exemplify?",
+   "a": "Feedback from downstream products or feedforward from upstream substrates.",
+   "type": "mech"
+  },
+  {
+   "q": "In the MWC and KNF models, which subunit conformation binds substrate more readily?",
+   "a": "The relaxed (R) state, rather than the tensed (T) state.",
+   "type": "mech"
+  },
+  {
+   "q": "From which Ancient Greek words is the term allostery derived?",
+   "a": "allos (ἄλλος), \"other\", and stereos (στερεός), \"solid (object)\".",
+   "type": "quant"
+  },
+  {
+   "q": "Who put forth the concerted MWC model of allosteric effects?",
+   "a": "Monod, Wyman, and Changeux.",
+   "type": "quant"
+  },
+  {
+   "q": "Who described the sequential (KNF) model of allostery?",
+   "a": "Koshland, Nemethy, and Filmer.",
+   "type": "quant"
+  },
+  {
+   "q": "How does allostery differ from substrate presentation?",
+   "a": "Substrate presentation requires no conformational change for an enzyme's activation.",
+   "type": "contrast"
+  }
+ ]
+}

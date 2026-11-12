@@ -1,0 +1,11 @@
+{
+ "docid": "en_wiki_svd",
+ "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Singular+value+decomposition&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "en.wikipedia.org",
+ "title": "Singular value decomposition",
+ "fetched": "2026-11-12",
+ "chars": 62088,
+ "lang": "en",
+ "mode": "html"
+}

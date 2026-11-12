@@ -1,0 +1,11 @@
+{
+ "docid": "sw_wiki_malaria",
+ "url": "https://sw.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&page=Malaria&prop=text&redirects=1&disablelimitreport=1",
+ "licence": "CC BY-SA 4.0",
+ "origin": "sw.wikipedia.org",
+ "title": "Malaria",
+ "fetched": "2026-11-12",
+ "chars": 94118,
+ "lang": "sw",
+ "mode": "html"
+}

@@ -1,0 +1,73 @@
+{
+ "docid": "doaj_rem_theta",
+ "N": 12,
+ "lang": "en",
+ "discipline": "psychology",
+ "provenance": "review_meta_analysis",
+ "difficulty": "postgraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "How is theta activity defined in the review of REM sleep and emotional memory?",
+   "a": "Low frequency oscillations in the local field potential within the hippocampus, amygdala and neocortex.",
+   "type": "def"
+  },
+  {
+   "q": "According to the review, what does REM sleep mediate within the hippocampus?",
+   "a": "The prioritized processing of emotional memories.",
+   "type": "def"
+  },
+  {
+   "q": "What does the review propose happens to consolidated neocortical memory traces during REM sleep?",
+   "a": "They are disengaged from the hippocampus.",
+   "type": "def"
+  },
+  {
+   "q": "What drives large-scale PGO waves?",
+   "a": "Theta coherence between the hippocampus and amygdala.",
+   "type": "mech"
+  },
+  {
+   "q": "What does the density of PGO waves predict?",
+   "a": "Increases in plasticity-related gene expression.",
+   "type": "mech"
+  },
+  {
+   "q": "What is vital in determining subsequent potentiation of neuronal activity?",
+   "a": "The timing of hippocampal activity in relation to theta phase.",
+   "type": "mech"
+  },
+  {
+   "q": "Hippocampal theta activity correlates with the levels of which neurotransmitter during REM sleep?",
+   "a": "Acetylcholine.",
+   "type": "mech"
+  },
+  {
+   "q": "What are REM sleep acetylcholine levels thought to do?",
+   "a": "Reduce hippocampal afferent inputs in the neocortex.",
+   "type": "mech"
+  },
+  {
+   "q": "What do the low levels of noradrenaline during REM sleep facilitate?",
+   "a": "Recurrent activation within the neocortex.",
+   "type": "mech"
+  },
+  {
+   "q": "What could recurrent neocortical activation during REM sleep allow?",
+   "a": "Integration of novel memory traces previously consolidated during NREM sleep.",
+   "type": "mech"
+  },
+  {
+   "q": "In humans and rodents, theta activity is a prominent feature of which two states?",
+   "a": "Wake and REM sleep.",
+   "type": "quant"
+  },
+  {
+   "q": "How does the evidence for NREM sleep in memory consolidation compare with that for REM sleep?",
+   "a": "NREM sleep has been strongly implicated in reactivation and consolidation of memory traces, while the role of REM sleep remains unclear.",
+   "type": "contrast"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "docid": "en_wiki_sunkcost",
+ "N": 11,
+ "lang": "en",
+ "discipline": "economics",
+ "provenance": "encyclopedic",
+ "difficulty": "undergraduate",
+ "tier": "medium",
+ "flags": [],
+ "kind": "main",
+ "cards": [
+  {
+   "q": "In economics and business decision-making, what is a sunk cost?",
+   "a": "A cost that has already been incurred and cannot be recovered.",
+   "type": "def"
+  },
+  {
+   "q": "What alternative name is given to a sunk cost?",
+   "a": "Retrospective cost.",
+   "type": "def"
+  },
+  {
+   "q": "According to the bygones principle, which costs are relevant to a rational decision?",
+   "a": "Only prospective (future) costs.",
+   "type": "def"
+  },
+  {
+   "q": "What is another name for the bygones principle?",
+   "a": "The marginal principle.",
+   "type": "def"
+  },
+  {
+   "q": "In which branch of normative decision theory is the bygones principle grounded?",
+   "a": "Rational choice theory, particularly expected utility.",
+   "type": "def"
+  },
+  {
+   "q": "Why are costs incurred before a decision irrelevant to that decision?",
+   "a": "They have already been incurred no matter what decision is made.",
+   "type": "mech"
+  },
+  {
+   "q": "In the factory example, what should the company do when the value projection falls to $65 million after $30 million is spent?",
+   "a": "Abandon the project rather than spend an additional $70 million to complete it.",
+   "type": "mech"
+  },
+  {
+   "q": "In the factory example, what was the new factory originally projected to cost?",
+   "a": "$100 million.",
+   "type": "quant"
+  },
+  {
+   "q": "In the factory example, how much had been spent when the value projection fell to $65 million?",
+   "a": "$30 million.",
+   "type": "quant"
+  },
+  {
+   "q": "How do prospective costs differ from sunk costs?",
+   "a": "Prospective costs are future costs that may be avoided if action is taken.",
+   "type": "contrast"
+  },
+  {
+   "q": "In the factory example, what should a rational actor do if the value projection falls to $75 million instead?",
+   "a": "Continue the project.",
+   "type": "contrast"
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+PCR
+
+From OpenWetWare
+
+Jump to navigationJump to search
+
+PCR is an acronym for polymerase chain reaction. It is a method for amplifying DNA in vitro.
+
+Contents
+
+- 1 Overview
+
+- 2 Designing primers
+
+- 3 The general PCR cycle
+
+- 4 Specific Protocols
+
+- 5 Notes
+
+- 6 References
+
+- 7 See also
+
+Overview
+
+- Design primers
+
+- Prepare template
+
+- Prepare PCR mix
+
+- Run PCR cycler program
+
+- Analyse by gel electrophoresis
+
+Designing primers
+
+Designing suitable primers might be the most crucial step in PCR. This is especially true when using genomic DNA as the template. Traditionally, primers were designed using empirical guidelines. Nowadays, various pieces of software help to predict the best primers including algorithms to prevent mispriming, self-complementarity and primer-primer complementarity, and binding in repeat regions. Additionally, software programs automate the use empirical guidelines for primer design. See here for more details...
+
+The general PCR cycle
+
+- heat template/primer/dNTP/enzyme mix to 95°C for separation of DNA duplexes
+
+- lower the temperature enough for primers to anneal specifically to the template DNA (e.g. 55°C); lowering the temperature too much increases unspecific annealing
+
+- raise temperature to optimal elongation temperature of Taq or similar DNA polymerase (72-74°C)
+
+- repeat from top 20-35 times; less cycles gives less product, too many cycles increases fraction of incomplete and erroneous products
+
+Specific Protocols
+
+- Silver: PCR
+
+- E. huxleyi PCR
+
+- Knight:Colony PCR
+
+Notes
+
+- A discussion of the amplification efficiencies of different DNA polymerases on templates of varying length and GC content using real-time PCR [1].
+
+References
+
+Error fetching PMID 14511688
+
+Error fetching PMID 2999980
+
+Error fetching PMID 3472723
+
+Error fetching PMID 2027781
+
+Error fetching PMID 8268790
+
+- Error fetching PMID 14511688
+
+- Error fetching PMID 2999980
+
+original paper on PCR |
+
+- Error fetching PMID 3472723
+
+first public presentation on PCR |
+
+- Error fetching PMID 2027781
+
+- Error fetching PMID 8268790
+
+See also
+
+- Wikipedia entry PCR
+
+- primer design: PerlPrimer, GPL Primer Design software for standard, real time, bisulphite, and sequencing primers
+
+- primer design: Primer3
+
+- primer design: PrimerQuest
+
+- PCR techniques - overview of different PCR varieties
+
+Retrieved from "https://openwetware.org/mediawiki/index.php?title=PCR&oldid=573510"
+
+Categories:
+
+- Protocol
+
+- DNA
+
+- In vitro
+
+- PCR
+
+Navigation menu
+
+Page actions
+
+- Page
+
+- Talk
+
+- Read
+
+- View source
+
+- History
+
+- Refresh
+
+Page actions
+
+- Page
+
+- Talk
+
+- More
+
+- Tools
+
+Personal tools
+
+- Log in
+
+- Request account
+
+Navigation
+
+- Main Page
+
+- Recent changes
+
+- Help
+
+- Contact OWW
+
+- Add a Lab Notebook
+
+- Special pages
+
+Search
+
+research
+
+- Materials
+
+- Protocols
+
+- Resources
+
+Tools
+
+- What links here
+
+- Related changes
+
+- Printable version
+
+- Permanent link
+
+- Page information
+
+- Cite this page
+
+- Browse properties
+
+ Powered by MediaWiki
+
+ Powered by Semantic MediaWiki
+
+- This page was last edited on 22 December 2011, at 10:29.
+
+- Content is available under GNU FDL or Creative Commons BY-SA unless otherwise noted.
+
+- About OpenWetWare
+
+- Disclaimers
+
+- Mobile view

@@ -1,0 +1,22 @@
+Q: Is it necessary to consume energy to perform computation?
+As far as I know, today most of the computers are made from semiconductor devices, so the energy consumed all turns into the heat emitted into space.
+
+But I wonder, is it necessary to consume energy to perform computation?
+
+-
+If so, is there a theoretical numerical lower bound of the energy usage ? (I even have no idea about how to measure the amount of "computation")
+
+-
+If not, is there a physically-practical Turing-complete model that needs no energy?
+
+edit:
+Thank @Nathaniel for rapidly answering the question and pointing out it's actually Landauer's principle. Also thank @horchler for referring to the Nature News and the related article. There are lots of useful information in the comments; thank every one! This whole stuff is really interesting!
+
+A (score 132):
+What you're looking for is Landauer's principle. You should be able to find plenty of information about it now that you know its name, but briefly, there is a thermodynamic limit that says you have to use $k_\mathrm BT \ln 2$ joules of energy (where $k_\mathrm B$ is Boltzmann's constant and $T$ is the ambient temperature) every time you erase one bit of computer memory. With a bit of trickery, all the other operations that a computer does can be performed without using any energy at all.
+
+This set of tricks is called reversible computing. It turns out that you can make any computation reversible, thus avoiding the need to erase bits and therefore use energy, but you end up having to store all sorts of junk data in memory because you're not allowed to erase it. However, there are tricks for dealing with that as well. It's quite a well-developed area of mathematical theory, partly because the theory of quantum computing builds upon it.
+
+The energy consumed by erasing a bit is given off as heat. When you erase a bit of memory you reduce the information entropy of your computer by one bit, and to do this you have to increase the thermodynamic entropy of its environment by one bit, which is equal to $k_\mathrm B \ln 2$ joules per kelvin. The easiest way to do this is to add heat to the environment, which gives the $k_\mathrm BT \ln 2$ figure above. (In principle there's nothing special about heat, and the entropy of the environment could also be increased by changing its volume or driving a chemical reaction, but people pretty much universally think of Landauer's limit in terms of heat and energy rather than those other things.)
+
+Of course, all of this is in theory only. Any practical computer that we've constructed so far uses many orders of magnitude more energy than Landauer's limit.
